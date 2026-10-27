@@ -695,7 +695,8 @@ def main():
     if args.audio:
         cmd += ["-i", args.audio, "-map", "0:v:0", "-map", "1:a:0", "-c:a", "aac", "-b:a", "256k", "-ar", "48000",
                 "-ac", "2"]
-    cmd += ["-c:v", "libx264", "-preset", "slow", "-crf", str(args.crf), "-profile:v", "high", "-level", "4.2",
+    cmd += ["-c:v", "libx264", "-preset", "slow", "-crf", str(args.crf), "-maxrate", "12M", "-bufsize", "24M",
+            "-profile:v", "high", "-level", "4.2",
             "-pix_fmt", "yuv420p", "-x264-params", "keyint=60:min-keyint=30:aq-mode=3:deblock=-1,-1",
             "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
             "-movflags", "+faststart", "-t", f"{TOTAL_FRAMES / FPS:.3f}", args.out]
