@@ -186,7 +186,7 @@ def build(sc, ctx):
 def anchors(t):
     s = needle_s(t)
     tip = ENTRY + DIR * s
-    return {"probe": (0.9, 0.0, 1.2), "needle": tuple(ENTRY - DIR * 0.9), "tip": tuple(tip),
+    return {"probe": (1.9, -0.45, 0.55), "needle": tuple(ENTRY - DIR * 0.55), "tip": tuple(tip),
             "vein": (1.6, 0.0, VEIN_Z)}
 
 

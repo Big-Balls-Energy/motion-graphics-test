@@ -10,7 +10,7 @@ import math
 import numpy as np
 from scipy.ndimage import gaussian_filter
 
-X0, X1 = -1.0, 2.8
+X0, X1 = -2.0, 1.8      # campo lateral del inserto (incluye todo el trayecto de la aguja en plano)
 DEPTH = 3.0
 VEIN_D = 0.85
 VEIN_R = 0.33
@@ -74,8 +74,8 @@ class Ultrasound:
             px = X - ENTRY_X
             along = px * math.cos(ANG) + D * math.sin(ANG)
             perp = -px * math.sin(ANG) + D * math.cos(ANG)
-            on = (along > 0) & (along < needle_s) & (np.abs(perp) < 0.022)
-            e[on] = 1.6
+            on = (along > 0) & (along < needle_s) & (np.abs(perp) < 0.026)
+            e[on] = 2.2
             for k in range(1, 4):
                 rev = (along > 0) & (along < needle_s) & (np.abs(perp - 0.07 * k) < 0.012)
                 e[rev] = np.maximum(e[rev], 0.9 - 0.2 * k)

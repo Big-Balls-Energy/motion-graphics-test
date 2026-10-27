@@ -198,8 +198,8 @@ TITLES = [
 LABELS = [
     ("s1a", "varicose", 2.55, 4.15, "Vena varicosa", "left"),
     ("s1b", "cusp_edge", 4.75, 7.70, "Válvula incompetente", "right"),
-    ("s2", "probe", 9.30, 12.4, "Guía ecográfica", "left"),
-    ("s2", "needle", 10.6, 13.9, "Microaguja", "right"),
+    ("s2", "probe", 9.30, 12.4, "Guía ecográfica", "right-down"),
+    ("s2", "needle", 10.6, 13.9, "Microaguja", "left-down"),
     ("s3a", "foam_front", 17.4, 20.1, "Desplaza la sangre", "left"),
     ("s3b", "endo", 20.9, 22.9, "Endotelio", "left"),
     ("s3b", "exposed", 23.0, 24.8, "Reacción local", "left"),
@@ -393,7 +393,7 @@ def grade(img, fr, rng):
 def load_anchors(frames_dir, anchors_dir):
     A = {}
     for shot in SHOTS:
-        for d in (os.path.join(frames_dir, shot), os.path.join(anchors_dir or "", shot)):
+        for d in (os.path.join(anchors_dir or "", shot), os.path.join(frames_dir, shot)):
             p = os.path.join(d, "anchors.json")
             if os.path.exists(p):
                 A[shot] = json.load(open(p))
@@ -440,10 +440,13 @@ def draw_label(canvas, t, fr, anchors, shot, name, t0, t1, text, side):
         return
     x, y = p
     x = min(max(x, 40), W - 40)
-    y = min(max(y, 520), 1240)
+    down = side.endswith("-down")
+    side = side.replace("-down", "")
+    y = min(max(y, 470 if down else 590), 1240)
     sp = text_sprite(text, F_LABEL, tracking=1, shadow=True)
     tw = sprite_width(sp)
-    ly = y - 120
+    ly = y + 110 if down else y - 120
+    ly = min(max(ly, 480), 1230)
     # codo de la línea guía; el texto se apoya sobre un subrayado que nunca sale del área segura
     for sd in ((side, "right" if side == "left" else "left")):
         lx = x + (-95 if sd == "left" else 95)
