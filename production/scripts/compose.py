@@ -487,7 +487,7 @@ def draw_reflux_arrow(canvas, t):
 
 
 def draw_us_inset(canvas, t, us, us_frames):
-    a = fade_window(t, 9.35, 15.75, 0.45, 0.35)
+    a = fade_window(t, 9.35, 16.05, 0.45, 0.35)
     if a <= 0:
         return
     x0, y0 = 72, 905

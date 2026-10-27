@@ -62,10 +62,12 @@ class Ultrasound:
         if foam > 0:
             tip_x = ENTRY_X + math.cos(ANG) * needle_s
             reach = foam * 3.2
-            fz = self.lumen & (np.abs(X - tip_x) < reach)
-            e[fz] = 1.25
-            below = (D > self.vz + self.vr) & (np.abs(X - tip_x) < reach)
-            e[below] *= 0.35
+            # bordes suaves: la espuma se extiende desde la punta con un frente difuso
+            w = 1.0 / (1.0 + np.exp((np.abs(X - tip_x) - reach) / 0.12))
+            lum = gaussian_filter(self.lumen.astype(float), 1.2)
+            e = e * (1 - w * lum) + 1.3 * w * lum
+            below = 1.0 / (1.0 + np.exp(-(D - (self.vz + self.vr)) / 0.05))
+            e = e * (1 - 0.62 * w * below)
         # aguja: línea hiperecogénica + reverberación (cola de cometa) bajo el eje
         tip_x = ENTRY_X + math.cos(ANG) * needle_s
         tip_d = math.sin(ANG) * needle_s
