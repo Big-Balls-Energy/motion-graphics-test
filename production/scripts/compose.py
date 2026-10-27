@@ -178,7 +178,7 @@ F_BRAND = font("InterDisplay-Bold.otf", 64)
 F_TAG = font("Inter-SemiBold.otf", 31)
 F_SEDES = font("Inter-SemiBold.otf", 29)
 F_CTA = font("InterDisplay-Bold.otf", 42)
-F_DISC = font("Inter-Medium.otf", 25)
+F_DISC = font("Inter-Medium.otf", 29)
 F_US = font("Inter-SemiBold.otf", 22)
 
 # (t0, t1, líneas, antetítulo)
@@ -517,7 +517,7 @@ def draw_timeline(canvas, t):
         return
     steps = ["HORAS", "DÍAS", "SEMANAS"]
     u = ease((t - 25.4) / 4.0)
-    x0, x1, y = 230, 850, 1210
+    x0, x1, y = 230, 850, 445
     draw_line(canvas, (x0, y), (x1, y), (120, 150, 190), a * 0.6, 3)
     draw_line(canvas, (x0, y), (x0 + (x1 - x0) * u, y), ACCENT, a, 4)
     for i, s in enumerate(steps):
