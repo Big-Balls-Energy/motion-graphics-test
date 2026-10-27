@@ -9,7 +9,7 @@ Spot promocional vertical para el curso presencial **“Meta Ads 2026: Facebook 
 | Duración | 40.0 s (1,200 frames) |
 | Resolución | 1080 × 1920 (9:16) |
 | Velocidad | 30 fps |
-| Video | H.264 (yuv420p, CRF 16) |
+| Video | H.264 High (yuv420p BT.709, CRF 16, faststart) |
 | Audio | AAC 320 kbps, 48 kHz estéreo, ≈ -14 LUFS |
 
 ## Storyboard (8 escenas × 5 s)
@@ -51,7 +51,8 @@ public/
 npm install
 npm run studio            # editor visual de Remotion (vista previa en vivo)
 npm run audio             # regenera la banda sonora (requiere python3 + numpy + scipy)
-npm run render            # exporta out/AtlasPath_MetaAds2026_40s.mp4
+npm run render            # renderiza y exporta out/AtlasPath_MetaAds2026_40s.mp4 (yuv420p BT.709, faststart)
+npm run qc                # verifica duración, frames, códecs, negros/congelamientos y loudness
 ```
 
 Si Remotion no puede descargar su Chromium, apunta a uno local:

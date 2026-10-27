@@ -6,8 +6,10 @@
   "scripts": {
     "studio": "remotion studio",
     "audio": "python3 audio/generate_soundtrack.py",
-    "render": "remotion render MetaAds2026 out/AtlasPath_MetaAds2026_40s.mp4",
-    "still": "remotion still MetaAds2026"
+    "render": "remotion render MetaAds2026 out/render_raw.mp4 && npm run finalize",
+    "still": "remotion still MetaAds2026",
+    "finalize": "ffmpeg -y -i out/render_raw.mp4 -vf scale=in_range=full:out_range=tv,format=yuv420p -c:v libx264 -preset slow -crf 16 -profile:v high -level 4.2 -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv -c:a copy -movflags +faststart out/AtlasPath_MetaAds2026_40s.mp4",
+    "qc": "bash scripts/qc.sh"
   },
   "dependencies": {
     "@fontsource/jost": "5.3.0",
