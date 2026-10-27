@@ -10,7 +10,12 @@ español latinoamericano, música y efectos sintetizados, composición y subtít
 | `subtitulos.srt` | Subtítulos sincronizados con la locución |
 | `narracion.wav` | Locución procesada, ubicada en su tiempo final (60 s) |
 | `miniatura_reels.png` | Miniatura vertical 1080×1920 |
-| `../docs/` | Referencias, guion/storyboard con tiempos, control de calidad médica, reporte de QA |
+| `../docs/` | Referencias, guion/storyboard con tiempos, control de calidad médica, reporte de QA (`qa_reporte.md`, `qa_tecnico.json`) |
+| `../blend/*.blend` | Escenas editables de Blender 5.2 (modelos, materiales, luces, cámara) de los planos 1B, 2, 3A, 3B y 4 |
+| `../audio/stems/*.flac` | Stems de audio: locución, música, efectos y mezcla final |
+
+Las animaciones completas están definidas en los scripts (`scripts/shots/*.py`): son el proyecto editable
+principal; los `.blend` congelan un instante representativo de cada plano para retocar modelos y materiales.
 
 ## Estructura
 ```

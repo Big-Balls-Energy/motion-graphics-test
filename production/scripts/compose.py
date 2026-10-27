@@ -454,8 +454,14 @@ def draw_label(canvas, t, fr, anchors, shot, name, t0, t1, text, side):
         if SAFE_X0 <= min(lx, ux) and max(lx, ux) <= SAFE_X1:
             break
     else:
-        lx = min(max(lx, SAFE_X0), SAFE_X1)
-        ux = min(max(ux, SAFE_X0), SAFE_X1)
+        # no cabe a ningún lado: se desplaza el bloque completo (codo + texto) dentro del área segura
+        room_r, room_l = SAFE_X1 - x, x - SAFE_X0
+        if room_r >= room_l:
+            ux = SAFE_X1
+            lx = ux - tw - 18
+        else:
+            ux = SAFE_X0
+            lx = ux + tw + 18
     k = ease_out((t - t0) / 0.5)
     draw_circle(canvas, (x, y), 7 + 3 * math.sin(t * 6), ACCENT, a * 0.35)
     draw_circle(canvas, (x, y), 5, WHITE, a)
@@ -574,7 +580,7 @@ _LOGO = None
 
 def draw_closing(canvas, t, logo_path):
     global _LOGO
-    if t < 50.4:
+    if t < 50.2:
         return
     has_logo = logo_path and os.path.exists(logo_path)
     if has_logo and _LOGO is None:
@@ -587,17 +593,17 @@ def draw_closing(canvas, t, logo_path):
     # resplandor suave tras la marca
     a0 = ease((t - 50.6) / 1.2)
     if has_logo:
-        a_logo = ease((t - 50.9) / 0.9)
-        paste(canvas, _LOGO, W / 2, 640 + (1 - ease_out((t - 50.9) / 1.0)) * 20, a_logo)
-    a1 = ease((t - 51.1) / 0.8)
+        a_logo = ease((t - 50.45) / 0.9)
+        paste(canvas, _LOGO, W / 2, 640 + (1 - ease_out((t - 50.45) / 1.0)) * 20, a_logo)
+    a1 = ease((t - 50.55) / 0.8)
     sp = text_sprite("ARIAS MEDICAL CLINIC", F_BRAND, tracking=4, shadow=True, glow=(80, 170, 255))
-    paste(canvas, sp, W / 2 - 20, yb + (1 - ease_out((t - 51.1) / 1.0)) * 22, a1)
-    lw = 520 * ease_out((t - 51.5) / 0.9)
+    paste(canvas, sp, W / 2 - 20, yb + (1 - ease_out((t - 50.55) / 1.0)) * 22, a1)
+    lw = 520 * ease_out((t - 51.0) / 0.9)
     draw_line(canvas, (W / 2 - 20 - lw / 2, yb + 64), (W / 2 - 20 + lw / 2, yb + 64), ACCENT, a1, 3)
-    a2 = ease((t - 51.9) / 0.7)
+    a2 = ease((t - 51.5) / 0.7)
     sp = text_sprite("EXPERTOS EN FLEBOLOGÍA Y LINFOLOGÍA", F_TAG, fill=(205, 230, 255), tracking=3, shadow=True)
     paste(canvas, sp, W / 2 - 20, yb + 116, a2)
-    a3 = ease((t - 52.8) / 0.7)
+    a3 = ease((t - 52.4) / 0.7)
     sp = text_sprite("XALAPA · BOCA DEL RÍO · PUEBLA · SANTA CRUZ", F_SEDES, fill=WHITE, tracking=2, shadow=True)
     paste(canvas, sp, W / 2 - 20, yb + 206, a3)
     a4 = ease((t - 56.25) / 0.45)
@@ -653,10 +659,31 @@ def init_worker(frames_dir, anchors_dir, timeline_path, logo):
     G["us"] = us_frames
 
 
+_GLOW = None
+
+
+def closing_backdrop(img, t):
+    """Fondo institucional del cierre: azul profundo con resplandor radial (evita caer a negro)."""
+    global _GLOW
+    k = ease((t - 49.75) / 0.5)
+    if k <= 0:
+        return img
+    if _GLOW is None:
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        r = np.sqrt(((xx - W / 2) / (W * 0.62)) ** 2 + ((yy - H * 0.42) / (H * 0.42)) ** 2)
+        radial = np.exp(-r ** 2 * 1.6)
+        vert = np.clip(1 - yy / H, 0, 1) ** 1.5 * 0.35
+        g = (radial * 0.85 + vert)[..., None]
+        _GLOW = g * np.array([0.035, 0.095, 0.20], np.float32)
+    lum = img.max(axis=2, keepdims=True)
+    return img + _GLOW * k * (1 - np.clip(lum * 2.5, 0, 1))
+
+
 def render_frame(fr):
     t = fr / FPS
     rng = np.random.default_rng(1000 + fr)
     img, parts = base_image(G["frames"], fr, G["anchors"])
+    img = closing_backdrop(img, t)
     img = grade(img, fr, rng)
     ov = overlay(fr, t, G["anchors"], G["cues"], G["us"], G["logo"])
     img = ov[..., :3] + img * (1 - ov[..., 3:4])
