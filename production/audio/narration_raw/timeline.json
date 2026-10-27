@@ -1,0 +1,214 @@
+{
+  "n1": {
+    "text": "Cuando las válvulas venosas fallan, la sangre puede retroceder y acumularse, favoreciendo la aparición de várices.",
+    "tts_input": "Cuando las válvulas venosas fallan, la sangre puede retroseder y acumularse, favoresiendo la aparisión de várises.",
+    "duration": 7.358,
+    "pauses": [
+      [
+        2.05,
+        2.25
+      ],
+      [
+        4.77,
+        5.07
+      ]
+    ],
+    "sample_rate": 44100,
+    "speed": 1.0,
+    "take": 0,
+    "wer": 0.062,
+    "take_durations": [
+      7.36,
+      7.29,
+      7.52,
+      7.48,
+      7.35,
+      7.41
+    ]
+  },
+  "n2": {
+    "text": "La escleroterapia con microespuma permite tratar determinadas venas enfermas mediante un procedimiento mínimamente invasivo.",
+    "tts_input": "La escleroterapia con microespuma permite tratar determinadas venas enfermas mediante un prosedimiento mínimamente invasivo.",
+    "duration": 7.745,
+    "pauses": [
+      [
+        1.83,
+        1.9
+      ]
+    ],
+    "sample_rate": 44100,
+    "speed": 1.05,
+    "take": 0,
+    "wer": 0.0,
+    "take_durations": [
+      7.74,
+      7.75,
+      7.62,
+      7.61,
+      7.76,
+      7.54
+    ]
+  },
+  "n3a": {
+    "text": "La microespuma entra en contacto con la pared interna de la vena",
+    "tts_input": "La microespuma entra en contacto con la pared interna de la vena",
+    "duration": 4.111,
+    "pauses": [
+      [
+        0.65,
+        0.75
+      ]
+    ],
+    "sample_rate": 44100,
+    "speed": 1.0,
+    "take": 5,
+    "wer": 0.0,
+    "take_durations": [
+      4.11,
+      4.16,
+      4.31,
+      4.09,
+      4.33,
+      4.11
+    ]
+  },
+  "n3b": {
+    "text": "y provoca una reacción que favorece su cierre progresivo.",
+    "tts_input": "y provoca una reacsión que favorese su sierre progresivo.",
+    "duration": 3.554,
+    "pauses": [],
+    "sample_rate": 44100,
+    "speed": 1.0,
+    "take": 0,
+    "wer": 0.0,
+    "take_durations": [
+      3.55,
+      3.62,
+      3.51,
+      3.63,
+      3.61,
+      3.52
+    ]
+  },
+  "n4a": {
+    "text": "Con el tiempo, la vena tratada se transforma y el organismo la reabsorbe progresivamente.",
+    "tts_input": "Con el tiempo, la vena tratada se transforma y el organismo la reabsorbe progresivamente.",
+    "duration": 5.64,
+    "pauses": [
+      [
+        0.93,
+        1.02
+      ]
+    ],
+    "sample_rate": 44100,
+    "speed": 1.03,
+    "take": 5,
+    "wer": 0.0,
+    "take_durations": [
+      5.83,
+      5.72,
+      5.85,
+      5.84,
+      5.65,
+      5.64
+    ]
+  },
+  "n4b": {
+    "text": "La sangre continúa circulando por otras venas funcionales.",
+    "tts_input": "La sangre continúa sirculando por otras venas funsionales.",
+    "duration": 3.554,
+    "pauses": [],
+    "sample_rate": 44100,
+    "speed": 1.03,
+    "take": 2,
+    "wer": 0.0,
+    "take_durations": [
+      3.68,
+      3.55,
+      3.55,
+      3.65,
+      3.52,
+      3.55
+    ]
+  },
+  "n5": {
+    "text": "Es una alternativa ambulatoria, sin cirugía abierta y con recuperación habitualmente rápida, según la valoración de cada paciente.",
+    "tts_input": "Es una alternativa ambulatoria, sin sirugía abierta y con recuperasión habitualmente rápida, según la valorasión de cada pasiente.",
+    "duration": 9.039,
+    "pauses": [
+      [
+        2.03,
+        2.24
+      ],
+      [
+        3.65,
+        3.72
+      ],
+      [
+        6.19,
+        6.46
+      ]
+    ],
+    "sample_rate": 44100,
+    "speed": 1.0,
+    "take": 0,
+    "wer": 0.0,
+    "take_durations": [
+      9.04,
+      8.69,
+      9.06,
+      8.93,
+      9.18,
+      9.0
+    ]
+  },
+  "n6a": {
+    "text": "En Arias Medical Clinic, la salud de tus piernas merece atención especializada.",
+    "tts_input": "En Árias Médical Clínic, la salud de tus piernas merese atensión espesialisada.",
+    "duration": 5.321,
+    "pauses": [
+      [
+        1.62,
+        1.82
+      ],
+      [
+        2.62,
+        2.7
+      ],
+      [
+        4.17,
+        4.25
+      ]
+    ],
+    "sample_rate": 44100,
+    "speed": 1.0,
+    "take": 0,
+    "wer": 0.083,
+    "take_durations": [
+      5.32,
+      5.37,
+      5.48,
+      5.23,
+      5.34,
+      5.24
+    ]
+  },
+  "n6b": {
+    "text": "Agenda tu valoración.",
+    "tts_input": "Agenda tu valorasión.",
+    "duration": 1.592,
+    "pauses": [],
+    "sample_rate": 44100,
+    "speed": 1.0,
+    "take": 1,
+    "wer": 0.0,
+    "take_durations": [
+      1.66,
+      1.59,
+      1.42,
+      1.63,
+      1.58,
+      1.58
+    ]
+  }
+}

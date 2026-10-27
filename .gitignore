@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+production/audio/music.wav
+production/audio/sfx.wav
+production/audio/mix.wav
+production/audio/narration.wav
