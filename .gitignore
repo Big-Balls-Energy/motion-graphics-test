@@ -1,0 +1,4 @@
+promo/out/*
+!promo/out/promo-*.mp4
+node_modules/
+__pycache__/

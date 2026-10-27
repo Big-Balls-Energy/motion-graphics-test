@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promo Big Balls Energy Art</title>
+<style>
+  :root { --bg: #0b0614; --fg: #fff6ec; --accent: #ff5a1f; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, sans-serif; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 16px; box-sizing: border-box; }
+  canvas { height: calc(100vh - 110px); max-width: calc(100vw - 32px); aspect-ratio: 9 / 16; object-fit: contain; border-radius: 12px; box-shadow: 0 10px 40px #0008; }
+  .bar { display: flex; gap: 10px; align-items: center; width: min(560px, 100%); }
+  .bar input { flex: 1; accent-color: var(--accent); }
+  button { background: var(--accent); color: #fff; border: 0; border-radius: 999px; padding: 8px 18px; font-weight: 700; cursor: pointer; }
+  output { font-variant-numeric: tabular-nums; min-width: 4.5em; text-align: right; }
+  body.render { padding: 0; display: block; }
+  body.render canvas { height: auto; max-width: none; width: 1080px; border-radius: 0; box-shadow: none; display: block; }
+  body.render .bar { display: none; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="bar">
+  <button id="play">▶ Play</button>
+  <input id="seek" type="range" min="0" max="30" step="0.01" value="0">
+  <output id="time">0.00 s</output>
+</div>
+<audio id="music" src="out/music.wav" preload="auto"></audio>
+<script src="content.js"></script>
+<script src="anim.js"></script>
+<script>
+  // ?render=1 lo usa render.mjs (sin controles); ?t=12.5 muestra un frame fijo.
+  const q = new URLSearchParams(location.search);
+  const canvas = document.getElementById("c");
+  const seek = document.getElementById("seek");
+  const out = document.getElementById("time");
+  const playBtn = document.getElementById("play");
+  const music = document.getElementById("music");
+  if (q.has("render")) document.body.classList.add("render");
+
+  let t = parseFloat(q.get("t") || "0"), playing = false, startWall = 0, startT = 0;
+  const show = () => { Promo.render(t); seek.value = t; out.textContent = t.toFixed(2) + " s"; };
+
+  window.ready = Promo.init(canvas).then(show);
+  window.renderFrame = time => { t = time; Promo.render(t); };
+
+  function loop(now) {
+    if (!playing) return;
+    t = startT + (now - startWall) / 1000;
+    if (t >= Promo.DURATION) { t = Promo.DURATION; playing = false; playBtn.textContent = "▶ Play"; music.pause(); }
+    show();
+    requestAnimationFrame(loop);
+  }
+  playBtn.onclick = () => {
+    playing = !playing;
+    playBtn.textContent = playing ? "❚❚ Pausa" : "▶ Play";
+    if (playing) {
+      if (t >= Promo.DURATION) t = 0;
+      startT = t; startWall = performance.now();
+      music.currentTime = t; music.play().catch(() => {});
+      requestAnimationFrame(loop);
+    } else music.pause();
+  };
+  seek.oninput = () => { t = parseFloat(seek.value); if (playing) { startT = t; startWall = performance.now(); music.currentTime = t; } show(); };
+</script>
+</body>
+</html>
