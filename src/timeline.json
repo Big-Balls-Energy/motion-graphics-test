@@ -1,0 +1,30 @@
+{
+  "fps": 30,
+  "durationInFrames": 1200,
+  "sceneLength": 150,
+  "bpm": 96,
+  "scenes": [
+    {"id": "S1", "name": "Gancho", "start": 0},
+    {"id": "S2", "name": "Presentación", "start": 150},
+    {"id": "S3", "name": "Estrategia", "start": 300},
+    {"id": "S4", "name": "IA", "start": 450},
+    {"id": "S5", "name": "Práctica", "start": 600},
+    {"id": "S6", "name": "Exclusividad", "start": 750},
+    {"id": "S7", "name": "Precio", "start": 900},
+    {"id": "S8", "name": "Cierre", "start": 1050}
+  ],
+  "sfx": {
+    "impact": [0, 40, 156, 616, 627, 772, 937, 1104],
+    "thud": [318, 323, 328, 333, 410],
+    "pulse": [514, 527, 540, 553],
+    "ping": [404, 408, 413, 417, 422],
+    "ui": [190, 205, 220, 392, 397, 402, 512, 518, 524, 690, 696, 702, 708, 1116],
+    "ticks": [780, 787, 794, 801, 808, 815, 822, 829, 836, 843],
+    "digits": [928, 931, 934, 937],
+    "confirm": [716, 944],
+    "strike": [948],
+    "riser": [[96, 150], [700, 750], [856, 900], [1050, 1102]],
+    "whoosh": [150, 300, 450, 600, 750, 900, 1050],
+    "sweep": [568]
+  }
+}

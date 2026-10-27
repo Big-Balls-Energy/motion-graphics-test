@@ -1,0 +1,25 @@
+{
+  "name": "atlas-path-meta-ads-2026-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motion graphics promocional de 40 s — Curso Meta Ads 2026 · Atlas Path",
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "python3 audio/generate_soundtrack.py",
+    "render": "remotion render MetaAds2026 out/AtlasPath_MetaAds2026_40s.mp4",
+    "still": "remotion still MetaAds2026"
+  },
+  "dependencies": {
+    "@fontsource/jost": "5.3.0",
+    "@remotion/cli": "4.0.539",
+    "@remotion/fonts": "4.0.539",
+    "@remotion/paths": "4.0.539",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+out/*
+!out/AtlasPath_MetaAds2026_40s.mp4
+.DS_Store
