@@ -463,8 +463,11 @@ def draw_label(canvas, t, fr, anchors, shot, name, t0, t1, text, side):
     draw_line(canvas, (x, y), (mx, my), WHITE, a * 0.85, 2)
     if k > 0.95:
         u2 = ease((t - t0 - 0.3) / 0.3)
+        cx_ = (lx + ux) / 2
+        draw_rounded_rect(canvas, cx_ - tw / 2 - 14, ly - 50, cx_ + tw / 2 + 14, ly - 4, 14, (4, 10, 22),
+                          a * u2 * 0.45)
         draw_line(canvas, (lx, ly), (lx + (ux - lx) * u2, ly), WHITE, a * 0.85, 2)
-        paste(canvas, sp, (lx + ux) / 2, ly - 26, a * u2)
+        paste(canvas, sp, cx_, ly - 26, a * u2)
 
 
 def draw_reflux_arrow(canvas, t):
