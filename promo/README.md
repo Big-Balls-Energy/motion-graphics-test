@@ -51,6 +51,6 @@ Requisitos: Node 18+ con Playwright (Chromium), Python 3 con numpy, y ffmpeg.
 
 ## Especificaciones de salida
 
-- H.264 High 4.2, 1080×1920, 60 fps, yuv420p, BT.709, CRF 15
+- H.264 High 4.2, 1080×1920, 60 fps, yuv420p, BT.709, CRF 12 (preset slower)
 - AAC 320 kbps, 48 kHz estéreo, normalizado a −14 LUFS / −1 dBTP (estándar de redes)
 - `+faststart` para que empiece a reproducirse antes de descargarse entero

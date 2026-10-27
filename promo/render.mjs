@@ -82,7 +82,7 @@ if (STILLS) {
     "-f", "image2pipe", "-framerate", String(FPS), "-i", "-",
     ...(hasAudio ? ["-i", AUDIO] : []),
     "-vf", "scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p",
-    "-c:v", "libx264", "-preset", "slow", "-crf", "15", "-tune", "animation",
+    "-c:v", "libx264", "-preset", "slower", "-crf", "12", "-tune", "animation",
     "-x264-params", "aq-mode=3", "-profile:v", "high", "-level", "4.2",
     "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
     "-r", String(FPS), "-g", String(FPS),

@@ -470,8 +470,8 @@
     // respuesta
     if (answered) {
       const pulse = 1 + 0.03 * beatPulse(t, 7.0);
-      const sA = fit(P.answer[0], FD, 400, 250, 960);
-      const sB = fit(P.answer[1], FD, 400, 330, 960);
+      const sA = fit(P.answer[0], FD, 400, 250, 900);
+      const sB = fit(P.answer[1], FD, 400, 330, 900);
       const pA = prog(t, IMPACT + 0.25, IMPACT + 0.6);
       const pB = prog(t, IMPACT + 0.5, IMPACT + 0.85);
       text(P.answer[0], 540, 770, sA, {
@@ -541,7 +541,7 @@
       ball(x + 135, y + h / 2, 72 * pop, c, 1 + 0.18 * bob, 1 - 0.18 * bob, 0.6 + 0.5 * active);
 
       text(`0${i + 1}`, x + w - 44, y + 56, 34, { fam: FB, weight: 900, color: c, align: "right", ls: 4 });
-      const ts = fit(s.title, FD, 400, 100, 600);
+      const ts = fit(s.title, FD, 400, 100, 560);
       text(s.title, x + 250, y + 112, ts, { align: "left" });
       const ss = fit(s.sub, FB, 400, 36, 640);
       text(s.sub, x + 250, y + 188, ss, { fam: FB, color: "rgba(255,246,236,.72)", align: "left" });
