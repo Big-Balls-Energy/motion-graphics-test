@@ -1,0 +1,735 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 3,
+   "tr": null,
+   "vis": "Dos cupones: «OBTÉN 20%» quieto en gris y «NO PIERDAS 20%» vibrando en rojo con un reloj encima. Zoom al rojo. Tic-tac."
+  },
+  {
+   "id": "giro",
+   "name": "GIRO",
+   "a": 3,
+   "b": 8,
+   "tr": "wipe",
+   "vis": "Signo «=» entre los cupones → un cerebro reacciona en rojo al cupón de pérdida → entra «AVERSIÓN A LA PÉRDIDA» con brillo."
+  },
+  {
+   "id": "exp",
+   "name": "EL EXPERIMENTO",
+   "a": 8,
+   "b": 20,
+   "tr": "slide",
+   "vis": "Moneda girando en el aire (cling). Águila a la izquierda: «+$150» verde (cifra sola 2 s). Sol a la derecha: «−$100» rojo (cifra sola 2 s). La moneda queda suspendida con «¿?»."
+  },
+  {
+   "id": "res",
+   "name": "EL RESULTADO",
+   "a": 20,
+   "b": 30,
+   "tr": "zoom",
+   "vis": "Personitas niegan con la cabeza y aparecen «NO» en cascada → columna «$100» roja frente a «≈ $200» verde → «x2» grande en naranja (sola 2 s)."
+  },
+  {
+   "id": "why",
+   "name": "POR QUÉ FUNCIONA",
+   "a": 30,
+   "b": 42,
+   "tr": "spin",
+   "vis": "Balanza: un billete en «GANAR» y el mismo en «PERDER»; el lado perder se hunde con peso «x2». Luego unas manos abrazan un billete."
+  },
+  {
+   "id": "where",
+   "name": "DÓNDE LO VES",
+   "a": 42,
+   "b": 52,
+   "tr": "up",
+   "vis": "Carrusel: cupón con cuenta regresiva → carrito con temporizador 10:00 bajando → suscripción con «Cancelar» diminuto y aviso «Perderás tus beneficios»."
+  },
+  {
+   "id": "app",
+   "name": "APLICACIÓN",
+   "a": 52,
+   "b": 57,
+   "tr": "zoom",
+   "vis": "«GANA 20%» se tacha → aparece «NO PIERDAS TU 20%» en rojo con un reloj de arena vaciándose."
+  },
+  {
+   "id": "cta",
+   "name": "CTA",
+   "a": 57,
+   "b": 60,
+   "tr": "wipe",
+   "vis": "Logo + @Atlas_Path + botón SEGUIR con clic + notificación «No te lo pierdas» → regresa a los dos cupones (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 2.5,
+   "text": "¿Por qué «no pierdas» funciona?",
+   "keys": [
+    "pierdas"
+   ]
+  },
+  {
+   "a": 3,
+   "b": 4.75,
+   "text": "Misma oferta, distinto efecto.",
+   "keys": [
+    "efecto"
+   ]
+  },
+  {
+   "a": 4.75,
+   "b": 7.5,
+   "text": "Es aversión a la pérdida.",
+   "keys": [
+    "aversión",
+    "pérdida"
+   ]
+  },
+  {
+   "a": 8,
+   "b": 10,
+   "text": "Juego: lanzamos una moneda.",
+   "keys": [
+    "moneda"
+   ]
+  },
+  {
+   "a": 10,
+   "b": 11.8,
+   "text": "Si sale águila, ganas…",
+   "keys": [
+    "ganas"
+   ]
+  },
+  {
+   "a": 13.8,
+   "b": 15.6,
+   "text": "Si sale sol, pierdes…",
+   "keys": [
+    "pierdes"
+   ]
+  },
+  {
+   "a": 17.6,
+   "b": 19.5,
+   "text": "¿Tú le entras?",
+   "keys": [
+    "entras"
+   ]
+  },
+  {
+   "a": 20,
+   "b": 22.2,
+   "text": "La mayoría dice que no.",
+   "keys": [
+    "no"
+   ]
+  },
+  {
+   "a": 22.2,
+   "b": 24,
+   "text": "Según Kahneman y Tversky,",
+   "keys": [
+    "kahneman",
+    "tversky"
+   ]
+  },
+  {
+   "a": 24,
+   "b": 25.5,
+   "text": "por arriesgar $100",
+   "keys": [
+    "$100"
+   ]
+  },
+  {
+   "a": 25.5,
+   "b": 27.3,
+   "text": "piden ganar casi $200",
+   "keys": [
+    "$200"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 33.026,
+   "text": "Perder duele cerca del doble",
+   "keys": [
+    "doble"
+   ]
+  },
+  {
+   "a": 33.026,
+   "b": 36.053,
+   "text": "de lo que disfrutas ganar.",
+   "keys": [
+    "ganar"
+   ]
+  },
+  {
+   "a": 36.053,
+   "b": 39.079,
+   "text": "Por eso tu cerebro protege",
+   "keys": [
+    "protege"
+   ]
+  },
+  {
+   "a": 39.079,
+   "b": 41.5,
+   "text": "lo que siente suyo.",
+   "keys": [
+    "suyo"
+   ]
+  },
+  {
+   "a": 42,
+   "b": 44.5,
+   "text": "En «no pierdas tu descuento»",
+   "keys": [
+    "pierdas"
+   ]
+  },
+  {
+   "a": 44.5,
+   "b": 46.5,
+   "text": "en «tu carrito expira»",
+   "keys": [
+    "expira"
+   ]
+  },
+  {
+   "a": 46.5,
+   "b": 48,
+   "text": "en pruebas gratis",
+   "keys": [
+    "gratis"
+   ]
+  },
+  {
+   "a": 48,
+   "b": 49.5,
+   "text": "que cuesta cancelar:",
+   "keys": [
+    "cancelar"
+   ]
+  },
+  {
+   "a": 49.5,
+   "b": 51.5,
+   "text": "ya las sientes tuyas.",
+   "keys": [
+    "tuyas"
+   ]
+  },
+  {
+   "a": 52,
+   "b": 54,
+   "text": "No digas qué gana,",
+   "keys": [
+    "gana"
+   ]
+  },
+  {
+   "a": 54,
+   "b": 56.5,
+   "text": "dile qué podría perder.",
+   "keys": [
+    "perder"
+   ]
+  },
+  {
+   "a": 57,
+   "b": 59.5,
+   "text": "Síguenos para no perderte nada",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 11.8,
+   "b": 13.8,
+   "text": "+$150"
+  },
+  {
+   "a": 15.6,
+   "b": 17.6,
+   "text": "−$100"
+  },
+  {
+   "a": 27.3,
+   "b": 29.5,
+   "text": "x2"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 0.5,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 1,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 1.5,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 2,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 2.5,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 1,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 3.25,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 3.6,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 4,
+   "type": "buzz",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.8,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 5.2,
+   "type": "shine",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 8,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 8.2,
+   "type": "cling",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 8.52,
+   "type": "cling",
+   "v": 0.9,
+   "pitch": 1.06
+  },
+  {
+   "t": 8.84,
+   "type": "cling",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 9.16,
+   "type": "cling",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 9.48,
+   "type": "cling",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 9.8,
+   "type": "cling",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 10.12,
+   "type": "cling",
+   "v": 0.3999999999999999,
+   "pitch": 1
+  },
+  {
+   "t": 10,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 11.8,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 13.8,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 15.6,
+   "type": "buzz",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 17.7,
+   "type": "cling",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 20,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 20.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 20.48,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.98
+  },
+  {
+   "t": 20.66,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.06
+  },
+  {
+   "t": 20.84,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 21.02,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 21.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.98
+  },
+  {
+   "t": 21.38,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.06
+  },
+  {
+   "t": 21.56,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 24,
+   "type": "buzz",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 25.5,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 27.3,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.2
+  },
+  {
+   "t": 30,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 30.4,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 30.9,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 31.6,
+   "type": "buzz",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 36.1,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 36.3,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 37.2,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 42,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 42.5,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 43,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 43.5,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 44,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 44.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 44.9,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.3,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.7,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 46.1,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 46.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 48,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 49.5,
+   "type": "buzz",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.15,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.9,
+   "type": "strike",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 53.7,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 54.05,
+   "type": "buzz",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 54.5,
+   "type": "tictac",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 55,
+   "type": "tictac",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 55.5,
+   "type": "tictac",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 56,
+   "type": "tictac",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 57,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 57.1,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 57.4,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.3,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.32,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 58.6,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1.5
+  },
+  {
+   "t": 59.35,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 59.5,
+   "type": "tictac",
+   "v": 0.6,
+   "pitch": 1
+  }
+ ]
+}
