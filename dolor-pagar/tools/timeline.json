@@ -1,0 +1,781 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 5.6,
+   "tr": null,
+   "vis": "Fondo F02_mesa_casino.jpg desenfocado; F01_fichas_casino.png cae al centro en cámara lenta con sombra real y rebote; un «?» gráfico gira encima. Sacudida al caer."
+  },
+  {
+   "id": "giro",
+   "name": "GIRO",
+   "a": 5.6,
+   "b": 11.5,
+   "tr": "wipe",
+   "vis": "F03_billetes_mano.png entra desde abajo; al llegar al centro salen líneas rojas de impacto y el medidor de dolor sube a rojo. «EL DOLOR DE PAGAR» entra grande y pasa por detrás de la mano."
+  },
+  {
+   "id": "cerebro",
+   "name": "QUÉ PASA EN TU CEREBRO",
+   "a": 11.5,
+   "b": 21.5,
+   "tr": "zoom",
+   "vis": "Fondo F05_escaner_cerebro.jpg: una etiqueta de precio alto y una zona que se ilumina en rojo con pulso («ínsula»). Transición a F06_persona_ticket.jpg con un ticket gráfico que se alarga hacia abajo."
+  },
+  {
+   "id": "experimento",
+   "name": "EL EXPERIMENTO",
+   "a": 21.5,
+   "b": 32.3,
+   "tr": "slide",
+   "vis": "Fondo F07_arena_basquet.jpg; F08_boletos.png flota al centro con sello «SUBASTA»; [AVATAR_DRAZEN_PRELEC] y [AVATAR_DUNCAN_SIMESTER] con etiqueta MIT. Pantalla dividida: efectivo (F03) con barra corta y tarjeta (F04) con barra que crece hasta «x2» en amarillo."
+  },
+  {
+   "id": "donde",
+   "name": "DÓNDE LO VES",
+   "a": 32.3,
+   "b": 41.6,
+   "tr": "slide",
+   "vis": "Carrusel con parallax: fichas sobre la mesa (F02 + F01), parque (F10) con la pulsera F09, resort (F11) con sello «TODO INCLUIDO» y pago con celular (F12) con ondas sin contacto. En cada uno el medidor baja a verde."
+  },
+  {
+   "id": "aplicacion",
+   "name": "APLICACIÓN",
+   "a": 41.6,
+   "b": 49.9,
+   "tr": "wipe",
+   "vis": "Fondo F14_mostrador_negocio.jpg; F13_terminal_pago.png al centro; etiquetas verdes «PAQUETES», «MEMBRESÍAS», «SIN FRICCIÓN» y un ícono de balanza al decir «con ética»."
+  },
+  {
+   "id": "cta",
+   "name": "CTA CON PALABRA CLAVE",
+   "a": 49.9,
+   "b": 60,
+   "tr": "wipe",
+   "vis": "Burbuja que escribe «DOLOR» en rojo → «DOLOR» sola y grande 3 s → el medidor baja a verde → logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic → regresa a las fichas cayendo sobre la mesa (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 1.793,
+   "text": "¿Por qué los casinos",
+   "keys": [
+    "casinos"
+   ]
+  },
+  {
+   "a": 1.793,
+   "b": 3.307,
+   "text": "cambian tu dinero",
+   "keys": [
+    "dinero"
+   ]
+  },
+  {
+   "a": 3.307,
+   "b": 5.1,
+   "text": "por fichas de plástico?",
+   "keys": [
+    "fichas"
+   ]
+  },
+  {
+   "a": 5.6,
+   "b": 7.295,
+   "text": "Porque pagar duele.",
+   "keys": [
+    "duele"
+   ]
+  },
+  {
+   "a": 7.295,
+   "b": 8.991,
+   "text": "Literalmente. Se llama:",
+   "keys": [
+    "literalmente"
+   ]
+  },
+  {
+   "a": 8.991,
+   "b": 11,
+   "text": "el dolor de pagar.",
+   "keys": [
+    "dolor"
+   ]
+  },
+  {
+   "a": 11.5,
+   "b": 13.31,
+   "text": "Ver un precio alto",
+   "keys": [
+    "precio"
+   ]
+  },
+  {
+   "a": 13.31,
+   "b": 15.119,
+   "text": "activa en tu cerebro",
+   "keys": [
+    "cerebro"
+   ]
+  },
+  {
+   "a": 15.119,
+   "b": 16.929,
+   "text": "una zona de malestar.",
+   "keys": [
+    "malestar"
+   ]
+  },
+  {
+   "a": 16.929,
+   "b": 18.738,
+   "text": "Y entre más ves",
+   "keys": [
+    "ves"
+   ]
+  },
+  {
+   "a": 18.738,
+   "b": 21,
+   "text": "salir tu dinero, más duele.",
+   "keys": [
+    "duele"
+   ]
+  },
+  {
+   "a": 21.5,
+   "b": 23.433,
+   "text": "Un experimento del MIT",
+   "keys": [
+    "mit"
+   ]
+  },
+  {
+   "a": 23.433,
+   "b": 25.367,
+   "text": "subastó boletos de basquetbol.",
+   "keys": [
+    "boletos"
+   ]
+  },
+  {
+   "a": 25.367,
+   "b": 27.3,
+   "text": "Quienes pagarían con tarjeta",
+   "keys": [
+    "tarjeta"
+   ]
+  },
+  {
+   "a": 29.6,
+   "b": 31.8,
+   "text": "que quienes pagaban en efectivo.",
+   "keys": [
+    "efectivo"
+   ]
+  },
+  {
+   "a": 32.3,
+   "b": 34.832,
+   "text": "Por eso existen las fichas,",
+   "keys": [
+    "fichas"
+   ]
+  },
+  {
+   "a": 34.832,
+   "b": 36.858,
+   "text": "las pulseras con saldo,",
+   "keys": [
+    "pulseras"
+   ]
+  },
+  {
+   "a": 36.858,
+   "b": 38.568,
+   "text": "el todo incluido",
+   "keys": [
+    "incluido"
+   ]
+  },
+  {
+   "a": 38.568,
+   "b": 41.1,
+   "text": "y pagar con un toque.",
+   "keys": [
+    "toque"
+   ]
+  },
+  {
+   "a": 41.6,
+   "b": 43.208,
+   "text": "¿Tienes un negocio?",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 43.208,
+   "b": 45.589,
+   "text": "Haz que pagar sea ligero:",
+   "keys": [
+    "ligero"
+   ]
+  },
+  {
+   "a": 45.589,
+   "b": 47.495,
+   "text": "paquetes, membresías, sin fricción.",
+   "keys": [
+    "fricción"
+   ]
+  },
+  {
+   "a": 47.495,
+   "b": 49.4,
+   "text": "Y úsalo con ética.",
+   "keys": [
+    "ética"
+   ]
+  },
+  {
+   "a": 49.9,
+   "b": 51.4,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 54.4,
+   "b": 56.2,
+   "text": "Te enviamos 5 formas",
+   "keys": [
+    "5"
+   ]
+  },
+  {
+   "a": 56.2,
+   "b": 57.7,
+   "text": "para quitar fricción.",
+   "keys": [
+    "fricción"
+   ]
+  },
+  {
+   "a": 57.7,
+   "b": 59.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 27.3,
+   "b": 29.6,
+   "text": "x2"
+  },
+  {
+   "a": 51.4,
+   "b": 54.4,
+   "text": "DOLOR"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.7
+  },
+  {
+   "t": 1,
+   "type": "chips",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 1,
+   "type": "thud",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 1.35,
+   "type": "chips",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 1.6,
+   "type": "chips",
+   "v": 0.3,
+   "pitch": 1.3
+  },
+  {
+   "t": 2,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.4
+  },
+  {
+   "t": 6.525,
+   "type": "heart",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 7.275,
+   "type": "heart",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 29.75,
+   "type": "heart",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 30.5,
+   "type": "heart",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 33.866,
+   "type": "heart",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 34.616,
+   "type": "heart",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 36.145,
+   "type": "heart",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 36.895,
+   "type": "heart",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 38.013,
+   "type": "heart",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 38.763,
+   "type": "heart",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50.65,
+   "type": "heart",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 51.4,
+   "type": "heart",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 5.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 6.75,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 8.991,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 9.191,
+   "type": "thud",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 11.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 11.7,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 13.41,
+   "type": "pulse",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 16.929,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 17.229,
+   "type": "printer",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 18.738,
+   "type": "register",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 21.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 21.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 22.1,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 22.5,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 23.633,
+   "type": "stamp",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 25.367,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 25.667,
+   "type": "register",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 25.9,
+   "type": "rise",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 27.3,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 27.32,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 29.6,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 32.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 32.6,
+   "type": "chips",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 34.832,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 35.432,
+   "type": "relief",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 36.858,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 37.458,
+   "type": "relief",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 38.568,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 39.168,
+   "type": "relief",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 32.9,
+   "type": "relief",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.158,
+   "type": "stamp",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 38.918,
+   "type": "beep",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 41.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 41.9,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 43.508,
+   "type": "beep",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.639,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 46.089,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 46.539,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 47.645,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 49.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 50.05,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50.2,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 50.35,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.16
+  },
+  {
+   "t": 50.5,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50.65,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 51.4,
+   "type": "stamp",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 51.4,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.2
+  },
+  {
+   "t": 54.4,
+   "type": "relief",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 54.8,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 54.92,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.26
+  },
+  {
+   "t": 55.04,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.3199999999999998
+  },
+  {
+   "t": 55.16,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.38
+  },
+  {
+   "t": 55.28,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.44
+  },
+  {
+   "t": 55.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.3
+  },
+  {
+   "t": 56.05,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 56.25,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 56.45,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.6,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.62,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  }
+ ],
+ "musicBoost": [
+  [
+   5.1,
+   5.7,
+   1.3
+  ],
+  [
+   21,
+   21.6,
+   1.25
+  ],
+  [
+   41.1,
+   41.7,
+   1.25
+  ]
+ ]
+}
