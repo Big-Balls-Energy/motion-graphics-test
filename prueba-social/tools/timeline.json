@@ -1,0 +1,845 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 3,
+   "tr": null
+  },
+  {
+   "id": "giro",
+   "name": "GIRO",
+   "a": 3,
+   "b": 8,
+   "tr": "wipe"
+  },
+  {
+   "id": "exp",
+   "name": "EL EXPERIMENTO",
+   "a": 8,
+   "b": 20,
+   "tr": "slide"
+  },
+  {
+   "id": "res",
+   "name": "EL RESULTADO",
+   "a": 20,
+   "b": 30,
+   "tr": "zoom"
+  },
+  {
+   "id": "why",
+   "name": "POR QUÉ FUNCIONA",
+   "a": 30,
+   "b": 42,
+   "tr": "spin"
+  },
+  {
+   "id": "where",
+   "name": "DÓNDE LO VES",
+   "a": 42,
+   "b": 52,
+   "tr": "up"
+  },
+  {
+   "id": "app",
+   "name": "APLICACIÓN",
+   "a": 52,
+   "b": 57,
+   "tr": "zoom"
+  },
+  {
+   "id": "cta",
+   "name": "CTA",
+   "a": 57,
+   "b": 60,
+   "tr": "wipe"
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 2.5,
+   "text": "¿Por qué eliges el lleno?",
+   "keys": [
+    "lleno"
+   ]
+  },
+  {
+   "a": 3,
+   "b": 4.75,
+   "text": "No es la comida.",
+   "keys": [
+    "comida"
+   ]
+  },
+  {
+   "a": 4.75,
+   "b": 7.5,
+   "text": "Es psicología: prueba social.",
+   "keys": [
+    "prueba",
+    "social"
+   ]
+  },
+  {
+   "a": 8,
+   "b": 10.5,
+   "text": "Un hotel probó dos letreros",
+   "keys": [
+    "letreros"
+   ]
+  },
+  {
+   "a": 10.5,
+   "b": 12.5,
+   "text": "para reutilizar las toallas.",
+   "keys": [
+    "toallas"
+   ]
+  },
+  {
+   "a": 12.5,
+   "b": 15,
+   "text": "Uno: «Ayuda al medio ambiente»",
+   "keys": [
+    "medio",
+    "ambiente"
+   ]
+  },
+  {
+   "a": 15,
+   "b": 16.5,
+   "text": "Otro: «La mayoría",
+   "keys": [
+    "mayoría"
+   ]
+  },
+  {
+   "a": 16.5,
+   "b": 18,
+   "text": "de los huéspedes",
+   "keys": [
+    "huéspedes"
+   ]
+  },
+  {
+   "a": 18,
+   "b": 19.5,
+   "text": "reutiliza su toalla»",
+   "keys": [
+    "reutiliza"
+   ]
+  },
+  {
+   "a": 20,
+   "b": 21.8,
+   "text": "Con el mensaje ecológico:",
+   "keys": [
+    "ecológico"
+   ]
+  },
+  {
+   "a": 23.8,
+   "b": 25.3,
+   "text": "Con «la mayoría»:",
+   "keys": [
+    "mayoría"
+   ]
+  },
+  {
+   "a": 27.3,
+   "b": 29.5,
+   "text": "Solo por imitar a otros.",
+   "keys": [
+    "imitar"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 32.421,
+   "text": "Cuando no estás seguro,",
+   "keys": [
+    "seguro"
+   ]
+  },
+  {
+   "a": 32.421,
+   "b": 34.237,
+   "text": "tu cerebro copia",
+   "keys": [
+    "copia"
+   ]
+  },
+  {
+   "a": 34.237,
+   "b": 36.053,
+   "text": "a la mayoría.",
+   "keys": [
+    "mayoría"
+   ]
+  },
+  {
+   "a": 36.053,
+   "b": 38.474,
+   "text": "Si muchos lo eligen,",
+   "keys": [
+    "muchos"
+   ]
+  },
+  {
+   "a": 38.474,
+   "b": 41.5,
+   "text": "asumes que debe ser bueno.",
+   "keys": [
+    "bueno"
+   ]
+  },
+  {
+   "a": 42,
+   "b": 43.8,
+   "text": "Está en «más de…»",
+   "keys": [
+    "más",
+    "de"
+   ]
+  },
+  {
+   "a": 45.8,
+   "b": 47.6,
+   "text": "en «lo más vendido»",
+   "keys": [
+    "más",
+    "vendido"
+   ]
+  },
+  {
+   "a": 47.6,
+   "b": 49.6,
+   "text": "y en las estrellas",
+   "keys": [
+    "estrellas"
+   ]
+  },
+  {
+   "a": 49.6,
+   "b": 51.5,
+   "text": "de las reseñas.",
+   "keys": [
+    "reseñas"
+   ]
+  },
+  {
+   "a": 52,
+   "b": 54.2,
+   "text": "No digas que eres bueno.",
+   "keys": [
+    "bueno"
+   ]
+  },
+  {
+   "a": 54.2,
+   "b": 56.5,
+   "text": "Muestra quién te eligió.",
+   "keys": [
+    "eligió"
+   ]
+  },
+  {
+   "a": 57,
+   "b": 59.5,
+   "text": "Síguenos para más trucos",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 21.8,
+   "b": 23.8,
+   "text": "35%"
+  },
+  {
+   "a": 25.3,
+   "b": 27.3,
+   "text": "44%"
+  },
+  {
+   "a": 43.8,
+   "b": 45.8,
+   "text": "+10,000"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "type": "murmur",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 1,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 3.2,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 3.9,
+   "type": "strike",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 4.8,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 5.2,
+   "type": "shine",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 5.05,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 5.15,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.97
+  },
+  {
+   "t": 5.25,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.04
+  },
+  {
+   "t": 5.35,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.11
+  },
+  {
+   "t": 5.45,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 5.55,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 5.65,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.97
+  },
+  {
+   "t": 5.75,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.04
+  },
+  {
+   "t": 5.85,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.11
+  },
+  {
+   "t": 5.95,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 6.05,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 6.15,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.97
+  },
+  {
+   "t": 6.25,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.04
+  },
+  {
+   "t": 6.35,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.11
+  },
+  {
+   "t": 6.45,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 6.55,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 6.65,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.97
+  },
+  {
+   "t": 8,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 10.6,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 12.5,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 15,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 20,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 20.458,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.05
+  },
+  {
+   "t": 20.521,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 20.592,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 20.673,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 20.769,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.25
+  },
+  {
+   "t": 20.89,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 21.061,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.35
+  },
+  {
+   "t": 21.723,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 23.955,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.05
+  },
+  {
+   "t": 24.016,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 24.085,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 24.163,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 24.255,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.25
+  },
+  {
+   "t": 24.371,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 24.537,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.35
+  },
+  {
+   "t": 25.174,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 21.8,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 25.3,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.12
+  },
+  {
+   "t": 27.4,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 30,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 30.5,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 38.9,
+   "type": "ding",
+   "v": 0.9,
+   "pitch": 1.25
+  },
+  {
+   "t": 42,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 42.349,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.04
+  },
+  {
+   "t": 42.402,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 42.459,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 42.522,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 42.593,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 42.674,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 42.77,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.28
+  },
+  {
+   "t": 42.89,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.32
+  },
+  {
+   "t": 43.061,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.3599999999999999
+  },
+  {
+   "t": 43.721,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 43.8,
+   "type": "ding",
+   "v": 1,
+   "pitch": 0.9
+  },
+  {
+   "t": 45.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 46.4,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 47.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 48.1,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 48.35,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.08
+  },
+  {
+   "t": 48.6,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.16
+  },
+  {
+   "t": 48.85,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.24
+  },
+  {
+   "t": 49.1,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.32
+  },
+  {
+   "t": 52,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.15,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.9,
+   "type": "strike",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 53.7,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 54.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.95
+  },
+  {
+   "t": 54.34,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.03
+  },
+  {
+   "t": 54.48,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1099999999999999
+  },
+  {
+   "t": 54.62,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.19
+  },
+  {
+   "t": 54.76,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.95
+  },
+  {
+   "t": 54.9,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.03
+  },
+  {
+   "t": 55.04,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1099999999999999
+  },
+  {
+   "t": 55.18,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.19
+  },
+  {
+   "t": 55.32,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.95
+  },
+  {
+   "t": 55.46,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.03
+  },
+  {
+   "t": 55.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1099999999999999
+  },
+  {
+   "t": 55.74,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.19
+  },
+  {
+   "t": 57,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 57.1,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 57.4,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.3,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.32,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.35,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 59.35,
+   "type": "murmurIn",
+   "v": 1,
+   "pitch": 1
+  }
+ ]
+}
