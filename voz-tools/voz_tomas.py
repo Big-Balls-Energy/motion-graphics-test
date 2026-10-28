@@ -8,7 +8,9 @@ SR = 48000; N = SR * 60
 proj = sys.argv[1]
 # (inicio deseado, fin máximo) de cada bloque, en el orden de las tomas 00..NN
 SLOTS = {'reel-viral': [(0.0, 4.55), (4.6, 7.95), (8.05, 14.95), (15.05, 21.95), (22.05, 26.95),
-                        (27.05, 33.95), (34.05, 39.95), (40.05, 43.5), (43.55, 51.95), (52.05, 59.4)]}[proj]
+                        (27.05, 33.95), (34.05, 39.95), (40.05, 43.5), (43.55, 51.95), (52.05, 59.4)],
+         'viaje-heroe': [(0.0, 3.95), (4.05, 10.95), (11.15, 15.95), (16.15, 20.95), (21.15, 25.95), (26.15, 30.95),
+                         (31.15, 35.95), (36.55, 45.95), (46.05, 51.95), (52.05, 53.6), (53.65, 56.6), (56.65, 59.4)]}[proj]
 def load(path):
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'], capture_output=True, check=True).stdout
     return np.frombuffer(raw, np.float32).copy()

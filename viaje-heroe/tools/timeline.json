@@ -1,0 +1,734 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 4,
+   "tr": null,
+   "vis": "Dos claquetas genéricas («STAR WARS» y «EL REY LEÓN» en texto) chocan y sale un «=» brillante; se une el letrero «TU MARCA». Zoom."
+  },
+  {
+   "id": "what",
+   "name": "QUÉ ES",
+   "a": 4,
+   "b": 11,
+   "tr": "wipe",
+   "vis": "Un libro antiguo se abre y despliega el mapa de aventura; «EL VIAJE DEL HÉROE» grande y «Joseph Campbell» estilo cita."
+  },
+  {
+   "id": "stages",
+   "name": "LAS 5 ETAPAS",
+   "a": 11,
+   "b": 36,
+   "tr": null,
+   "pauses": [],
+   "vis": "El mapa hace zoom a la primera estación; el personaje recorre el camino punteado (lo recorrido en amarillo) y cada estación se ilumina. Cada etapa queda al frente 5 s con su número y nombre grandes."
+  },
+  {
+   "id": "error",
+   "name": "EL ERROR MÁS COMÚN",
+   "a": 36,
+   "b": 46,
+   "ra": 36.5,
+   "tr": "zoom",
+   "pauses": [
+    [
+     36,
+     36.5
+    ],
+    [
+     45.5,
+     46
+    ]
+   ],
+   "vis": "Un logo genérico con capa de héroe se tacha en gris; la capa pasa al cliente y el logo toma la lámpara de mentor. Check verde."
+  },
+  {
+   "id": "nike",
+   "name": "EJEMPLO DE MARCA",
+   "a": 46,
+   "b": 52,
+   "tr": "slide",
+   "vis": "Silueta genérica de atleta corriendo cuesta arriba; «Nike» solo como texto pequeño en un letrero al costado del camino."
+  },
+  {
+   "id": "cta",
+   "name": "CTA CON PALABRA CLAVE",
+   "a": 52,
+   "b": 60,
+   "tr": "wipe",
+   "vis": "Burbuja de comentario que se escribe sola → «HISTORIA» sola y grande 3 s → sobre de DM con la plantilla → logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic → regresa a las claquetas del inicio (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 2,
+   "text": "Dos clásicos, una fórmula.",
+   "keys": [
+    "fórmula"
+   ]
+  },
+  {
+   "a": 2,
+   "b": 3.5,
+   "text": "¿Y tu marca?",
+   "keys": [
+    "marca"
+   ]
+  },
+  {
+   "a": 4,
+   "b": 6.2,
+   "text": "Es el viaje del héroe",
+   "keys": [
+    "héroe"
+   ]
+  },
+  {
+   "a": 6.2,
+   "b": 7.7,
+   "text": "de Joseph Campbell:",
+   "keys": [
+    "campbell"
+   ]
+  },
+  {
+   "a": 7.7,
+   "b": 10.5,
+   "text": "la fórmula que nos atrapa.",
+   "keys": [
+    "atrapa"
+   ]
+  },
+  {
+   "a": 11.2,
+   "b": 13.3,
+   "text": "Uno: tu cliente",
+   "keys": [
+    "cliente"
+   ]
+  },
+  {
+   "a": 13.3,
+   "b": 15.6,
+   "text": "vive con un problema.",
+   "keys": [
+    "problema"
+   ]
+  },
+  {
+   "a": 16.2,
+   "b": 18.3,
+   "text": "Dos: algo lo empuja",
+   "keys": [
+    "empuja"
+   ]
+  },
+  {
+   "a": 18.3,
+   "b": 20.6,
+   "text": "a querer cambiar.",
+   "keys": [
+    "cambiar"
+   ]
+  },
+  {
+   "a": 21.2,
+   "b": 23.3,
+   "text": "Tres: aparece un mentor…",
+   "keys": [
+    "mentor"
+   ]
+  },
+  {
+   "a": 23.3,
+   "b": 25.6,
+   "text": "esa es tu marca.",
+   "keys": [
+    "marca"
+   ]
+  },
+  {
+   "a": 26.2,
+   "b": 28.3,
+   "text": "Cuatro: enfrenta el reto",
+   "keys": [
+    "reto"
+   ]
+  },
+  {
+   "a": 28.3,
+   "b": 30.6,
+   "text": "con tu ayuda.",
+   "keys": [
+    "ayuda"
+   ]
+  },
+  {
+   "a": 31.2,
+   "b": 33.3,
+   "text": "Cinco: regresa transformado…",
+   "keys": [
+    "transformado"
+   ]
+  },
+  {
+   "a": 33.3,
+   "b": 35.6,
+   "text": "y lo cuenta.",
+   "keys": [
+    "cuenta"
+   ]
+  },
+  {
+   "a": 36.5,
+   "b": 38.618,
+   "text": "El error más común:",
+   "keys": [
+    "error"
+   ]
+  },
+  {
+   "a": 38.618,
+   "b": 40.735,
+   "text": "tu marca como héroe.",
+   "keys": [
+    "héroe"
+   ]
+  },
+  {
+   "a": 40.735,
+   "b": 43.382,
+   "text": "El héroe es tu cliente.",
+   "keys": [
+    "cliente"
+   ]
+  },
+  {
+   "a": 43.382,
+   "b": 45.5,
+   "text": "Tú eres el mentor.",
+   "keys": [
+    "mentor"
+   ]
+  },
+  {
+   "a": 46,
+   "b": 47.5,
+   "text": "Nike lo hace:",
+   "keys": [
+    "nike"
+   ]
+  },
+  {
+   "a": 47.5,
+   "b": 49.7,
+   "text": "el atleta es el héroe,",
+   "keys": [
+    "atleta"
+   ]
+  },
+  {
+   "a": 49.7,
+   "b": 51.5,
+   "text": "Nike da las herramientas.",
+   "keys": [
+    "herramientas"
+   ]
+  },
+  {
+   "a": 52,
+   "b": 53.6,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 56.6,
+   "b": 58.4,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 53.6,
+   "b": 56.6,
+   "text": "HISTORIA"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.9,
+   "type": "clap",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 1,
+   "type": "shine",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 2.1,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 2.9,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 4,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 4.15,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.6,
+   "type": "pages",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 5.1,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 6.2,
+   "type": "ding",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 7.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 11,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 11.9,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 11.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 16,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 16.15,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 16.4,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 16.65,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 16.9,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1.08
+  },
+  {
+   "t": 16.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 21,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 21.15,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21.4,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21.65,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21.9,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1.16
+  },
+  {
+   "t": 21.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 26,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 26.15,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.4,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.65,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.9,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1.24
+  },
+  {
+   "t": 26.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 31,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 31.15,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.4,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.65,
+   "type": "step",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.9,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1.32
+  },
+  {
+   "t": 31.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 16.6,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.6
+  },
+  {
+   "t": 17.4,
+   "type": "shine",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 21.5,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 23.6,
+   "type": "pop",
+   "v": 0.8,
+   "pitch": 1.3
+  },
+  {
+   "t": 26.4,
+   "type": "thunder",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 28.5,
+   "type": "thunder",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 30.3,
+   "type": "rise",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 31.9,
+   "type": "triumph",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 32.2,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.3
+  },
+  {
+   "t": 33.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 33.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 34.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 36.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 36.7,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 38.618,
+   "type": "strike",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 40.735,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 41.635,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 43.382,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 44.2,
+   "type": "ding",
+   "v": 0.9,
+   "pitch": 1.3
+  },
+  {
+   "t": 46,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 49.7,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.3,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 52.44,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 52.58,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.16
+  },
+  {
+   "t": 52.72,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 52.86,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 53,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.16
+  },
+  {
+   "t": 53.14,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 53.28,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 53.6,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.2
+  },
+  {
+   "t": 53.6,
+   "type": "shine",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 56.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.3
+  },
+  {
+   "t": 57,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 57.2,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 57.4,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.3,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.32,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  }
+ ],
+ "musicBoost": [
+  [
+   26,
+   31,
+   1.35
+  ]
+ ]
+}
