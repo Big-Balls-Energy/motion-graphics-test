@@ -1,0 +1,1215 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 6,
+   "tr": null,
+   "vis": "[LATA_PUNK_IPA] cae al centro con impacto; detrás «≈£2,000,000,000» en azul con conteo rápido, que de golpe se desploma a «£33,000,000» en rojo con una grieta sobre la lata."
+  },
+  {
+   "id": "origen",
+   "name": "EL ORIGEN (2007)",
+   "a": 6,
+   "b": 13.1,
+   "tr": "tear",
+   "vis": "Cinta en 2007; [AVATAR_JAMES_WATT] y [AVATAR_MARTIN_DICKIE] con etiquetas de cofundador. Fila de latas grises e iguales; una se tacha con el sello «ABURRIDO» y entra [LATA_PUNK_IPA] a color."
+  },
+  {
+   "id": "stunts",
+   "name": "LOS STUNTS",
+   "a": 13.1,
+   "b": 22.8,
+   "tr": "slam",
+   "vis": "Tres recortes de collage, uno por uno: botella con silueta de ardilla y «55%»; un tanque cruzando una calle genérica; un helicóptero del que caen gatitos con paracaídas (caricatura). Sellos «TITULAR» y «VIRAL». La línea de valor empieza a subir; la cinta pasa por 2010 y 2015."
+  },
+  {
+   "id": "jugada",
+   "name": "LA JUGADA MAESTRA (2009)",
+   "a": 22.8,
+   "b": 32.5,
+   "tr": "tear",
+   "vis": "Cinta en 2009; [LATA_HAZY_JANE] al centro; se multiplican íconos de personas con un certificado de acción; «≈200,000» y «≈£75 M» solos en pantalla; los certificados entran a la lata. La línea de valor sube con fuerza."
+  },
+  {
+   "id": "caida",
+   "name": "LA CAÍDA (2026)",
+   "a": 32.5,
+   "b": 44.7,
+   "tr": "slam",
+   "vis": "Cinta en 2017 con la etiqueta «Valuación +£1,000 M»; luego salta a 2026, la paleta cambia a rojo y la línea se desploma. [LATA_ELVIS_JUICE] y [PINTA_BLACK_HEART] pierden color y se agrietan. 38 bares se apagan uno por uno; los certificados de los fans se vuelven ceniza."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 44.7,
+   "b": 51.4,
+   "tr": "tear",
+   "vis": "Pantalla dividida: megáfono con «ATENCIÓN» (azul) y cimientos de ladrillo con «NEGOCIO SÓLIDO». Se unen y [LATA_PUNK_IPA] recupera el color encima de los cimientos."
+  },
+  {
+   "id": "cta",
+   "name": "CTA CON PALABRA CLAVE",
+   "a": 51.4,
+   "b": 60,
+   "tr": "tear",
+   "vis": "Burbuja que escribe «PUNK» → «PUNK» sola y grande 3 s → logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic. Texto pequeño de aviso → regresa a la lata cayendo (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 1.5,
+   "text": "Esta cervecería valía…",
+   "keys": [
+    "valía"
+   ]
+  },
+  {
+   "a": 6,
+   "b": 8.031,
+   "text": "En 2007, dos escoceses",
+   "keys": [
+    "escoceses"
+   ]
+  },
+  {
+   "a": 8.031,
+   "b": 10.569,
+   "text": "aburridos de la cerveza comercial,",
+   "keys": [
+    "aburridos"
+   ]
+  },
+  {
+   "a": 10.569,
+   "b": 12.6,
+   "text": "fundaron BrewDog: ser punk.",
+   "keys": [
+    "punk"
+   ]
+  },
+  {
+   "a": 13.1,
+   "b": 14.7,
+   "text": "Una cerveza de…",
+   "keys": [
+    "cerveza"
+   ]
+  },
+  {
+   "a": 16.7,
+   "b": 18.567,
+   "text": "dentro de ardillas disecadas,",
+   "keys": [
+    "ardillas"
+   ]
+  },
+  {
+   "a": 18.567,
+   "b": 20.433,
+   "text": "un tanque en Londres,",
+   "keys": [
+    "tanque"
+   ]
+  },
+  {
+   "a": 20.433,
+   "b": 22.3,
+   "text": "gatos desde un helicóptero.",
+   "keys": [
+    "helicóptero"
+   ]
+  },
+  {
+   "a": 22.8,
+   "b": 24.356,
+   "text": "Su jugada maestra:",
+   "keys": [
+    "maestra"
+   ]
+  },
+  {
+   "a": 24.356,
+   "b": 26.2,
+   "text": "fans convertidos en dueños.",
+   "keys": [
+    "dueños"
+   ]
+  },
+  {
+   "a": 28.2,
+   "b": 30,
+   "text": "compraron acciones y aportaron…",
+   "keys": [
+    "acciones"
+   ]
+  },
+  {
+   "a": 32.5,
+   "b": 34.769,
+   "text": "Pero el negocio no aguantó",
+   "keys": [
+    "aguantó"
+   ]
+  },
+  {
+   "a": 34.769,
+   "b": 36.3,
+   "text": "su propio ritmo.",
+   "keys": [
+    "ritmo"
+   ]
+  },
+  {
+   "a": 36.3,
+   "b": 38.55,
+   "text": "En 2026 entró en insolvencia,",
+   "keys": [
+    "insolvencia"
+   ]
+  },
+  {
+   "a": 40.55,
+   "b": 42.22,
+   "text": "y sus fans-inversionistas",
+   "keys": [
+    "fans-inversionistas"
+   ]
+  },
+  {
+   "a": 42.22,
+   "b": 44.2,
+   "text": "se quedaron sin nada.",
+   "keys": [
+    "nada"
+   ]
+  },
+  {
+   "a": 44.7,
+   "b": 46.608,
+   "text": "Lo disruptivo consigue atención.",
+   "keys": [
+    "atención"
+   ]
+  },
+  {
+   "a": 46.608,
+   "b": 48.992,
+   "text": "Pero solo un negocio sólido",
+   "keys": [
+    "sólido"
+   ]
+  },
+  {
+   "a": 48.992,
+   "b": 50.9,
+   "text": "la convierte en éxito.",
+   "keys": [
+    "éxito"
+   ]
+  },
+  {
+   "a": 51.4,
+   "b": 52.9,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 55.9,
+   "b": 57.7,
+   "text": "Estrategia con bases firmes.",
+   "keys": [
+    "bases",
+    "firmes"
+   ]
+  },
+  {
+   "a": 57.7,
+   "b": 59.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 1.5,
+   "b": 3.5,
+   "text": "≈£2,000,000,000"
+  },
+  {
+   "a": 3.5,
+   "b": 5.5,
+   "text": "£33,000,000"
+  },
+  {
+   "a": 14.7,
+   "b": 16.7,
+   "text": "55%"
+  },
+  {
+   "a": 26.2,
+   "b": 28.2,
+   "text": "≈200,000"
+  },
+  {
+   "a": 30,
+   "b": 32,
+   "text": "≈£75 M"
+  },
+  {
+   "a": 38.55,
+   "b": 40.55,
+   "text": "38 BARES"
+  },
+  {
+   "a": 52.9,
+   "b": 55.9,
+   "text": "PUNK"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 0.45,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 0.45,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 0.54,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.03
+  },
+  {
+   "t": 0.63,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.06
+  },
+  {
+   "t": 0.72,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.09
+  },
+  {
+   "t": 0.81,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.12
+  },
+  {
+   "t": 0.9,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.15
+  },
+  {
+   "t": 0.99,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.18
+  },
+  {
+   "t": 1.08,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.21
+  },
+  {
+   "t": 1.17,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.24
+  },
+  {
+   "t": 1.26,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.27
+  },
+  {
+   "t": 1.35,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.3
+  },
+  {
+   "t": 1.5,
+   "type": "ding",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 3.5,
+   "type": "glass",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 3.5,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 3.55,
+   "type": "stamp",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 6,
+   "type": "tear",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 6.25,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 6.6,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 6.45,
+   "type": "clink",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 6.53,
+   "type": "clink",
+   "v": 0.35,
+   "pitch": 1.05
+  },
+  {
+   "t": 6.61,
+   "type": "clink",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 6.69,
+   "type": "clink",
+   "v": 0.35,
+   "pitch": 1.15
+  },
+  {
+   "t": 6.77,
+   "type": "clink",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 8.131,
+   "type": "stamp",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 10.569,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 11.169,
+   "type": "impact",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 11.219,
+   "type": "psst",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 13.1,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 13.2,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 14.7,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 13.4,
+   "type": "stamp",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 16.7,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 16.8,
+   "type": "tank",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 17.5,
+   "type": "stamp",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 18.567,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 18.617,
+   "type": "heli",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 19.467,
+   "type": "stamp",
+   "v": 0.8,
+   "pitch": 0.95
+  },
+  {
+   "t": 16.8,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 20.5,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 22.8,
+   "type": "tear",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 22.95,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 23,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 23.35,
+   "type": "impact",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 24.406,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 24.476,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.06
+  },
+  {
+   "t": 24.546,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.12
+  },
+  {
+   "t": 24.616,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.18
+  },
+  {
+   "t": 24.686,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.24
+  },
+  {
+   "t": 24.756,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 24.826,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.06
+  },
+  {
+   "t": 24.896,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.12
+  },
+  {
+   "t": 24.966,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.18
+  },
+  {
+   "t": 25.036,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.24
+  },
+  {
+   "t": 25.106,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 25.176,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.06
+  },
+  {
+   "t": 25.246,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.12
+  },
+  {
+   "t": 25.316,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.18
+  },
+  {
+   "t": 25.386,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.24
+  },
+  {
+   "t": 25.456,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 25.526,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.06
+  },
+  {
+   "t": 25.596,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.12
+  },
+  {
+   "t": 25.666,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.18
+  },
+  {
+   "t": 25.736,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.24
+  },
+  {
+   "t": 25.806,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 25.876,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.06
+  },
+  {
+   "t": 25.946,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.12
+  },
+  {
+   "t": 26.016,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.18
+  },
+  {
+   "t": 26.2,
+   "type": "register",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 26.25,
+   "type": "ding",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 28.3,
+   "type": "flip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 28.55,
+   "type": "flip",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 28.8,
+   "type": "flip",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.05,
+   "type": "flip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 29.3,
+   "type": "flip",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 29.55,
+   "type": "flip",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.6,
+   "type": "register",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 30,
+   "type": "ding",
+   "v": 0.9,
+   "pitch": 1.3
+  },
+  {
+   "t": 32.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 32.6,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 32.9,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 34.77,
+   "type": "tapestop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 36.3,
+   "type": "glass",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 36.3,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 0.6
+  },
+  {
+   "t": 36.35,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 38.6,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 38.645,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 38.69,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 38.735,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 38.78,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 38.825,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 38.87,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 38.915,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 38.96,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.005,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 39.05,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 39.095,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 39.14,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.185,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 39.23,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 39.275,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 39.32,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.365,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 39.41,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 39.455,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 39.5,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.545,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 39.59,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 39.635,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 39.68,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.725,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 39.77,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 39.815,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 39.86,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.905,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 39.95,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 39.995,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 40.04,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 40.085,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 40.13,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 40.175,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 40.22,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 40.265,
+   "type": "switch",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 38.55,
+   "type": "buzz",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 40.6,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 42.27,
+   "type": "fire",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 44.7,
+   "type": "tear",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 44.9,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 46.708,
+   "type": "thud",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 46.808,
+   "type": "thud",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 46.928,
+   "type": "thud",
+   "v": 0.5,
+   "pitch": 1.25
+  },
+  {
+   "t": 47.048,
+   "type": "thud",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 47.168,
+   "type": "thud",
+   "v": 0.5,
+   "pitch": 1.35
+  },
+  {
+   "t": 48.992,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 49.542,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 49.592,
+   "type": "psst",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 49.692,
+   "type": "shine",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 51.4,
+   "type": "tear",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 51.6,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 51.76,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 51.92,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.16
+  },
+  {
+   "t": 52.08,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 52.9,
+   "type": "stamp",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.9,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.2
+  },
+  {
+   "t": 55.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.3
+  },
+  {
+   "t": 56.05,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 56.25,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 56.45,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.6,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.62,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  }
+ ],
+ "crash": 34.77,
+ "fall": 36.3,
+ "rebuild": 44.7,
+ "musicBoost": [
+  [
+   22.3,
+   22.9,
+   1.3
+  ],
+  [
+   32,
+   32.6,
+   1.25
+  ]
+ ]
+}
