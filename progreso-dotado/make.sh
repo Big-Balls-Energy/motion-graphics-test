@@ -16,11 +16,19 @@ else
 fi
 python3 tools/build_html.py build/render.html
 node tools/render.js build/render.html build --workers 3
-python3 tools/build_audio.py build
+python3 tools/build_audio.py build build/stems
 mkdir -p dist
 ffmpeg -y -v error -i build/video.mp4 -i build/mix.wav -map 0:v -map 1:a -c:v copy \
   -c:a aac -b:a 192k -ar 48000 -t 60 -movflags +faststart dist/efecto-progreso-dotado.mp4
 ffmpeg -y -v error -i build/mix.wav -c:a libmp3lame -b:a 160k build/mix.mp3
 python3 tools/build_html.py dist/efecto-progreso-dotado.html --audio build/mix.mp3
 python3 tools/export_srt.py dist/subtitulos.srt
+# voiceless deliverables: SFX only (and SFX + music), plus separate tracks for editing
+ffmpeg -y -v error -i build/video.mp4 -i build/stems/sfx.wav -map 0:v -map 1:a -c:v copy \
+  -c:a aac -b:a 192k -ar 48000 -t 60 -movflags +faststart dist/efecto-progreso-dotado_sin-voz.mp4
+ffmpeg -y -v error -i build/video.mp4 -i build/stems/sfx_musica.wav -map 0:v -map 1:a -c:v copy \
+  -c:a aac -b:a 192k -ar 48000 -t 60 -movflags +faststart dist/efecto-progreso-dotado_sin-voz_con-musica.mp4
+mkdir -p dist/pistas
+cp build/stems/sfx.wav build/stems/musica.wav dist/pistas/
+ffmpeg -y -v error -i build/stems/voz_guia.wav -c:a libmp3lame -b:a 160k dist/pistas/voz_guia.mp3
 ls -la dist

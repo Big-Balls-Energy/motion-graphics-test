@@ -9,6 +9,10 @@ Motion graphic de 60 s, 1080×1920, 30 fps, con narración IA en español latino
 | `efecto-progreso-dotado.mp4` | Video final: H.264 High, AAC 48 kHz estéreo, −14 LUFS, listo para Reels |
 | `efecto-progreso-dotado.html` | Misma animación en un solo archivo, reproducible a pantalla completa (F), con audio |
 | `subtitulos.srt` | Los bloques de subtítulos con sus tiempos |
+| `efecto-progreso-dotado_sin-voz.mp4` | Mismo video con subtítulos, **sin voz en off**: solo efectos de sonido |
+| `efecto-progreso-dotado_sin-voz_con-musica.mp4` | Sin voz en off, con efectos y música (sin ducking) |
+| `pistas/sfx.wav`, `pistas/musica.wav` | Pistas separadas al mismo nivel que en la mezcla completa, para mezclar con una voz grabada aparte |
+| `pistas/voz_guia.mp3` | La narración IA solo como guía de tiempos para grabar la voz |
 
 ## Cómo se construye
 

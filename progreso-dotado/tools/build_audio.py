@@ -1,6 +1,9 @@
 """Procedural music + SFX, mixed under the narration with ducking.
 
-usage: python3 build_audio.py BUILD_DIR   (reads voice.wav, timeline.json, cues.json; writes mix.wav)
+usage: python3 build_audio.py BUILD_DIR [STEMS_DIR]
+  reads voice.wav, timeline.json, cues.json; writes mix.wav. With STEMS_DIR it also writes
+  sfx.wav, musica.wav (not ducked), sfx_musica.wav and voz_guia.wav at the same gain as the
+  full mix, so a voice recorded later sits at the right level against them.
 
 Music: 112 BPM lo-fi/electronic groove in D minor; 28 bars = exactly 60 s so the
 reel loops seamlessly. Music sits ~15 dB under the voice and ducks a further
@@ -317,6 +320,14 @@ def compress(x, thresh_db=-24, ratio=3.0):
     return x * gain
 
 
+def write_wav(path, x):
+    import wave
+    pcm = (np.clip(x.T, -1, 1) * 32767).astype('<i2')
+    with wave.open(str(path), 'wb') as f:
+        f.setnchannels(2); f.setsampwidth(2); f.setframerate(SR)
+        f.writeframes(pcm.tobytes())
+
+
 def main():
     build = Path(sys.argv[1])
     tl = json.load(open(build / 'timeline.json'))
@@ -339,11 +350,13 @@ def main():
     speaking = env > 0.25 * env.max()
     v_rms = rms(voice[speaking]) if speaking.any() else rms(voice)
     music *= 0.2 * v_rms / rms(music)                          # ~ -14 dB under the voice
+    music_dry = music.copy()
     duck = 1 - 0.45 * np.clip(env / (0.35 * env.max()), 0, 1)  # up to ~ -5 dB more while talking
     music *= duck
     mix = music + effects + np.stack([voice, voice])
     # soft bus limiter, referenced to the voice peak so stray SFX peaks get rounded off
-    mix = np.tanh(mix / np.abs(voice).max() * 0.85)
+    drive = 0.85 / np.abs(voice).max()
+    mix = np.tanh(mix * drive)
     out = build / 'mix_raw.wav'
     pcm = (np.clip(mix.T, -1, 1) * 32767).astype('<i2')
     import wave
@@ -361,6 +374,14 @@ def main():
                     str(build / 'mix.wav')], check=True)
     print(f"mix.wav written; input loudness {m['input_i']} LUFS -> -14 LUFS; "
           f"cues {len(cues)}")
+    if len(sys.argv) > 2:
+        stems = Path(sys.argv[2])
+        stems.mkdir(parents=True, exist_ok=True)
+        gain = 10 ** ((-14 - float(m['input_i'])) / 20)       # same gain loudnorm gave the full mix
+        for name, x in (('sfx', effects), ('musica', music_dry), ('sfx_musica', effects + music_dry),
+                        ('voz_guia', np.stack([voice, voice]))):
+            write_wav(stems / f'{name}.wav', np.tanh(x * drive) * gain)
+        print(f'stems written to {stems} (gain {20 * np.log10(gain):+.1f} dB, matching mix.wav)')
 
 
 if __name__ == '__main__':
