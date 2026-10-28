@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Progreso dotado</title>
+<style>
+@font-face {
+  font-family: 'Montserrat';
+  src: url(data:font/woff2;base64,{{FONT}}) format('woff2');
+  font-weight: 500 900;
+  font-display: block;
+}
+html, body { margin: 0; height: 100%; background: #111; overflow: hidden; }
+body { display: flex; align-items: center; justify-content: center; font-family: Montserrat, sans-serif; }
+canvas { display: block; height: min(100vh, calc(100vw * 16 / 9)); width: auto; aspect-ratio: 9 / 16; }
+body.render { background: none; display: block; }
+body.render canvas { width: 1080px; height: 1920px; }
+body.playing { cursor: none; }
+#start {
+  position: fixed; inset: 0; display: flex; flex-direction: column; gap: 14px;
+  align-items: center; justify-content: center; background: rgba(17,17,17,0.55);
+  color: #F5EFE6; cursor: pointer; text-align: center;
+}
+#start b { font-weight: 900; font-size: 42px; background: #FF5A1F; color: #fff; padding: 18px 40px; border-radius: 999px; }
+#start span { font-weight: 500; font-size: 15px; opacity: 0.85; line-height: 1.6; }
+body.render #start, body.playing #start { display: none; }
+</style>
+</head>
+<body>
+<canvas id="reel" width="1080" height="1920"></canvas>
+<div id="start"><b>▶ Reproducir</b><span>F pantalla completa · Espacio pausa · R reiniciar<br>G zonas seguras de Instagram · ← → saltar 2 s</span></div>
+{{AUDIO_TAG}}
+<script>window.TIMELINE = {{TIMELINE}};</script>
+<script>{{REEL_JS}}</script>
+<script>
+(async () => {
+  const render = new URLSearchParams(location.search).has('render');
+  document.body.classList.toggle('render', render);
+  await Promise.all(['500', '600', '700', '800', '900'].map(w => document.fonts.load(`${w} 64px Montserrat`)));
+  const R = window.REEL;
+  R.render(0);
+  window.READY = true;
+  if (render) return;
+
+  const audio = document.getElementById('audio');
+  let clock0 = 0, paused = true, pausedAt = 0;
+  const now = () => (audio ? audio.currentTime : paused ? pausedAt : (performance.now() - clock0) / 1000 % R.DUR);
+  function frame() { R.render(now()); requestAnimationFrame(frame); }
+  function play() {
+    document.body.classList.add('playing');
+    paused = false;
+    if (audio) { audio.loop = true; audio.play(); } else clock0 = performance.now() - pausedAt * 1000;
+  }
+  function pause() {
+    paused = true;
+    if (audio) audio.pause(); else pausedAt = now();
+    document.body.classList.remove('playing');
+  }
+  function seek(t) {
+    t = (t + R.DUR) % R.DUR;
+    if (audio) audio.currentTime = t; else { pausedAt = t; clock0 = performance.now() - t * 1000; }
+  }
+  document.getElementById('start').addEventListener('click', play);
+  addEventListener('keydown', e => {
+    if (e.key === ' ') { e.preventDefault(); paused ? play() : pause(); }
+    if (e.key === 'f' || e.key === 'F') document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+    if (e.key === 'g' || e.key === 'G') R.toggleSafe();
+    if (e.key === 'r' || e.key === 'R') seek(0);
+    if (e.key === 'ArrowRight') seek(now() + 2);
+    if (e.key === 'ArrowLeft') seek(now() - 2);
+  });
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
