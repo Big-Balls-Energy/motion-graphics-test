@@ -1,0 +1,896 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 75,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 6,
+   "tr": null,
+   "vis": "Fondo G02_estantes_vinos.jpg desenfocado; G00_gary_vee.png entra desde abajo con sombra real y «FUTURO» pasa por detrás de él; G01_botella_vino.png gira a su lado. El radar de atención se enciende con su primer barrido."
+  },
+  {
+   "id": "internet",
+   "name": "LA APUESTA POR INTERNET (1997)",
+   "a": 6,
+   "b": 15.16,
+   "tr": "wipe",
+   "vis": "Gary se reduce a una etiqueta circular en la esquina; fondo G03_licoreria_mostrador.jpg; cinta en 1997; G04_computadora_90s.png con una tienda online pixelada en la pantalla; el radar marca su primer punto amarillo (INTERNET) antes que los demás."
+  },
+  {
+   "id": "video",
+   "name": "LA PREDICCIÓN: VIDEO DIARIO (2006)",
+   "a": 15.16,
+   "b": 23.6,
+   "tr": "slide",
+   "vis": "Cinta en 2006; reproductor de video genérico con la foto del show de vinos; G06_camara_video.png al frente con «REC» parpadeando; contador de espectadores hasta ≈90,000 al día. Segundo punto del radar (VIDEO)."
+  },
+  {
+   "id": "resultado",
+   "name": "EL RESULTADO",
+   "a": 23.6,
+   "b": 29.38,
+   "tr": "zoom",
+   "vis": "G07_tv_antigua.png se apaga con estática a la izquierda; G01_botella_vino.png crece a la derecha y una gráfica de barras sube de $3M a $60M."
+  },
+  {
+   "id": "vayner",
+   "name": "VAYNERMEDIA (2009 → HOY)",
+   "a": 29.38,
+   "b": 39,
+   "tr": "wipe",
+   "vis": "Cinta en 2009; [AVATAR_AJ_VAYNERCHUK] junto a la etiqueta de Gary; fondo G08_oficina_agencia.jpg; «VAYNERMEDIA» en tipografía; ≈1,400 empleados; mapa de puntos con pines que termina en un pin grande sobre G09_cdmx_reforma.jpg («CDMX»). Cinta a 2026. Tercer punto del radar (REDES)."
+  },
+  {
+   "id": "clientes",
+   "name": "CON QUIÉN TRABAJA",
+   "a": 39,
+   "b": 47.5,
+   "tr": "slide",
+   "vis": "Fondo G13_reunion_equipo.jpg; tarjetas tipográficas blancas (PepsiCo, Mondelez, Kraft Heinz, AB InBev, Tinder) alrededor del pin de VaynerMedia; al final la tarjeta amarilla «VeeFriends» con un personaje genérico."
+  },
+  {
+   "id": "empatia",
+   "name": "SU INGREDIENTE SECRETO: LA EMPATÍA",
+   "a": 47.5,
+   "b": 58.9,
+   "tr": "wipe",
+   "vis": "El radar se transforma en un oído con ondas verdes; fondo G15_escucha_conversacion.jpg; G00_gary_vee.png grande a un lado y G14_libro_abierto.png al otro; etiquetas GRATITUD, CURIOSIDAD, PACIENCIA, AMABILIDAD; la cita «La empatía es mi oído pegado al suelo.» 3 s."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 58.9,
+   "b": 65.16,
+   "tr": "slide",
+   "vis": "Pantalla dividida: G12_cartel_espectacular.jpg en gris («$$$ CARA») vs G10_personas_celular.jpg a color («BARATA HOY»); G11_celular_mano.png sale al frente; el oído vuelve a ser radar y un barrido grande marca un punto amarillo nuevo con «?»."
+  },
+  {
+   "id": "cta",
+   "name": "CTA CON PALABRA CLAVE",
+   "a": 65.16,
+   "b": 75,
+   "tr": "wipe",
+   "vis": "En la pantalla de G11_celular_mano.png una burbuja escribe «ATENCIÓN» y sale grande al frente 3 s; logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; aviso de no afiliación; regresa a la botella girando y a Gary entrando (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 1.5,
+   "text": "Este hombre vio",
+   "keys": [
+    "hombre"
+   ]
+  },
+  {
+   "a": 1.5,
+   "b": 3.278,
+   "text": "el futuro del marketing…",
+   "keys": [
+    "futuro"
+   ]
+  },
+  {
+   "a": 3.278,
+   "b": 5.5,
+   "text": "desde una tienda de vinos.",
+   "keys": [
+    "vinos"
+   ]
+  },
+  {
+   "a": 6,
+   "b": 8.22,
+   "text": "Empezó en la licorería familiar.",
+   "keys": [
+    "licorería"
+   ]
+  },
+  {
+   "a": 10.22,
+   "b": 12.44,
+   "text": "casi nadie compraba en línea,",
+   "keys": [
+    "nadie"
+   ]
+  },
+  {
+   "a": 12.44,
+   "b": 14.66,
+   "text": "y la llevó a internet.",
+   "keys": [
+    "internet"
+   ]
+  },
+  {
+   "a": 15.16,
+   "b": 17.38,
+   "text": "En 2006, YouTube era nuevo:",
+   "keys": [
+    "2006"
+   ]
+  },
+  {
+   "a": 17.38,
+   "b": 19.6,
+   "text": "un show diario de vinos",
+   "keys": [
+    "diario"
+   ]
+  },
+  {
+   "a": 21.6,
+   "b": 23.1,
+   "text": "espectadores al día.",
+   "keys": [
+    "día"
+   ]
+  },
+  {
+   "a": 23.6,
+   "b": 25.1,
+   "text": "Otros pagaban comerciales;",
+   "keys": [
+    "comerciales"
+   ]
+  },
+  {
+   "a": 25.1,
+   "b": 26.88,
+   "text": "su negocio pasó de",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 29.38,
+   "b": 31.16,
+   "text": "En 2009 fundó VaynerMedia",
+   "keys": [
+    "vaynermedia"
+   ]
+  },
+  {
+   "a": 31.16,
+   "b": 32.94,
+   "text": "con su hermano AJ.",
+   "keys": [
+    "hermano"
+   ]
+  },
+  {
+   "a": 32.94,
+   "b": 34.44,
+   "text": "Hoy: alrededor de",
+   "keys": [
+    "alrededor"
+   ]
+  },
+  {
+   "a": 36.44,
+   "b": 38.5,
+   "text": "y oficina en CDMX.",
+   "keys": [
+    "cdmx"
+   ]
+  },
+  {
+   "a": 39,
+   "b": 40.778,
+   "text": "Ha trabajado con PepsiCo,",
+   "keys": [
+    "pepsico"
+   ]
+  },
+  {
+   "a": 40.778,
+   "b": 43,
+   "text": "Mondelez, Kraft Heinz, AB InBev",
+   "keys": [
+    "mondelez"
+   ]
+  },
+  {
+   "a": 43,
+   "b": 45.222,
+   "text": "y Tinder… y creó VeeFriends,",
+   "keys": [
+    "veefriends"
+   ]
+  },
+  {
+   "a": 45.222,
+   "b": 47,
+   "text": "su marca de personajes.",
+   "keys": [
+    "personajes"
+   ]
+  },
+  {
+   "a": 47.5,
+   "b": 49.72,
+   "text": "¿Su ingrediente secreto? La empatía.",
+   "keys": [
+    "empatía"
+   ]
+  },
+  {
+   "a": 49.72,
+   "b": 51.94,
+   "text": "En «Twelve and a Half»",
+   "keys": [
+    "twelve"
+   ]
+  },
+  {
+   "a": 51.94,
+   "b": 53.44,
+   "text": "la inteligencia emocional",
+   "keys": [
+    "emocional"
+   ]
+  },
+  {
+   "a": 53.44,
+   "b": 55.22,
+   "text": "es ventaja en negocios.",
+   "keys": [
+    "ventaja"
+   ]
+  },
+  {
+   "a": 59.15,
+   "b": 60.65,
+   "text": "Escucha con empatía",
+   "keys": [
+    "empatía"
+   ]
+  },
+  {
+   "a": 60.65,
+   "b": 62.6,
+   "text": "ve hacia la atención",
+   "keys": [
+    "atención"
+   ]
+  },
+  {
+   "a": 62.6,
+   "b": 64.66,
+   "text": "antes que sea cara.",
+   "keys": [
+    "cara"
+   ]
+  },
+  {
+   "a": 65.16,
+   "b": 66.66,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 69.66,
+   "b": 71.88,
+   "text": "Te decimos dónde está barata.",
+   "keys": [
+    "barata"
+   ]
+  },
+  {
+   "a": 71.88,
+   "b": 73.66,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 8.22,
+   "b": 10.22,
+   "text": "1997"
+  },
+  {
+   "a": 19.6,
+   "b": 21.6,
+   "text": "≈90,000"
+  },
+  {
+   "a": 26.88,
+   "b": 28.88,
+   "text": "$3M → $60M"
+  },
+  {
+   "a": 34.44,
+   "b": 36.44,
+   "text": "≈1,400"
+  },
+  {
+   "a": 55.3,
+   "b": 58.75,
+   "text": "«La empatía es mi oído pegado al suelo.» — Gary Vaynerchuk"
+  },
+  {
+   "a": 66.66,
+   "b": 69.66,
+   "text": "ATENCIÓN"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.25,
+   "type": "cork",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 1,
+   "type": "sonar",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 6.4,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 6.9,
+   "type": "thud",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 8.22,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 8.45,
+   "type": "sonar",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 10.3,
+   "type": "modem",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 12,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 12.45,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.35
+  },
+  {
+   "t": 12.9,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.4000000000000001
+  },
+  {
+   "t": 13.35,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.4500000000000002
+  },
+  {
+   "t": 13.8,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.5
+  },
+  {
+   "t": 15.16,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 15.3,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 15.7,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 16.1,
+   "type": "rec",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "sonar",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 19.6,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 19.68,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 19.76,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 19.84,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.2200000000000002
+  },
+  {
+   "t": 19.92,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.26
+  },
+  {
+   "t": 20,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 20.08,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.34
+  },
+  {
+   "t": 20.16,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.3800000000000001
+  },
+  {
+   "t": 19.6,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 23.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 23.9,
+   "type": "static",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 25.2,
+   "type": "rise",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 26.88,
+   "type": "register",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 26.9,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.38,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 29.5,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 29.7,
+   "type": "stamp",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 30,
+   "type": "sonar",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 31.25,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 34.44,
+   "type": "register",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 34.47,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1.25
+  },
+  {
+   "t": 36.55,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 36.7,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1600000000000001
+  },
+  {
+   "t": 36.85,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2200000000000002
+  },
+  {
+   "t": 37,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.28
+  },
+  {
+   "t": 37.15,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.34
+  },
+  {
+   "t": 37.75,
+   "type": "thud",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 38,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 39,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 39.2,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 40,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 40.9,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.06
+  },
+  {
+   "t": 41.7,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 42.5,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.18
+  },
+  {
+   "t": 43.25,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.24
+  },
+  {
+   "t": 44.9,
+   "type": "shine",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 44.95,
+   "type": "pop",
+   "v": 0.8,
+   "pitch": 1.3
+  },
+  {
+   "t": 47.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 47.8,
+   "type": "warm",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 50,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 50.5,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.25
+  },
+  {
+   "t": 51,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.3
+  },
+  {
+   "t": 51.5,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.35
+  },
+  {
+   "t": 55.3,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 58.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 60.4,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 62.2,
+   "type": "sonar",
+   "v": 1,
+   "pitch": 0.8
+  },
+  {
+   "t": 63.1,
+   "type": "ding",
+   "v": 0.7,
+   "pitch": 1.3
+  },
+  {
+   "t": 65.16,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 65.35,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 65.47,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 65.59,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.16
+  },
+  {
+   "t": 65.71,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 65.83,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 65.95,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.16
+  },
+  {
+   "t": 66.07,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 66.19,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 66.66,
+   "type": "stamp",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 66.66,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.2
+  },
+  {
+   "t": 69.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.3
+  },
+  {
+   "t": 70.05,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 70.25,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 70.45,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 72.4,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 72.42,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 74.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  }
+ ],
+ "musicBoost": [
+  [
+   5.5,
+   6.1,
+   1.25
+  ],
+  [
+   14.66,
+   15.2,
+   1.25
+  ],
+  [
+   38.5,
+   39.1,
+   1.2
+  ],
+  [
+   64.66,
+   65.2,
+   1.2
+  ]
+ ],
+ "soft": [
+  47.5,
+  58.8
+ ]
+}

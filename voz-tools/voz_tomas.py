@@ -4,7 +4,7 @@ Uso: python3 voz_tomas.py <proyecto>   (lee <proyecto>/audio/voz-raw/tomas/NN-T.
 """
 import glob, os, subprocess, sys, wave
 import numpy as np
-SR = 48000; N = SR * 60
+SR = 48000
 proj = sys.argv[1]
 # (inicio deseado, fin máximo) de cada bloque, en el orden de las tomas 00..NN
 SLOTS = {'reel-viral': [(0.0, 4.55), (4.6, 7.95), (8.05, 14.95), (15.05, 21.95), (22.05, 26.95),
@@ -16,7 +16,10 @@ SLOTS = {'reel-viral': [(0.0, 4.55), (4.6, 7.95), (8.05, 14.95), (15.05, 21.95),
          'brewdog': [(0.0, 5.9), (6.1, 12.9), (13.15, 16.65), (16.75, 22.75), (22.85, 26.3), (26.35, 32.4), (32.55, 36.25),
                      (36.35, 40.5), (40.6, 44.6), (44.75, 51.3), (51.45, 52.85), (52.9, 57.6), (57.7, 59.4)],
          'dolor-pagar': [(0.25, 5.1), (5.6, 11.0), (11.75, 16.85), (16.95, 21.0), (21.5, 27.25), (27.3, 31.75), (32.7, 41.05),
-                         (41.75, 49.35), (49.9, 51.35), (51.4, 57.6), (57.7, 59.4)]}[proj]
+                         (41.75, 49.35), (49.9, 51.35), (51.4, 57.6), (57.7, 59.4)],
+         'gary-vee': [(0.2, 5.9), (6.0, 8.6), (8.7, 15.1), (15.2, 23.5), (23.65, 29.3), (29.4, 32.9), (32.95, 38.95),
+                      (39.05, 47.4), (47.55, 55.2), (55.35, 58.95), (58.75, 65.1), (65.2, 66.6), (66.65, 71.85), (71.9, 74.4)]}[proj]
+N = SR * int(np.ceil(SLOTS[-1][1] + .6))  # 60 s por defecto; más si el reel es más largo
 def load(path):
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'], capture_output=True, check=True).stdout
     return np.frombuffer(raw, np.float32).copy()
