@@ -1,0 +1,669 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 4.5,
+   "tr": null,
+   "vis": "Celular con un Reel y el contador de vistas atorado en «200» parpadeando en gris. Un dedo hace swipe y el Reel se va. Cronómetro gigante «3 s» en amarillo (cifra sola 2 s). Chip: HOOK."
+  },
+  {
+   "id": "promise",
+   "name": "PROMESA",
+   "a": 4.5,
+   "b": 8,
+   "tr": "wipe",
+   "vis": "El chip se ilumina y los puntos de la línea de tiempo se encienden; aparecen las 5 secciones; el ícono de «guardar» se rellena con rebote. Chip: PROMESA."
+  },
+  {
+   "id": "v1",
+   "name": "VALOR 1 · HOOK",
+   "a": 8,
+   "b": 15,
+   "tr": "slide",
+   "vis": "«1» enorme; dos celulares: persona estática sin texto (gris, ✕) vs. texto grande y movimiento (verde, ✓). Flecha que señala al primer punto de la línea de tiempo (HOOK). Chip: VALOR."
+  },
+  {
+   "id": "v2",
+   "name": "VALOR 2 · RETENCIÓN",
+   "a": 15,
+   "b": 22,
+   "tr": "zoom",
+   "vis": "«2»; curva de retención que cae en gris vs. curva que se mantiene alta en verde, con destellos en cada cambio."
+  },
+  {
+   "id": "v3",
+   "name": "VALOR 3 · SUBTÍTULOS",
+   "a": 22,
+   "b": 27,
+   "tr": "spin",
+   "vis": "«3»; bocina tachada; los subtítulos del propio video se agrandan y brillan, con una flecha que los señala."
+  },
+  {
+   "id": "v4",
+   "name": "VALOR 4 · QUE LO COMPARTAN",
+   "a": 27,
+   "b": 34,
+   "tr": "up",
+   "vis": "«4»; balanza: like (corazón) vs. envío (avión de papel); el envío pesa más → «3–5x» en amarillo (sola 2 s, *estimación de la industria)."
+  },
+  {
+   "id": "v5",
+   "name": "VALOR 5 · LOOP",
+   "a": 34,
+   "b": 40,
+   "tr": "zoom",
+   "vis": "«5»; flecha circular que une el último cuadro con el primero; contador de reproducciones 1 → 2 → 3. Chip: LOOP."
+  },
+  {
+   "id": "gift",
+   "name": "REGALO",
+   "a": 40,
+   "b": 52,
+   "tr": "wipe",
+   "vis": "Caja de regalo que se abre y sale un mini-celular reproduciendo esta misma animación → «20» (sola 2 s) → tarjeta de requisitos punto por punto con contador 20 → 19 → 18. Chip: CTA."
+  },
+  {
+   "id": "cta",
+   "name": "CTA FINAL",
+   "a": 52,
+   "b": 60,
+   "tr": "slide",
+   "vis": "Logo + «ATLAS PATH» + @Atlas_Path + botón SEGUIR con clic → regresa el celular del inicio con las vistas disparándose de «200» a «200K» (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 2,
+   "text": "¿Atorado en 200 vistas?",
+   "keys": [
+    "200"
+   ]
+  },
+  {
+   "a": 4.5,
+   "b": 6,
+   "text": "La fórmula viral:",
+   "keys": [
+    "fórmula"
+   ]
+  },
+  {
+   "a": 6,
+   "b": 7.5,
+   "text": "guarda este video.",
+   "keys": [
+    "guarda"
+   ]
+  },
+  {
+   "a": 8,
+   "b": 9.5,
+   "text": "Uno: el hook.",
+   "keys": [
+    "hook"
+   ]
+  },
+  {
+   "a": 9.5,
+   "b": 11,
+   "text": "Movimiento y texto",
+   "keys": [
+    "movimiento"
+   ]
+  },
+  {
+   "a": 11,
+   "b": 13,
+   "text": "desde el primer cuadro:",
+   "keys": [
+    "primer"
+   ]
+  },
+  {
+   "a": 13,
+   "b": 14.5,
+   "text": "ahí deciden quedarse.",
+   "keys": [
+    "deciden"
+   ]
+  },
+  {
+   "a": 15,
+   "b": 16.5,
+   "text": "Dos: la retención.",
+   "keys": [
+    "retención"
+   ]
+  },
+  {
+   "a": 16.5,
+   "b": 18,
+   "text": "Cada 3–5 segundos,",
+   "keys": [
+    "3–5"
+   ]
+  },
+  {
+   "a": 18,
+   "b": 19.75,
+   "text": "algo nuevo: una cifra,",
+   "keys": [
+    "nuevo"
+   ]
+  },
+  {
+   "a": 19.75,
+   "b": 21.5,
+   "text": "un cambio, una pregunta.",
+   "keys": [
+    "pregunta"
+   ]
+  },
+  {
+   "a": 22,
+   "b": 23.5,
+   "text": "Tres: los subtítulos.",
+   "keys": [
+    "subtítulos"
+   ]
+  },
+  {
+   "a": 23.5,
+   "b": 26.5,
+   "text": "La mayoría ve sin sonido.",
+   "keys": [
+    "sonido"
+   ]
+  },
+  {
+   "a": 27,
+   "b": 28.9,
+   "text": "Cuatro: que lo compartan.",
+   "keys": [
+    "compartan"
+   ]
+  },
+  {
+   "a": 28.9,
+   "b": 31.5,
+   "text": "Un envío por DM pesa…",
+   "keys": [
+    "envío"
+   ]
+  },
+  {
+   "a": 34,
+   "b": 35.5,
+   "text": "Cinco: el loop.",
+   "keys": [
+    "loop"
+   ]
+  },
+  {
+   "a": 35.5,
+   "b": 37.25,
+   "text": "un final que conecte",
+   "keys": [
+    "final"
+   ]
+  },
+  {
+   "a": 37.25,
+   "b": 39.5,
+   "text": "con el inicio.",
+   "keys": [
+    "inicio"
+   ]
+  },
+  {
+   "a": 40,
+   "b": 41.75,
+   "text": "Y ahora, el regalo:",
+   "keys": [
+    "regalo"
+   ]
+  },
+  {
+   "a": 41.75,
+   "b": 43.5,
+   "text": "los primeros 20 negocios",
+   "keys": [
+    "20"
+   ]
+  },
+  {
+   "a": 45.5,
+   "b": 48,
+   "text": "que nos sigan y comenten",
+   "keys": [
+    "sigan"
+   ]
+  },
+  {
+   "a": 48,
+   "b": 49.5,
+   "text": "«ANIMACIÓN» se llevan",
+   "keys": [
+    "animación"
+   ]
+  },
+  {
+   "a": 49.5,
+   "b": 51.5,
+   "text": "un video como este.",
+   "keys": [
+    "video"
+   ]
+  },
+  {
+   "a": 52,
+   "b": 53.75,
+   "text": "Síguenos en Atlas Path",
+   "keys": [
+    "síguenos"
+   ]
+  },
+  {
+   "a": 53.75,
+   "b": 55.25,
+   "text": "para más estrategias",
+   "keys": [
+    "estrategias"
+   ]
+  },
+  {
+   "a": 55.25,
+   "b": 57.5,
+   "text": "que hacen crecer tu negocio.",
+   "keys": [
+    "crecer"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 2,
+   "b": 4,
+   "text": "3 s"
+  },
+  {
+   "a": 31.5,
+   "b": 33.5,
+   "text": "3–5x"
+  },
+  {
+   "a": 43.5,
+   "b": 45.5,
+   "text": "20"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 1.2,
+   "type": "whoosh",
+   "v": 0.9,
+   "pitch": 1.7
+  },
+  {
+   "t": 2,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 2.5,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 3,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 3.5,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 2,
+   "type": "ding",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 4.5,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 4.6,
+   "type": "shine",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 4.7,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 4.9,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.08
+  },
+  {
+   "t": 5.1,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.16
+  },
+  {
+   "t": 5.3,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.24
+  },
+  {
+   "t": 5.5,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.32
+  },
+  {
+   "t": 6,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 6.25,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 8,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 8.05,
+   "type": "pop",
+   "v": 1,
+   "pitch": 0.8
+  },
+  {
+   "t": 8.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 9.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 10.2,
+   "type": "strike",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 10.6,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 11.6,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.5
+  },
+  {
+   "t": 15,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 15.05,
+   "type": "pop",
+   "v": 1,
+   "pitch": 0.85
+  },
+  {
+   "t": 19,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.3
+  },
+  {
+   "t": 19.6,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.35
+  },
+  {
+   "t": 20.2,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.4000000000000001
+  },
+  {
+   "t": 20.8,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.4500000000000002
+  },
+  {
+   "t": 22,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 22.05,
+   "type": "pop",
+   "v": 1,
+   "pitch": 0.9
+  },
+  {
+   "t": 22.6,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 23.5,
+   "type": "shine",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 27,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 27.05,
+   "type": "pop",
+   "v": 1,
+   "pitch": 0.95
+  },
+  {
+   "t": 29.2,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 31.5,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 34,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 34.05,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 35.5,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 37.3,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 38.1,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 38.9,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 1.24
+  },
+  {
+   "t": 40,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 40.25,
+   "type": "gift",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 43.5,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.7,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 46.2,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 46.7,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 47.2,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 49,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 50.2,
+   "type": "tictac",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 52,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.15,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52.35,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52.6,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 55,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 55.02,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 57.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.4,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.5
+  },
+  {
+   "t": 59.3,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.3
+  }
+ ]
+}
