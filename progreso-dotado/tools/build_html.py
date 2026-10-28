@@ -21,6 +21,8 @@ def main():
     html = (ROOT / 'src' / 'template.html').read_text()
     html = (html.replace('{{FONT}}', b64(ROOT / 'assets' / 'Montserrat-latin.woff2'))
                 .replace('{{AUDIO_TAG}}', audio_tag)
+                .replace('{{BRAND}}', json.dumps({k: 'data:image/png;base64,' + b64(ROOT / 'assets' / f'atlas-path-{k}.png')
+                                                  for k in ('logo', 'icon', 'word')}))
                 .replace('{{TIMELINE}}', json.dumps(timeline, ensure_ascii=False, separators=(',', ':')))
                 .replace('{{REEL_JS}}', (ROOT / 'src' / 'reel.js').read_text()))
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)

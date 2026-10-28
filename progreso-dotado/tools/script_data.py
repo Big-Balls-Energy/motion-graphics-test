@@ -4,6 +4,7 @@ Markup inside each unit's text:
   *word        keyword (highlighted orange in the captions)
   #word        figure token: shown big and alone with a count-up
   word=a_b_c   display "word", spoken "a b c" (numbers, acronyms)
+  word=/ipa    display "word", pronounced with these phonemes (brand names)
   |            preferred caption block break (blocks are optimized automatically)
   + (leading)  unit continues the previous unit's caption block
 A caption block holding a #figure renders the figure huge, with the words
@@ -41,5 +42,5 @@ UNITS = [
     ('aplicacion', "No regales *descuentos.", 0.42),
     ('aplicacion', "Regala *progreso.", 0.45),
     # ---------------------------------------------------------------- CTA
-    ('cta', "*Sígueme para más trucos | de *psicología que usan | las marcas *contigo.", 0.0),
+    ('cta', "Sigue a *Atlas *Path=/pˈaθ | para más trucos | de *psicología que usan | las marcas *contigo.", 0.0),
 ]

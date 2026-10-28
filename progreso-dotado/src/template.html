@@ -32,6 +32,7 @@ body.render #start, body.playing #start { display: none; }
 <div id="start"><b>▶ Reproducir</b><span>F pantalla completa · Espacio pausa · R reiniciar<br>G zonas seguras de Instagram · ← → saltar 2 s</span></div>
 {{AUDIO_TAG}}
 <script>window.TIMELINE = {{TIMELINE}};</script>
+<script>window.BRAND = {{BRAND}};</script>
 <script>{{REEL_JS}}</script>
 <script>
 (async () => {
@@ -39,6 +40,7 @@ body.render #start, body.playing #start { display: none; }
   document.body.classList.toggle('render', render);
   await Promise.all(['500', '600', '700', '800', '900'].map(w => document.fonts.load(`${w} 64px Montserrat`)));
   const R = window.REEL;
+  await R.ready;
   R.render(0);
   window.READY = true;
   if (render) return;

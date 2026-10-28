@@ -15,6 +15,18 @@ const CX = 540;
 const BPM = 112, BEAT = 60 / BPM;
 
 const canvas = document.getElementById('reel');
+// brand artwork (Atlas Path), injected as data URIs by tools/build_html.py
+const IMG = {};
+const assetsReady = Promise.all(Object.entries(window.BRAND || {}).map(([k, src]) => {
+  const im = new Image(); im.src = src; IMG[k] = im; return im.decode();
+}));
+function image(name, cx, cy, h) {
+  const im = IMG[name];
+  if (!im || !im.naturalWidth) return;
+  const w = (h * im.naturalWidth) / im.naturalHeight;
+  ctx.imageSmoothingQuality = 'high';
+  ctx.drawImage(im, cx - w / 2, cy - h / 2, w, h);
+}
 let ctx = canvas.getContext('2d');   // `let`: withCtx() points helpers at offscreen canvases
 function withCtx(c, fn) { const prev = ctx; ctx = c; try { fn(); } finally { ctx = prev; } }
 const TL = window.TIMELINE;
@@ -549,7 +561,7 @@ function buildTiming() {
   T.app = { start: S('aplicacion'), negocio: tok('aplicacion', 'negocio').start, no: tok('aplicacion', 'no').start,
             desc: tok('aplicacion', 'descuentos'), regala: tok('aplicacion', 'regala').start,
             progreso: tok('aplicacion', 'progreso').start };
-  T.cta = { start: S('cta'), sigueme: tok('cta', 'sígueme').start, psico: tok('cta', 'psicología').start,
+  T.cta = { start: S('cta'), sigue: tok('cta', 'sigue').start, psico: tok('cta', 'psicología').start,
             marcas: tok('cta', 'marcas').start, contigo: tok('cta', 'contigo') };
   T.cta.click = Math.max(T.cta.contigo.end + 0.05, T.cta.marcas + 0.6);
   T.cta.loop = Math.max(T.cta.click + 0.75, DUR - 0.9);
@@ -571,7 +583,7 @@ function drawHook(t) {
   loyaltyCard(t, { x: CX, y: 700, w: 790, h: 500, rot, scale: sc, cols: 5, slots: 10,
                    stamps: [{ i: 0, t: h.dos }, { i: 1, t: h.sellos }] });
   // "¡PUM!" next to each stamp
-  pumText(235, 390, t - h.dos, -12 * DEG);
+  pumText(305, 405, t - h.dos, -12 * DEG);
   pumText(470, 362, t - h.sellos, 9 * DEG);
   // "COMPRAS: 0" tag
   const kt = P(t, h.compres - 0.1, 0.35, E.back);
@@ -682,7 +694,7 @@ function drawExp(t) {
   for (const c of cards) {
     const kIn = P(t, c.t0, 0.45, E.back);
     if (kIn <= 0) continue;
-    const y = lerp(1500, 725, P(t, c.t0, 0.45, E.out5)), rot = lerp(c.rot * 5, c.rot, kIn) * DEG;
+    const y = lerp(1500, 755, P(t, c.t0, 0.45, E.out5)), rot = lerp(c.rot * 5, c.rot, kIn) * DEG;
     const sc = (1 + 0.06 * c.focus - 0.06 * c.other) * lerp(1, 0.97, both);
     loyaltyCard(t, { x: c.x, y, w: 370, h: 600, rot, scale: sc, dim: c.other, slots: c.slots, cols: 2, r: 35,
                      gapX: 120, gapY: c.gapY, gridY: c.gridY, header: 'portrait', title: 'AUTOLAVADO',
@@ -693,7 +705,7 @@ function drawExp(t) {
   pill('EL EXPERIMENTO', CX, 345, { size: 32, scale: P(t, e.start, 0.35, E.back) });
   // "¡2 de regalo!" sticker on card B
   const kS = P(t, e.sellados + 0.35, 0.3, E.back);
-  if (kS > 0) pill('¡2 DE REGALO!', 820, 420, { size: 30, fill: C.green, color: '#fff', scale: kS * (1 - 0.15 * both), rot: 8 * DEG });
+  if (kS > 0) pill('¡2 DE REGALO!', 820, 450, { size: 30, fill: C.green, color: '#fff', scale: kS * (1 - 0.15 * both), rot: 8 * DEG });
   // bracket + "= 8 compras"
   const kb = P(t, e.las + 0.2, 0.5, E.out3);
   if (kb > 0) {
@@ -701,15 +713,15 @@ function drawExp(t) {
     ctx.lineWidth = 7; ctx.strokeStyle = C.ink; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
     const half = 370 * kb;
     ctx.beginPath();
-    ctx.moveTo(CX - half, 1040); ctx.lineTo(CX - half, 1062); ctx.lineTo(CX + half, 1062); ctx.lineTo(CX + half, 1040);
-    ctx.moveTo(CX, 1062); ctx.lineTo(CX, 1062 + 20 * kb);
+    ctx.moveTo(CX - half, 1070); ctx.lineTo(CX - half, 1092); ctx.lineTo(CX + half, 1092); ctx.lineTo(CX + half, 1070);
+    ctx.moveTo(CX, 1092); ctx.lineTo(CX, 1092 + 20 * kb);
     ctx.stroke();
     ctx.restore();
   }
   const kc = P(t, e.compras - 0.1, 0.35, E.back);
   if (kc > 0) {
     ctx.save();
-    ctx.translate(CX, 1125); ctx.scale(kc, kc);
+    ctx.translate(CX, 1152); ctx.scale(kc, kc);
     const parts = [['=', 46, C.paper, 0], ['8', 62, C.orange, 0], ['COMPRAS', 44, C.paper, 2]];
     const ws = parts.map(([s, z, , ls]) => measure(s, z, 900, ls));
     const gap = 22, total = ws.reduce((a, b) => a + b, 0) + gap * 2;
@@ -1053,24 +1065,33 @@ function drawCta(t) {
   ctx.save();
   ctx.translate(CX, 760); ctx.scale(1 - fade * 0.4, 1 - fade * 0.4); ctx.translate(-CX, -760);
   ctx.globalAlpha *= 1 - fade;
-  sunburst(CX, 520, t, 0.06 * P(t, c.start, 0.4));
+  sunburst(CX, 500, t, 0.06 * P(t, c.start, 0.4));
+  // Atlas Path badge: paper disc with the globe-and-hands icon
   const kA = P(t, c.start, 0.4, E.back);
-  ctx.save(); ctx.translate(CX, 520); ctx.scale(kA, kA);
+  ctx.save(); ctx.translate(CX, 500); ctx.scale(kA, kA);
   ctx.setLineDash([16, 14]); ctx.lineDashOffset = -t * 40; ctx.lineWidth = 6; ctx.strokeStyle = C.orange;
-  ctx.beginPath(); ctx.arc(0, 0, 150, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
-  avatar(0, 0, 122);
+  ctx.beginPath(); ctx.arc(0, 0, 156, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = C.ink; ctx.beginPath(); ctx.arc(9, 9, 128, 0, TAU); ctx.fill();
+  ctx.fillStyle = C.paper; ctx.beginPath(); ctx.arc(0, 0, 128, 0, TAU); ctx.fill();
+  ctx.lineWidth = 7; ctx.strokeStyle = C.ink; ctx.stroke();
+  image('icon', 0, -2, 196);
   ctx.restore();
-  const kH = P(t, c.start + 0.12, 0.4, E.back);
-  ctx.save(); ctx.translate(CX, 745); ctx.scale(kH, kH);
-  txt('@TUCUENTA', 0, 0, { size: 100, weight: 900, maxW: 820, shadow: 8, shadowColor: C.orange });
+  // wordmark + Instagram handle
+  const kW = P(t, c.start + 0.1, 0.4, E.back);
+  ctx.save(); ctx.translate(CX, 705); ctx.scale(kW, kW);
+  image('word', 0, 0, 92);
   ctx.restore();
-  txt('Psicología de marcas', CX, 830, { size: 36, weight: 500, color: 'rgba(26,26,26,0.7)', alpha: P(t, c.psico - 0.1, 0.3) });
+  const kH = P(t, c.start + 0.22, 0.4, E.back);
+  ctx.save(); ctx.translate(CX, 802); ctx.scale(kH, kH);
+  txt('@atlas_path', 0, 0, { size: 64, weight: 800, color: C.orange, shadow: 6 });
+  ctx.restore();
+  txt('Psicología de marcas', CX, 864, { size: 32, weight: 500, color: 'rgba(26,26,26,0.7)', alpha: P(t, c.psico - 0.1, 0.3) });
   // three mini tiles recapping the video ("más trucos")
   for (let i = 0; i < 3; i++) {
     const k = P(t, c.psico - 0.1 + i * 0.12, 0.35, E.back) * (1 - P(t, c.click - 0.6, 0.3));
     if (k <= 0) continue;
     ctx.save();
-    ctx.translate(CX + (i - 1) * 190, 1135); ctx.rotate((i - 1) * 4 * DEG); ctx.scale(k, k);
+    ctx.translate(CX + (i - 1) * 190, 1125); ctx.rotate((i - 1) * 4 * DEG); ctx.scale(k, k);
     panel(-68, -60, 136, 120, 22, { lw: 5, shadow: 8 });
     if (i === 0) {
       for (let j = 0; j < 4; j++) {
@@ -1095,7 +1116,7 @@ function drawCta(t) {
   const press = t >= c.click && t < c.click + 0.16 ? 0.92 : 1;
   const beatPulse = followed ? 1 : 1 + 0.035 * Math.max(0, Math.cos(((t % BEAT) / BEAT) * Math.PI));
   ctx.save();
-  ctx.translate(CX, 975); ctx.scale(kB * press * beatPulse, kB * press * beatPulse);
+  ctx.translate(CX, 968); ctx.scale(kB * press * beatPulse, kB * press * beatPulse);
   panel(-230, -66, 460, 132, 66, { fill: followed ? C.green : C.orange, shadow: 12 });
   if (followed) {
     txt('SIGUIENDO', -28, 0, { size: 48, weight: 900, color: '#fff', ls: 3 });
@@ -1103,12 +1124,12 @@ function drawCta(t) {
     ctx.beginPath(); ctx.moveTo(150, 0); ctx.lineTo(166, 16); ctx.lineTo(196, -18); ctx.stroke();
   } else txt('SEGUIR', 0, 0, { size: 60, weight: 900, color: '#fff', ls: 3 });
   ctx.restore();
-  burst(CX, 975, 120, t - c.click, C.green, 12, 11);
-  confetti(CX, 975, t - c.click - 0.05);
+  burst(CX, 968, 120, t - c.click, C.green, 12, 11);
+  confetti(CX, 968, t - c.click - 0.05);
   // cursor glides in and clicks
   const kc = P(t, c.click - 0.85, 0.75, E.inOut3);
   if (t > c.click - 0.85) {
-    const cx = lerp(860, 600, kc), cy = lerp(1320, 990, kc);
+    const cx = lerp(860, 600, kc), cy = lerp(1320, 984, kc);
     const cs = t >= c.click && t < c.click + 0.14 ? 0.85 : 1;
     if (t >= c.click) {
       const rk = clamp((t - c.click) / 0.4);
@@ -1122,7 +1143,7 @@ function drawCta(t) {
   if (t >= c.loop) {
     const k = clamp((t - c.loop) / (DUR - c.loop));
     const e = E.in3(k);
-    loyaltyCard(t, { x: CX, y: lerp(975, 700, E.out3(k)), w: 790, h: 500, rot: lerp(0, -10, e) * DEG,
+    loyaltyCard(t, { x: CX, y: lerp(968, 700, E.out3(k)), w: 790, h: 500, rot: lerp(0, -10, e) * DEG,
                      scale: lerp(0.12, 1.35, e), alpha: clamp(k * 5), cols: 5, slots: 10 });
   }
 }
@@ -1277,6 +1298,18 @@ function drawBackground(t) {
     for (let x = 27; x < W; x += sp) { ctx.beginPath(); ctx.arc(x, y, 2.4, 0, TAU); ctx.fill(); }
 }
 
+// Atlas Path logo in the top-left corner of the safe area; it steps aside while
+// the CTA shows the big badge and returns with the loop card (so frame 0 matches).
+function drawBrand(t) {
+  const a = clamp(1 - P(t, T.cta.start - 0.1, 0.3) + P(t, T.cta.loop, 0.5));
+  if (a <= 0) return;
+  ctx.save();
+  ctx.globalAlpha = a;
+  ctx.shadowColor = 'rgba(255,251,244,0.95)'; ctx.shadowBlur = 14;   // halo keeps it legible over wipes
+  image('logo', 40 + 70, 282 + 68, 136);
+  ctx.restore();
+}
+
 function drawTopProgress(t) {
   const x0 = SAFE.left, x1 = SAFE.right, y = 268, hh = 10;
   const k = clamp(t / DUR), done = t > DUR - 0.45;
@@ -1419,6 +1452,7 @@ function render(t) {
   ctx.restore();
   drawWipes(t);
   drawCaptions(t);
+  drawBrand(t);
   drawTopProgress(t);
   if (showSafe) drawSafeOverlay();
 }
@@ -1428,7 +1462,7 @@ registerScenes();
 registerCues();
 
 window.REEL = {
-  W, H, DUR, CUES, render,
+  W, H, DUR, CUES, render, ready: assetsReady,
   toggleSafe() { showSafe = !showSafe; },
 };
 })();

@@ -43,12 +43,26 @@ def word_times(k, sess, text, voice, speed, cache_dir):
     if cached.exists():
         z = np.load(cached)
         return z['wav'], [tuple(x) for x in z['spans']]
+    # words written as /ipa are phonemized as a placeholder, then swapped for their IPA
+    words = text.split()
+    overrides = {}
+    for i, w in enumerate(words):
+        if w.startswith('/'):
+            m = re.match(r'^/(.*?)([,.!?;:…]*)$', w)
+            overrides[i] = m.group(1)
+            words[i] = 'pa' + m.group(2)
+    text = ' '.join(words)
     ps = k.phonemize(text)
     nwords = len(text.replace('¿', '').replace('¡', '').split())
     if len(ps.split()) != nwords:
         # fall back to per-word phonemes so word boundaries stay exact
         ps = ' '.join(k.phonemize(w) for w in text.split())
     assert len(ps.split()) == nwords, (text, ps)
+    if overrides:
+        pw = ps.split()
+        for i, ipa in overrides.items():
+            pw[i] = ipa + re.sub(r'^[^,.!?;:…]*', '', pw[i])
+        ps = ' '.join(pw)
     chars = [c for c in ps if c in k.vocab]
     ids = [k.vocab[c] for c in chars]
     style = k.voice(voice)[len(ids)]

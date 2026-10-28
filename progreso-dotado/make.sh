@@ -1,13 +1,19 @@
 #!/usr/bin/env bash
 # Full pipeline: voice → timeline → frames → music/SFX mix → MP4 + standalone HTML.
-#   KOKORO_DIR=/path/to/kokoro ./make.sh [voice] [speed]
+#   KOKORO_DIR=/path/to/kokoro ./make.sh [voice] [speed]          (built-in Kokoro TTS)
+#   VOICE_FILE=narracion.mp3 WHISPER_DIR=/path/to/whisper ./make.sh   (external take, e.g. ElevenLabs)
 set -euo pipefail
 cd "$(dirname "$0")"
 VOICE=${1:-ef_dora}
-SPEED=${2:-0.96}
-KOKORO_DIR=${KOKORO_DIR:?set KOKORO_DIR to the folder with model_q8_dur.onnx, tokenizer.json and voice .bin files}
+SPEED=${2:-1.0}
 
-python3 tools/build_voice.py "$KOKORO_DIR" build --voice "$VOICE" --speed "$SPEED"
+mkdir -p build
+if [[ -n "${VOICE_FILE:-}" ]]; then
+  python3 tools/align_voice.py "${WHISPER_DIR:?set WHISPER_DIR to a faster-whisper model folder}" "$VOICE_FILE" build
+else
+  python3 tools/build_voice.py "${KOKORO_DIR:?set KOKORO_DIR to the folder with model_q8_dur.onnx, tokenizer.json and voice .bin files}" \
+    build --voice "$VOICE" --speed "$SPEED"
+fi
 python3 tools/build_html.py build/render.html
 node tools/render.js build/render.html build --workers 3
 python3 tools/build_audio.py build
