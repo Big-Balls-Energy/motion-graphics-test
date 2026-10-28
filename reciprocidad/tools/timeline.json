@@ -1,0 +1,725 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 3,
+   "tr": null,
+   "vis": "Una mano deja una charola con la cuenta y un dulce sobre la mesa; zoom al dulce con brillo."
+  },
+  {
+   "id": "giro",
+   "name": "GIRO",
+   "a": 3,
+   "b": 8,
+   "tr": "wipe",
+   "vis": "«AMABILIDAD» se tacha → entra «RECIPROCIDAD» con brillo, rodeado por dos flechas en círculo (DAR ↔ DEVOLVER)."
+  },
+  {
+   "id": "exp",
+   "name": "EL EXPERIMENTO",
+   "a": 8,
+   "b": 20,
+   "tr": "slide",
+   "vis": "Mesas A, B y C. En A cae un dulce → «+3%» (cifra sola 2 s). En B caen dos → «+14%» (cifra sola 2 s). La mesa C espera con «¿?»."
+  },
+  {
+   "id": "res",
+   "name": "EL RESULTADO",
+   "a": 20,
+   "b": 30,
+   "tr": "zoom",
+   "vis": "Mesa C: el mesero deja un dulce, se va, se detiene, regresa y deja otro con un corazón. Barra verde crece → «MÁS DE +20%» (sola 2 s)."
+  },
+  {
+   "id": "why",
+   "name": "POR QUÉ FUNCIONA",
+   "a": 30,
+   "b": 42,
+   "tr": "spin",
+   "vis": "Una personita recibe un regalo; sobre su cabeza una balanza se desequilibra y se equilibra cuando deja dinero en la mesa. Check verde."
+  },
+  {
+   "id": "where",
+   "name": "DÓNDE LO VES",
+   "a": 42,
+   "b": 52,
+   "tr": "up",
+   "vis": "Carrusel: charolita de degustación → pantalla «Descarga gratis» con campo de correo → taza de café con etiqueta «Cortesía»."
+  },
+  {
+   "id": "app",
+   "name": "APLICACIÓN",
+   "a": 52,
+   "b": 57,
+   "tr": "zoom",
+   "vis": "«VENDER PRIMERO» se tacha → una caja de regalo se abre y sale una tarjeta «Para ti»."
+  },
+  {
+   "id": "cta",
+   "name": "CTA",
+   "a": 57,
+   "b": 60,
+   "tr": "wipe",
+   "vis": "Una caja de regalo se abre y sale el botón SEGUIR + cursor con clic + @Atlas_Path y tu logo → regresa a la charola con el dulce (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 2.5,
+   "text": "¿Por qué ese dulce gratis?",
+   "keys": [
+    "dulce"
+   ]
+  },
+  {
+   "a": 3,
+   "b": 4.75,
+   "text": "No es amabilidad.",
+   "keys": [
+    "amabilidad"
+   ]
+  },
+  {
+   "a": 4.75,
+   "b": 7.5,
+   "text": "Es estrategia: se llama reciprocidad.",
+   "keys": [
+    "reciprocidad"
+   ]
+  },
+  {
+   "a": 8,
+   "b": 9.75,
+   "text": "Un estudio en restaurantes",
+   "keys": [
+    "restaurantes"
+   ]
+  },
+  {
+   "a": 9.75,
+   "b": 11.95,
+   "text": "probó dulces con la cuenta.",
+   "keys": [
+    "dulces"
+   ]
+  },
+  {
+   "a": 11.95,
+   "b": 13.7,
+   "text": "Con un dulce, propinas…",
+   "keys": [
+    "un"
+   ]
+  },
+  {
+   "a": 15.7,
+   "b": 17.2,
+   "text": "Con dos dulces…",
+   "keys": [
+    "dos"
+   ]
+  },
+  {
+   "a": 20,
+   "b": 21.9,
+   "text": "Pero el truco ganador:",
+   "keys": [
+    "ganador"
+   ]
+  },
+  {
+   "a": 21.9,
+   "b": 23.7,
+   "text": "dejar un dulce, irse…",
+   "keys": [
+    "irse"
+   ]
+  },
+  {
+   "a": 23.7,
+   "b": 25.5,
+   "text": "y regresar con otro",
+   "keys": [
+    "regresar"
+   ]
+  },
+  {
+   "a": 25.5,
+   "b": 27.2,
+   "text": "«solo para ustedes».",
+   "keys": [
+    "ustedes"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 33.194,
+   "text": "Cuando alguien te da algo,",
+   "keys": [
+    "da"
+   ]
+  },
+  {
+   "a": 33.194,
+   "b": 35.111,
+   "text": "sientes una deuda.",
+   "keys": [
+    "deuda"
+   ]
+  },
+  {
+   "a": 35.111,
+   "b": 38.306,
+   "text": "Y tu cerebro quiere pagarla,",
+   "keys": [
+    "pagarla"
+   ]
+  },
+  {
+   "a": 38.306,
+   "b": 41.5,
+   "text": "aunque nadie te la cobre.",
+   "keys": [
+    "cobre"
+   ]
+  },
+  {
+   "a": 42,
+   "b": 44.111,
+   "text": "En las muestras gratis,",
+   "keys": [
+    "muestras"
+   ]
+  },
+  {
+   "a": 44.111,
+   "b": 46.222,
+   "text": "en el ebook «gratis»",
+   "keys": [
+    "ebook"
+   ]
+  },
+  {
+   "a": 46.222,
+   "b": 48.861,
+   "text": "a cambio de tu correo",
+   "keys": [
+    "correo"
+   ]
+  },
+  {
+   "a": 48.861,
+   "b": 51.5,
+   "text": "y en el café «cortesía».",
+   "keys": [
+    "cortesía"
+   ]
+  },
+  {
+   "a": 52,
+   "b": 54,
+   "text": "Da primero, vende después.",
+   "keys": [
+    "primero"
+   ]
+  },
+  {
+   "a": 54,
+   "b": 56.5,
+   "text": "Hazlo sentir personal.",
+   "keys": [
+    "personal"
+   ]
+  },
+  {
+   "a": 57,
+   "b": 59.5,
+   "text": "Síguenos para más trucos gratis",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 13.7,
+   "b": 15.7,
+   "text": "+3%"
+  },
+  {
+   "a": 17.2,
+   "b": 19.4,
+   "text": "+14%"
+  },
+  {
+   "a": 27.2,
+   "b": 29.5,
+   "text": "+20%"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.45,
+   "type": "clink",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.7,
+   "type": "shine",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 3.2,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 3.9,
+   "type": "strike",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 4.8,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 5.2,
+   "type": "shine",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 5.4,
+   "type": "whoosh",
+   "v": 0.35,
+   "pitch": 1.3
+  },
+  {
+   "t": 8,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 8.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 8.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 8.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 12.7,
+   "type": "clink",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 16.3,
+   "type": "clink",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 16.7,
+   "type": "clink",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 13.7,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 17.2,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.12
+  },
+  {
+   "t": 19.4,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 20,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 22.3,
+   "type": "clink",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 22.7,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 23.85,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 22.94,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 24.07,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 23.18,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 24.29,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 23.42,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 24.51,
+   "type": "step",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 25.1,
+   "type": "clink",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 25.1,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 25.664,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.05
+  },
+  {
+   "t": 25.734,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 25.813,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 25.903,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 26.01,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.25
+  },
+  {
+   "t": 26.144,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 26.335,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.35
+  },
+  {
+   "t": 27.07,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 27.2,
+   "type": "ding",
+   "v": 1,
+   "pitch": 1.25
+  },
+  {
+   "t": 30,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 30.5,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 31.2,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 32,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33.294,
+   "type": "step",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 36.4,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.4
+  },
+  {
+   "t": 37,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.3,
+   "type": "clink",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.9,
+   "type": "ding",
+   "v": 0.9,
+   "pitch": 1.3
+  },
+  {
+   "t": 42,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 42.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 44.111,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 46.522,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 46.682,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 46.842,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 47.002,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 47.162,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 47.322,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 47.482,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 47.642,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 48.861,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 49.261,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 52,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.15,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.9,
+   "type": "strike",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 53.7,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 54.1,
+   "type": "pop",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 54.5,
+   "type": "gift",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 54.9,
+   "type": "shine",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 57,
+   "type": "whoosh",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 57.1,
+   "type": "gift",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 57.3,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 57.5,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.3,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.32,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.35,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  }
+ ]
+}
