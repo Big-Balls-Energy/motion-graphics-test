@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Efecto Señuelo · Reel</title>
+<style>
+  :root { --bg: #111; --cream: #F5EFE6; --ink: #1A1A1A; --or: #FF5A1F; }
+  html, body { margin: 0; height: 100%; background: var(--bg); overflow: hidden; font-family: system-ui, sans-serif; }
+  #stage { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+  canvas { height: 100vh; width: auto; max-width: 100vw; aspect-ratio: 9 / 16; display: block; background: var(--cream); }
+  #ui { position: fixed; inset: 0; display: flex; flex-direction: column; gap: 14px; align-items: center; justify-content: center; background: rgba(0,0,0,.55); color: #fff; text-align: center; padding: 16px; }
+  #ui button { font: 800 22px system-ui, sans-serif; padding: 18px 34px; border-radius: 999px; border: 0; background: var(--or); color: #fff; cursor: pointer; }
+  #ui label { font-size: 15px; opacity: .9; }
+  #ui p { margin: 0; font-size: 14px; opacity: .75; max-width: 420px; line-height: 1.5; }
+  #hud { position: fixed; left: 12px; bottom: 12px; color: #fff; font: 600 13px ui-monospace, monospace; opacity: .7; }
+  body.render #ui, body.render #hud { display: none; }
+  body.render canvas { height: 1920px; width: 1080px; }
+  body.playing #ui { display: none; }
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div id="ui">
+  <button id="play">▶ Reproducir a pantalla completa</button>
+  <label><input type="checkbox" id="withAudio" checked> Con música y efectos</label>
+  <label><input type="checkbox" id="loop" checked> Repetir en bucle</label>
+  <p>Teclas: <b>Espacio</b> pausa · <b>R</b> reiniciar · <b>F</b> pantalla completa · <b>Z</b> ver zonas seguras · <b>←/→</b> ±1 s · <b>Esc</b> salir</p>
+</div>
+<div id="hud"></div>
+<audio id="audio" src="audio/musica_y_efectos.m4a" preload="auto"></audio>
+<script src="timeline.js"></script>
+<script src="anim.js"></script>
+<script>
+(async () => {
+  const cv = document.getElementById('c');
+  const params = new URLSearchParams(location.search);
+  if (params.has('render')) document.body.classList.add('render');
+  await Anim.init(cv);
+  window.renderAt = t => { Anim.render(t); };
+  window.frameData = (t, type = 'image/png') => { Anim.render(t); return cv.toDataURL(type, 0.95); };
+  window.ready = true;
+  if (params.has('render')) { Anim.render(+params.get('t') || 0); return; }
+
+  const audio = document.getElementById('audio'), hud = document.getElementById('hud');
+  let playing = false, showSafe = false, t0 = 0, offset = 0, useAudio = true;
+  const D = TIMELINE.duration;
+  const now = () => useAudio ? audio.currentTime : offset + (playing ? (performance.now() - t0) / 1000 : 0);
+  function seek(t) {
+    t = Math.max(0, Math.min(D - 0.001, t));
+    if (useAudio) audio.currentTime = t; else { offset = t; t0 = performance.now(); }
+  }
+  function start() {
+    useAudio = document.getElementById('withAudio').checked;
+    playing = true; document.body.classList.add('playing');
+    seek(0);
+    if (useAudio) audio.play().catch(() => { useAudio = false; t0 = performance.now(); });
+    else t0 = performance.now();
+    document.documentElement.requestFullscreen?.().catch(() => {});
+  }
+  function pause() {
+    if (!playing) return;
+    if (useAudio) audio.pause(); else offset = now();
+    playing = false;
+  }
+  function resume() {
+    if (useAudio) audio.play(); else t0 = performance.now();
+    playing = true;
+  }
+  document.getElementById('play').onclick = start;
+  addEventListener('keydown', e => {
+    if (e.code === 'Space') { e.preventDefault(); playing ? pause() : resume(); }
+    if (e.key === 'r' || e.key === 'R') { seek(0); if (!playing) resume(); }
+    if (e.key === 'f' || e.key === 'F') document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+    if (e.key === 'z' || e.key === 'Z') showSafe = !showSafe;
+    if (e.key === 'ArrowRight') seek(now() + 1);
+    if (e.key === 'ArrowLeft') seek(now() - 1);
+  });
+  cv.addEventListener('click', () => { if (document.body.classList.contains('playing')) playing ? pause() : resume(); });
+  function loop() {
+    let t = now();
+    if (t >= D - 0.001) {
+      if (document.getElementById('loop').checked) { seek(0); if (useAudio) audio.play(); t = 0; }
+      else { t = D - 0.001; pause(); }
+    }
+    Anim.render(t);
+    if (showSafe) Anim.drawSafeZones();
+    hud.textContent = t.toFixed(2) + ' s';
+    requestAnimationFrame(loop);
+  }
+  audio.addEventListener('ended', () => { if (document.getElementById('loop').checked) { audio.currentTime = 0; audio.play(); } });
+  loop();
+})();
+</script>
+</body>
+</html>
