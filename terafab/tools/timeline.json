@@ -1,0 +1,1264 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 90,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 5.95,
+   "tr": null,
+   "vis": "E01_terafab_render.jpg de fondo con dolly-zoom; E00_elon_musk.png entra desde abajo al centro con rim light cian; el CHIP_3D aparece girando sobre su hombro y lanza un destello. El HUD se enciende con la palabra «TERAFAB», que también pasa por detrás de él."
+  },
+  {
+   "id": "que",
+   "name": "QUÉ ES",
+   "a": 5.95,
+   "b": 13.2,
+   "tr": "flash",
+   "vis": "El render E01 con escáner HUD; transición a E02_obra_giga_texas.jpg; «TESLA × SPACEX» como texto; mapa holográfico 3D de Texas con dos pines: Austin · fábrica de investigación y Grimes County · Terafab. La cinta de tiempo marca MAR 2026."
+  },
+  {
+   "id": "obj",
+   "name": "EL OBJETIVO",
+   "a": 13.2,
+   "b": 22.45,
+   "tr": "glitch",
+   "vis": "Simulador «VIAJE DEL CHIP»: la cámara sigue al chip por el CIRCUITO_CAMINO 3D (DISEÑO → LITOGRAFÍA → OBLEA → MEMORIA → EMPAQUETADO → PRUEBA) con E04_sala_limpia.jpg de fondo; en OBLEA, E03_oblea_silicio.png se funde con la OBLEA_3D que rota y enciende sus dies. Cinta en ABR 2026. Dolly-zoom hacia atrás y «1 TERAVATIO/AÑO» en ámbar."
+  },
+  {
+   "id": "dos",
+   "name": "DOS TIPOS DE CHIPS",
+   "a": 22.45,
+   "b": 29.66,
+   "tr": "zoom",
+   "vis": "El CHIP_3D se divide en dos: uno baja a la izquierda sobre E05_robot_humanoide.jpg y E06_auto_autonomo.jpg; el otro sube a la TIERRA_3D, donde los satélites dejan estelas de luz."
+  },
+  {
+   "id": "porque",
+   "name": "EL PORQUÉ",
+   "a": 29.66,
+   "b": 37.4,
+   "tr": "wipe",
+   "vis": "E07_centro_datos.jpg; medidor circular HUD gigante; alrededor, fábricas 3D pequeñas en gris que no alcanzan a llenarlo; se llena solo hasta 2 % en ámbar y parpadea."
+  },
+  {
+   "id": "req",
+   "name": "LO QUE SE NECESITA",
+   "a": 37.4,
+   "b": 50.7,
+   "tr": "glitch",
+   "vis": "E08_paisaje_texas.jpg; cinta en AGO 2026; la FABRICA_ISO 3D se construye bloque a bloque; contador $16,800,000,000; 3,000 empleos con E09_trabajadores_obra.jpg en un recuadro; comparación de escala: el edificio más grande actual cabe 5 veces en la Terafab."
+  },
+  {
+   "id": "riesgo",
+   "name": "LOS RIESGOS",
+   "a": 50.7,
+   "b": 59.2,
+   "tr": "gray",
+   "vis": "Cinta en 2027 (meta: primer chip de prueba); CAMINO_BIFURCADO 3D: la cámara entra al camino gris con niebla; E10_chip_macro.png con candado y etiquetas grises DEPENDENCIA, ESCASEZ, PRECIOS ALTOS; HUD «ADVERTENCIA» en gris."
+  },
+  {
+   "id": "benef",
+   "name": "LOS BENEFICIOS PARA LAS PERSONAS",
+   "a": 59.2,
+   "b": 67.9,
+   "tr": "flash",
+   "vis": "La cámara regresa a la bifurcación y toma el camino brillante, que acelera con luces verdes y cian; el candado se rompe en partículas; E11_persona_ia_celular.jpg de fondo; íconos verdes IA MÁS POTENTE, ROBOTS ÚTILES, TECNOLOGÍA ACCESIBLE."
+  },
+  {
+   "id": "mkt",
+   "name": "IMPACTO EN EMPRESAS Y MARKETING",
+   "a": 67.9,
+   "b": 76.85,
+   "tr": "slide",
+   "vis": "Pantalla dividida E12_equipo_marketing.jpg / E13_negocio_pequeno.jpg; del CHIP_3D salen rayos que se vuelven tarjetas de anuncio personalizado (Ana, Luis, Sofía) y un panel con métricas que suben en verde."
+  },
+  {
+   "id": "cta",
+   "name": "CTA CON PALABRA CLAVE",
+   "a": 76.85,
+   "b": 90,
+   "tr": "wipe",
+   "vis": "E00_elon_musk.png regresa a un lado con la Terafab detrás; una burbuja escribe «CHIP» en cian y se vuelve el CHIP_3D gigante girando (3 s solo); luego logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; leyenda de fuentes; dolly-zoom final que regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.05,
+   "b": 1.65,
+   "text": "Musk quiere construir",
+   "keys": [
+    "construir"
+   ]
+  },
+  {
+   "a": 1.65,
+   "b": 3.95,
+   "text": "la mayor fábrica de chips",
+   "keys": [
+    "fábrica"
+   ]
+  },
+  {
+   "a": 3.95,
+   "b": 5.45,
+   "text": "de la historia.",
+   "keys": [
+    "historia"
+   ]
+  },
+  {
+   "a": 5.95,
+   "b": 7.45,
+   "text": "Se llama Terafab.",
+   "keys": [
+    "terafab"
+   ]
+  },
+  {
+   "a": 7.45,
+   "b": 9.9,
+   "text": "Tesla y SpaceX, en Texas,",
+   "keys": [
+    "texas"
+   ]
+  },
+  {
+   "a": 9.9,
+   "b": 12.7,
+   "text": "anunciada en marzo de 2026.",
+   "keys": [
+    "2026"
+   ]
+  },
+  {
+   "a": 13.25,
+   "b": 15.5,
+   "text": "Su meta: chips para IA",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 15.6,
+   "b": 18.2,
+   "text": "todo bajo un mismo techo.",
+   "keys": [
+    "techo"
+   ]
+  },
+  {
+   "a": 22.5,
+   "b": 24.72,
+   "text": "Busca dos tipos de chips:",
+   "keys": [
+    "dos"
+   ]
+  },
+  {
+   "a": 24.72,
+   "b": 26.94,
+   "text": "para robots y autos autónomos",
+   "keys": [
+    "robots"
+   ]
+  },
+  {
+   "a": 26.94,
+   "b": 29.16,
+   "text": "y centros de datos espaciales.",
+   "keys": [
+    "espaciales"
+   ]
+  },
+  {
+   "a": 29.66,
+   "b": 31.45,
+   "text": "¿Por qué? Según Musk,",
+   "keys": [
+    "qué"
+   ]
+  },
+  {
+   "a": 31.45,
+   "b": 33.23,
+   "text": "las fábricas del mundo",
+   "keys": [
+    "mundo"
+   ]
+  },
+  {
+   "a": 37.45,
+   "b": 39.67,
+   "text": "Solo la primera fase costaría",
+   "keys": [
+    "primera"
+   ]
+  },
+  {
+   "a": 45.25,
+   "b": 46.85,
+   "text": "Y el edificio:",
+   "keys": [
+    "edificio"
+   ]
+  },
+  {
+   "a": 50.7,
+   "b": 52.92,
+   "text": "Nadie ha hecho algo así.",
+   "keys": [
+    "nadie"
+   ]
+  },
+  {
+   "a": 52.92,
+   "b": 55.14,
+   "text": "Si se retrasa, la IA",
+   "keys": [
+    "retrasa"
+   ]
+  },
+  {
+   "a": 55.14,
+   "b": 56.92,
+   "text": "dependerá de pocos fabricantes:",
+   "keys": [
+    "pocos"
+   ]
+  },
+  {
+   "a": 56.92,
+   "b": 58.7,
+   "text": "chips escasos y caros.",
+   "keys": [
+    "caros"
+   ]
+  },
+  {
+   "a": 59.2,
+   "b": 60.98,
+   "text": "Pero si lo logra:",
+   "keys": [
+    "logra"
+   ]
+  },
+  {
+   "a": 60.98,
+   "b": 63.2,
+   "text": "chips más baratos y abundantes,",
+   "keys": [
+    "baratos"
+   ]
+  },
+  {
+   "a": 63.2,
+   "b": 65.42,
+   "text": "IA más potente, robots útiles",
+   "keys": [
+    "potente"
+   ]
+  },
+  {
+   "a": 65.42,
+   "b": 67.4,
+   "text": "y tecnología para todos.",
+   "keys": [
+    "todos"
+   ]
+  },
+  {
+   "a": 67.95,
+   "b": 69.73,
+   "text": "Para empresas y marketing:",
+   "keys": [
+    "marketing"
+   ]
+  },
+  {
+   "a": 69.73,
+   "b": 71.23,
+   "text": "IA más barata,",
+   "keys": [
+    "barata"
+   ]
+  },
+  {
+   "a": 71.23,
+   "b": 73.01,
+   "text": "contenido personalizado por cliente,",
+   "keys": [
+    "personalizado"
+   ]
+  },
+  {
+   "a": 73.01,
+   "b": 74.51,
+   "text": "herramientas de gigante",
+   "keys": [
+    "gigante"
+   ]
+  },
+  {
+   "a": 74.51,
+   "b": 76.3,
+   "text": "para cualquier negocio.",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 76.9,
+   "b": 79.12,
+   "text": "El futuro se fabrica hoy.",
+   "keys": [
+    "futuro"
+   ]
+  },
+  {
+   "a": 79.3,
+   "b": 80.85,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 83.95,
+   "b": 85.45,
+   "text": "Te decimos cómo",
+   "keys": [
+    "decimos"
+   ]
+  },
+  {
+   "a": 85.45,
+   "b": 87.67,
+   "text": "preparar tu negocio para IA.",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 87.67,
+   "b": 89.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 18.4,
+   "b": 21.95,
+   "text": "1 TERAVATIO/AÑO"
+  },
+  {
+   "a": 33.25,
+   "b": 36.9,
+   "text": "2%"
+  },
+  {
+   "a": 39.75,
+   "b": 42.95,
+   "text": "$16,800 MILLONES"
+  },
+  {
+   "a": 43,
+   "b": 45.2,
+   "text": "3,000 EMPLEOS"
+  },
+  {
+   "a": 46.9,
+   "b": 50.2,
+   "text": "×5"
+  },
+  {
+   "a": 80.9,
+   "b": 83.95,
+   "text": "CHIP"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.15,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 0.95,
+   "type": "hum",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 1.25,
+   "type": "boot",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 1.62,
+   "type": "flash",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 1.5,
+   "type": "type",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 1.58,
+   "type": "type",
+   "v": 0.45,
+   "pitch": 1.03
+  },
+  {
+   "t": 1.66,
+   "type": "type",
+   "v": 0.45,
+   "pitch": 1.06
+  },
+  {
+   "t": 1.74,
+   "type": "type",
+   "v": 0.45,
+   "pitch": 1.09
+  },
+  {
+   "t": 1.82,
+   "type": "type",
+   "v": 0.45,
+   "pitch": 1.12
+  },
+  {
+   "t": 1.9,
+   "type": "type",
+   "v": 0.45,
+   "pitch": 1.15
+  },
+  {
+   "t": 1.98,
+   "type": "type",
+   "v": 0.45,
+   "pitch": 1.18
+  },
+  {
+   "t": 3.9,
+   "type": "hum",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 5.45,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.2
+  },
+  {
+   "t": 5.95,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 6.2,
+   "type": "scan",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 7.45,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 7.62,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 8,
+   "type": "scan",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 8.6,
+   "type": "beep",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 9.25,
+   "type": "beep",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 9.95,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 13.2,
+   "type": "glitch",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 13.3,
+   "type": "coaster",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 14.012,
+   "type": "gate",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 14.768,
+   "type": "gate",
+   "v": 0.6,
+   "pitch": 1.05
+  },
+  {
+   "t": 15.624,
+   "type": "gate",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 16.719,
+   "type": "gate",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 17.373,
+   "type": "gate",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 18.008,
+   "type": "gate",
+   "v": 0.6,
+   "pitch": 1.25
+  },
+  {
+   "t": 15.374,
+   "type": "shine",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 13.32,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 18.15,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 0.7
+  },
+  {
+   "t": 18.4,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 18.45,
+   "type": "counter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 22.45,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 22.6,
+   "type": "hum",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23,
+   "type": "zap",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23.35,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 23.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 25.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 26.9,
+   "type": "rise",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 27.6,
+   "type": "beep",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 29.66,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 29.8,
+   "type": "boot",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 31.55,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 31.67,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.04
+  },
+  {
+   "t": 31.79,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.08
+  },
+  {
+   "t": 31.91,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.12
+  },
+  {
+   "t": 32.03,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.16
+  },
+  {
+   "t": 32.15,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 32.27,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.24
+  },
+  {
+   "t": 32.39,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.28
+  },
+  {
+   "t": 33.25,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 33.3,
+   "type": "counter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 34.4,
+   "type": "beep",
+   "v": 0.35,
+   "pitch": 0.9
+  },
+  {
+   "t": 35,
+   "type": "beep",
+   "v": 0.35,
+   "pitch": 0.9
+  },
+  {
+   "t": 35.6,
+   "type": "beep",
+   "v": 0.35,
+   "pitch": 0.9
+  },
+  {
+   "t": 36.2,
+   "type": "beep",
+   "v": 0.35,
+   "pitch": 0.9
+  },
+  {
+   "t": 37.4,
+   "type": "glitch",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.45,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.8,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.145793519043582
+  },
+  {
+   "t": 38.177,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.1335508485944046
+  },
+  {
+   "t": 38.555,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.1466928198598907
+  },
+  {
+   "t": 38.932,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9617136759748973
+  },
+  {
+   "t": 39.31,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9519944968764321
+  },
+  {
+   "t": 39.688,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.1184521666436922
+  },
+  {
+   "t": 40.065,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9683065700650332
+  },
+  {
+   "t": 40.442,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.916225175187401
+  },
+  {
+   "t": 40.82,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9119632096881105
+  },
+  {
+   "t": 41.197,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.1965204960695701
+  },
+  {
+   "t": 41.575,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9388690919658984
+  },
+  {
+   "t": 41.953,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.0422234453559214
+  },
+  {
+   "t": 42.33,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9660058770754404
+  },
+  {
+   "t": 42.708,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9052330030486246
+  },
+  {
+   "t": 43.085,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9210880958737108
+  },
+  {
+   "t": 43.462,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.0588150558993221
+  },
+  {
+   "t": 43.84,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.0939264519824063
+  },
+  {
+   "t": 44.218,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9413047572415962
+  },
+  {
+   "t": 44.595,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 1.1678113125013625
+  },
+  {
+   "t": 44.973,
+   "type": "clank",
+   "v": 0.45,
+   "pitch": 0.9797643185232119
+  },
+  {
+   "t": 39.75,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 39.8,
+   "type": "counter",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 43,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 43.05,
+   "type": "counter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45.3,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 46.95,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 0.9
+  },
+  {
+   "t": 47.3,
+   "type": "stamp",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 47.65,
+   "type": "stamp",
+   "v": 0.7,
+   "pitch": 1.06
+  },
+  {
+   "t": 48,
+   "type": "stamp",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 48.35,
+   "type": "stamp",
+   "v": 0.7,
+   "pitch": 1.18
+  },
+  {
+   "t": 48.7,
+   "type": "stamp",
+   "v": 0.7,
+   "pitch": 1.24
+  },
+  {
+   "t": 50.7,
+   "type": "wind",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 50.75,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.6
+  },
+  {
+   "t": 50.8,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 52.95,
+   "type": "lock",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 55.15,
+   "type": "thud",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 57.3,
+   "type": "thud",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 57.95,
+   "type": "thud",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 58.75,
+   "type": "rewind",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 59.3,
+   "type": "shatter",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 59.45,
+   "type": "powerup",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 59.7,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.3
+  },
+  {
+   "t": 62.85,
+   "type": "chime",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 64.03,
+   "type": "chime",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 65.22,
+   "type": "chime",
+   "v": 0.7,
+   "pitch": 1.25
+  },
+  {
+   "t": 67.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 68.1,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 69.8,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 71.37,
+   "type": "zap",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 71.55,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 71.87,
+   "type": "zap",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 72.05,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.08
+  },
+  {
+   "t": 72.37,
+   "type": "zap",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 72.55,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.16
+  },
+  {
+   "t": 73.1,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 73.25,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.05
+  },
+  {
+   "t": 73.4,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 73.55,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 73.7,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 73.85,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.25
+  },
+  {
+   "t": 74.6,
+   "type": "chime",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 76.85,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 77.05,
+   "type": "hum",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 79.55,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 79.77,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1.08
+  },
+  {
+   "t": 79.99,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1.16
+  },
+  {
+   "t": 80.21,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 80.9,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 80.95,
+   "type": "hum",
+   "v": 0.9,
+   "pitch": 0.9
+  },
+  {
+   "t": 83.95,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 84.15,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 84.4,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 84.65,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 87.95,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 87.97,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 88.95,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  }
+ ],
+ "musicBoost": [
+  [
+   5.45,
+   5.95,
+   1.2
+  ],
+  [
+   12.7,
+   13.2,
+   1.2
+  ],
+  [
+   21.95,
+   22.45,
+   1.2
+  ],
+  [
+   29.16,
+   29.66,
+   1.15
+  ],
+  [
+   36.9,
+   37.4,
+   1.15
+  ],
+  [
+   50.2,
+   50.7,
+   1.1
+  ],
+  [
+   67.4,
+   67.9,
+   1.2
+  ],
+  [
+   76.3,
+   76.85,
+   1.15
+  ]
+ ],
+ "mood": {
+  "tension": [
+   50.7,
+   59.2
+  ],
+  "explode": [
+   59.2,
+   67.9
+  ]
+ },
+ "hits": [
+  18.4,
+  33.25,
+  39.75,
+  43,
+  46.9,
+  80.9
+ ]
+}
