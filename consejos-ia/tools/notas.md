@@ -19,7 +19,7 @@
 - **Marcas quitadas**: texto del marco de la laptop (W04), etiqueta de la laptop y marca de la cámara (W09), emblema de la bolsa y logotipo de la tarjeta (W10). **W07_periodico.png** se recortó al contenido.
 - **W05_barista_sirviendo.jpg no se adjuntó**: el consejo 03 muestra un marcador gris con su nombre exacto. Para reemplazarlo basta copiar la foto en `assets/fotos/` con ese nombre y volver a renderizar.
 - **Logo**: el oficial de Atlas Path del repositorio (`assets/AtlasPath_logo.png`), como marca de agua y en el cierre; no se inventó ningún logotipo.
-- **Tipografías**: Space Grotesk (títulos y subtítulos) y JetBrains Mono (HUD). Inter Black no se pudo descargar desde este entorno.
+- **Tipografías**: Space Grotesk Bold (títulos) y Medium (subtítulos), una de las dos opciones del brief, y JetBrains Mono (HUD). Corrección: Inter sí está instalada en el contenedor (`/usr/share/fonts/opentype/inter/`); si la prefieres, se cambia sin descargar nada.
 
 ## Fuentes
 

@@ -2,6 +2,8 @@
 
 Cada carpeta (`prueba-social/`, `arquetipos/`, `viaje-heroe/`…) es un reel de 60 s, 1080×1920, 30 fps, hecho con `index.html` (canvas determinista) y renderizado con `tools/render.js` + ffmpeg.
 
+**Antes de empezar un reel en una sesión nueva, lee `GUIA-REELS.md`:** el proceso completo paso a paso (entorno, voz, fotos, Three.js, revisión, audio, render, entrega), los problemas conocidos y los scripts de `herramientas/`. Base técnica más reciente: `consejos-ia/`.
+
 ## Siempre
 - Marca de agua: logo de Atlas Path arriba a la izquierda, chico (100 px) y semitransparente (70 %), sobre placa clara, justo debajo de los 250 px superiores.
 - Cierre/CTA: logo grande en avatar + «ATLAS PATH» + `@Atlas_Path` + botón SEGUIR con cursor y clic; el último medio segundo regresa al primer cuadro (loop).

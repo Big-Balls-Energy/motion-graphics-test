@@ -125,7 +125,7 @@ Los subtítulos son una versión condensada de la voz para cumplir la regla de l
 - Se quitaron los logotipos del tenis (M03), la marca de la base de la cafetera (M05) y el logo de la laptop (M08). M11 es horizontal: va en una banda ancha con paneo sobre una copia desenfocada.
 - Sin marcas reales ni inventadas: «Google» solo aparece como palabra; el buscador y el asistente son interfaces genéricas (sin logos ni colores de ninguna marca), las tarjetas de marca son figuras geométricas sin nombre y el asistente se representa con un destello y un panel de chat, sin robots humanoides.
 - Logo: el oficial de Atlas Path del repositorio (`assets/AtlasPath_logo.png`), como marca de agua y en el cierre.
-- Tipografías: Space Grotesk (títulos y subtítulos) y JetBrains Mono (HUD). Inter Black no se pudo descargar desde este entorno.
+- Tipografías: Space Grotesk (títulos y subtítulos) y JetBrains Mono (HUD). Corrección: Inter sí está instalada en el contenedor (`/usr/share/fonts/opentype/inter/`); si la prefieres, se puede cambiar y volver a renderizar.
 
 ## Fuentes
 
