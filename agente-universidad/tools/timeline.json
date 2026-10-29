@@ -1,0 +1,1009 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 54.567,
+ "sfx": [
+  {
+   "t": 0,
+   "type": "hit",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 1.487,
+   "type": "notif",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 1.987,
+   "type": "notif",
+   "v": 0.75,
+   "pitch": 1.04
+  },
+  {
+   "t": 2.707,
+   "type": "notif",
+   "v": 0.75,
+   "pitch": 1.08
+  },
+  {
+   "t": 3.047,
+   "type": "notif",
+   "v": 0.75,
+   "pitch": 1.12
+  },
+  {
+   "t": 3.227,
+   "type": "notif",
+   "v": 0.75,
+   "pitch": 1.16
+  },
+  {
+   "t": 2.757,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 2.833,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.05
+  },
+  {
+   "t": 2.909,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 2.985,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 3.061,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.2
+  },
+  {
+   "t": 3.137,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.25
+  },
+  {
+   "t": 3.213,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.3
+  },
+  {
+   "t": 3.289,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.35
+  },
+  {
+   "t": 3.365,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.4
+  },
+  {
+   "t": 3.441,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.45
+  },
+  {
+   "t": 3.987,
+   "type": "blipdown",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 4.077,
+   "type": "blipdown",
+   "v": 0.45,
+   "pitch": 0.97
+  },
+  {
+   "t": 4.167,
+   "type": "blipdown",
+   "v": 0.45,
+   "pitch": 0.94
+  },
+  {
+   "t": 4.257,
+   "type": "blipdown",
+   "v": 0.45,
+   "pitch": 0.91
+  },
+  {
+   "t": 4.347,
+   "type": "blipdown",
+   "v": 0.45,
+   "pitch": 0.88
+  },
+  {
+   "t": 4.993,
+   "type": "error",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 5.113,
+   "type": "error",
+   "v": 0.4,
+   "pitch": 0.94
+  },
+  {
+   "t": 6.333,
+   "type": "fail",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 7.383,
+   "type": "thud",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 7.72,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 8,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 16.32,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.05
+  },
+  {
+   "t": 16.6,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 22.02,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 22.3,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 39.62,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.15
+  },
+  {
+   "t": 39.9,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 47.22,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.2
+  },
+  {
+   "t": 47.5,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 9.073,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 9.993,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 10.913,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.16
+  },
+  {
+   "t": 12.033,
+   "type": "pop",
+   "v": 0.7,
+   "pitch": 1.24
+  },
+  {
+   "t": 13.693,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.5277246920581091
+  },
+  {
+   "t": 13.853,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2418729702039855
+  },
+  {
+   "t": 14.013,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.5200428329757414
+  },
+  {
+   "t": 14.173,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.4518808698834618
+  },
+  {
+   "t": 14.333,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.5114011314592062
+  },
+  {
+   "t": 14.493,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.4249524939368712
+  },
+  {
+   "t": 14.653,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.5927786031788855
+  },
+  {
+   "t": 14.813,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.567141997505678
+  },
+  {
+   "t": 13.793,
+   "type": "riser",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 16.35,
+   "type": "poof",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 16.733,
+   "type": "swoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 16.883,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 18.973,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 19.173,
+   "type": "shine",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 20.693,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.1
+  },
+  {
+   "t": 20.803,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.2000000000000002
+  },
+  {
+   "t": 20.913,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.3
+  },
+  {
+   "t": 21.023,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.4000000000000001
+  },
+  {
+   "t": 22.293,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 23.513,
+   "type": "swoosh",
+   "v": 0.55,
+   "pitch": 0.9
+  },
+  {
+   "t": 23.913,
+   "type": "msgin",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 25.233,
+   "type": "msgout",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 26.093,
+   "type": "msgin",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 27.033,
+   "type": "msgin",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 27.593,
+   "type": "msgout",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 27.943,
+   "type": "msgout",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 32.44,
+   "type": "msgin",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 34.72,
+   "type": "msgout",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 24.833,
+   "type": "typing",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 27.193,
+   "type": "typing",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 27.543,
+   "type": "typing",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 34.32,
+   "type": "typing",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 29.303,
+   "type": "swoosh",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.753,
+   "type": "data",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 31.333,
+   "type": "success",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 34.72,
+   "type": "success",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 35.86,
+   "type": "swoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 36.48,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.4
+  },
+  {
+   "t": 37.03,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 39.12,
+   "type": "success",
+   "v": 0.55,
+   "pitch": 1.12
+  },
+  {
+   "t": 40.04,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 40.21,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.06
+  },
+  {
+   "t": 40.38,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.12
+  },
+  {
+   "t": 40.55,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.18
+  },
+  {
+   "t": 40.72,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.24
+  },
+  {
+   "t": 40.89,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.3
+  },
+  {
+   "t": 41.06,
+   "type": "tick",
+   "v": 0.55,
+   "pitch": 1.3599999999999999
+  },
+  {
+   "t": 41.64,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 42.5,
+   "type": "scratch",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 43.66,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 0.95
+  },
+  {
+   "t": 46.333,
+   "type": "stamp",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 46.393,
+   "type": "cash",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 46.433,
+   "type": "sparkle",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 47.473,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 0.9
+  },
+  {
+   "t": 49.16,
+   "type": "tap",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 50,
+   "type": "tap",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 51.5,
+   "type": "swoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52.94,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1.1
+  },
+  {
+   "t": 53.76,
+   "type": "click",
+   "v": 0.85,
+   "pitch": 1
+  },
+  {
+   "t": 53.88,
+   "type": "success",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 54.067,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.9
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.057,
+   "b": 0.757,
+   "text": "¿Tienes un negocio"
+  },
+  {
+   "a": 0.737,
+   "b": 1.317,
+   "text": "y te pasa"
+  },
+  {
+   "a": 1.297,
+   "b": 2.317,
+   "text": "que recibes mensajes,"
+  },
+  {
+   "a": 2.297,
+   "b": 3.017,
+   "text": "pero entre tantas"
+  },
+  {
+   "a": 2.997,
+   "b": 3.957,
+   "text": "consultas terminas"
+  },
+  {
+   "a": 3.937,
+   "b": 4.963,
+   "text": "olvidando responder,"
+  },
+  {
+   "a": 4.943,
+   "b": 5.523,
+   "text": "olvidando dar"
+  },
+  {
+   "a": 5.503,
+   "b": 6.183,
+   "text": "seguimientos"
+  },
+  {
+   "a": 6.163,
+   "b": 6.803,
+   "text": "y perdiendo así"
+  },
+  {
+   "a": 6.783,
+   "b": 8.023,
+   "text": "oportunidades de venta?"
+  },
+  {
+   "a": 8.003,
+   "b": 8.683,
+   "text": "Ahora imagina"
+  },
+  {
+   "a": 8.663,
+   "b": 9.483,
+   "text": "tener que contestar"
+  },
+  {
+   "a": 9.463,
+   "b": 9.963,
+   "text": "preguntas,"
+  },
+  {
+   "a": 9.943,
+   "b": 10.883,
+   "text": "recopilar datos,"
+  },
+  {
+   "a": 10.863,
+   "b": 12.003,
+   "text": "mandar información,"
+  },
+  {
+   "a": 11.983,
+   "b": 13.023,
+   "text": "agendar o coordinar"
+  },
+  {
+   "a": 13.003,
+   "b": 14.263,
+   "text": "citas y todo mientras"
+  },
+  {
+   "a": 14.243,
+   "b": 15.043,
+   "text": "intentas cumplir"
+  },
+  {
+   "a": 15.023,
+   "b": 15.923,
+   "text": "con las demás tareas"
+  },
+  {
+   "a": 15.903,
+   "b": 16.603,
+   "text": "de tu negocio."
+  },
+  {
+   "a": 16.583,
+   "b": 17.203,
+   "text": "En Atlas Path"
+  },
+  {
+   "a": 17.183,
+   "b": 17.903,
+   "text": "desarrollamos"
+  },
+  {
+   "a": 17.883,
+   "b": 18.703,
+   "text": "una automatización"
+  },
+  {
+   "a": 18.683,
+   "b": 19.323,
+   "text": "con un agente"
+  },
+  {
+   "a": 19.303,
+   "b": 20.103,
+   "text": "para uno de nuestros"
+  },
+  {
+   "a": 20.083,
+   "b": 20.903,
+   "text": "clientes que hace"
+  },
+  {
+   "a": 20.883,
+   "b": 22.263,
+   "text": "precisamente todo eso."
+  },
+  {
+   "a": 22.243,
+   "b": 22.583,
+   "text": "Es para"
+  },
+  {
+   "a": 22.563,
+   "b": 23.483,
+   "text": "una universidad y"
+  },
+  {
+   "a": 23.463,
+   "b": 24.343,
+   "text": "su agente conversa"
+  },
+  {
+   "a": 24.323,
+   "b": 25.203,
+   "text": "con prospectos,"
+  },
+  {
+   "a": 25.183,
+   "b": 25.823,
+   "text": "identifica"
+  },
+  {
+   "a": 25.803,
+   "b": 26.323,
+   "text": "qué carrera"
+  },
+  {
+   "a": 26.303,
+   "b": 27.003,
+   "text": "les interesa,"
+  },
+  {
+   "a": 26.983,
+   "b": 27.863,
+   "text": "resuelve dudas,"
+  },
+  {
+   "a": 27.843,
+   "b": 28.563,
+   "text": "comparte planes"
+  },
+  {
+   "a": 28.543,
+   "b": 29.223,
+   "text": "de estudio"
+  },
+  {
+   "a": 29.203,
+   "b": 30.223,
+   "text": "y registra sus datos"
+  },
+  {
+   "a": 30.203,
+   "b": 30.743,
+   "text": "en una base"
+  },
+  {
+   "a": 30.723,
+   "b": 31.53,
+   "text": "de información."
+  },
+  {
+   "a": 31.51,
+   "b": 32.41,
+   "text": "Y cuando una persona"
+  },
+  {
+   "a": 32.39,
+   "b": 33.03,
+   "text": "quiere conocer"
+  },
+  {
+   "a": 33.01,
+   "b": 34.07,
+   "text": "las instalaciones,"
+  },
+  {
+   "a": 34.05,
+   "b": 34.63,
+   "text": "puede ayudarte"
+  },
+  {
+   "a": 34.61,
+   "b": 35.75,
+   "text": "a agendar una visita"
+  },
+  {
+   "a": 35.73,
+   "b": 36.35,
+   "text": "y actualizar"
+  },
+  {
+   "a": 36.33,
+   "b": 37.07,
+   "text": "el sistema para"
+  },
+  {
+   "a": 37.05,
+   "b": 37.49,
+   "text": "que el equipo"
+  },
+  {
+   "a": 37.47,
+   "b": 38.35,
+   "text": "comercial tenga toda"
+  },
+  {
+   "a": 38.33,
+   "b": 39.09,
+   "text": "la información"
+  },
+  {
+   "a": 39.07,
+   "b": 39.83,
+   "text": "organizada."
+  },
+  {
+   "a": 39.81,
+   "b": 40.65,
+   "text": "Así el equipo deja"
+  },
+  {
+   "a": 40.63,
+   "b": 41.51,
+   "text": "de invertir tanto tiempo"
+  },
+  {
+   "a": 41.49,
+   "b": 41.89,
+   "text": "en tareas"
+  },
+  {
+   "a": 41.87,
+   "b": 43.01,
+   "text": "repetitivas y puede"
+  },
+  {
+   "a": 42.99,
+   "b": 43.75,
+   "text": "concentrarse en"
+  },
+  {
+   "a": 43.73,
+   "b": 44.703,
+   "text": "lo más importante:"
+  },
+  {
+   "a": 44.683,
+   "b": 45.403,
+   "text": "acompañar a"
+  },
+  {
+   "a": 45.383,
+   "b": 46.203,
+   "text": "los prospectos"
+  },
+  {
+   "a": 46.183,
+   "b": 47.443,
+   "text": "y cerrar oportunidades."
+  },
+  {
+   "a": 47.423,
+   "b": 48.183,
+   "text": "¿Te gustaría saber"
+  },
+  {
+   "a": 48.163,
+   "b": 48.93,
+   "text": "cómo lo hacemos?"
+  },
+  {
+   "a": 48.91,
+   "b": 49.53,
+   "text": "Da clic a este"
+  },
+  {
+   "a": 49.51,
+   "b": 49.93,
+   "text": "video y"
+  },
+  {
+   "a": 49.91,
+   "b": 50.85,
+   "text": "te explicamos más"
+  },
+  {
+   "a": 50.83,
+   "b": 51.47,
+   "text": "a detalle."
+  },
+  {
+   "a": 51.45,
+   "b": 52.17,
+   "text": "Y si quieres esto"
+  },
+  {
+   "a": 52.15,
+   "b": 52.91,
+   "text": "en tu negocio,"
+  },
+  {
+   "a": 52.89,
+   "b": 53.65,
+   "text": "escríbenos y"
+  },
+  {
+   "a": 53.63,
+   "b": 54.567,
+   "text": "lo hacemos por ti"
+  }
+ ],
+ "emph": [
+  0.527,
+  1.887,
+  3.987,
+  6.833,
+  8.253,
+  16.733,
+  18.973,
+  22.753,
+  35.22,
+  41.92,
+  44.1,
+  46.333,
+  48.453,
+  52.94
+ ],
+ "transitions": [
+  8,
+  16.6,
+  22.3,
+  39.9,
+  47.5
+ ],
+ "sections": {
+  "hook": [
+   0,
+   8
+  ],
+  "imagina": [
+   8,
+   16.6
+  ],
+  "agente": [
+   16.6,
+   22.3
+  ],
+  "caso": [
+   22.3,
+   39.9
+  ],
+  "beneficio": [
+   39.9,
+   47.5
+  ],
+  "cta": [
+   47.5,
+   54.567
+  ]
+ }
+}
