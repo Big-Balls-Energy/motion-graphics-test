@@ -21,7 +21,10 @@ SLOTS = {'reel-viral': [(0.0, 4.55), (4.6, 7.95), (8.05, 14.95), (15.05, 21.95),
                       (39.05, 47.4), (47.55, 55.2), (55.35, 58.95), (58.75, 65.1), (65.2, 66.6), (66.65, 71.85), (71.9, 74.4)],
          'terafab': [(0.25, 5.34), (5.91, 12.67), (13.24, 18.23), (18.4, 21.92), (22.49, 29.18), (29.75, 36.86), (37.43, 42.88),
                      (43.0, 45.0), (45.25, 50.21), (50.78, 58.6), (59.17, 67.4), (67.97, 76.3), (76.87, 79.14), (79.31, 80.81),
-                     (80.93, 81.66), (83.98, 87.05), (87.17, 88.75)]}[proj]
+                     (80.93, 81.66), (83.98, 87.05), (87.17, 88.75)],
+         'neuroventas': [(0.25, 5.17), (6.04, 10.54), (11.11, 14.58), (14.75, 19.51), (20.08, 31.51), (32.08, 38.41), (38.98, 45.26),
+                         (45.83, 49.52), (50.09, 53.99), (54.96, 60.82), (61.64, 66.58), (67.45, 72.7), (73.75, 78.85), (79.59, 81.05),
+                         (81.17, 82.18), (84.22, 86.93), (87.05, 88.57)]}[proj]
 N = SR * int(np.ceil(SLOTS[-1][1] + .6))  # 60 s por defecto; más si el reel es más largo
 def load(path):
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'], capture_output=True, check=True).stdout
@@ -63,7 +66,9 @@ def rd(p):
     return d.reshape(-1, 2).T
 A = os.path.join(proj, 'audio')
 mus, fx = rd(os.path.join(A, 'musica-sola.wav')), rd(os.path.join(A, 'efectos-solos.wav'))
-env = np.convolve((np.abs(voice) > .02).astype(float), np.ones(int(.4 * SR)) / int(.4 * SR), 'same')
+def smooth(x, k):  # media móvil 'same' en O(N) con suma acumulada (np.convolve con ventanas largas tarda muchos minutos)
+    c = np.cumsum(np.concatenate([[0.0], x])); i = np.arange(len(x)) - k // 2; return (c[np.clip(i + k, 0, len(x))] - c[np.clip(i, 0, len(x))]) / k
+env = smooth((np.abs(voice) > .02).astype(float), int(.4 * SR))
 mix = np.tanh(mus * (1 - .25 * np.clip(env * 3, 0, 1)) + fx * .7 + np.stack([voice, voice]))
 def save(p, y):
     d = (np.clip(y, -1, 1).T * 32767).astype('<i2')

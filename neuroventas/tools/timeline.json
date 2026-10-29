@@ -1,0 +1,1155 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 90,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 6,
+   "vis": "K02_cliente_decidiendo.jpg desenfocado; dentro del marco del escáner se ve nítido. HUD con «ESCANEANDO CLIENTE…» y lecturas (la RAZÓN cae a casi cero); un BOTÓN_3D verde aparece frente a su cabeza y se presiona con onda expansiva; cuatro MOLECULAS_3D salen girando hacia la cámara."
+  },
+  {
+   "id": "quien",
+   "name": "QUIÉN LO EXPLICA",
+   "a": 6,
+   "b": 11,
+   "vis": "K00_jurgen_klaric.png entra con rim light magenta; tres botones orbitan a su alrededor como un anillo (pasan por detrás de su cabeza y por delante de su pecho); K01_libro.png flota a su lado con el título escrito encima en la tipografía del video."
+  },
+  {
+   "id": "cerebro",
+   "name": "EL CEREBRO QUE DECIDE",
+   "a": 11,
+   "b": 19.95,
+   "vis": "CEREBRO_3D de cristal con circunvoluciones de neón y red neuronal; «85%» en ámbar con «según Klaric · estimación del autor»; zoom hacia dentro del cerebro: la cámara viaja sobre rieles de luz por el CAMINO_NEURONAL como montaña rusa hasta el núcleo reptil verde; K03_lagarto.png aparece junto al núcleo y se funde en él."
+  },
+  {
+   "id": "botones",
+   "name": "LOS 11 BOTONES",
+   "a": 19.95,
+   "b": 32,
+   "vis": "Los 11 BOTONES_3D salen del núcleo y orbitan alrededor del cerebro; cada uno se presiona, se ilumina y muestra su nombre cuando la voz lo dice (casa, escudo, corazón, estrella, manos unidas, ave, corona, engrane, brújula, trofeo, infinito); contador HUD 00/11; al final el anillo gira una vez."
+  },
+  {
+   "id": "triada",
+   "name": "TU TRIADA REPTIL",
+   "a": 32,
+   "b": 38.9,
+   "vis": "Los botones se apagan y se alejan; PODER viene al frente (PRINCIPAL), CONTROL y SEGURIDAD a los lados (SECUNDARIOS); la TRIADA_3D los une con un triángulo de luz que se dibuja."
+  },
+  {
+   "id": "ejemplos",
+   "name": "EJEMPLOS",
+   "a": 38.9,
+   "b": 45.78,
+   "vis": "Dos mini-escenas con parallax: K04_familia_auto.jpg con los botones SEGURIDAD y FAMILIA presionándose; K05_reloj_lujo.png girando con PODER y RECONOCIMIENTO."
+  },
+  {
+   "id": "transicion",
+   "name": "TRANSICIÓN A LA QUÍMICA",
+   "a": 45.78,
+   "b": 50.04,
+   "vis": "Zoom hacia dentro del CEREBRO_3D hasta la SINAPSIS_3D; el indicador cambia a «PARTE 2 · QUÍMICA» con un glitch; aparece el ECUALIZADOR_3D pequeño con las cuatro barras en cero."
+  },
+  {
+   "id": "dopamina",
+   "name": "DOPAMINA",
+   "a": 50.04,
+   "b": 54.97,
+   "vis": "La cámara sigue a la molécula amarilla cruzando la sinapsis; los receptores se encienden; destello y K06_unboxing.jpg con confeti amarillo; sube la barra amarilla."
+  },
+  {
+   "id": "endorfinas",
+   "name": "ENDORFINAS",
+   "a": 54.97,
+   "b": 61.55,
+   "vis": "La molécula verde cruza la sinapsis; un nudo rojo de «dolor» se desata y se disuelve; K07_cliente_aliviado.jpg; etiqueta «FIDELIZA» en verde; sube la barra verde."
+  },
+  {
+   "id": "serotonina",
+   "name": "SEROTONINA",
+   "a": 61.55,
+   "b": 67.35,
+   "vis": "La molécula azul cruza la sinapsis y se expande en ondas suaves; K08_amigos_felices.jpg con burbujas de emojis genéricos; sube la barra azul."
+  },
+  {
+   "id": "acetilcolina",
+   "name": "ACETILCOLINA",
+   "a": 67.35,
+   "b": 73.82,
+   "vis": "La molécula violeta cruza la sinapsis y graba un ícono de marca genérico (estrella) en la neurona receptora, que queda brillando; K09_persona_aprendiendo.jpg; sube la barra violeta."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 73.82,
+   "b": 79.6,
+   "vis": "K11_cliente_sonriendo.jpg; la TRIADA_3D reaparece con las cuatro moléculas orbitando; el ECUALIZADOR_3D sube completo en armonía; K10_cartera_abriendo.png se abre con un destello."
+  },
+  {
+   "id": "cta",
+   "name": "CTA CON PALABRA CLAVE",
+   "a": 79.6,
+   "b": 90,
+   "vis": "K00_jurgen_klaric.png regresa; una burbuja de comentario escribe «MENTE» en magenta y estalla en un BOTÓN_3D gigante con las cuatro moléculas (3 s sola); logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; leyenda; regresa al escaneo del cliente (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0,
+   "b": 1.78,
+   "text": "Tu cliente no decide",
+   "keys": [
+    "decide"
+   ]
+  },
+  {
+   "a": 1.78,
+   "b": 3.28,
+   "text": "con la cabeza.",
+   "keys": [
+    "cabeza"
+   ]
+  },
+  {
+   "a": 3.28,
+   "b": 5.5,
+   "text": "Decide con botones… y química.",
+   "keys": [
+    "botones",
+    "química"
+   ]
+  },
+  {
+   "a": 6.05,
+   "b": 7.83,
+   "text": "Jürgen Klaric lo explica",
+   "keys": [
+    "klaric"
+   ]
+  },
+  {
+   "a": 7.83,
+   "b": 9.6,
+   "text": "en su libro:",
+   "keys": [
+    "libro"
+   ]
+  },
+  {
+   "a": 14.75,
+   "b": 16.97,
+   "text": "lo decidimos de forma inconsciente,",
+   "keys": [
+    "inconsciente"
+   ]
+  },
+  {
+   "a": 16.97,
+   "b": 19.19,
+   "text": "desde el cerebro más instintivo.",
+   "keys": [
+    "instintivo"
+   ]
+  },
+  {
+   "a": 19.95,
+   "b": 22.17,
+   "text": "Ahí viven sus botones reptiles:",
+   "keys": [
+    "reptiles"
+   ]
+  },
+  {
+   "a": 22.17,
+   "b": 24.3,
+   "text": "familia, seguridad, placer,",
+   "keys": [
+    "familia",
+    "seguridad",
+    "placer"
+   ]
+  },
+  {
+   "a": 24.3,
+   "b": 27.1,
+   "text": "reconocimiento, pertenencia, libertad,",
+   "keys": [
+    "reconocimiento",
+    "pertenencia",
+    "libertad"
+   ]
+  },
+  {
+   "a": 27.1,
+   "b": 29.5,
+   "text": "poder, control, exploración,",
+   "keys": [
+    "poder",
+    "control",
+    "exploración"
+   ]
+  },
+  {
+   "a": 29.5,
+   "b": 31.45,
+   "text": "logro y trascendencia.",
+   "keys": [
+    "logro",
+    "trascendencia"
+   ]
+  },
+  {
+   "a": 32,
+   "b": 34.22,
+   "text": "El truco: no presionarlos todos.",
+   "keys": [
+    "todos"
+   ]
+  },
+  {
+   "a": 34.4,
+   "b": 36.9,
+   "text": "Uno principal, dos secundarios:",
+   "keys": [
+    "principal"
+   ]
+  },
+  {
+   "a": 36.9,
+   "b": 38.4,
+   "text": "tu triada reptil.",
+   "keys": [
+    "triada"
+   ]
+  },
+  {
+   "a": 38.95,
+   "b": 42,
+   "text": "Camioneta familiar: seguridad y familia.",
+   "keys": [
+    "seguridad",
+    "familia"
+   ]
+  },
+  {
+   "a": 42,
+   "b": 43.78,
+   "text": "Un reloj de lujo:",
+   "keys": [
+    "reloj"
+   ]
+  },
+  {
+   "a": 43.78,
+   "b": 45.28,
+   "text": "poder y reconocimiento.",
+   "keys": [
+    "poder",
+    "reconocimiento"
+   ]
+  },
+  {
+   "a": 45.82,
+   "b": 47.56,
+   "text": "Para que el botón",
+   "keys": [
+    "botón"
+   ]
+  },
+  {
+   "a": 47.56,
+   "b": 49.54,
+   "text": "funcione, necesitas química.",
+   "keys": [
+    "química"
+   ]
+  },
+  {
+   "a": 50.1,
+   "b": 52.27,
+   "text": "Dopamina: placer y recompensa,",
+   "keys": [
+    "dopamina"
+   ]
+  },
+  {
+   "a": 52.27,
+   "b": 54.47,
+   "text": "como abrir un producto nuevo.",
+   "keys": [
+    "nuevo"
+   ]
+  },
+  {
+   "a": 55.02,
+   "b": 57.24,
+   "text": "Endorfinas: cuando quitas un dolor",
+   "keys": [
+    "endorfinas"
+   ]
+  },
+  {
+   "a": 57.24,
+   "b": 58.74,
+   "text": "a tu cliente…",
+   "keys": [
+    "cliente"
+   ]
+  },
+  {
+   "a": 58.74,
+   "b": 60.96,
+   "text": "y según Klaric, eso fideliza.",
+   "keys": [
+    "fideliza"
+   ]
+  },
+  {
+   "a": 61.6,
+   "b": 63.82,
+   "text": "Serotonina: vivir y expresar emociones,",
+   "keys": [
+    "serotonina"
+   ]
+  },
+  {
+   "a": 64.5,
+   "b": 66.5,
+   "text": "sentirte bien contigo mismo.",
+   "keys": [
+    "bien"
+   ]
+  },
+  {
+   "a": 67.4,
+   "b": 69.62,
+   "text": "Acetilcolina: aprender y recordar.",
+   "keys": [
+    "acetilcolina"
+   ]
+  },
+  {
+   "a": 69.62,
+   "b": 71.12,
+   "text": "Enseña algo útil…",
+   "keys": [
+    "útil"
+   ]
+  },
+  {
+   "a": 71.12,
+   "b": 73.32,
+   "text": "y tu marca se queda.",
+   "keys": [
+    "marca"
+   ]
+  },
+  {
+   "a": 73.86,
+   "b": 75.6,
+   "text": "Presiona el botón correcto",
+   "keys": [
+    "botón"
+   ]
+  },
+  {
+   "a": 75.6,
+   "b": 77.34,
+   "text": "con la química correcta:",
+   "keys": [
+    "química"
+   ]
+  },
+  {
+   "a": 77.34,
+   "b": 79.08,
+   "text": "vender será más fácil.",
+   "keys": [
+    "fácil"
+   ]
+  },
+  {
+   "a": 79.65,
+   "b": 81.15,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 84.2,
+   "b": 85.94,
+   "text": "Te ayudamos a encontrar",
+   "keys": [
+    "ayudamos"
+   ]
+  },
+  {
+   "a": 85.94,
+   "b": 87.44,
+   "text": "tus botones clave.",
+   "keys": [
+    "botones"
+   ]
+  },
+  {
+   "a": 87.44,
+   "b": 89.18,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 11.05,
+   "b": 14.6,
+   "text": "85%"
+  },
+  {
+   "a": 81.15,
+   "b": 84.2,
+   "text": "MENTE"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "scan",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 0.9,
+   "type": "beep",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 1.95,
+   "type": "down",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 2.6,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 3.45,
+   "type": "press",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 4.35,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 4.4,
+   "type": "note",
+   "v": 0.45,
+   "pitch": 0
+  },
+  {
+   "t": 4.52,
+   "type": "note",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 4.64,
+   "type": "note",
+   "v": 0.45,
+   "pitch": 2
+  },
+  {
+   "t": 4.76,
+   "type": "note",
+   "v": 0.45,
+   "pitch": 3
+  },
+  {
+   "t": 5.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 6,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 6.6,
+   "type": "whoosh",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 6.9,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 7.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 11,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 11.35,
+   "type": "counter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 14.45,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 0.7
+  },
+  {
+   "t": 14.9,
+   "type": "tunnel",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 18.6,
+   "type": "hiss",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 19.25,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.6
+  },
+  {
+   "t": 19.3,
+   "type": "hiss",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 19.95,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 20.2,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 22.1,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 22.75,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.15
+  },
+  {
+   "t": 23.67,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.05
+  },
+  {
+   "t": 24.39,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.2
+  },
+  {
+   "t": 25.53,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 26.47,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 27.31,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.15
+  },
+  {
+   "t": 27.95,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.05
+  },
+  {
+   "t": 28.71,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.76,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 30.6,
+   "type": "press",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 31,
+   "type": "spin",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 33.85,
+   "type": "down",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 34.9,
+   "type": "press",
+   "v": 1,
+   "pitch": 0.9
+  },
+  {
+   "t": 36.1,
+   "type": "press",
+   "v": 0.8,
+   "pitch": 1.05
+  },
+  {
+   "t": 36.3,
+   "type": "press",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 37.25,
+   "type": "zap",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 37.35,
+   "type": "chime",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 38.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 40.9,
+   "type": "press",
+   "v": 0.85,
+   "pitch": 1
+  },
+  {
+   "t": 41.6,
+   "type": "press",
+   "v": 0.85,
+   "pitch": 1.08
+  },
+  {
+   "t": 41.85,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 43.7,
+   "type": "press",
+   "v": 0.85,
+   "pitch": 0.95
+  },
+  {
+   "t": 44.3,
+   "type": "press",
+   "v": 0.85,
+   "pitch": 1.12
+  },
+  {
+   "t": 45.78,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 46.3,
+   "type": "tunnel",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 48,
+   "type": "glitch",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 48.15,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 49,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 50.09,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 51.15,
+   "type": "note",
+   "v": 1,
+   "pitch": 0
+  },
+  {
+   "t": 51.17,
+   "type": "bubble",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 51.25,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 51.6,
+   "type": "flash",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 55.02,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 56.05,
+   "type": "note",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 56.07,
+   "type": "bubble",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 56.15,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 56.45,
+   "type": "flash",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 61.6,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 62.65,
+   "type": "note",
+   "v": 1,
+   "pitch": 2
+  },
+  {
+   "t": 62.67,
+   "type": "bubble",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 62.75,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 63.05,
+   "type": "flash",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 67.4,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 68.45,
+   "type": "note",
+   "v": 1,
+   "pitch": 3
+  },
+  {
+   "t": 68.47,
+   "type": "bubble",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 68.55,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1.3
+  },
+  {
+   "t": 69.55,
+   "type": "flash",
+   "v": 0.45,
+   "pitch": 1.24
+  },
+  {
+   "t": 52,
+   "type": "confetti",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 57.6,
+   "type": "untie",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 58.6,
+   "type": "bubble",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 59.6,
+   "type": "chime",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 63.15,
+   "type": "bubble",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 63.45,
+   "type": "bubble",
+   "v": 0.45,
+   "pitch": 1.26
+  },
+  {
+   "t": 63.75,
+   "type": "bubble",
+   "v": 0.45,
+   "pitch": 1.3199999999999998
+  },
+  {
+   "t": 64.05,
+   "type": "bubble",
+   "v": 0.45,
+   "pitch": 1.38
+  },
+  {
+   "t": 64.35,
+   "type": "bubble",
+   "v": 0.45,
+   "pitch": 1.44
+  },
+  {
+   "t": 64.65,
+   "type": "bubble",
+   "v": 0.45,
+   "pitch": 1.5
+  },
+  {
+   "t": 68.55,
+   "type": "engrave",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 73.82,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 74.1,
+   "type": "press",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 74.3,
+   "type": "press",
+   "v": 0.6,
+   "pitch": 1.05
+  },
+  {
+   "t": 74.5,
+   "type": "press",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 74.6,
+   "type": "zap",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 75.6,
+   "type": "chord",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 77.35,
+   "type": "flash",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 79.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 79.85,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 80.05,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1.08
+  },
+  {
+   "t": 80.25,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1.16
+  },
+  {
+   "t": 80.45,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 80.65,
+   "type": "key",
+   "v": 0.8,
+   "pitch": 1.08
+  },
+  {
+   "t": 81.1,
+   "type": "pop",
+   "v": 0.8,
+   "pitch": 0.8
+  },
+  {
+   "t": 81.15,
+   "type": "press",
+   "v": 1.1,
+   "pitch": 0.75
+  },
+  {
+   "t": 81.2,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 81.3,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 84.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 84.3,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 84.5,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 84.75,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 87.75,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 87.77,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 89,
+   "type": "scan",
+   "v": 0.5,
+   "pitch": 1
+  }
+ ],
+ "musicBoost": [
+  [
+   5.5,
+   6,
+   1.2
+  ],
+  [
+   10.5,
+   11,
+   1.15
+  ],
+  [
+   19.2,
+   19.95,
+   1.2
+  ],
+  [
+   31.45,
+   32,
+   1.15
+  ],
+  [
+   45.28,
+   45.78,
+   1.15
+  ],
+  [
+   49.54,
+   50.04,
+   1.2
+  ],
+  [
+   54.47,
+   54.97,
+   1.15
+  ],
+  [
+   60.96,
+   61.55,
+   1.15
+  ],
+  [
+   66.5,
+   67.35,
+   1.15
+  ],
+  [
+   73.32,
+   73.82,
+   1.15
+  ],
+  [
+   79.08,
+   79.6,
+   1.15
+  ]
+ ],
+ "part2": 48,
+ "nt": [
+  {
+   "id": "dop",
+   "a": 50.04,
+   "arrive": 51.15
+  },
+  {
+   "id": "end",
+   "a": 54.97,
+   "arrive": 56.05
+  },
+  {
+   "id": "ser",
+   "a": 61.55,
+   "arrive": 62.65
+  },
+  {
+   "id": "ace",
+   "a": 67.35,
+   "arrive": 68.45
+  }
+ ]
+}
