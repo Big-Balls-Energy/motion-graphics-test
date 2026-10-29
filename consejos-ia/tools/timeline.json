@@ -1,0 +1,1471 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 80,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: EL REGRESO DE LOS SITIOS WEB",
+   "a": 0,
+   "b": 6.4,
+   "vis": "Fondo negro. SITIO_3D de TU CAFETERÍA flota y se desintegra lentamente en partículas (bloque por bloque, con borde cian); una luz azul potente lo ilumina, las partículas regresan, el sitio se reconstruye conectado a una enorme red de IA y la cámara orbita. «LAS PÁGINAS WEB NO ESTÁN MURIENDO.» → «ESTÁN CAMBIANDO.»"
+  },
+  {
+   "id": "dato",
+   "name": "EL DATO QUE NADIE ESPERABA",
+   "a": 6.4,
+   "b": 17.68,
+   "vis": "W10_tienda_online_compras.jpg al fondo. GRAFICA_CRECIMIENTO_3D: línea de luz con cortina luminosa que sube sobre una retícula, cámara que sigue la punta y contador hasta «MÁS DE +1,200%» en ámbar; después, carrito genérico 3D y barras de cristal: «CONVIERTEN 60% MÁS»."
+  },
+  {
+   "id": "revela",
+   "name": "LA REVELACIÓN",
+   "a": 17.68,
+   "b": 26.49,
+   "vis": "W01_mano_celular.png sobre W02_cafeteria_interior.jpg. CHAT_CONCEPTUAL: se escribe «¿Cuál es la mejor cafetería cerca de mí?», la pregunta viaja por una red de luz y regresan tres tarjetas de negocios genéricas; la cámara se acerca a TU CAFETERÍA y una línea revela que su información viene de su sitio web. «DE SER ENCONTRADO…» se fragmenta en partículas, la cámara lo atraviesa y se recompone en «…A SER RECOMENDADO.» (frase completa más de 3 s). Etiqueta «Interfaz conceptual»."
+  },
+  {
+   "id": "t1",
+   "name": "CONSEJO 01 · SITIO RÁPIDO Y LEGIBLE",
+   "a": 26.49,
+   "b": 34.38,
+   "vis": "W04_laptop_diseno_web.jpg al fondo. «01» enorme. El sitio de TU CAFETERÍA se construye desde cero (estructura → imágenes → textos → menú → contacto) y el velocímetro de carga sube a verde. SIMULADOR: el RASTREADOR_DE_LUZ recorre las páginas por los enlaces internos con la cámara detrás y cruza una puerta con candado que se abre: «PERMITIR RASTREO». Medidor 20 %."
+  },
+  {
+   "id": "t2",
+   "name": "CONSEJO 02 · INFORMACIÓN CLARA",
+   "a": 34.38,
+   "b": 42.14,
+   "vis": "W03_fachada_cafeteria.jpg y después W02_cafeteria_interior.jpg. «02» enorme. BLOQUES_INFO_3D (QUÉ HACES · DÓNDE ESTÁS · POR QUÉ ELEGIRTE) se ensamblan y se conectan con líneas de luz a un pin de mapa genérico y a una ficha de negocio conceptual con horario, dirección y teléfono. Medidor 40 %."
+  },
+  {
+   "id": "t3",
+   "name": "CONSEJO 03 · RESPONDE CON DATOS",
+   "a": 42.14,
+   "b": 52.7,
+   "vis": "W05_barista_sirviendo.jpg al fondo (marcador gris: no se adjuntó). «03» enorme. Flotan tres preguntas de clientes y PREGUNTAS_A_PAGINAS las convierte en una sección de preguntas frecuentes y un artículo con etiquetas DATO y FUENTE. «HASTA +40%» en ámbar. Medidor 60 %."
+  },
+  {
+   "id": "t4",
+   "name": "CONSEJO 04 · REPUTACIÓN DIGITAL",
+   "a": 52.7,
+   "b": 61.58,
+   "vis": "W06_cliente_resena.jpg al fondo. «04» enorme. ANILLO_1% con «SITIOS DE MARCA: 1% DE LO CITADO»; el resto se llena de íconos de reseñas, prensa y directorios. Después la RED_REPUTACION_3D crece alrededor de TU CAFETERÍA con W07_periodico.png flotando; las fuentes verificables se iluminan en azul. Medidor 80 %."
+  },
+  {
+   "id": "t5",
+   "name": "CONSEJO 05 · SIEMPRE ACTUALIZADO",
+   "a": 61.58,
+   "b": 67.06,
+   "vis": "W08_duena_tablet.jpg al fondo. «05» enorme. CALENDARIO_Y_SITEMAP: el calendario avanza rápido, el horario viejo del sitio se tacha y se actualiza, el mapa del sitio en árbol 3D se ilumina rama por rama y aparece un tablero conceptual con visitas subiendo. Medidor 100 % con destello."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 67.06,
+   "b": 80,
+   "vis": "La cámara se aleja y revela cientos de sitios conectados por una red; TU CAFETERÍA destaca al centro como «RECOMENDADO». «¿TU NEGOCIO ESTÁ PREPARADO?». En W01_mano_celular.png una burbuja escribe «WEB» en cian, que sale grande 3 s. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», «MARKETING · WEB · TECNOLOGÍA», @Atlas_Path y botón SEGUIR con clic; nota de datos; el último medio segundo regresa al sitio 3D flotando en negro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.45,
+   "text": "¿Creías que la web moría?",
+   "keys": [
+    "web"
+   ]
+  },
+  {
+   "a": 2.9,
+   "b": 5.6,
+   "text": "La IA les dio propósito.",
+   "keys": [
+    "ia",
+    "propósito"
+   ]
+  },
+  {
+   "a": 6.45,
+   "b": 8.65,
+   "text": "En tiendas de EE.UU.,",
+   "keys": [
+    "tiendas"
+   ]
+  },
+  {
+   "a": 8.65,
+   "b": 10.85,
+   "text": "las visitas desde una IA",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 10.85,
+   "b": 13.75,
+   "text": "crecieron +1,200% desde 2024.",
+   "keys": [
+    "crecieron"
+   ]
+  },
+  {
+   "a": 14.15,
+   "b": 16.9,
+   "text": "terminan en compra 60% más.",
+   "keys": [
+    "compra"
+   ]
+  },
+  {
+   "a": 17.75,
+   "b": 19.95,
+   "text": "Cada vez más gente pregunta",
+   "keys": [
+    "pregunta"
+   ]
+  },
+  {
+   "a": 19.95,
+   "b": 22.15,
+   "text": "a la IA qué elegir.",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 26.55,
+   "b": 28.3,
+   "text": "Uno: un sitio rápido",
+   "keys": [
+    "rápido"
+   ]
+  },
+  {
+   "a": 28.3,
+   "b": 30.05,
+   "text": "que los buscadores lean.",
+   "keys": [
+    "buscadores"
+   ]
+  },
+  {
+   "a": 30.25,
+   "b": 32,
+   "text": "Si bloqueas sus rastreadores,",
+   "keys": [
+    "bloqueas"
+   ]
+  },
+  {
+   "a": 32,
+   "b": 33.85,
+   "text": "no podrá citarte.",
+   "keys": [
+    "citarte"
+   ]
+  },
+  {
+   "a": 34.45,
+   "b": 36.6,
+   "text": "Dos: di qué vendes,",
+   "keys": [
+    "vendes"
+   ]
+  },
+  {
+   "a": 36.6,
+   "b": 38.95,
+   "text": "dónde y por qué elegirte.",
+   "keys": [
+    "elegirte"
+   ]
+  },
+  {
+   "a": 39.3,
+   "b": 41.6,
+   "text": "Completa tu perfil en Google.",
+   "keys": [
+    "perfil"
+   ]
+  },
+  {
+   "a": 42.2,
+   "b": 44.4,
+   "text": "Tres: responde sus preguntas",
+   "keys": [
+    "preguntas"
+   ]
+  },
+  {
+   "a": 44.4,
+   "b": 46.85,
+   "text": "con datos y fuentes.",
+   "keys": [
+    "datos",
+    "fuentes"
+   ]
+  },
+  {
+   "a": 47.15,
+   "b": 49,
+   "text": "Un estudio de Princeton:",
+   "keys": [
+    "princeton"
+   ]
+  },
+  {
+   "a": 49,
+   "b": 52.15,
+   "text": "hasta +40% de visibilidad.",
+   "keys": [
+    "visibilidad"
+   ]
+  },
+  {
+   "a": 52.75,
+   "b": 54.5,
+   "text": "Cuatro: tu reputación.",
+   "keys": [
+    "reputación"
+   ]
+  },
+  {
+   "a": 54.8,
+   "b": 56.55,
+   "text": "Suelen citar más",
+   "keys": [
+    "citar"
+   ]
+  },
+  {
+   "a": 56.55,
+   "b": 58.75,
+   "text": "a otros que a ti:",
+   "keys": [
+    "otros"
+   ]
+  },
+  {
+   "a": 58.85,
+   "b": 61.05,
+   "text": "Reseñas reales y menciones.",
+   "keys": [
+    "reales"
+   ]
+  },
+  {
+   "a": 61.65,
+   "b": 63.85,
+   "text": "Cinco: información al día",
+   "keys": [
+    "día"
+   ]
+  },
+  {
+   "a": 63.85,
+   "b": 65.6,
+   "text": "y mide tus resultados.",
+   "keys": [
+    "mide"
+   ]
+  },
+  {
+   "a": 67.1,
+   "b": 69.28,
+   "text": "No solo que te encuentren:",
+   "keys": [
+    "encuentren"
+   ]
+  },
+  {
+   "a": 69.28,
+   "b": 70.9,
+   "text": "que te recomienden.",
+   "keys": [
+    "recomienden"
+   ]
+  },
+  {
+   "a": 70.9,
+   "b": 72.4,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 75.5,
+   "b": 77.66,
+   "text": "te decimos qué mejorar.",
+   "keys": [
+    "mejorar"
+   ]
+  },
+  {
+   "a": 77.66,
+   "b": 79.42,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 11.2,
+   "b": 14,
+   "text": "MÁS DE +1,200%"
+  },
+  {
+   "a": 14.6,
+   "b": 17.2,
+   "text": "CONVIERTEN 60% MÁS"
+  },
+  {
+   "a": 22.6,
+   "b": 25.95,
+   "text": "DE SER ENCONTRADO… A SER RECOMENDADO.",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 26.5,
+   "b": 28.75,
+   "text": "01"
+  },
+  {
+   "a": 34.4,
+   "b": 36.65,
+   "text": "02"
+  },
+  {
+   "a": 42.2,
+   "b": 44.45,
+   "text": "03"
+  },
+  {
+   "a": 49.2,
+   "b": 52.2,
+   "text": "HASTA +40%"
+  },
+  {
+   "a": 52.75,
+   "b": 55,
+   "text": "04"
+  },
+  {
+   "a": 55.4,
+   "b": 58.7,
+   "text": "SITIOS DE MARCA: 1%"
+  },
+  {
+   "a": 61.65,
+   "b": 63.9,
+   "text": "05"
+  },
+  {
+   "a": 72.4,
+   "b": 75.5,
+   "text": "WEB",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 0.7,
+   "type": "dissolve",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 2.55,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 2.57,
+   "type": "flash",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "assemble",
+   "v": 0.9,
+   "pitch": 0.9
+  },
+  {
+   "t": 3.4,
+   "type": "pulse",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3.9,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 5.95,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.2
+  },
+  {
+   "t": 6.4,
+   "type": "flash",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 6.6,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 7.1,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7.1,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 11.15,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 13.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.3
+  },
+  {
+   "t": 14.35,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 14.6,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 15.4,
+   "type": "ding",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 17.7,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 17.85,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 17.933,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.07
+  },
+  {
+   "t": 18.016,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 18.099,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 18.182,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.07
+  },
+  {
+   "t": 18.265,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 18.348,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 18.431,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.07
+  },
+  {
+   "t": 18.514,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 18.597,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 18.68,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.07
+  },
+  {
+   "t": 18.763,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 18.846,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 18.929,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.07
+  },
+  {
+   "t": 19.08,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 19.15,
+   "type": "scan",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.15,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 20.45,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 20.85,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 21,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 21.45,
+   "type": "assemble",
+   "v": 0.55,
+   "pitch": 1.4
+  },
+  {
+   "t": 22.12,
+   "type": "dissolve",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 22.6,
+   "type": "impact",
+   "v": 0.95,
+   "pitch": 1.15
+  },
+  {
+   "t": 22.62,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23.05,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 24.85,
+   "type": "select",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 25.95,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 26.5,
+   "type": "number",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 27.05,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 28.06,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 28.31,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.08
+  },
+  {
+   "t": 28.49,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.16
+  },
+  {
+   "t": 28.74,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.24
+  },
+  {
+   "t": 29.7,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.32
+  },
+  {
+   "t": 28.75,
+   "type": "whoosh",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 29.1,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 29.7,
+   "type": "ding",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 29.95,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 30.1,
+   "type": "scan",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 30.3,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 30.5,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 30.7,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.4
+  },
+  {
+   "t": 30.9,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.5
+  },
+  {
+   "t": 31.1,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.6
+  },
+  {
+   "t": 31.4,
+   "type": "deny",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 32.32,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 32.55,
+   "type": "unlock",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 32.75,
+   "type": "door",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33.15,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 33.2,
+   "type": "meter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 34.4,
+   "type": "number",
+   "v": 1,
+   "pitch": 1.06
+  },
+  {
+   "t": 35.55,
+   "type": "lock",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.05,
+   "type": "lock",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 37.95,
+   "type": "lock",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 38.9,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 39.25,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 39.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 39.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 41,
+   "type": "meter",
+   "v": 0.6,
+   "pitch": 1.08
+  },
+  {
+   "t": 41.65,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 42.15,
+   "type": "number",
+   "v": 1,
+   "pitch": 1.12
+  },
+  {
+   "t": 43,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 43.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 44,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 44.45,
+   "type": "whoosh",
+   "v": 0.3,
+   "pitch": 1.4
+  },
+  {
+   "t": 45.15,
+   "type": "morph",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 46,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 46.3,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 47.15,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 49.15,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.2
+  },
+  {
+   "t": 50.6,
+   "type": "meter",
+   "v": 0.6,
+   "pitch": 1.16
+  },
+  {
+   "t": 52.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 52.7,
+   "type": "number",
+   "v": 1,
+   "pitch": 1.18
+  },
+  {
+   "t": 54.9,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 55.4,
+   "type": "ping",
+   "v": 0.6,
+   "pitch": 1.6
+  },
+  {
+   "t": 56.55,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 56.75,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 56.9,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.06
+  },
+  {
+   "t": 57.05,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.12
+  },
+  {
+   "t": 57.2,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.18
+  },
+  {
+   "t": 57.35,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.24
+  },
+  {
+   "t": 57.5,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 58.3,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 59,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 59.35,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 59.7,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 59.25,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 60.05,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 60.1,
+   "type": "meter",
+   "v": 0.6,
+   "pitch": 1.24
+  },
+  {
+   "t": 61.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 61.6,
+   "type": "number",
+   "v": 1,
+   "pitch": 1.24
+  },
+  {
+   "t": 61.95,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 62.06,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.05
+  },
+  {
+   "t": 62.17,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 62.28,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 62.39,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 62.5,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.05
+  },
+  {
+   "t": 62.61,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 62.72,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 62.83,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 62.94,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.05
+  },
+  {
+   "t": 63.05,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 63.16,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 62.55,
+   "type": "strike",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 62.95,
+   "type": "ding",
+   "v": 0.4,
+   "pitch": 1.25
+  },
+  {
+   "t": 64.1,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 64.24,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 64.38,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.26
+  },
+  {
+   "t": 64.52,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1.34
+  },
+  {
+   "t": 64.3,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 64.45,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 65.4,
+   "type": "meter",
+   "v": 0.8,
+   "pitch": 1.32
+  },
+  {
+   "t": 65.45,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 66.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 67.06,
+   "type": "flash",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 67.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 67.8,
+   "type": "pulse",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 68.1,
+   "type": "pulse",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 68.4,
+   "type": "pulse",
+   "v": 0.3,
+   "pitch": 1.16
+  },
+  {
+   "t": 68.7,
+   "type": "pulse",
+   "v": 0.3,
+   "pitch": 1.24
+  },
+  {
+   "t": 69,
+   "type": "pulse",
+   "v": 0.3,
+   "pitch": 1.32
+  },
+  {
+   "t": 68.9,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 69.3,
+   "type": "select",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 70.9,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 71.35,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 71.6,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.06
+  },
+  {
+   "t": 71.85,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 72.15,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 72.4,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 72.42,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 75.55,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 75.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 76.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 77.3,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 77.95,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 77.97,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 79.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   10.8,
+   17.2,
+   [
+    "Fuente: Adobe Digital Insights, julio 2026 · sitios de retail en EE. UU. · comparado con oct. 2024"
+   ]
+  ],
+  [
+   20.2,
+   25.9,
+   [
+    "Interfaz conceptual · las plataformas se nombran solo como texto"
+   ]
+  ],
+  [
+   30.2,
+   33.85,
+   [
+    "Fuentes: Google Search Central · documentación de rastreadores de OpenAI"
+   ]
+  ],
+  [
+   39.3,
+   41.6,
+   [
+    "Fuente: Ayuda de Perfil de Negocio de Google (relevancia, distancia y prominencia)"
+   ]
+  ],
+  [
+   47.2,
+   52.2,
+   [
+    "Fuente: Aggarwal et al., «GEO», KDD 2024 · resultado experimental"
+   ]
+  ],
+  [
+   55.4,
+   61.05,
+   [
+    "Fuente: McKinsey, State of the Consumer 2026 · productos de consumo"
+   ]
+  ],
+  [
+   64.2,
+   65.6,
+   [
+    "Google Search Console y Bing Webmaster Tools ya muestran tu presencia en funciones de IA"
+   ]
+  ]
+ ],
+ "meter": [
+  [
+   33.2,
+   20
+  ],
+  [
+   41,
+   40
+  ],
+  [
+   50.6,
+   60
+  ],
+  [
+   60.1,
+   80
+  ],
+  [
+   65.4,
+   100
+  ]
+ ],
+ "musicDips": [
+  [
+   10.7,
+   11.15
+  ],
+  [
+   14.25,
+   14.6
+  ],
+  [
+   22.2,
+   22.6
+  ],
+  [
+   48.85,
+   49.15
+  ],
+  [
+   55.05,
+   55.4
+  ],
+  [
+   72.05,
+   72.4
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.9,
+   6.4,
+   1.2
+  ],
+  [
+   17.2,
+   17.68,
+   1.15
+  ],
+  [
+   22,
+   22.6,
+   1.15
+  ],
+  [
+   25.95,
+   26.49,
+   1.2
+  ],
+  [
+   33.88,
+   34.38,
+   1.15
+  ],
+  [
+   41.64,
+   42.14,
+   1.15
+  ],
+  [
+   52.2,
+   52.7,
+   1.15
+  ],
+  [
+   61.08,
+   61.58,
+   1.15
+  ],
+  [
+   65.6,
+   67.06,
+   1.2
+  ],
+  [
+   72.4,
+   75.5,
+   1.15
+  ]
+ ]
+}
