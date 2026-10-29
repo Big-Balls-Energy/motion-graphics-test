@@ -1,0 +1,1069 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK",
+   "a": 0,
+   "b": 4.7,
+   "vis": "M02_compradora_celular.jpg desenfocado al fondo; M01_mano_celular.png con un feed de compras en la pantalla; docenas de TARJETAS_PRODUCTO_3D (M03–M06, sin marcas) delante y detrás del celular. La cámara se acerca y vuela rápido entre las tarjetas; congelado repentino con partículas suspendidas; una interfaz de IA escanea cuatro productos y marca uno. Título «¿QUIÉN DECIDIRÁ QUÉ COMPRAS?»."
+  },
+  {
+   "id": "dato",
+   "name": "EL DATO",
+   "a": 4.7,
+   "b": 13.95,
+   "vis": "GLOBO_3D de alambre sobre M07_multitud_diversa.jpg muy tenue; gira y enciende 11 pines con arcos de luz; «~21,000 CONSUMIDORES · 11 MERCADOS». Los puntos del globo se desprenden y forman «53%» con miles de partículas ámbar mientras la cámara orbita. La cifra se transforma en 100 siluetas sobre M07_multitud_diversa.jpg: 53 iluminadas en cian, «USA IA PARA COMPRAR»."
+  },
+  {
+   "id": "influye",
+   "name": "LA INFLUENCIA",
+   "a": 13.95,
+   "b": 22.5,
+   "vis": "M08_persona_laptop.jpg al fondo. Solo quedan las siluetas cian (quienes compran con IA) y se reagrupan en 10: se encienden 3. BARRAS_3D de cristal con reflejo en el piso: «29% · IA (chat y búsqueda con IA)» en cian contra «9% · buscadores tradicionales» en gris; «3x» entre ellas."
+  },
+  {
+   "id": "recomendado",
+   "name": "DE ENCONTRADO A RECOMENDADO",
+   "a": 22.5,
+   "b": 33.25,
+   "vis": "BUSCADOR_A_ASISTENTE: panel de búsqueda con resultados en lista (tu marca sube al primer lugar); «DE SER ENCONTRADO…» y la lista se desintegran en partículas, la cámara atraviesa la nube y se recompone como asistente de IA con «…A SER RECOMENDADO.». El asistente compara cuatro TARJETAS_PRODUCTO_3D (M03–M06) y destaca una. La frase completa queda más de 3 s en pantalla."
+  },
+  {
+   "id": "reto",
+   "name": "EL RETO",
+   "a": 33.25,
+   "b": 42.5,
+   "vis": "M11_equipo_estrategia.jpg al fondo con paneo; ANILLO_1% de 100 segmentos con dolly-zoom: solo uno se enciende en ámbar, «1%» y «SITIOS DE MARCA: 1%»; después el resto se llena con íconos genéricos de reseñas, medios, foros y videos."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 42.5,
+   "b": 48.6,
+   "vis": "M09_persona_reseñas.jpg al fondo; RED_NEURONAL_3D que orbita: se encienden reseñas (estrellas), medios (M10_prensa_medios.png flotando al frente) y contenido útil; los pulsos convergen en una marca genérica que se ilumina."
+  },
+  {
+   "id": "cta",
+   "name": "CTA CON PALABRA CLAVE",
+   "a": 48.6,
+   "b": 60,
+   "vis": "Cientos de tarjetas de marca genéricas; la red salta entre ellas, elige una y la cámara hace un acercamiento con dolly-zoom: «¿TU MARCA ESTÁ PREPARADA?». En la pantalla de M01_mano_celular.png se escribe «IA» en un comentario y sale en grande (3 s); logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; leyenda de datos; regresa al celular rodeado de productos (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.05,
+   "b": 2.25,
+   "text": "¿Y si ya no eliges",
+   "keys": [
+    "eliges"
+   ]
+  },
+  {
+   "a": 2.25,
+   "b": 4,
+   "text": "tú qué marcas comprar?",
+   "keys": [
+    "marcas"
+   ]
+  },
+  {
+   "a": 4.75,
+   "b": 6.5,
+   "text": "Nuevo estudio de McKinsey",
+   "keys": [
+    "mckinsey"
+   ]
+  },
+  {
+   "a": 11.4,
+   "b": 13.45,
+   "text": "ya compra con IA.",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 13.95,
+   "b": 15.45,
+   "text": "Y entre ellos,",
+   "keys": [
+    "ellos"
+   ]
+  },
+  {
+   "a": 15.45,
+   "b": 17.63,
+   "text": "casi 3 de cada 10",
+   "keys": []
+  },
+  {
+   "a": 19.8,
+   "b": 22,
+   "text": "el triple que los buscadores.",
+   "keys": [
+    "triple"
+   ]
+  },
+  {
+   "a": 22.6,
+   "b": 24.75,
+   "text": "Antes: aparecer en Google.",
+   "keys": [
+    "aparecer"
+   ]
+  },
+  {
+   "a": 25.3,
+   "b": 27.1,
+   "text": "Ahora: ser la marca",
+   "keys": [
+    "marca"
+   ]
+  },
+  {
+   "a": 27.1,
+   "b": 29.45,
+   "text": "que la IA recomiende.",
+   "keys": [
+    "recomiende"
+   ]
+  },
+  {
+   "a": 33.3,
+   "b": 35.05,
+   "text": "Aquí está el reto:",
+   "keys": [
+    "reto"
+   ]
+  },
+  {
+   "a": 35.05,
+   "b": 36.8,
+   "text": "en productos de consumo,",
+   "keys": [
+    "consumo"
+   ]
+  },
+  {
+   "a": 39.1,
+   "b": 41.3,
+   "text": "son sitios de las marcas.",
+   "keys": [
+    "marcas"
+   ]
+  },
+  {
+   "a": 42.55,
+   "b": 44.05,
+   "text": "La IA recomienda",
+   "keys": [
+    "recomienda"
+   ]
+  },
+  {
+   "a": 44.05,
+   "b": 45.8,
+   "text": "lo que otros dicen:",
+   "keys": [
+    "otros"
+   ]
+  },
+  {
+   "a": 45.8,
+   "b": 47.95,
+   "text": "reseñas, medios, contenido útil.",
+   "keys": [
+    "reseñas",
+    "medios",
+    "útil"
+   ]
+  },
+  {
+   "a": 50.7,
+   "b": 52.2,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 55.3,
+   "b": 57.5,
+   "text": "y te decimos cómo lograrlo.",
+   "keys": [
+    "lograrlo"
+   ]
+  },
+  {
+   "a": 57.5,
+   "b": 59.35,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 6.5,
+   "b": 8.95,
+   "text": "~21,000 CONSUMIDORES · 11 MERCADOS"
+  },
+  {
+   "a": 9.15,
+   "b": 11.4,
+   "text": "53%"
+  },
+  {
+   "a": 17.63,
+   "b": 19.8,
+   "text": "29% vs 9% · 3x"
+  },
+  {
+   "a": 29.65,
+   "b": 32.75,
+   "text": "DE SER ENCONTRADO… A SER RECOMENDADO."
+  },
+  {
+   "a": 36.8,
+   "b": 39.1,
+   "text": "1%"
+  },
+  {
+   "a": 48.7,
+   "b": 50.7,
+   "text": "¿TU MARCA ESTÁ PREPARADA?"
+  },
+  {
+   "a": 52.2,
+   "b": 55.3,
+   "text": "IA"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "whoosh",
+   "v": 0.45,
+   "pitch": 0.7
+  },
+  {
+   "t": 0.95,
+   "type": "pass",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.4,
+   "type": "pass",
+   "v": 0.58,
+   "pitch": 1.1
+  },
+  {
+   "t": 1.78,
+   "type": "pass",
+   "v": 0.66,
+   "pitch": 1.2
+  },
+  {
+   "t": 2.08,
+   "type": "pass",
+   "v": 0.74,
+   "pitch": 1.3
+  },
+  {
+   "t": 2.32,
+   "type": "pass",
+   "v": 0.8200000000000001,
+   "pitch": 1.4
+  },
+  {
+   "t": 2.45,
+   "type": "freeze",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 2.56,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 3,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3.2,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.06
+  },
+  {
+   "t": 3.4,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 3.6,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.18
+  },
+  {
+   "t": 3.85,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 4.25,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.3
+  },
+  {
+   "t": 4.7,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.8,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 6.5,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 6.5,
+   "type": "counter",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 6.62,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1
+  },
+  {
+   "t": 6.8,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.035
+  },
+  {
+   "t": 6.98,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.07
+  },
+  {
+   "t": 7.16,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.105
+  },
+  {
+   "t": 7.34,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 7.52,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.175
+  },
+  {
+   "t": 7.7,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.21
+  },
+  {
+   "t": 7.88,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.245
+  },
+  {
+   "t": 8.06,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.28
+  },
+  {
+   "t": 8.24,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.315
+  },
+  {
+   "t": 8.42,
+   "type": "ping",
+   "v": 0.42,
+   "pitch": 1.35
+  },
+  {
+   "t": 8.84,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 8.86,
+   "type": "assemble",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 9.32,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1
+  },
+  {
+   "t": 11.4,
+   "type": "morph",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 12.1,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 12.25,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 12.4,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 13.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 14,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 15.5,
+   "type": "morph",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 16.3,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 16.45,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1.1600000000000001
+  },
+  {
+   "t": 16.6,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1.2200000000000002
+  },
+  {
+   "t": 17.2,
+   "type": "rise",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 18.2,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 21.95,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 22.5,
+   "type": "flash",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 22.78,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 22.865,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.07
+  },
+  {
+   "t": 22.95,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 23.035,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 23.12,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.07
+  },
+  {
+   "t": 23.205,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 23.29,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 23.375,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.07
+  },
+  {
+   "t": 23.46,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 23.545,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 23.75,
+   "type": "swap",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 24.3,
+   "type": "ding",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 24.45,
+   "type": "disintegrate",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 25.55,
+   "type": "assemble",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 25.7,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 26,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 26.12,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 26.24,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.16
+  },
+  {
+   "t": 26.36,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.24
+  },
+  {
+   "t": 26.4,
+   "type": "scan",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 26.65,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 27.05,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.05
+  },
+  {
+   "t": 27.45,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 27.85,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 28.4,
+   "type": "select",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 29.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 29.47,
+   "type": "assemble",
+   "v": 0.5,
+   "pitch": 1.5
+  },
+  {
+   "t": 29.75,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 32.75,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 33.3,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 33.3,
+   "type": "dolly",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 36.75,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 36.8,
+   "type": "ping",
+   "v": 0.6,
+   "pitch": 1.6
+  },
+  {
+   "t": 39.2,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 39.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 39.7,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.07
+  },
+  {
+   "t": 40,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 40.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.21
+  },
+  {
+   "t": 41.9,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 0.9
+  },
+  {
+   "t": 42.5,
+   "type": "flash",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 42.7,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 43.6,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 44.5,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 45.3,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 45.9,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 46.6,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1.35
+  },
+  {
+   "t": 46.95,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 47.1,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 47.25,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 47.35,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 47.95,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 48.6,
+   "type": "flash",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 48.62,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 49.1,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 49.25,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 49.4,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.16
+  },
+  {
+   "t": 49.55,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.24
+  },
+  {
+   "t": 49.7,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.32
+  },
+  {
+   "t": 49.85,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 49.95,
+   "type": "select",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50,
+   "type": "dolly",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 50.75,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 51.2,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 51.45,
+   "type": "key",
+   "v": 0.7,
+   "pitch": 1.08
+  },
+  {
+   "t": 51.85,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52.2,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.22,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 55.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 55.65,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 55.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 57.7,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 58.25,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.27,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   6.5,
+   13.45,
+   [
+    "Fuente: McKinsey & Company, oct. 2026 · ~21,000 consumidores en 11 mercados"
+   ]
+  ],
+  [
+   17.5,
+   22,
+   [
+    "Fuente: McKinsey & Company, oct. 2026 · entre quienes compran con IA"
+   ]
+  ],
+  [
+   36.8,
+   41.3,
+   [
+    "Fuente: McKinsey, State of the Consumer 2026",
+    "~2.6 M de citas de IA sobre 25 marcas de consumo (EE. UU. y R. U.)"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   6.15,
+   6.5
+  ],
+  [
+   8.8,
+   9.3
+  ],
+  [
+   17.15,
+   17.5
+  ],
+  [
+   36.4,
+   36.75
+  ],
+  [
+   51.85,
+   52.2
+  ]
+ ],
+ "musicBoost": [
+  [
+   4.2,
+   4.7,
+   1.2
+  ],
+  [
+   13.45,
+   13.95,
+   1.15
+  ],
+  [
+   21.9,
+   22.5,
+   1.2
+  ],
+  [
+   24.45,
+   25.3,
+   1.15
+  ],
+  [
+   29.45,
+   29.7,
+   1.15
+  ],
+  [
+   32.75,
+   33.25,
+   1.2
+  ],
+  [
+   41.3,
+   42.5,
+   1.15
+  ],
+  [
+   47.95,
+   48.6,
+   1.2
+  ],
+  [
+   52.2,
+   55.3,
+   1.15
+  ]
+ ]
+}
