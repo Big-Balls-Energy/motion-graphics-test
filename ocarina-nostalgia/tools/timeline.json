@@ -1,0 +1,1217 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 90,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "ACTO 1 · GANCHO: LA TELE DE 1998",
+   "a": 0,
+   "b": 6.1,
+   "vis": "Z01_sala_tv_90s.jpg de fondo (desenfocada, carteles y pantalla con personajes de terceros tapados). TV_CRT_3D original se enciende con su línea horizontal, estática y un paisaje de píxeles original; contador «● REC 1998» de cámara VHS; AV03_senalando entra con rebote y señala la tele. Granulado, scanlines."
+  },
+  {
+   "id": "intro",
+   "name": "ACTO 1 · LA PRESENTACIÓN",
+   "a": 6.1,
+   "b": 11.2,
+   "vis": "La tele absorbe la cámara hacia Z06_bosque_neblina.jpg (marcador gris: no se adjuntó) con brasas doradas y niebla. AV02_presentando con «pop» de píxeles dorados; cintillo «GUILLERMO ARCOS · CEO DE ATLAS PATH» con borde dorado animado; ventana «¡NUEVA MISIÓN!». Entran las barras de cine y el MAPA_DE_MISION se despliega con el título «ACTO 1 · EL RECUERDO», la ficha con la cara del avatar marca «1998» y la misión «MISIÓN: RECORDAR»."
+  },
+  {
+   "id": "ocarina",
+   "name": "ACTO 1 · 1998 Y EL 99",
+   "a": 11.2,
+   "b": 21.2,
+   "vis": "Z02_nino_jugando_90s.jpg con grano VHS y líneas de tracking. AV06_explicando_2. Título «OCARINA OF TIME» → «1998» enorme (Press Start 2P) solo 2 s. ESTRELLAS_99: partículas doradas que orbitan y forman «99» → «99/100» solo 2 s; fuente Metacritic."
+  },
+  {
+   "id": "ventas",
+   "name": "ACTO 1 · VENTAS Y PREVENTAS",
+   "a": 21.2,
+   "b": 31,
+   "vis": "AV01_explicando (alta resolución). Z03_consola_n64.png (sin logotipos) gira en 2.5D mientras el CARTUCHO_3D genérico con etiqueta «1998» entra en la ranura; contador «+7,600,000 COPIAS VENDIDAS» → «3X PREVENTAS» (cada cifra sola ≥ 2 s); ventana «LOGRO DESBLOQUEADO»."
+  },
+  {
+   "id": "portal",
+   "name": "ACTO 2 · EL PORTAL",
+   "a": 31,
+   "b": 39.6,
+   "vis": "La cámara sobrevuela el mapa de «1998» a «EL PORTAL» con el título «ACTO 2 · EL PORTAL» y entra al PORTAL_DEL_TIEMPO: vórtice dorado y cian con años 1998→2026 flotando y líneas de velocidad. Paleta del acto 2. AV05_usando_tablet. Al salir, Z05_consola_switch2.png (sin logotipos) con rayos volumétricos y «5 NOV 2026» solo 2 s."
+  },
+  {
+   "id": "remake",
+   "name": "ACTO 2 · LO NUEVO DEL REMAKE",
+   "a": 39.6,
+   "b": 47,
+   "vis": "AV06_explicando_2. MUNDO_LOWPOLY original (colinas, bosque, castillo genérico) en low-poly de los 90 que se transforma en HD cuando lo cruza un barrido de luz. Z04_ocarina_barro.png (marca de agua del banco borrada) flota con notas doradas. Ventanas: «GRÁFICOS NUEVOS», «MÚSICA ORQUESTAL», «TARAREA PARA TOCAR»."
+  },
+  {
+   "id": "jefe",
+   "name": "ACTO 3 · EL JEFE FINAL",
+   "a": 47,
+   "b": 52.6,
+   "vis": "Sobrevuelo del mapa hasta «EL JEFE FINAL» con «ACTO 3 · EL JEFE FINAL». Barras de cine, sacudida. Z07_cueva_antorchas.jpg (marcador gris: no se adjuntó) con antorchas que titilan y niebla. EL_OLVIDO (estática de TV, ruido VHS y polvo, con dos ojos de luz blanca fría) emerge y borra a gris las Polaroids (Z08_polaroids.png, marcador gris) y logos genéricos. Ventana «JEFE FINAL: EL OLVIDO» y barra de vida llena. AV04_pensando observa."
+  },
+  {
+   "id": "batalla",
+   "name": "ACTO 3 · LA NOSTALGIA COMO ARMA",
+   "a": 52.6,
+   "b": 64.2,
+   "vis": "AV03_senalando lanza el ARMA_NOSTALGIA: torbellino de Polaroids doradas originales que viaja como un rayo. La vida del jefe baja en 3 golpes sincronizados con la voz; 1 s de silencio musical y el impacto final en cámara lenta con sacudida y destello blanco: EL OLVIDO estalla en píxeles grises que se vuelven dorados. Fuente: Lasaleta, Sedikides y Vohs, JCR, 2014."
+  },
+  {
+   "id": "familia",
+   "name": "EPÍLOGO · RECUERDOS Y PRIMERA AVENTURA",
+   "a": 64.2,
+   "b": 71.4,
+   "vis": "Amanecer dorado (#FFB547 → #FFF4D6). «EPÍLOGO · LA VICTORIA». AV01_explicando volteado mirando a la derecha; Z09_padre_hijo_jugando.jpg; etiquetas «RECUERDOS · MILLENNIALS» ↔ «PRIMERA AVENTURA · SUS HIJOS»."
+  },
+  {
+   "id": "negocio",
+   "name": "EPÍLOGO · TU NEGOCIO",
+   "a": 71.4,
+   "b": 77.8,
+   "vis": "Z10_negocio_retro.jpg. AV03_senalando señala el COFRE_GENERICO (madera y metal) que se abre con rayos de luz; sale una Polaroid «HACE 20 AÑOS» que se convierte en un producto moderno «EDICIÓN 2026»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE · COMENTA NOSTALGIA",
+   "a": 77.8,
+   "b": 84.6,
+   "vis": "AV07_brazos_cruzados; una burbuja de comentario escribe «NOSTALGIA», que queda sola y grande 3 s. Después AV08_pulgar_arriba con la mano del pulgar en primer plano, logo de Atlas Path en avatar, «ATLAS PATH», @Atlas_Path y botón SEGUIR con cursor y clic."
+  },
+  {
+   "id": "victoria",
+   "name": "FINAL · ¡MISIÓN CUMPLIDA!",
+   "a": 84.6,
+   "b": 90,
+   "vis": "La ficha llega a «LA VICTORIA» en el mapa; remolino de píxeles hacia AV09_avatar_aventurero en pose heroica y «¡MISIÓN CUMPLIDA!». Leyenda pequeña. Se cierran las barras de cine y la tele se apaga con su línea: el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.7,
+   "text": "¿Tienes 30 a 45 años?",
+   "keys": [
+    "años"
+   ]
+  },
+  {
+   "a": 2.8,
+   "b": 5.6,
+   "text": "Este juego marcó tu infancia.",
+   "keys": [
+    "infancia"
+   ]
+  },
+  {
+   "a": 6.3,
+   "b": 8.5,
+   "text": "Guillermo Arcos, de Atlas Path",
+   "keys": [
+    "atlas",
+    "path"
+   ]
+  },
+  {
+   "a": 8.5,
+   "b": 10.7,
+   "text": "¡Hoy nos vamos de aventura!",
+   "keys": [
+    "aventura"
+   ]
+  },
+  {
+   "a": 11.4,
+   "b": 12.95,
+   "text": "Ocarina of Time…",
+   "keys": [
+    "ocarina",
+    "of",
+    "time"
+   ]
+  },
+  {
+   "a": 15.05,
+   "b": 16.95,
+   "text": "El juego mejor calificado",
+   "keys": [
+    "mejor",
+    "calificado"
+   ]
+  },
+  {
+   "a": 16.95,
+   "b": 18.85,
+   "text": "de la historia: Metacritic",
+   "keys": [
+    "metacritic"
+   ]
+  },
+  {
+   "a": 25,
+   "b": 26.55,
+   "text": "En Estados Unidos…",
+   "keys": [
+    "estados",
+    "unidos"
+   ]
+  },
+  {
+   "a": 28.6,
+   "b": 30.5,
+   "text": "que cualquier otro juego",
+   "keys": [
+    "otro",
+    "juego"
+   ]
+  },
+  {
+   "a": 31.25,
+   "b": 33.95,
+   "text": "Ahora, 28 años después",
+   "keys": [
+    "años"
+   ]
+  },
+  {
+   "a": 34,
+   "b": 35.7,
+   "text": "Nintendo lo relanza",
+   "keys": [
+    "relanza"
+   ]
+  },
+  {
+   "a": 35.75,
+   "b": 37.5,
+   "text": "Remake para Switch 2",
+   "keys": [
+    "switch",
+    "2"
+   ]
+  },
+  {
+   "a": 39.8,
+   "b": 41.4,
+   "text": "Con gráficos nuevos",
+   "keys": [
+    "gráficos",
+    "nuevos"
+   ]
+  },
+  {
+   "a": 41.4,
+   "b": 43.1,
+   "text": "música orquestal, voces",
+   "keys": [
+    "música",
+    "orquestal"
+   ]
+  },
+  {
+   "a": 43.15,
+   "b": 44.95,
+   "text": "puedes tocar la ocarina",
+   "keys": [
+    "ocarina"
+   ]
+  },
+  {
+   "a": 44.95,
+   "b": 46.5,
+   "text": "tarareando al micrófono",
+   "keys": [
+    "tarareando"
+   ]
+  },
+  {
+   "a": 47.6,
+   "b": 50.2,
+   "text": "Toda marca tiene jefe final",
+   "keys": [
+    "jefe",
+    "final"
+   ]
+  },
+  {
+   "a": 52.8,
+   "b": 55.2,
+   "text": "Nostalgia: tu mejor arma",
+   "keys": [
+    "nostalgia",
+    "arma"
+   ]
+  },
+  {
+   "a": 55.5,
+   "b": 57.95,
+   "text": "Journal of Consumer Research",
+   "keys": [
+    "journal",
+    "of",
+    "consumer",
+    "research"
+   ]
+  },
+  {
+   "a": 57.95,
+   "b": 60.65,
+   "text": "cuando sentimos nostalgia",
+   "keys": [
+    "nostalgia"
+   ]
+  },
+  {
+   "a": 60.7,
+   "b": 62.95,
+   "text": "estamos dispuestos a pagar más",
+   "keys": [
+    "pagar",
+    "más"
+   ]
+  },
+  {
+   "a": 64.45,
+   "b": 65.95,
+   "text": "Nintendo lo sabe",
+   "keys": [
+    "sabe"
+   ]
+  },
+  {
+   "a": 65.95,
+   "b": 68.1,
+   "text": "recuerdos a quien jugó",
+   "keys": [
+    "recuerdos"
+   ]
+  },
+  {
+   "a": 68.1,
+   "b": 70.85,
+   "text": "primera aventura a sus hijos",
+   "keys": [
+    "primera",
+    "aventura"
+   ]
+  },
+  {
+   "a": 71.6,
+   "b": 73.45,
+   "text": "¿Tu negocio? Encuentra…",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 73.45,
+   "b": 75.65,
+   "text": "lo que hacía feliz",
+   "keys": [
+    "feliz"
+   ]
+  },
+  {
+   "a": 75.65,
+   "b": 77.3,
+   "text": "tráelo de vuelta",
+   "keys": [
+    "vuelta"
+   ]
+  },
+  {
+   "a": 82.1,
+   "b": 84.1,
+   "text": "Síguenos en Atlas Path",
+   "keys": [
+    "atlas",
+    "path"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 12.95,
+   "b": 15,
+   "text": "1998",
+   "sola": true,
+   "min": 2
+  },
+  {
+   "a": 18.85,
+   "b": 21,
+   "text": "99/100",
+   "sola": true,
+   "min": 2
+  },
+  {
+   "a": 22.55,
+   "b": 24.65,
+   "text": "+7,600,000 COPIAS",
+   "sola": true,
+   "min": 2
+  },
+  {
+   "a": 26.55,
+   "b": 28.6,
+   "text": "3X PREVENTAS",
+   "sola": true,
+   "min": 2
+  },
+  {
+   "a": 37.5,
+   "b": 39.55,
+   "text": "5 NOV 2026",
+   "sola": true,
+   "min": 2
+  },
+  {
+   "a": 50.3,
+   "b": 52.1,
+   "text": "JEFE FINAL: EL OLVIDO",
+   "sola": true,
+   "min": 1.5
+  },
+  {
+   "a": 78.5,
+   "b": 81.7,
+   "text": "NOSTALGIA",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 8.75,
+   "b": 10.95,
+   "text": "ACTO 1 · EL RECUERDO",
+   "min": 1.5
+  },
+  {
+   "a": 31.1,
+   "b": 32.9,
+   "text": "ACTO 2 · EL PORTAL",
+   "min": 1.5
+  },
+  {
+   "a": 47.1,
+   "b": 48.9,
+   "text": "ACTO 3 · EL JEFE FINAL",
+   "min": 1.5
+  },
+  {
+   "a": 64.3,
+   "b": 66.1,
+   "text": "EPÍLOGO · LA VICTORIA",
+   "min": 1.5
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "hum",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.25,
+   "type": "crt_on",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 0.55,
+   "type": "static",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 0.78,
+   "type": "pixel",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 1.25,
+   "type": "select",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 1.3,
+   "type": "chip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "tick",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 5.62,
+   "type": "rise",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 5.95,
+   "type": "whoosh",
+   "v": 0.9,
+   "pitch": 0.8
+  },
+  {
+   "t": 6.05,
+   "type": "static",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 6.18,
+   "type": "pixel",
+   "v": 0.7,
+   "pitch": 1.05
+  },
+  {
+   "t": 6.45,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7.05,
+   "type": "quest",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 8.6,
+   "type": "paper",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 8.62,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 9.3,
+   "type": "token",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 9.55,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 10.95,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 11.2,
+   "type": "tape",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 11.28,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 11.45,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 12.95,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 12.97,
+   "type": "chime",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 15,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 15.1,
+   "type": "sparkle",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 17,
+   "type": "sparkle",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 18.6,
+   "type": "assemble",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 18.85,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 18.87,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 20.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 21.25,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 0.95
+  },
+  {
+   "t": 21.3,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.4
+  },
+  {
+   "t": 21.95,
+   "type": "cartridge",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 22,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 22.55,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.05
+  },
+  {
+   "t": 24.7,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 26.55,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1.1
+  },
+  {
+   "t": 26.57,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1.06
+  },
+  {
+   "t": 28.65,
+   "type": "achieve",
+   "v": 0.85,
+   "pitch": 1
+  },
+  {
+   "t": 30.45,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 31,
+   "type": "paper",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 31.25,
+   "type": "token",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 32.15,
+   "type": "portal",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 33.2,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.3
+  },
+  {
+   "t": 34.2,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.4
+  },
+  {
+   "t": 35.7,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 0.9
+  },
+  {
+   "t": 35.72,
+   "type": "flash",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 36,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 37.5,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.1
+  },
+  {
+   "t": 37.52,
+   "type": "chime",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 39.4,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 39.65,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 40,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 40.05,
+   "type": "morph",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 41.5,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1.1
+  },
+  {
+   "t": 43.4,
+   "type": "ocarina",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 43.55,
+   "type": "pop",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 46.45,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.85
+  },
+  {
+   "t": 47.05,
+   "type": "paper",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 47.3,
+   "type": "token",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 48.2,
+   "type": "rumble",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 48.3,
+   "type": "static",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 48.32,
+   "type": "pixel",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 49,
+   "type": "erase",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 49.6,
+   "type": "erase",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 50.3,
+   "type": "roar",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 50.32,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 0.8
+  },
+  {
+   "t": 52.65,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 1.05
+  },
+  {
+   "t": 53.35,
+   "type": "weapon",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 54.6,
+   "type": "hit",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 54.62,
+   "type": "static",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 56.85,
+   "type": "weapon",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 57.9,
+   "type": "hit",
+   "v": 1,
+   "pitch": 1.08
+  },
+  {
+   "t": 57.92,
+   "type": "static",
+   "v": 0.5,
+   "pitch": 1.4
+  },
+  {
+   "t": 59.6,
+   "type": "weapon",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 61.9,
+   "type": "charge",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 62.95,
+   "type": "boom",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 62.97,
+   "type": "static",
+   "v": 0.8,
+   "pitch": 0.6
+  },
+  {
+   "t": 63.25,
+   "type": "burst",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 63.5,
+   "type": "sparkle",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 64.25,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 64.3,
+   "type": "dawn",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 66,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 68.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 70.95,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 71.45,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 72.45,
+   "type": "chest",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 72.6,
+   "type": "sparkle",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 73.4,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 75.4,
+   "type": "morph",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 75.6,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 77.3,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 77.85,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 1.25
+  },
+  {
+   "t": 77.98,
+   "type": "key",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 78.08,
+   "type": "key",
+   "v": 0.55,
+   "pitch": 1.06
+  },
+  {
+   "t": 78.17,
+   "type": "key",
+   "v": 0.55,
+   "pitch": 1.12
+  },
+  {
+   "t": 78.26,
+   "type": "key",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 78.34,
+   "type": "key",
+   "v": 0.55,
+   "pitch": 1.06
+  },
+  {
+   "t": 78.42,
+   "type": "key",
+   "v": 0.55,
+   "pitch": 1.12
+  },
+  {
+   "t": 78.48,
+   "type": "send",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 78.5,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1.1
+  },
+  {
+   "t": 78.52,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 81.8,
+   "type": "pixel",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 82,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1.3
+  },
+  {
+   "t": 82.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 82.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 82.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 83.3,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 83.32,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 84.6,
+   "type": "paper",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 84.9,
+   "type": "token",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 85.6,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 86,
+   "type": "whirl",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 86.55,
+   "type": "fanfare",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 88.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 89.35,
+   "type": "crt_off",
+   "v": 0.9,
+   "pitch": 1
+  }
+ ],
+ "sources": [
+  [
+   11.4,
+   21,
+   [
+    "Lanzamiento: Nintendo 64, 1998 · calificación: Metacritic (99/100, la más alta registrada)"
+   ]
+  ],
+  [
+   21.3,
+   30.4,
+   [
+    "Ventas: Guinness World Records (7.6 millones) · preventas: comunicado de Nintendo of America, 1998"
+   ]
+  ],
+  [
+   35.8,
+   46.6,
+   [
+    "Fuente: anuncio de Nintendo del 8 de sept. de 2026 (Game Informer, GameSpot)"
+   ]
+  ],
+  [
+   55.5,
+   63,
+   [
+    "Lasaleta, Sedikides y Vohs, Journal of Consumer Research, 2014 · resultado experimental"
+   ]
+  ],
+  [
+   84.9,
+   89.3,
+   [
+    "Caso de estudio. Sin afiliación con Nintendo.",
+    "Las marcas mencionadas pertenecen a sus dueños."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   12.6,
+   12.95
+  ],
+  [
+   18.5,
+   18.85
+  ],
+  [
+   22.2,
+   22.55
+  ],
+  [
+   26.2,
+   26.55
+  ],
+  [
+   37.15,
+   37.5
+  ],
+  [
+   49.95,
+   50.3
+  ],
+  [
+   61.95,
+   62.95
+  ],
+  [
+   78.15,
+   78.5
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.6,
+   6.3,
+   1.2
+  ],
+  [
+   10.7,
+   11.3,
+   1.15
+  ],
+  [
+   20.9,
+   21.3,
+   1.15
+  ],
+  [
+   30.4,
+   31.3,
+   1.2
+  ],
+  [
+   46.4,
+   47.4,
+   1.2
+  ],
+  [
+   63,
+   64.4,
+   1.25
+  ],
+  [
+   84.3,
+   89.3,
+   1.2
+  ]
+ ]
+}
