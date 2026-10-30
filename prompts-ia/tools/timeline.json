@@ -1,0 +1,947 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 55,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: 5 PROMPTS QUE TE AHORRAN HORAS",
+   "a": 0,
+   "b": 5.5,
+   "vis": "«5 PROMPTS» gigante, «QUE TE AHORRAN HORAS» y un chat de IA genérico con cursor; chip «GUÁRDALO»."
+  },
+  {
+   "id": "p1",
+   "name": "1 · MENSAJES",
+   "a": 5.5,
+   "b": 11.3,
+   "vis": "Chat genérico: el prompt de respuestas a «¿cuánto cuesta?» se escribe y la IA responde (ejemplo)."
+  },
+  {
+   "id": "p2",
+   "name": "2 · IDEAS DE REELS",
+   "a": 11.3,
+   "b": 17.1,
+   "vis": "Prompt «30 ideas de reels para mi panadería… mamás jóvenes» y lista de ideas de ejemplo."
+  },
+  {
+   "id": "p3",
+   "name": "3 · DESCRIPCIONES",
+   "a": 17.1,
+   "b": 24.3,
+   "vis": "Prompt de descripción en 3 líneas y la respuesta con BENEFICIO, PRUEBA y LLAMADA etiquetadas."
+  },
+  {
+   "id": "p4",
+   "name": "4 · RESEÑAS",
+   "a": 24.3,
+   "b": 30.8,
+   "vis": "Prompt con reseñas pegadas y resumen: «ELOGIAN» en verde y «CRITICAN» en rojo (ejemplo)."
+  },
+  {
+   "id": "p5",
+   "name": "5 · PRECIOS",
+   "a": 30.8,
+   "b": 37.1,
+   "vis": "Prompt de paquetes y tres tarjetas: BÁSICO, RECOMENDADO (resaltado) y PREMIUM."
+  },
+  {
+   "id": "truco",
+   "name": "EL TRUCO: DALE CONTEXTO",
+   "a": 37.1,
+   "b": 43.5,
+   "vis": "Fórmula: QUIÉN ERES + A QUIÉN LE VENDES + FORMATO = MEJOR RESPUESTA."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 43.5,
+   "b": 55,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «PROMPTS», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.35,
+   "text": "5 instrucciones para la IA",
+   "keys": [
+    "IA"
+   ]
+  },
+  {
+   "a": 2.35,
+   "b": 5,
+   "text": "que te ahorran horas. ¡Guárdalo!",
+   "keys": [
+    "¡Guárdalo!"
+   ]
+  },
+  {
+   "a": 5.55,
+   "b": 7.2,
+   "text": "Uno: tus mensajes.",
+   "keys": [
+    "mensajes"
+   ]
+  },
+  {
+   "a": 7.2,
+   "b": 9.2,
+   "text": "5 respuestas amables",
+   "keys": [
+    "amables"
+   ]
+  },
+  {
+   "a": 9.2,
+   "b": 10.8,
+   "text": "a «¿cuánto cuesta?».",
+   "keys": [
+    "cuesta?»"
+   ]
+  },
+  {
+   "a": 11.35,
+   "b": 12.9,
+   "text": "Dos: tus ideas.",
+   "keys": [
+    "ideas"
+   ]
+  },
+  {
+   "a": 12.9,
+   "b": 14.8,
+   "text": "«30 ideas de reels",
+   "keys": [
+    "reels"
+   ]
+  },
+  {
+   "a": 14.8,
+   "b": 16.6,
+   "text": "para mamás jóvenes»",
+   "keys": [
+    "mamás"
+   ]
+  },
+  {
+   "a": 17.15,
+   "b": 18.9,
+   "text": "Tres: tus descripciones.",
+   "keys": [
+    "descripciones"
+   ]
+  },
+  {
+   "a": 18.9,
+   "b": 21,
+   "text": "«Descríbelo en 3 líneas:",
+   "keys": [
+    "líneas:"
+   ]
+  },
+  {
+   "a": 21,
+   "b": 23.8,
+   "text": "beneficio, prueba y llamada»",
+   "keys": [
+    "beneficio,",
+    "prueba",
+    "llamada»"
+   ]
+  },
+  {
+   "a": 24.35,
+   "b": 26,
+   "text": "Cuatro: tus reseñas.",
+   "keys": [
+    "reseñas"
+   ]
+  },
+  {
+   "a": 26,
+   "b": 28.2,
+   "text": "Pega tus reseñas y pregunta:",
+   "keys": [
+    "pega"
+   ]
+  },
+  {
+   "a": 28.2,
+   "b": 30.3,
+   "text": "¿qué elogian y critican?",
+   "keys": [
+    "elogian",
+    "critican?"
+   ]
+  },
+  {
+   "a": 30.85,
+   "b": 32.4,
+   "text": "Cinco: tus precios.",
+   "keys": [
+    "precios"
+   ]
+  },
+  {
+   "a": 32.4,
+   "b": 34.3,
+   "text": "«Crea 3 paquetes:",
+   "keys": [
+    "paquetes:"
+   ]
+  },
+  {
+   "a": 34.3,
+   "b": 36.6,
+   "text": "básico, recomendado y premium»",
+   "keys": [
+    "recomendado"
+   ]
+  },
+  {
+   "a": 37.15,
+   "b": 39,
+   "text": "El truco: dale contexto.",
+   "keys": [
+    "contexto"
+   ]
+  },
+  {
+   "a": 39,
+   "b": 41.2,
+   "text": "quién eres, a quién vendes…",
+   "keys": [
+    "vendes…"
+   ]
+  },
+  {
+   "a": 41.2,
+   "b": 43,
+   "text": "y en qué formato.",
+   "keys": [
+    "formato"
+   ]
+  },
+  {
+   "a": 43.55,
+   "b": 45.3,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 49.25,
+   "b": 51.8,
+   "text": "20 prompts para copiar…",
+   "keys": [
+    "prompts"
+   ]
+  },
+  {
+   "a": 51.8,
+   "b": 54.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 45.6,
+   "b": 48.6,
+   "text": "PROMPTS",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 1,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 2.4,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 4.3,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.5,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 5.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 11.3,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 11.5,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 17.1,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 17.3,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 24.3,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 24.5,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 30.8,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 31,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 37.1,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 37.3,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 6.3,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 6.44,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.02
+  },
+  {
+   "t": 6.58,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 6.72,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 6.86,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 7,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 7.14,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 7.28,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 7.5,
+   "type": "send",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 8.1,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 10.55,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 12.1,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 12.24,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.02
+  },
+  {
+   "t": 12.38,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 12.52,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 12.66,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 12.8,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 12.94,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 13.08,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 13.3,
+   "type": "send",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 13.9,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 16.4,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 17.9,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 18.04,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.02
+  },
+  {
+   "t": 18.18,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 18.32,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 18.46,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 18.6,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 18.74,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 18.88,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 19.1,
+   "type": "send",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 19.7,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 23.6,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 25.1,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 25.24,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.02
+  },
+  {
+   "t": 25.38,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 25.52,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 25.66,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 25.8,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 25.94,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 26.08,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 26.3,
+   "type": "send",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 26.9,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 30.05,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 31.6,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 31.74,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.02
+  },
+  {
+   "t": 31.88,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 32.02,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 32.16,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 32.3,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 32.44,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 32.58,
+   "type": "key",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 32.8,
+   "type": "send",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 33.4,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 36.4,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 21.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 22.1,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 22.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 28.3,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 29,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 34.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 35,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 35.5,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 37.5,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 39.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 40.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 41.4,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 43,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 43.5,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 43.55,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 43.85,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 43.95,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.03
+  },
+  {
+   "t": 44.05,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 44.15,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.09
+  },
+  {
+   "t": 44.25,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 44.35,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 44.45,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.18
+  },
+  {
+   "t": 44.9,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45.6,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 45.62,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 48.65,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 48.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 49.15,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 51.2,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 51.9,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 51.92,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 54.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [],
+ "musicDips": [
+  [
+   0,
+   0.3
+  ],
+  [
+   45.25,
+   45.6
+  ]
+ ],
+ "musicBoost": [
+  [
+   5,
+   5.5,
+   1.2
+  ],
+  [
+   10.85,
+   11.3,
+   1.1
+  ],
+  [
+   16.7,
+   17.1,
+   1.1
+  ],
+  [
+   23.9,
+   24.3,
+   1.1
+  ],
+  [
+   30.35,
+   30.8,
+   1.1
+  ],
+  [
+   36.7,
+   37.1,
+   1.1
+  ],
+  [
+   43,
+   43.5,
+   1.2
+  ],
+  [
+   45.6,
+   48.6,
+   1.15
+  ]
+ ]
+}
