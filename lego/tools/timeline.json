@@ -1,0 +1,846 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 57,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: 2004, −$300 M",
+   "a": 0,
+   "b": 7.4,
+   "vis": "Fondo oscuro. BLOQUE_3D genérico (bloque de construcción rojo con 8 botones, sin logotipo) que se agrieta; contador «−$300 M» y sello «CASI DESAPARECE»."
+  },
+  {
+   "id": "todo",
+   "name": "QUISO HACER DE TODO",
+   "a": 7.4,
+   "b": 12.6,
+   "vis": "Fondo oscuro. Íconos que salen del bloque: PARQUES, VIDEOJUEGOS, ROPA, TELEVISIÓN."
+  },
+  {
+   "id": "bloque",
+   "name": "OLVIDÓ EL BLOQUE",
+   "a": 12.6,
+   "b": 16.6,
+   "vis": "Fondo oscuro. BLOQUE_3D grande con halo: «EL BLOQUE»."
+  },
+  {
+   "id": "director",
+   "name": "KNUDSTORP: REGRESAR A LO BÁSICO",
+   "a": 16.6,
+   "b": 23.8,
+   "vis": "Fondo oscuro. Silueta genérica con ficha «JØRGEN VIG KNUDSTORP · NUEVO DIRECTOR · 2004» y «REGRESAR A LO BÁSICO»."
+  },
+  {
+   "id": "recorte",
+   "name": "RECORTAR Y ESCUCHAR A LOS FANS",
+   "a": 23.8,
+   "b": 28.6,
+   "vis": "Z02_nino_jugando_90s.jpg. Los íconos extra se tachan; corazones y «ESCUCHAR A LOS FANS»."
+  },
+  {
+   "id": "ganancia",
+   "name": "2006: +$240 M",
+   "a": 28.6,
+   "b": 33.6,
+   "vis": "Fondo oscuro. Chip «2006», contador «+$240 M» y línea que sube."
+  },
+  {
+   "id": "record",
+   "name": "2025: INGRESOS RÉCORD",
+   "a": 33.6,
+   "b": 39.6,
+   "vis": "Fondo oscuro. Torre de BLOQUES_3D apilados, chip «2025» y contador «+$12,000 M»."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 39.6,
+   "b": 46.2,
+   "vis": "Fondo oscuro. Tarjeta «HACER MÁS COSAS» tachada y tarjeta «HACER MEJOR LO TUYO» resaltada con el bloque."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 46.2,
+   "b": 57,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «ENFOQUE», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.4,
+   "text": "En 2004, LEGO perdió",
+   "keys": [
+    "perdió"
+   ]
+  },
+  {
+   "a": 2.4,
+   "b": 4.6,
+   "text": "más de $300 millones…",
+   "keys": [
+    "millones…"
+   ]
+  },
+  {
+   "a": 4.6,
+   "b": 6.9,
+   "text": "y casi desaparece.",
+   "keys": [
+    "desaparece"
+   ]
+  },
+  {
+   "a": 7.45,
+   "b": 9.3,
+   "text": "Quiso hacer de todo:",
+   "keys": [
+    "todo:"
+   ]
+  },
+  {
+   "a": 9.3,
+   "b": 12.1,
+   "text": "parques, videojuegos, ropa…",
+   "keys": [
+    "videojuegos,"
+   ]
+  },
+  {
+   "a": 12.65,
+   "b": 14.6,
+   "text": "Olvidó lo importante:",
+   "keys": [
+    "olvidó"
+   ]
+  },
+  {
+   "a": 14.6,
+   "b": 16.1,
+   "text": "su bloque clásico.",
+   "keys": [
+    "bloque"
+   ]
+  },
+  {
+   "a": 16.65,
+   "b": 18.6,
+   "text": "Llegó un nuevo director,",
+   "keys": [
+    "director,"
+   ]
+  },
+  {
+   "a": 18.6,
+   "b": 20.2,
+   "text": "Jørgen Vig Knudstorp,",
+   "keys": [
+    "knudstorp,"
+   ]
+  },
+  {
+   "a": 20.2,
+   "b": 23.3,
+   "text": "idea: regresar a lo básico.",
+   "keys": [
+    "básico"
+   ]
+  },
+  {
+   "a": 23.85,
+   "b": 25.7,
+   "text": "Cortaron lo que fallaba…",
+   "keys": [
+    "cortaron"
+   ]
+  },
+  {
+   "a": 25.7,
+   "b": 28.1,
+   "text": "y escucharon a sus fans.",
+   "keys": [
+    "fans"
+   ]
+  },
+  {
+   "a": 28.65,
+   "b": 30.6,
+   "text": "En 2006 ya ganaba",
+   "keys": [
+    "ganaba"
+   ]
+  },
+  {
+   "a": 30.6,
+   "b": 33.1,
+   "text": "unos $240 millones.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 33.65,
+   "b": 36.2,
+   "text": "En 2025: ingresos récord,",
+   "keys": [
+    "récord,"
+   ]
+  },
+  {
+   "a": 36.2,
+   "b": 39.1,
+   "text": "más de $12,000 millones.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 39.65,
+   "b": 41.8,
+   "text": "Cuando todo va mal…",
+   "keys": [
+    "mal…"
+   ]
+  },
+  {
+   "a": 41.8,
+   "b": 43.6,
+   "text": "no hagas más cosas.",
+   "keys": [
+    "más"
+   ]
+  },
+  {
+   "a": 43.6,
+   "b": 45.7,
+   "text": "Haz mejor lo tuyo.",
+   "keys": [
+    "mejor"
+   ]
+  },
+  {
+   "a": 46.25,
+   "b": 47.95,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 51.15,
+   "b": 52.9,
+   "text": "Te mando 5 preguntas",
+   "keys": [
+    "preguntas"
+   ]
+  },
+  {
+   "a": 52.9,
+   "b": 54.7,
+   "text": "para encontrar tu enfoque.",
+   "keys": [
+    "enfoque"
+   ]
+  },
+  {
+   "a": 54.7,
+   "b": 56.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 2.4,
+   "b": 6.9,
+   "text": "−$300 M"
+  },
+  {
+   "a": 30.2,
+   "b": 33.1,
+   "text": "+$240 M"
+  },
+  {
+   "a": 36.4,
+   "b": 39.1,
+   "text": "+$12,000 M"
+  },
+  {
+   "a": 48.1,
+   "b": 51.1,
+   "text": "ENFOQUE",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "assemble",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 2.4,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 0.85
+  },
+  {
+   "t": 2.45,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 4.8,
+   "type": "strike",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 5.2,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 0.8
+  },
+  {
+   "t": 5.25,
+   "type": "deny",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 6.9,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 7.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 8.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 9.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 11,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 12.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 12.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 13,
+   "type": "assemble",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 14.8,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 14.85,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 16.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 16.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 17,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 18.7,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21.6,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1.05
+  },
+  {
+   "t": 21.65,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 23.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 24.2,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 24.5,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1.06
+  },
+  {
+   "t": 24.8,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 25.1,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1.18
+  },
+  {
+   "t": 26,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 26.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 26.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.26
+  },
+  {
+   "t": 28.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 28.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 29,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 29.4,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 30.2,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 30.25,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 33.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 33.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 33.9,
+   "type": "lock",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 34.2,
+   "type": "lock",
+   "v": 0.45,
+   "pitch": 1.06
+  },
+  {
+   "t": 34.5,
+   "type": "lock",
+   "v": 0.45,
+   "pitch": 1.12
+  },
+  {
+   "t": 34.8,
+   "type": "lock",
+   "v": 0.45,
+   "pitch": 1.18
+  },
+  {
+   "t": 35.1,
+   "type": "lock",
+   "v": 0.45,
+   "pitch": 1.24
+  },
+  {
+   "t": 35.4,
+   "type": "lock",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 36.4,
+   "type": "impact",
+   "v": 0.95,
+   "pitch": 1.15
+  },
+  {
+   "t": 36.45,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 36.5,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1.1
+  },
+  {
+   "t": 39.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 39.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 40,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 40.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 42.2,
+   "type": "strike",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 42.25,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 43.7,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.05
+  },
+  {
+   "t": 43.75,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 45.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 46.2,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 46.25,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 46.55,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 46.65,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 46.75,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 46.85,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 46.95,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 47.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 47.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.24
+  },
+  {
+   "t": 47.6,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 48.1,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 48.12,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 51.15,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 51.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 51.65,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 53.7,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 54.4,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 54.42,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 56.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   0.15,
+   6.9,
+   [
+    "Pérdida neta 2004 ≈ US$322 M (iProfesional, 27 sep. 2026). Cifras convertidas a dólares, aproximadas."
+   ]
+  ],
+  [
+   28.65,
+   39.1,
+   [
+    "Fuente: iProfesional, 27 sep. 2026 (con datos de LEGO): ganancia 2006 ≈ US$240 M; ingresos 2025 ≈ US$12,630 M."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.05,
+   2.4
+  ],
+  [
+   4.85,
+   5.2
+  ],
+  [
+   14.45,
+   14.8
+  ],
+  [
+   29.85,
+   30.2
+  ],
+  [
+   36.05,
+   36.4
+  ],
+  [
+   47.75,
+   48.1
+  ]
+ ],
+ "musicBoost": [
+  [
+   6.9,
+   7.4,
+   1.2
+  ],
+  [
+   12.1,
+   12.6,
+   1.15
+  ],
+  [
+   16.1,
+   16.6,
+   1.15
+  ],
+  [
+   23.3,
+   23.8,
+   1.15
+  ],
+  [
+   28.1,
+   28.6,
+   1.15
+  ],
+  [
+   33.1,
+   33.6,
+   1.15
+  ],
+  [
+   39.1,
+   39.6,
+   1.15
+  ],
+  [
+   45.7,
+   46.2,
+   1.2
+  ],
+  [
+   48.1,
+   51.1,
+   1.15
+  ]
+ ]
+}
