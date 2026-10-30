@@ -1,0 +1,1033 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 72,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: GOOGLE YA NO MANDA VISITAS",
+   "a": 0,
+   "b": 5,
+   "vis": "Fondo oscuro. BARRAS_3D de tráfico (7 barras de vidrio cian) que se desploman y se vuelven rojas; flecha que cae; sello «REDDIT LO CONFIRMA»."
+  },
+  {
+   "id": "dato",
+   "name": "−1 MILLÓN DE VISITAS POR SEMANA",
+   "a": 5,
+   "b": 12.3,
+   "vis": "G10_personas_celular.jpg oscuro. Tarjeta de noticia «REDDIT» (solo texto, sin logotipo) y contador «−1,000,000 VISITAS DESDE BUSCADORES · CADA SEMANA»."
+  },
+  {
+   "id": "huffman",
+   "name": "HUFFMAN: «EL MODO IA NO MANDA TRÁFICO»",
+   "a": 12.3,
+   "b": 23,
+   "vis": "Fondo oscuro con rayos. Silueta genérica (no es su cara) con ficha «STEVE HUFFMAN · CEO DE REDDIT» y chip «CULPA: EL MODO IA DE GOOGLE»; después, tarjeta de cita gigante."
+  },
+  {
+   "id": "ia",
+   "name": "LA IA RESPONDE Y NADIE HACE CLIC",
+   "a": 23,
+   "b": 28.6,
+   "vis": "M08_persona_laptop.jpg. Buscador genérico: se escribe la pregunta, una caja de respuesta de IA se escribe sola y los enlaces de abajo se apagan; contador de CLICS en 0."
+  },
+  {
+   "id": "bolsa",
+   "name": "LA ACCIÓN CAE 18 %",
+   "a": 28.6,
+   "b": 33.5,
+   "vis": "Fondo rojo oscuro. Gráfica de la acción que se desploma y «−18 %»."
+  },
+  {
+   "id": "login",
+   "name": "LA RESPUESTA: INICIAR SESIÓN",
+   "a": 33.5,
+   "b": 37.9,
+   "vis": "Contenido borroso de un foro genérico y encima un muro «INICIA SESIÓN PARA CONTINUAR» con candado."
+  },
+  {
+   "id": "riesgo",
+   "name": "¿Y TU NEGOCIO?",
+   "a": 37.9,
+   "b": 42.6,
+   "vis": "F14_mostrador_negocio.jpg. Medidor de dependencia «TU TRÁFICO: 100 % GOOGLE» que se pone rojo y sello «RIESGO»."
+  },
+  {
+   "id": "a1",
+   "name": "1 · TUS PROPIOS CONTACTOS",
+   "a": 42.6,
+   "b": 48.8,
+   "vis": "W08_duena_tablet.jpg. Íconos de correo y chat caen en una tarjeta «TU LISTA» con contador que sube."
+  },
+  {
+   "id": "a2",
+   "name": "2 · QUE LA IA TE CITE",
+   "a": 48.8,
+   "b": 54.1,
+   "vis": "E11_persona_ia_celular.jpg. Caja de respuesta de IA con una cita resaltada «Fuente: tunegocio.com»."
+  },
+  {
+   "id": "a3",
+   "name": "3 · MÁS DE UN CANAL",
+   "a": 54.1,
+   "b": 60.3,
+   "vis": "Fondo oscuro. Diagrama de red: «TU NEGOCIO» al centro y cuatro nodos que se encienden: GOOGLE, REDES, COMUNIDAD, RECOMENDACIONES."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 60.3,
+   "b": 72,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «TRÁFICO», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.35,
+   "text": "Google ya no manda visitas…",
+   "keys": [
+    "visitas…"
+   ]
+  },
+  {
+   "a": 2.35,
+   "b": 4.5,
+   "text": "y Reddit lo confirmó.",
+   "keys": [
+    "reddit"
+   ]
+  },
+  {
+   "a": 5.05,
+   "b": 6.6,
+   "text": "Esta semana, Reddit…",
+   "keys": [
+    "reddit…"
+   ]
+  },
+  {
+   "a": 6.6,
+   "b": 8.9,
+   "text": "perdió +1 millón de visitas",
+   "keys": [
+    "visitas"
+   ]
+  },
+  {
+   "a": 8.9,
+   "b": 11.8,
+   "text": "desde buscadores… cada semana.",
+   "keys": [
+    "semana"
+   ]
+  },
+  {
+   "a": 12.35,
+   "b": 14.4,
+   "text": "Su director, Steve Huffman,",
+   "keys": [
+    "huffman,"
+   ]
+  },
+  {
+   "a": 14.4,
+   "b": 16.6,
+   "text": "culpa al modo IA.",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 17,
+   "b": 20.2,
+   "text": "«La IA no manda tráfico.",
+   "keys": [
+    "tráfico"
+   ]
+  },
+  {
+   "a": 20.2,
+   "b": 22.45,
+   "text": "Ni a nadie».",
+   "keys": [
+    "nadie»"
+   ]
+  },
+  {
+   "a": 23.05,
+   "b": 26.2,
+   "text": "La IA responde ahí mismo…",
+   "keys": [
+    "responde"
+   ]
+  },
+  {
+   "a": 26.2,
+   "b": 28.1,
+   "text": "casi nadie da clic.",
+   "keys": [
+    "clic"
+   ]
+  },
+  {
+   "a": 28.65,
+   "b": 30.2,
+   "text": "Tras el anuncio,",
+   "keys": [
+    "anuncio"
+   ]
+  },
+  {
+   "a": 30.2,
+   "b": 33,
+   "text": "sus acciones cayeron 18 %.",
+   "keys": [
+    "acciones"
+   ]
+  },
+  {
+   "a": 33.55,
+   "b": 35.6,
+   "text": "¿Su respuesta? Iniciar sesión",
+   "keys": [
+    "sesión"
+   ]
+  },
+  {
+   "a": 35.6,
+   "b": 37.4,
+   "text": "para ver casi todo.",
+   "keys": [
+    "todo"
+   ]
+  },
+  {
+   "a": 37.95,
+   "b": 39.5,
+   "text": "¿Y tu negocio?",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 39.5,
+   "b": 42.1,
+   "text": "¿Solo dependes de Google? Riesgo.",
+   "keys": [
+    "riesgo"
+   ]
+  },
+  {
+   "a": 42.65,
+   "b": 44.7,
+   "text": "3 cosas para hoy.",
+   "keys": [
+    "hoy"
+   ]
+  },
+  {
+   "a": 44.7,
+   "b": 46.7,
+   "text": "1: tus propios contactos,",
+   "keys": [
+    "contactos,"
+   ]
+  },
+  {
+   "a": 46.7,
+   "b": 48.3,
+   "text": "correo o WhatsApp.",
+   "keys": [
+    "whatsapp"
+   ]
+  },
+  {
+   "a": 48.85,
+   "b": 51.2,
+   "text": "2: datos y respuestas claras",
+   "keys": [
+    "claras"
+   ]
+  },
+  {
+   "a": 51.2,
+   "b": 53.6,
+   "text": "que la IA te cite.",
+   "keys": [
+    "cite"
+   ]
+  },
+  {
+   "a": 54.15,
+   "b": 57.1,
+   "text": "3: más de un canal.",
+   "keys": [
+    "canal"
+   ]
+  },
+  {
+   "a": 57.1,
+   "b": 59.8,
+   "text": "Redes, comunidad y recomendaciones.",
+   "keys": [
+    "comunidad"
+   ]
+  },
+  {
+   "a": 60.35,
+   "b": 62.5,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 65.75,
+   "b": 67.6,
+   "text": "Te mando una guía",
+   "keys": [
+    "guía"
+   ]
+  },
+  {
+   "a": 67.6,
+   "b": 69.6,
+   "text": "para que te recomiende.",
+   "keys": [
+    "recomiende"
+   ]
+  },
+  {
+   "a": 69.6,
+   "b": 71.4,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 7,
+   "b": 11.8,
+   "text": "−1,000,000 VISITAS / SEMANA"
+  },
+  {
+   "a": 30.8,
+   "b": 33,
+   "text": "−18 %"
+  },
+  {
+   "a": 62.6,
+   "b": 65.6,
+   "text": "TRÁFICO",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "dissolve",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 1.4,
+   "type": "dissolve",
+   "v": 0.35,
+   "pitch": 0.95
+  },
+  {
+   "t": 1.6,
+   "type": "dissolve",
+   "v": 0.35,
+   "pitch": 0.9
+  },
+  {
+   "t": 1.8,
+   "type": "dissolve",
+   "v": 0.35,
+   "pitch": 0.85
+  },
+  {
+   "t": 2,
+   "type": "dissolve",
+   "v": 0.35,
+   "pitch": 0.8
+  },
+  {
+   "t": 2.2,
+   "type": "dissolve",
+   "v": 0.35,
+   "pitch": 0.75
+  },
+  {
+   "t": 2.4,
+   "type": "dissolve",
+   "v": 0.35,
+   "pitch": 0.7
+  },
+  {
+   "t": 2.6,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 0.9
+  },
+  {
+   "t": 2.65,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 5.3,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 0.95
+  },
+  {
+   "t": 7.05,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 10.8,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 11.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 12.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 12.6,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 14.5,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 17,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 0.9
+  },
+  {
+   "t": 17.05,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 20.3,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21.4,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 22.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 23.3,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 23.42,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.03
+  },
+  {
+   "t": 23.54,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.06
+  },
+  {
+   "t": 23.66,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.09
+  },
+  {
+   "t": 23.78,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.12
+  },
+  {
+   "t": 23.9,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.15
+  },
+  {
+   "t": 24.02,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.18
+  },
+  {
+   "t": 24.14,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.21
+  },
+  {
+   "t": 24.26,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.24
+  },
+  {
+   "t": 24.6,
+   "type": "scan",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 26.4,
+   "type": "dissolve",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 27.4,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 28.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 28.6,
+   "type": "deny",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 29.4,
+   "type": "dissolve",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 30.8,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 0.85
+  },
+  {
+   "t": 30.85,
+   "type": "number",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 33.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34.9,
+   "type": "lock",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 35,
+   "type": "deny",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 37.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 37.9,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 39.5,
+   "type": "meter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 41.1,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 0.9
+  },
+  {
+   "t": 42.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 42.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 44.7,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 45.2,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 45.5,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 45.8,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 46.1,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 46.4,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.16
+  },
+  {
+   "t": 46.7,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 47,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.24
+  },
+  {
+   "t": 47.3,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.28
+  },
+  {
+   "t": 48.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 48.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 49.3,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 50.2,
+   "type": "scan",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 51.6,
+   "type": "select",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 51.65,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 53.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 54.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 54.5,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 55.3,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 55.33,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 55.8,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.07
+  },
+  {
+   "t": 55.83,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.05
+  },
+  {
+   "t": 56.3,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 56.33,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 56.8,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.21
+  },
+  {
+   "t": 56.83,
+   "type": "pulse",
+   "v": 0.35,
+   "pitch": 1.15
+  },
+  {
+   "t": 57.4,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 59.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 60.3,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 60.35,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 60.75,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 60.87,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 60.99,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 61.11,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 61.23,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 61.35,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 61.47,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.24
+  },
+  {
+   "t": 62,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 62.6,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 62.62,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 65.65,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 65.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 66.15,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 67.9,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 68.6,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 68.62,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 71.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   5.05,
+   22.45,
+   [
+    "Fuente: Reuters, «Reddit puts logged in experience first as Google AI hits traffic», 29 oct. 2026"
+   ]
+  ],
+  [
+   28.65,
+   37.4,
+   [
+    "Fuente: Reuters, 29 oct. 2026 · caída de 18 % en operaciones fuera de horario · prueba de inicio de sesión fuera de EE. UU."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.25,
+   2.6
+  ],
+  [
+   6.65,
+   7
+  ],
+  [
+   16.65,
+   17
+  ],
+  [
+   30.45,
+   30.8
+  ],
+  [
+   62.25,
+   62.6
+  ]
+ ],
+ "musicBoost": [
+  [
+   4.5,
+   5,
+   1.2
+  ],
+  [
+   11.8,
+   12.3,
+   1.15
+  ],
+  [
+   22.5,
+   23,
+   1.15
+  ],
+  [
+   28.1,
+   28.6,
+   1.15
+  ],
+  [
+   33,
+   33.5,
+   1.15
+  ],
+  [
+   37.4,
+   37.9,
+   1.15
+  ],
+  [
+   42.1,
+   42.6,
+   1.15
+  ],
+  [
+   48.3,
+   48.8,
+   1.15
+  ],
+  [
+   53.6,
+   54.1,
+   1.15
+  ],
+  [
+   59.8,
+   60.3,
+   1.2
+  ],
+  [
+   62.6,
+   65.6,
+   1.15
+  ]
+ ]
+}
