@@ -1,0 +1,1067 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 70,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: 3 SEGUNDOS",
+   "a": 0,
+   "b": 4.7,
+   "vis": "Q01_espera_celular.jpg (persona impaciente viendo el celular). LOADER_3D: anillo de 12 bloques de luz que gira como «cargando»; cronómetro de 0.0 a 3.0 s y «3 SEGUNDOS»."
+  },
+  {
+   "id": "dato",
+   "name": "EL DATO DE GOOGLE: 53 %",
+   "a": 4.7,
+   "b": 17.3,
+   "vis": "G10_personas_celular.jpg muy oscuro. Rejilla de 100 personas (íconos): 53 se ponen rojas y se van; «53 %» enorme. Después, barra de carga que se arrastra y cronómetro hasta «22 s» (página móvil promedio, estudio de 2017)."
+  },
+  {
+   "id": "giro",
+   "name": "LA BUENA NOTICIA: 5 CAMBIOS",
+   "a": 17.3,
+   "b": 22.2,
+   "vis": "Fondo oscuro con rayos. CUBOS_3D: cinco cubos de vidrio numerados 1–5 caen en arco y giran; «SE ARREGLA» y «5 CAMBIOS RÁPIDOS»."
+  },
+  {
+   "id": "t1",
+   "name": "1 · MÍDELO",
+   "a": 22.2,
+   "b": 29.1,
+   "vis": "W04_laptop_diseno_web.jpg. Velocímetro de rendimiento que sube de 28 (rojo) a 92 (verde); chip «PageSpeed Insights · GRATIS»; lista de fallas que se tachan."
+  },
+  {
+   "id": "t2",
+   "name": "2 · COMPRIME TUS FOTOS",
+   "a": 29.1,
+   "b": 35.2,
+   "vis": "Fondo oscuro. Tarjeta de archivo «foto.jpg 2.4 MB» con la foto Q02 se comprime como prensa y sale «foto.webp 1.6 MB»; barras comparativas y «HASTA ⅓ MENOS»."
+  },
+  {
+   "id": "t3",
+   "name": "3 · BOTÓN A LA VISTA",
+   "a": 35.2,
+   "b": 40.7,
+   "vis": "Q02_duena_mensajes.jpg. Celular (W01) con una web genérica: aparece abajo un botón verde fijo «Escríbenos por WhatsApp» y uno de «Llamar»; toque con onda; «SIN BAJAR»."
+  },
+  {
+   "id": "t4",
+   "name": "4 · UNA PÁGINA, UNA ACCIÓN",
+   "a": 40.7,
+   "b": 46.4,
+   "vis": "W10_tienda_online_compras.jpg. Ocho botones distintos se amontonan, chocan y se funden en uno solo grande: «RESERVA AHORA»."
+  },
+  {
+   "id": "t5",
+   "name": "5 · PRIMERO EL CELULAR",
+   "a": 46.4,
+   "b": 52.5,
+   "vis": "W04_laptop_diseno_web.jpg oscuro. Un marco de computadora se transforma en el de un celular; el contenido se reacomoda en una columna; «GOOGLE INDEXA PRIMERO LA VERSIÓN MÓVIL»."
+  },
+  {
+   "id": "leccion",
+   "name": "TU MEJOR VENDEDOR 24/7",
+   "a": 52.5,
+   "b": 59,
+   "vis": "E13_negocio_pequeno.jpg. Insignia «TU MEJOR VENDEDOR» con reloj que da vueltas y «24/7»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 59,
+   "b": 70,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «RÁPIDA», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 1.85,
+   "text": "Tienes 3 segundos…",
+   "keys": [
+    "segundos…"
+   ]
+  },
+  {
+   "a": 1.85,
+   "b": 4.2,
+   "text": "o pierdes a la mitad.",
+   "keys": [
+    "mitad"
+   ]
+  },
+  {
+   "a": 4.75,
+   "b": 6.4,
+   "text": "Datos de Google:",
+   "keys": [
+    "google:"
+   ]
+  },
+  {
+   "a": 6.4,
+   "b": 8.6,
+   "text": "el 53 % de visitas",
+   "keys": [
+    "visitas"
+   ]
+  },
+  {
+   "a": 8.6,
+   "b": 10.4,
+   "text": "en celular se van",
+   "keys": [
+    "van"
+   ]
+  },
+  {
+   "a": 10.4,
+   "b": 12.2,
+   "text": "si tarda +3 segundos.",
+   "keys": [
+    "segundos"
+   ]
+  },
+  {
+   "a": 12.35,
+   "b": 14.4,
+   "text": "Y en ese estudio,",
+   "keys": [
+    "estudio"
+   ]
+  },
+  {
+   "a": 14.4,
+   "b": 16.8,
+   "text": "el promedio: 22 segundos.",
+   "keys": [
+    "promedio:"
+   ]
+  },
+  {
+   "a": 17.6,
+   "b": 19.45,
+   "text": "Buena noticia: se arregla.",
+   "keys": [
+    "arregla"
+   ]
+  },
+  {
+   "a": 19.45,
+   "b": 21.7,
+   "text": "5 cambios rápidos.",
+   "keys": [
+    "rápidos"
+   ]
+  },
+  {
+   "a": 22.25,
+   "b": 24,
+   "text": "1: mide tu web.",
+   "keys": [
+    "mide"
+   ]
+  },
+  {
+   "a": 24,
+   "b": 26,
+   "text": "con PageSpeed Insights:",
+   "keys": [
+    "pagespeed",
+    "insights:"
+   ]
+  },
+  {
+   "a": 26,
+   "b": 28.6,
+   "text": "gratis: te dice qué falla.",
+   "keys": [
+    "gratis:"
+   ]
+  },
+  {
+   "a": 29.15,
+   "b": 31.5,
+   "text": "2: comprime tus fotos.",
+   "keys": [
+    "comprime"
+   ]
+  },
+  {
+   "a": 31.5,
+   "b": 34.6,
+   "text": "WebP: hasta 1/3 menos.",
+   "keys": [
+    "webp:"
+   ]
+  },
+  {
+   "a": 35.25,
+   "b": 37.6,
+   "text": "3: botón de WhatsApp",
+   "keys": [
+    "whatsapp"
+   ]
+  },
+  {
+   "a": 37.6,
+   "b": 40.2,
+   "text": "o llamar, sin bajar.",
+   "keys": [
+    "llamar"
+   ]
+  },
+  {
+   "a": 40.75,
+   "b": 43.4,
+   "text": "4: una página, una acción.",
+   "keys": [
+    "acción"
+   ]
+  },
+  {
+   "a": 43.4,
+   "b": 45.9,
+   "text": "Si pides todo… nada.",
+   "keys": [
+    "nada"
+   ]
+  },
+  {
+   "a": 46.45,
+   "b": 49.2,
+   "text": "5: primero el celular…",
+   "keys": [
+    "celular…"
+   ]
+  },
+  {
+   "a": 49.2,
+   "b": 52,
+   "text": "Google revisa esa versión.",
+   "keys": [
+    "google"
+   ]
+  },
+  {
+   "a": 52.55,
+   "b": 54.85,
+   "text": "Web rápida: no es lujo.",
+   "keys": [
+    "lujo"
+   ]
+  },
+  {
+   "a": 54.85,
+   "b": 56.5,
+   "text": "tu mejor vendedor…",
+   "keys": [
+    "vendedor…"
+   ]
+  },
+  {
+   "a": 56.5,
+   "b": 58.5,
+   "text": "y trabaja 24 horas.",
+   "keys": [
+    "trabaja"
+   ]
+  },
+  {
+   "a": 59.05,
+   "b": 60.95,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 64.05,
+   "b": 66.1,
+   "text": "Te mando 10 puntos",
+   "keys": [
+    "puntos"
+   ]
+  },
+  {
+   "a": 66.1,
+   "b": 67.6,
+   "text": "Acelera tu web.",
+   "keys": [
+    "acelera"
+   ]
+  },
+  {
+   "a": 67.6,
+   "b": 69.4,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 6.4,
+   "b": 10.4,
+   "text": "53 %"
+  },
+  {
+   "a": 14.6,
+   "b": 16.8,
+   "text": "22 s"
+  },
+  {
+   "a": 32.4,
+   "b": 34.6,
+   "text": "HASTA ⅓ MENOS"
+  },
+  {
+   "a": 56.5,
+   "b": 58.5,
+   "text": "24/7"
+  },
+  {
+   "a": 61,
+   "b": 64,
+   "text": "RÁPIDA",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 0.54,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.03
+  },
+  {
+   "t": 0.78,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 1.02,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.09
+  },
+  {
+   "t": 1.26,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 1.5,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.15
+  },
+  {
+   "t": 1.74,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.18
+  },
+  {
+   "t": 1.98,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.21
+  },
+  {
+   "t": 2.22,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.24
+  },
+  {
+   "t": 2.46,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.27
+  },
+  {
+   "t": 2.7,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.3
+  },
+  {
+   "t": 2.94,
+   "type": "tick",
+   "v": 0.32,
+   "pitch": 1.33
+  },
+  {
+   "t": 3,
+   "type": "deny",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 3.05,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 4.2,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 4.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 5,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 6.4,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.1
+  },
+  {
+   "t": 6.45,
+   "type": "count",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 8.6,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.8
+  },
+  {
+   "t": 8.78,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.8300000000000001
+  },
+  {
+   "t": 8.96,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.8600000000000001
+  },
+  {
+   "t": 9.14,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.89
+  },
+  {
+   "t": 9.32,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.92
+  },
+  {
+   "t": 9.5,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.9500000000000001
+  },
+  {
+   "t": 9.68,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.98
+  },
+  {
+   "t": 9.86,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 1.01
+  },
+  {
+   "t": 10.6,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 12.3,
+   "type": "scan",
+   "v": 0.45,
+   "pitch": 0.8
+  },
+  {
+   "t": 14.6,
+   "type": "hit",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 14.62,
+   "type": "number",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 16.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 17.3,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 17.8,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.06
+  },
+  {
+   "t": 18,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 18.2,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.18
+  },
+  {
+   "t": 18.4,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 19.5,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 21.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 22.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 22.4,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 24,
+   "type": "meter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 26.2,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.8,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 27.4,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 28.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 29.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 29.3,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 31.4,
+   "type": "door",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 31.9,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 32.4,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.2
+  },
+  {
+   "t": 32.45,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 34.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 35.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 35.4,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 36.4,
+   "type": "pop",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 38.6,
+   "type": "click",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 38.65,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 40.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 40.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 40.9,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 41.2,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 41.32,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.05
+  },
+  {
+   "t": 41.44,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 41.56,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.15
+  },
+  {
+   "t": 41.68,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 41.8,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.25
+  },
+  {
+   "t": 41.92,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 42.04,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.35
+  },
+  {
+   "t": 43.5,
+   "type": "dissolve",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 44.3,
+   "type": "select",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 46.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 46.6,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 47.4,
+   "type": "morph",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 48.5,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 49.3,
+   "type": "scan",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 52,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 52.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 52.8,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 55,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 56.5,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.15
+  },
+  {
+   "t": 56.55,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 58.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 59,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 59.05,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 59.4,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 59.53,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 59.66,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 59.79,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 59.92,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 60.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 60.6,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 61,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 61.02,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 64.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 64.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 64.55,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 66.5,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 67.2,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 67.22,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 69.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   4.75,
+   16.8,
+   [
+    "Fuente: Google/SOASTA Research, 2017 (Think with Google): 53 % abandona si tarda más de 3 s; carga promedio 22 s"
+   ]
+  ],
+  [
+   29.15,
+   34.6,
+   [
+    "Fuente: Google for Developers · WebP es 25–34 % más ligero que un JPEG comparable"
+   ]
+  ],
+  [
+   46.45,
+   52,
+   [
+    "Fuente: Google Search Central · indexación mobile-first"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.65,
+   3
+  ],
+  [
+   6.05,
+   6.4
+  ],
+  [
+   14.25,
+   14.6
+  ],
+  [
+   32.05,
+   32.4
+  ],
+  [
+   56.15,
+   56.5
+  ],
+  [
+   60.65,
+   61
+  ]
+ ],
+ "musicBoost": [
+  [
+   4.2,
+   4.7,
+   1.2
+  ],
+  [
+   16.8,
+   17.3,
+   1.15
+  ],
+  [
+   21.7,
+   22.2,
+   1.15
+  ],
+  [
+   28.6,
+   29.1,
+   1.15
+  ],
+  [
+   34.6,
+   35.2,
+   1.15
+  ],
+  [
+   40.2,
+   40.7,
+   1.15
+  ],
+  [
+   45.9,
+   46.4,
+   1.15
+  ],
+  [
+   52,
+   52.5,
+   1.15
+  ],
+  [
+   58.5,
+   59,
+   1.2
+  ],
+  [
+   61,
+   64,
+   1.15
+  ]
+ ]
+}
