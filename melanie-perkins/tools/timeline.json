@@ -1,0 +1,981 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 67,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: +100 «NO» → $60,000 M",
+   "a": 0,
+   "b": 7.1,
+   "vis": "Fondo oscuro. Lluvia de sellos «NO» y contador «100+»; luego LIENZO_3D (tarjeta de diseño genérica flotando) y «$60,000 M»."
+  },
+  {
+   "id": "uni",
+   "name": "MELANIE PERKINS: LOS PROGRAMAS ERAN DIFÍCILES",
+   "a": 7.1,
+   "b": 16.6,
+   "vis": "K09_persona_aprendiendo.jpg. Ficha «MELANIE PERKINS · PERTH, AUSTRALIA» y una ventana de programa genérica llena de botones: «DIFÍCILES»."
+  },
+  {
+   "id": "idea",
+   "name": "LA IDEA: DISEÑO FÁCIL PARA CUALQUIERA",
+   "a": 16.6,
+   "b": 22.3,
+   "vis": "Fondo oscuro. LIENZO_3D con figuras que se acomodan solas; tres líneas: DISEÑO FÁCIL · EN INTERNET · PARA CUALQUIERA."
+  },
+  {
+   "id": "anuarios",
+   "name": "ANUARIOS DESDE LA SALA DE SU MAMÁ",
+   "a": 22.3,
+   "b": 28.5,
+   "vis": "A01_sala_colchones.jpg. Libros-anuario genéricos que se apilan; «con Cliff Obrecht» y «DESDE LA SALA DE SU MAMÁ»."
+  },
+  {
+   "id": "rechazos",
+   "name": "+100 RECHAZOS",
+   "a": 28.5,
+   "b": 34.2,
+   "vis": "Fondo oscuro rojizo. Rejilla de 100 sellos «NO» que se llena; contador «100+ RECHAZOS»."
+  },
+  {
+   "id": "kite",
+   "name": "APRENDIÓ KITESURF",
+   "a": 34.2,
+   "b": 38.8,
+   "vis": "Fondo oscuro. Cometa de kitesurf genérica sobre olas animadas; «APRENDIÓ KITESURF»."
+  },
+  {
+   "id": "lanzamiento",
+   "name": "2013: CANVA, 50,000 EN EL PRIMER MES",
+   "a": 38.8,
+   "b": 45.2,
+   "vis": "Fondo oscuro. Chip «AGO. 2013», «CANVA» (solo texto), LIENZO_3D y contador «50,000»."
+  },
+  {
+   "id": "valor",
+   "name": "HOY: $60,000 M",
+   "a": 45.2,
+   "b": 50.5,
+   "vis": "Fondo oscuro. Chip «SEGÚN FORBES · MAR. 2026» y contador «$60,000 M» con línea que sube."
+  },
+  {
+   "id": "leccion",
+   "name": "CADA «NO» MEJORA TU PROPUESTA",
+   "a": 50.5,
+   "b": 55.7,
+   "vis": "Fondo oscuro. Sellos «NO» que se vuelven palomitas; «CADA NO MEJORA TU PROPUESTA… SI LO ESCUCHAS»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 55.7,
+   "b": 67,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «PITCH», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.8,
+   "text": "+100 inversionistas dijeron no…",
+   "keys": [
+    "no…"
+   ]
+  },
+  {
+   "a": 2.8,
+   "b": 4.7,
+   "text": "hoy su empresa vale",
+   "keys": [
+    "vale"
+   ]
+  },
+  {
+   "a": 4.7,
+   "b": 6.6,
+   "text": "unos $60,000 millones.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 7.15,
+   "b": 9,
+   "text": "Se llama Melanie Perkins.",
+   "keys": [
+    "melanie",
+    "perkins"
+   ]
+  },
+  {
+   "a": 9,
+   "b": 11,
+   "text": "Universidad, en Australia:",
+   "keys": [
+    "australia:"
+   ]
+  },
+  {
+   "a": 11,
+   "b": 13.7,
+   "text": "enseñaba programas de diseño…",
+   "keys": [
+    "diseño…"
+   ]
+  },
+  {
+   "a": 13.7,
+   "b": 16.1,
+   "text": "y eran muy difíciles.",
+   "keys": [
+    "difíciles"
+   ]
+  },
+  {
+   "a": 16.65,
+   "b": 19.3,
+   "text": "Su idea: diseño fácil,",
+   "keys": [
+    "fácil,"
+   ]
+  },
+  {
+   "a": 19.3,
+   "b": 21.8,
+   "text": "en internet, para cualquiera.",
+   "keys": [
+    "cualquiera"
+   ]
+  },
+  {
+   "a": 22.35,
+   "b": 24.1,
+   "text": "Empezó con su novio,",
+   "keys": [
+    "novio,"
+   ]
+  },
+  {
+   "a": 24.1,
+   "b": 26.1,
+   "text": "haciendo anuarios escolares…",
+   "keys": [
+    "anuarios"
+   ]
+  },
+  {
+   "a": 26.1,
+   "b": 28,
+   "text": "desde casa de mamá.",
+   "keys": [
+    "mamá"
+   ]
+  },
+  {
+   "a": 28.55,
+   "b": 31,
+   "text": "Buscó inversión en EE. UU.…",
+   "keys": [
+    "inversión"
+   ]
+  },
+  {
+   "a": 31,
+   "b": 33.7,
+   "text": "y recibió +100 rechazos.",
+   "keys": [
+    "rechazos"
+   ]
+  },
+  {
+   "a": 34.25,
+   "b": 35.9,
+   "text": "Hasta aprendió kitesurf…",
+   "keys": [
+    "kitesurf…"
+   ]
+  },
+  {
+   "a": 35.9,
+   "b": 38.3,
+   "text": "para entrar a un evento.",
+   "keys": [
+    "evento"
+   ]
+  },
+  {
+   "a": 38.85,
+   "b": 40.8,
+   "text": "En 2013 lanzó Canva.",
+   "keys": [
+    "canva"
+   ]
+  },
+  {
+   "a": 40.8,
+   "b": 42.3,
+   "text": "El primer mes,",
+   "keys": [
+    "primer"
+   ]
+  },
+  {
+   "a": 42.3,
+   "b": 44.7,
+   "text": "50,000 personas la usaron.",
+   "keys": [
+    "usaron"
+   ]
+  },
+  {
+   "a": 45.25,
+   "b": 47.3,
+   "text": "Hoy, según Forbes, vale",
+   "keys": [
+    "forbes,"
+   ]
+  },
+  {
+   "a": 47.3,
+   "b": 50,
+   "text": "unos $60,000 millones.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 50.55,
+   "b": 52.4,
+   "text": "Cada «no» mejora",
+   "keys": [
+    "mejora"
+   ]
+  },
+  {
+   "a": 52.4,
+   "b": 55.2,
+   "text": "tu propuesta… si lo escuchas.",
+   "keys": [
+    "escuchas"
+   ]
+  },
+  {
+   "a": 55.75,
+   "b": 57.35,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 60.45,
+   "b": 62.4,
+   "text": "Te mando una plantilla",
+   "keys": [
+    "plantilla"
+   ]
+  },
+  {
+   "a": 62.4,
+   "b": 64.5,
+   "text": "para presentar tu idea.",
+   "keys": [
+    "idea"
+   ]
+  },
+  {
+   "a": 64.5,
+   "b": 66.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 0.8,
+   "b": 3.3,
+   "text": "100+"
+  },
+  {
+   "a": 4.4,
+   "b": 6.6,
+   "text": "$60,000 M"
+  },
+  {
+   "a": 31.2,
+   "b": 33.7,
+   "text": "100+"
+  },
+  {
+   "a": 42.3,
+   "b": 44.7,
+   "text": "50,000"
+  },
+  {
+   "a": 47.2,
+   "b": 50,
+   "text": "$60,000 M"
+  },
+  {
+   "a": 57.4,
+   "b": 60.4,
+   "text": "PITCH",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 0.6,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 0.9,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 1.2,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 1.5,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.16
+  },
+  {
+   "t": 1.8,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 2.1,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.24
+  },
+  {
+   "t": 0.8,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 0.9
+  },
+  {
+   "t": 0.85,
+   "type": "count",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3.6,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.4,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.15
+  },
+  {
+   "t": 4.45,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 6.6,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 7.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 7.4,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 11.2,
+   "type": "assemble",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 12,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 12.2,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.07
+  },
+  {
+   "t": 12.4,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 12.6,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.21
+  },
+  {
+   "t": 12.8,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.28
+  },
+  {
+   "t": 14,
+   "type": "deny",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 16.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 16.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 16.8,
+   "type": "unlock",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 17,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 17.8,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 18.4,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 19,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 19.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 21.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 22.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 22.8,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 23.1,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1.06
+  },
+  {
+   "t": 23.4,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1.12
+  },
+  {
+   "t": 23.7,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1.18
+  },
+  {
+   "t": 24.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 26.3,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 28,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 28.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 28.8,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 29.2,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 29.6,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.05
+  },
+  {
+   "t": 30,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 30.4,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.15
+  },
+  {
+   "t": 30.8,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 31.2,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 0.85
+  },
+  {
+   "t": 31.25,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 33.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 34.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34.5,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 35,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 36,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 38.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 38.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 39.1,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 39.6,
+   "type": "unlock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 42.3,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 42.35,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 44.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 45.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 45.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 46,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 47.2,
+   "type": "impact",
+   "v": 0.95,
+   "pitch": 1.15
+  },
+  {
+   "t": 47.25,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 47.3,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1.1
+  },
+  {
+   "t": 50,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 51.4,
+   "type": "morph",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 51.7,
+   "type": "morph",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 52,
+   "type": "morph",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 52.5,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 53.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 55.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 55.7,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 55.75,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 56.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 56.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 56.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 56.35,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 56.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 56.9,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 57.4,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 57.42,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 60.45,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 60.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 60.95,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 63,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 63.7,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 63.72,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 66.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   0.15,
+   6.6,
+   [
+    "Valuación de Canva ≈ US$60,000 M (Forbes Italia, 30 jun. 2026, con datos a marzo de 2026)."
+   ]
+  ],
+  [
+   7.15,
+   50,
+   [
+    "Fuente: Forbes Italia, «Melanie Perkins: storia della fondatrice miliardaria di Canva», 30 jun. 2026."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   4.05,
+   4.4
+  ],
+  [
+   30.85,
+   31.2
+  ],
+  [
+   41.95,
+   42.3
+  ],
+  [
+   46.85,
+   47.2
+  ],
+  [
+   57.05,
+   57.4
+  ]
+ ],
+ "musicBoost": [
+  [
+   6.6,
+   7.1,
+   1.2
+  ],
+  [
+   16.1,
+   16.6,
+   1.15
+  ],
+  [
+   21.8,
+   22.3,
+   1.15
+  ],
+  [
+   28,
+   28.5,
+   1.15
+  ],
+  [
+   33.7,
+   34.2,
+   1.15
+  ],
+  [
+   38.3,
+   38.8,
+   1.15
+  ],
+  [
+   44.7,
+   45.2,
+   1.15
+  ],
+  [
+   50,
+   50.5,
+   1.15
+  ],
+  [
+   55.2,
+   55.7,
+   1.2
+  ],
+  [
+   57.4,
+   60.4,
+   1.15
+  ]
+ ]
+}

@@ -42,5 +42,7 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 34 | instagram-90min | Instagram prueba videos de 90 minutos («Features») | 1 Noticia | CLIPS | 61 s | 30 oct 2026 |
 | 35 | anclaje | Anclaje: el experimento de la ruleta (Tversky y Kahneman, 1974) | 2 Psicología | ANCLA | 65 s | 30 oct 2026 |
 | 36 | lego | LEGO: de casi quebrar a ingresos récord | 3 Marca | ENFOQUE | 57 s | 30 oct 2026 |
+| 37 | melanie-perkins | Melanie Perkins: +100 rechazos y Canva vale US$60,000 M | 4 Personaje | PITCH | 67 s | 30 oct 2026 |
+| 38 | bio-instagram | Tu bio de Instagram en 5 pasos | 5 Consejo | BIO | 50 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, pie en la puerta, posicionamiento a la altura de los ojos.
