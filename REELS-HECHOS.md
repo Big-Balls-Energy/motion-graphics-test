@@ -60,5 +60,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 52 | brian-acton | Brian Acton: Facebook lo rechazó y luego le pagó US$19,000 M | 4 Personaje | IDEA | 63 s | 30 oct 2026 |
 | 53 | formula-pas | La fórmula PAS: textos que venden (problema, agitación, solución) | 5 Consejo | TEXTO | 50 s | 30 oct 2026 |
 | 54 | meta-muse | Meta Muse: 10 M ya tienen un agente de IA que agenda y compra | 1 Noticia | AGENDA | 58 s | 30 oct 2026 |
+| 55 | efecto-encuadre | Efecto de encuadre: «75 % magra» vs. «25 % grasa» (Levin y Gaeth, 1988) | 2 Psicología | FRASES | 54 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
