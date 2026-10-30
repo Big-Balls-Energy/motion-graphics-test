@@ -74,5 +74,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 66 | dove-bocetos | Dove «Real Beauty Sketches»: 163 M de vistas y Grand Prix en Cannes | 3 Marca | HISTORIA | 55 s | 30 oct 2026 |
 | 67 | coronel-sanders | Coronel Sanders: a los 65 perdió su restaurante y levantó KFC | 4 Personaje | EMPEZAR | 61 s | 30 oct 2026 |
 | 68 | mas-resenas | ¿200 reseñas contra 12? 5 pasos para conseguir más en Google | 5 Consejo | RESEÑAS | 55 s | 30 oct 2026 |
+| 69 | busqueda-visual | Google: Gemini 1,000 M de usuarios y 50,000 M de búsquedas visuales al mes | 1 Noticia | VISUAL | 51 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
