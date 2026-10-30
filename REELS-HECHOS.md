@@ -63,5 +63,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 55 | efecto-encuadre | Efecto de encuadre: «75 % magra» vs. «25 % grasa» (Levin y Gaeth, 1988) | 2 Psicología | FRASES | 54 s | 30 oct 2026 |
 | 56 | dominos-pizza | Domino’s: admitieron que su pizza era mala y vendieron +14.3 % | 3 Marca | CAMBIO | 56 s | 30 oct 2026 |
 | 57 | jack-ma | Jack Ma: +30 rechazos y Alibaba (US$25,000 M en la bolsa) | 4 Personaje | PLAN | 63 s | 30 oct 2026 |
+| 58 | que-publicar | ¿No sabes qué publicar? 5 ideas de contenido | 5 Consejo | CALENDARIO | 48 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
