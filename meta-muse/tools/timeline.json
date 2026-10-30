@@ -1,0 +1,759 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 58,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: 10 MILLONES YA TIENEN UN AGENTE DE IA",
+   "a": 0,
+   "b": 7.5,
+   "vis": "Celular (W01_mano_celular.png) con un agente de IA genérico: «Agenda un corte el sábado y compra un regalo para mamá» → palomitas: cita, regalo y recordatorio."
+  },
+  {
+   "id": "muse",
+   "name": "MUSE: EL AGENTE PERSONAL DE META",
+   "a": 7.5,
+   "b": 14.3,
+   "vis": "«MUSE» como texto con orbe de IA; chips AGOSTO 2026 · EE. UU. Y CANADÁ · MAYORES DE 18; AGENDA · COMPRA · PLANEA."
+  },
+  {
+   "id": "diario",
+   "name": "1 DE CADA 4 LO USA EN UN DÍA CUALQUIERA",
+   "a": 14.3,
+   "b": 20.6,
+   "vis": "«— Mark Zuckerberg» (solo texto); cuatro siluetas, una se enciende; «1 DE CADA 4»."
+  },
+  {
+   "id": "resultados",
+   "name": "RESULTADOS DEL 3T: US$64,600 M",
+   "a": 20.6,
+   "b": 27.6,
+   "vis": "Tarjeta «META · RESULTADOS DEL 3T 2026 · 21 OCT 2026»; contador a US$64,600 M, «+26 % EN VENTAS» y «+10 M DE CUENTAS EN MUSE»."
+  },
+  {
+   "id": "importa",
+   "name": "¿POR QUÉ TE IMPORTA? BUSCARÁ SU AGENTE",
+   "a": 27.6,
+   "b": 33.3,
+   "vis": "«TU CLIENTE BUSCA» se tacha y cambia a «SU AGENTE BUSCA»: una silueta pasa la lupa a un orbe de IA."
+  },
+  {
+   "id": "agenda",
+   "name": "HORARIOS, PRECIOS Y RESERVAS EN LÍNEA",
+   "a": 33.3,
+   "b": 39.6,
+   "vis": "Página de reservas genérica «Tu negocio» con calendario; se marcan HORARIOS CLAROS, PRECIOS VISIBLES y RESERVAS EN LÍNEA."
+  },
+  {
+   "id": "llamar",
+   "name": "SI HAY QUE LLAMAR, EL AGENTE SE VA",
+   "a": 39.6,
+   "b": 44.7,
+   "vis": "Ficha «Solo por teléfono: llama para apartar»; el agente dice «No puedo reservar aquí» y se va a OTRO NEGOCIO: «Reservado ✓»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 44.7,
+   "b": 58,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «AGENDA», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.4,
+   "text": "Meta: 10 millones de personas",
+   "keys": [
+    "Meta:"
+   ]
+  },
+  {
+   "a": 2.4,
+   "b": 4.6,
+   "text": "ya tienen un agente…",
+   "keys": [
+    "agente…"
+   ]
+  },
+  {
+   "a": 4.6,
+   "b": 7,
+   "text": "que agenda y compra.",
+   "keys": [
+    "agenda"
+   ]
+  },
+  {
+   "a": 7.55,
+   "b": 9.2,
+   "text": "Se llama Muse.",
+   "keys": [
+    "Muse"
+   ]
+  },
+  {
+   "a": 9.2,
+   "b": 11.5,
+   "text": "agosto, EE. UU. y Canadá,",
+   "keys": [
+    "agosto,"
+   ]
+  },
+  {
+   "a": 11.5,
+   "b": 13.8,
+   "text": "para mayores de 18.",
+   "keys": [
+    "mayores"
+   ]
+  },
+  {
+   "a": 14.35,
+   "b": 15.9,
+   "text": "Según Mark Zuckerberg,",
+   "keys": [
+    "Zuckerberg,"
+   ]
+  },
+  {
+   "a": 15.9,
+   "b": 18.2,
+   "text": "1 de cada 4",
+   "keys": [
+    "cada"
+   ]
+  },
+  {
+   "a": 18.2,
+   "b": 20.1,
+   "text": "lo usa cualquier día.",
+   "keys": [
+    "usa"
+   ]
+  },
+  {
+   "a": 20.65,
+   "b": 23.2,
+   "text": "Lo anunció en sus resultados,",
+   "keys": [
+    "resultados,"
+   ]
+  },
+  {
+   "a": 23.2,
+   "b": 27.1,
+   "text": "con ventas de US$64,600 millones.",
+   "keys": [
+    "ventas"
+   ]
+  },
+  {
+   "a": 27.65,
+   "b": 29.4,
+   "text": "¿Por qué te importa?",
+   "keys": [
+    "importa"
+   ]
+  },
+  {
+   "a": 29.4,
+   "b": 32.8,
+   "text": "Buscará su agente, no él.",
+   "keys": [
+    "agente,"
+   ]
+  },
+  {
+   "a": 33.35,
+   "b": 35.6,
+   "text": "Un agente agenda donde puede:",
+   "keys": [
+    "puede:"
+   ]
+  },
+  {
+   "a": 35.6,
+   "b": 37.4,
+   "text": "horarios claros, precios visibles",
+   "keys": [
+    "claros,"
+   ]
+  },
+  {
+   "a": 37.4,
+   "b": 39.1,
+   "text": "y reservas online.",
+   "keys": [
+    "reservas"
+   ]
+  },
+  {
+   "a": 39.65,
+   "b": 41.8,
+   "text": "Si hay que llamar…",
+   "keys": [
+    "llamar…"
+   ]
+  },
+  {
+   "a": 41.8,
+   "b": 44.2,
+   "text": "el agente se va.",
+   "keys": [
+    "va"
+   ]
+  },
+  {
+   "a": 44.75,
+   "b": 46.4,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 50.35,
+   "b": 52.5,
+   "text": "Te mando cómo preparar",
+   "keys": [
+    "preparar"
+   ]
+  },
+  {
+   "a": 52.5,
+   "b": 55.2,
+   "text": "tu negocio para los agentes.",
+   "keys": [
+    "agentes"
+   ]
+  },
+  {
+   "a": 55.2,
+   "b": 57,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 15.9,
+   "b": 20.6,
+   "text": "1 DE CADA 4",
+   "min": 2
+  },
+  {
+   "a": 23.4,
+   "b": 27.6,
+   "text": "US$64,600 M",
+   "min": 2
+  },
+  {
+   "a": 46.7,
+   "b": 49.7,
+   "text": "AGENDA",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 2.6,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3.3,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 4,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 4.9,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 7.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 7.7,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 8,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 10,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 11.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 12.4,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 12.8,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 13.2,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 13.8,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 14.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 14.5,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 15.9,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 16.1,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.08
+  },
+  {
+   "t": 16.3,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.16
+  },
+  {
+   "t": 16.5,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.24
+  },
+  {
+   "t": 16,
+   "type": "impact",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 16.02,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 20.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 20.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 23.4,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 24.4,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 24.42,
+   "type": "chord",
+   "v": 0.45,
+   "pitch": 1.12
+  },
+  {
+   "t": 25.2,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 26,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 27.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 27.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 27.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 29.4,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.7,
+   "type": "morph",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 32.8,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 33.5,
+   "type": "assemble",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 35.5,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 36.7,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 37.8,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 38.4,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 39.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 39.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 39.8,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 41,
+   "type": "deny",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 42,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 43,
+   "type": "unlock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 44.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 44.7,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 44.75,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 45.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 45.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 45.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 45.35,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 45.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 45.55,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 46,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 46.7,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 46.72,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 49.75,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 50,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 50.25,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 52.3,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 53,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 53.02,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 57.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   7.6,
+   27.1,
+   [
+    "Fuente: Meta, resultados del 3T 2026 (AP, 21 oct 2026)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.3,
+   2.6
+  ],
+  [
+   46.35,
+   46.7
+  ]
+ ],
+ "musicBoost": [
+  [
+   7,
+   7.5,
+   1.2
+  ],
+  [
+   16,
+   17,
+   1.1
+  ],
+  [
+   24.4,
+   25.4,
+   1.15
+  ],
+  [
+   32.8,
+   33.3,
+   1.1
+  ],
+  [
+   38.4,
+   39.1,
+   1.1
+  ],
+  [
+   44.2,
+   44.7,
+   1.2
+  ],
+  [
+   46.7,
+   49.7,
+   1.15
+  ]
+ ]
+}
