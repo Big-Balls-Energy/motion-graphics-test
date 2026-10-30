@@ -73,23 +73,16 @@
   },
   {
    "a": 5.05,
-   "b": 7,
-   "text": "No es casualidad.",
+   "b": 7.3,
+   "text": "No es casualidad: tiene nombre…",
    "keys": [
-    "casualidad"
-   ]
-  },
-  {
-   "a": 7,
-   "b": 8.7,
-   "text": "Tiene un nombre…",
-   "keys": [
+    "casualidad",
     "nombre"
    ]
   },
   {
    "a": 12.55,
-   "b": 14.75,
+   "b": 14.85,
    "text": "Kellogg y MIT probaron algo:",
    "keys": [
     "kellogg",
@@ -97,16 +90,16 @@
    ]
   },
   {
-   "a": 14.75,
-   "b": 16.95,
+   "a": 14.85,
+   "b": 17.05,
    "text": "un vestido de catálogo",
    "keys": [
     "vestido"
    ]
   },
   {
-   "a": 16.95,
-   "b": 18.95,
+   "a": 17.05,
+   "b": 19,
    "text": "con tres precios distintos.",
    "keys": [
     "precios"
@@ -128,15 +121,15 @@
   },
   {
    "a": 23.95,
-   "b": 26.15,
+   "b": 26.2,
    "text": "Un tercio más que $34.",
    "keys": [
     "tercio"
    ]
   },
   {
-   "a": 26.55,
-   "b": 28.75,
+   "a": 26.35,
+   "b": 28.55,
    "text": "Más caro… y vendió más.",
    "keys": [
     "caro",
@@ -153,22 +146,22 @@
   },
   {
    "a": 31.55,
-   "b": 33.4,
+   "b": 33.05,
    "text": "¿Por qué funciona?",
    "keys": [
     "funciona"
    ]
   },
   {
-   "a": 33.4,
-   "b": 35.6,
+   "a": 33.05,
+   "b": 35.25,
    "text": "Leemos de izquierda a derecha",
    "keys": [
     "izquierda"
    ]
   },
   {
-   "a": 35.6,
+   "a": 35.25,
    "b": 37.9,
    "text": "y el primer número manda.",
    "keys": [
@@ -178,18 +171,18 @@
   },
   {
    "a": 38.35,
-   "b": 40.35,
+   "b": 40.5,
    "text": "$99 suena a «noventa»…",
    "keys": [
-    "«noventa»…"
+    "noventa"
    ]
   },
   {
-   "a": 40.35,
+   "a": 40.5,
    "b": 42,
    "text": "no a «cien».",
    "keys": [
-    "«cien»"
+    "cien"
    ]
   },
   {
@@ -227,14 +220,14 @@
   },
   {
    "a": 51.5,
-   "b": 53.4,
+   "b": 53,
    "text": "¿Tienes un negocio?",
    "keys": [
     "negocio"
    ]
   },
   {
-   "a": 53.4,
+   "a": 53,
    "b": 55.5,
    "text": "Úsalo en compras prácticas.",
    "keys": [
@@ -244,21 +237,22 @@
   {
    "a": 56.05,
    "b": 58.25,
-   "text": "Pero ojo con esto:",
+   "text": "Pero ojo: en compras emocionales,",
    "keys": [
-    "ojo"
-   ]
-  },
-  {
-   "a": 58.25,
-   "b": 60.35,
-   "text": "en compras emocionales,",
-   "keys": [
+    "ojo",
     "emocionales"
    ]
   },
   {
-   "a": 60.35,
+   "a": 58.25,
+   "b": 59.75,
+   "text": "como un regalo,",
+   "keys": [
+    "regalo"
+   ]
+  },
+  {
+   "a": 59.75,
    "b": 62.5,
    "text": "el precio redondo gana.",
    "keys": [
@@ -275,14 +269,14 @@
   },
   {
    "a": 68.3,
-   "b": 70.5,
-   "text": "y te mando más trucos.",
+   "b": 70.05,
+   "text": "Te mando más trucos.",
    "keys": [
     "trucos"
    ]
   },
   {
-   "a": 70.5,
+   "a": 70.05,
    "b": 72.6,
    "text": "Síguenos en Atlas Path.",
    "keys": [

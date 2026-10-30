@@ -22,7 +22,7 @@ canvas{height:min(100vh,calc(100vw*16/9));aspect-ratio:9/16;width:auto;backgroun
 <div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
 <div id="ui"><div class="play">▶</div><div>¿Por qué todo cuesta $99? · 75 s</div>
 <small>Clic para reproducir · F = pantalla completa · Espacio = pausa · R = reiniciar</small></div>
-<audio id="aud" src="audio/mezcla-sin-voz.m4a" preload="auto"></audio>
+<audio id="aud" src="audio/mezcla-con-voz.m4a" preload="auto"></audio>
 <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js","three/addons/":"./vendor/addons/"}}</script>
 <script type="module">
 import * as THREE from 'three';
@@ -102,37 +102,36 @@ const SCENES=[
  {id:'ojo',name:'LA LETRA CHIQUITA',a:56.0,b:63.0,vis:'K06_unboxing.jpg al fondo, cálido. Chip «LETRA CHIQUITA» con lupa. K05_reloj_lujo.png sube como regalo; su etiqueta «$4,999» se tacha y cambia a «$5,000» con brillo: en compras emocionales el precio redondo se siente correcto.'},
  {id:'cta',name:'CIERRE Y CTA CON PALABRA CLAVE',a:63.0,b:75,vis:'W01_mano_celular.png: en los comentarios se escribe «PRECIO» en magenta, que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», «MARKETING · WEB · TECNOLOGÍA», @Atlas_Path y botón SEGUIR con clic; nota de fuentes; el último medio segundo regresa al primer cuadro (loop).'},
 ];
-// [entra, sale, texto, palabras clave, [lectura desde, lectura hasta]]: el karaoke avanza al ritmo de lectura
+// [entra, sale, texto, palabras clave, [voz desde, voz hasta]]: el karaoke sigue a la voz de Fernanda dentro de cada bloque
 const SUBS_RAW=[
- [0.15,2.45,'¿Por qué todo cuesta $99?',['cuesta'],[0.2,2.2]],
- [2.45,4.5,'¿Y no $100?',['no'],[2.5,3.9]],
- [5.05,7.0,'No es casualidad.',['casualidad'],[5.1,6.6]],
- [7.0,8.7,'Tiene un nombre…',['nombre'],[7.05,8.3]],
- [12.55,14.75,'Kellogg y MIT probaron algo:',['kellogg','mit'],[12.6,14.5]],
- [14.75,16.95,'un vestido de catálogo',['vestido'],[14.8,16.6]],
- [16.95,18.95,'con tres precios distintos.',['precios'],[17.0,18.6]],
- [19.45,21.45,'¿Cuál vendió más?',['vendió'],[19.5,20.9]],
- [21.95,23.95,'El de $39.',[],[22.0,23.2]],
- [23.95,26.15,'Un tercio más que $34.',['tercio'],[24.0,25.8]],
- [26.55,28.75,'Más caro… y vendió más.',['caro','vendió'],[26.6,28.4]],
- [28.75,31.0,'A $44: sin diferencia.',['diferencia'],[28.8,30.5]],
- [31.55,33.4,'¿Por qué funciona?',['funciona'],[31.6,33.0]],
- [33.4,35.6,'Leemos de izquierda a derecha',['izquierda'],[33.45,35.3]],
- [35.6,37.9,'y el primer número manda.',['primer','manda'],[35.65,37.5]],
- [38.35,40.35,'$99 suena a «noventa»…',['«noventa»…'],[38.4,40.0]],
- [40.35,42.0,'no a «cien».',['«cien»'],[40.4,41.6]],
- [42.45,44.45,'Funciona más si cambia',['cambia'],[42.5,44.1]],
- [44.45,46.5,'el primer dígito.',['dígito'],[44.5,45.9]],
- [47.05,49.05,'Lo ves en menús,',['menús'],[47.1,48.6]],
- [49.05,51.05,'gasolina y suscripciones.',['gasolina','suscripciones'],[49.1,50.7]],
- [51.5,53.4,'¿Tienes un negocio?',['negocio'],[51.55,53.0]],
- [53.4,55.5,'Úsalo en compras prácticas.',['prácticas'],[53.45,55.1]],
- [56.05,58.25,'Pero ojo con esto:',['ojo'],[56.1,57.8]],
- [58.25,60.35,'en compras emocionales,',['emocionales'],[58.3,59.9]],
- [60.35,62.5,'el precio redondo gana.',['redondo'],[60.4,62.0]],
- [63.05,65.1,'Comenta la palabra…',['comenta'],[63.1,64.6]],
- [68.3,70.5,'y te mando más trucos.',['trucos'],[68.35,70.1]],
- [70.5,72.6,'Síguenos en Atlas Path.',['síguenos'],[70.55,72.2]],
+ [0.15,2.45,'¿Por qué todo cuesta $99?',['cuesta'],[0.19,2.17]],
+ [2.45,4.5,'¿Y no $100?',['no'],[2.54,3.62]],
+ [5.05,7.3,'No es casualidad: tiene nombre…',['casualidad','nombre'],[5.08,7.12]],
+ [12.55,14.85,'Kellogg y MIT probaron algo:',['kellogg','mit'],[12.59,14.79]],
+ [14.85,17.05,'un vestido de catálogo',['vestido'],[14.91,16.94]],
+ [17.05,19.0,'con tres precios distintos.',['precios'],[17.19,18.74]],
+ [19.45,21.45,'¿Cuál vendió más?',['vendió'],[19.49,20.86]],
+ [21.95,23.95,'El de $39.',[],[21.98,23.71]],
+ [23.95,26.2,'Un tercio más que $34.',['tercio'],[24.0,26.1]],
+ [26.35,28.55,'Más caro… y vendió más.',['caro','vendió'],[26.41,28.51]],
+ [28.75,31.0,'A $44: sin diferencia.',['diferencia'],[28.79,30.9]],
+ [31.55,33.05,'¿Por qué funciona?',['funciona'],[31.59,32.53]],
+ [33.05,35.25,'Leemos de izquierda a derecha',['izquierda'],[33.1,34.43]],
+ [35.25,37.9,'y el primer número manda.',['primer','manda'],[35.3,36.43]],
+ [38.35,40.5,'$99 suena a «noventa»…',['noventa'],[38.37,41.07]],
+ [40.5,42.0,'no a «cien».',['cien'],[41.31,41.9]],
+ [42.45,44.45,'Funciona más si cambia',['cambia'],[42.49,43.9]],
+ [44.45,46.5,'el primer dígito.',['dígito'],[44.5,44.85]],
+ [47.05,49.05,'Lo ves en menús,',['menús'],[47.09,48.05]],
+ [49.05,51.05,'gasolina y suscripciones.',['gasolina','suscripciones'],[49.1,50.28]],
+ [51.5,53.0,'¿Tienes un negocio?',['negocio'],[51.54,52.43]],
+ [53.0,55.5,'Úsalo en compras prácticas.',['prácticas'],[53.05,54.67]],
+ [56.05,58.25,'Pero ojo: en compras emocionales,',['ojo','emocionales'],[56.09,58.2]],
+ [58.25,59.75,'como un regalo,',['regalo'],[58.3,59.05]],
+ [59.75,62.5,'el precio redondo gana.',['redondo'],[59.8,61.22]],
+ [63.05,65.1,'Comenta la palabra…',['comenta'],[63.07,64.4]],
+ [68.3,70.05,'Te mando más trucos.',['trucos'],[68.34,69.73]],
+ [70.05,72.6,'Síguenos en Atlas Path.',['síguenos'],[70.06,71.24]],
 ];
 // cifras y frases que deben quedarse en pantalla (sola = sin subtítulo encima)
 const HOLDS=[{a:.45,b:2.45,text:'$100'},{a:2.65,b:4.8,text:'$99'},{a:8.75,b:12.0,text:'EFECTO DEL DÍGITO IZQUIERDO',sola:true,min:3},

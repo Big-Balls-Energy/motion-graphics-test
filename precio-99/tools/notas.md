@@ -1,6 +1,8 @@
 ## Notas de producción
 
-**Versión entregada: sin voz IA.** La red de esta sesión bloquea `storage.googleapis.com` (descargas de ElevenLabs) y `d8j0ntlcm91z4.cloudfront.net` (descargas de Higgsfield), así que no se generó voz ni imágenes y **no se gastaron créditos**. Los tiempos siguen el ritmo de lectura (≤ 2.3 palabras/s) y la música baja donde hay más texto, para que se pueda grabar una voz encima con este guion.
+**Voz:** Fernanda – Smooth and Articulate (`eleven_v4`), 18 bloques independientes (2 tomas cada uno), colocados con `voz_tomas.py` (aceleración máx. 5.2 %). Pronunciación de «Kellogg», «MIT» y «Atlas Path» revisada con transcripción. Créditos de ElevenLabs gastados: ≈ 1,884 (36 tomas). Higgsfield: 0 créditos (240.5 antes y después); todas las fotos se reutilizaron.
+
+La primera versión se entregó sin voz porque la red bloqueaba `storage.googleapis.com`; el usuario habilitó el acceso a la red en Configuración → Capacidades de claude.ai y se agregó la voz.
 
 ### Datos verificados
 - **Experimento del vestido (Anderson y Simester).** En un catálogo de ropa de mujer en EE. UU., subir el precio de un vestido de $34 a $39 aumentó la demanda en un tercio; con $44 no hubo diferencia frente a $34. Publicado en «Mind Your Pricing Cues», *Harvard Business Review*, 2003 (Eric T. Anderson, Kellogg/Northwestern; Duncan Simester, MIT Sloan). En pantalla se dice «Kellogg y MIT» y las barras se rotulan «barras ilustrativas» (solo hay tres datos: base, +⅓ y sin diferencia).
