@@ -40,5 +40,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 32 | sara-blakely | Sara Blakely: de vender fax a una marca de $1,200 M | 4 Personaje | IDEA | 76 s | 30 oct 2026 |
 | 33 | whatsapp-business | 5 funciones de WhatsApp Business que casi nadie usa | 5 Consejo | WHATSAPP | 63 s | 30 oct 2026 |
 | 34 | instagram-90min | Instagram prueba videos de 90 minutos («Features») | 1 Noticia | CLIPS | 61 s | 30 oct 2026 |
+| 35 | anclaje | Anclaje: el experimento de la ruleta (Tversky y Kahneman, 1974) | 2 Psicología | ANCLA | 65 s | 30 oct 2026 |
 
-**Ideas pendientes de psicología:** anclaje, urgencia/FOMO, pie en la puerta, posicionamiento a la altura de los ojos.
+**Ideas pendientes de psicología:** urgencia/FOMO, pie en la puerta, posicionamiento a la altura de los ojos.
