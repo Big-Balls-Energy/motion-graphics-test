@@ -73,5 +73,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 65 | efecto-dotacion | Efecto dotación: la misma taza vale el doble si es tuya (US$7 vs. US$3) | 2 Psicología | PRUEBA | 57 s | 30 oct 2026 |
 | 66 | dove-bocetos | Dove «Real Beauty Sketches»: 163 M de vistas y Grand Prix en Cannes | 3 Marca | HISTORIA | 55 s | 30 oct 2026 |
 | 67 | coronel-sanders | Coronel Sanders: a los 65 perdió su restaurante y levantó KFC | 4 Personaje | EMPEZAR | 61 s | 30 oct 2026 |
+| 68 | mas-resenas | ¿200 reseñas contra 12? 5 pasos para conseguir más en Google | 5 Consejo | RESEÑAS | 55 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
