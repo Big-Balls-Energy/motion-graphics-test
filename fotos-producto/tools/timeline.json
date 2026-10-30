@@ -1,0 +1,624 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 59,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: TUS FOTOS ESPANTAN VENTAS",
+   "a": 0,
+   "b": 6,
+   "vis": "Fondo oscuro. Celular (W01_mano_celular.png) con una cámara genérica: foto mala de un perfume genérico (M06_producto_perfume.png), oscura, borrosa y con fondo desordenado; luego un destello muestra la versión buena. «TUS FOTOS DE PRODUCTO / ESPANTAN VENTAS»."
+  },
+  {
+   "id": "t1",
+   "name": "1 · LUZ DE VENTANA",
+   "a": 6,
+   "b": 13.2,
+   "vis": "Celular: aparece una ventana a un lado y la foto pasa de oscura y amarilla a luminosa con sombra suave."
+  },
+  {
+   "id": "t2",
+   "name": "2 · FONDO SIMPLE",
+   "a": 13.2,
+   "b": 20.6,
+   "vis": "Celular: el fondo desordenado se cambia por una cartulina blanca en curva."
+  },
+  {
+   "id": "t3",
+   "name": "3 · LIMPIA LA LENTE",
+   "a": 20.6,
+   "b": 27.5,
+   "vis": "Celular: un paño pasa por la pantalla y la foto borrosa se vuelve nítida."
+  },
+  {
+   "id": "t4",
+   "name": "4 · NADA DE ZOOM DIGITAL",
+   "a": 27.5,
+   "b": 35.5,
+   "vis": "Celular: la foto pixelada por el zoom digital se vuelve nítida al acercarse; botón «2×»."
+  },
+  {
+   "id": "t5",
+   "name": "5 · TRES ÁNGULOS",
+   "a": 35.5,
+   "b": 42.3,
+   "vis": "Celular: la pantalla se divide en tres tomas: FRENTE · LADO · DETALLE."
+  },
+  {
+   "id": "edit",
+   "name": "EDITA POCO: QUE SE VEA REAL",
+   "a": 42.3,
+   "b": 47.8,
+   "vis": "Celular: barras de edición (brillo +, nitidez +, filtros 0) y «QUE SE VEA REAL»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 47.8,
+   "b": 59,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «FOTO», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 3.3,
+   "text": "Tus fotos pueden espantar ventas…",
+   "keys": [
+    "espantar"
+   ]
+  },
+  {
+   "a": 3.3,
+   "b": 5.5,
+   "text": "se arreglan con tu celular.",
+   "keys": [
+    "celular"
+   ]
+  },
+  {
+   "a": 6.05,
+   "b": 7.9,
+   "text": "Uno: luz de ventana.",
+   "keys": [
+    "ventana"
+   ]
+  },
+  {
+   "a": 7.9,
+   "b": 10.3,
+   "text": "De lado a la ventana…",
+   "keys": [
+    "lado"
+   ]
+  },
+  {
+   "a": 10.3,
+   "b": 12.7,
+   "text": "apaga las demás luces.",
+   "keys": [
+    "apaga"
+   ]
+  },
+  {
+   "a": 13.25,
+   "b": 15.1,
+   "text": "Dos: fondo simple.",
+   "keys": [
+    "simple"
+   ]
+  },
+  {
+   "a": 15.1,
+   "b": 17.6,
+   "text": "Cartulina blanca doblada en curva…",
+   "keys": [
+    "curva…"
+   ]
+  },
+  {
+   "a": 17.6,
+   "b": 20.1,
+   "text": "sin esquinas ni distracciones.",
+   "keys": [
+    "distracciones"
+   ]
+  },
+  {
+   "a": 20.65,
+   "b": 23.3,
+   "text": "Tres: limpia la lente.",
+   "keys": [
+    "lente"
+   ]
+  },
+  {
+   "a": 23.3,
+   "b": 27,
+   "text": "lente sucia, foto borrosa.",
+   "keys": [
+    "borrosa"
+   ]
+  },
+  {
+   "a": 27.55,
+   "b": 30,
+   "text": "Cuatro: nada de zoom digital.",
+   "keys": [
+    "zoom"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 32.4,
+   "text": "Mejor acércate tú…",
+   "keys": [
+    "acércate"
+   ]
+  },
+  {
+   "a": 32.4,
+   "b": 35,
+   "text": "o tu cámara de 2×–3×.",
+   "keys": [
+    "cámara"
+   ]
+  },
+  {
+   "a": 35.55,
+   "b": 38.5,
+   "text": "Cinco: tres ángulos por producto:",
+   "keys": [
+    "ángulos"
+   ]
+  },
+  {
+   "a": 38.5,
+   "b": 40.3,
+   "text": "de frente, de lado…",
+   "keys": [
+    "frente,"
+   ]
+  },
+  {
+   "a": 40.3,
+   "b": 41.8,
+   "text": "y un detalle.",
+   "keys": [
+    "detalle"
+   ]
+  },
+  {
+   "a": 42.35,
+   "b": 45,
+   "text": "Edita poco: brillo y nitidez.",
+   "keys": [
+    "poco:"
+   ]
+  },
+  {
+   "a": 45,
+   "b": 47.3,
+   "text": "Que se vea real.",
+   "keys": [
+    "real"
+   ]
+  },
+  {
+   "a": 47.85,
+   "b": 49.4,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 52.65,
+   "b": 54.6,
+   "text": "Te mando una lista",
+   "keys": [
+    "lista"
+   ]
+  },
+  {
+   "a": 54.6,
+   "b": 56.6,
+   "text": "de tomas profesionales.",
+   "keys": [
+    "profesionales"
+   ]
+  },
+  {
+   "a": 56.6,
+   "b": 58.4,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 49.6,
+   "b": 52.6,
+   "text": "FOTO",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 3.4,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3.45,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 5.5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 6,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 6.2,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 13.2,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 13.4,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.6,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 20.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 27.5,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 27.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 35.5,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 35.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 42.3,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 42.5,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 8,
+   "type": "unlock",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 9.8,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 11,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 15.2,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 17,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 18.2,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 23.5,
+   "type": "scan",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 24.3,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 25.2,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 28.5,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 30.9,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.6,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 38.6,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 39.4,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 40.4,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 43.4,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 44,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.3,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 47.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 47.8,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 47.85,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 48.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 48.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 48.35,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 48.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 48.9,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 49.6,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 49.62,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 52.65,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 52.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 53.15,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 55.2,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 55.9,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 55.92,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 58.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [],
+ "musicDips": [
+  [
+   3.05,
+   3.4
+  ],
+  [
+   49.25,
+   49.6
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.5,
+   6,
+   1.2
+  ],
+  [
+   12.7,
+   13.2,
+   1.1
+  ],
+  [
+   20.1,
+   20.6,
+   1.1
+  ],
+  [
+   27,
+   27.5,
+   1.1
+  ],
+  [
+   35,
+   35.5,
+   1.1
+  ],
+  [
+   41.8,
+   42.3,
+   1.1
+  ],
+  [
+   47.3,
+   47.8,
+   1.2
+  ],
+  [
+   49.6,
+   52.6,
+   1.15
+  ]
+ ]
+}

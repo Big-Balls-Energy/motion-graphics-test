@@ -53,5 +53,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 45 | efecto-senuelo | El efecto señuelo: del 32% al 84% (The Economist, Ariely) | 2 Psicología | SEÑUELO | 63 s | 30 oct 2026 |
 | 46 | patagonia-chamarra | «No compres esta chamarra»: el anuncio que vendió +30% | 3 Marca | VALORES | 57 s | 30 oct 2026 |
 | 47 | howard-schultz | Howard Schultz: 217 «no» y +40,000 cafeterías | 4 Personaje | EXPERIENCIA | 62 s | 30 oct 2026 |
+| 48 | fotos-producto | Fotos de producto que venden, con tu celular | 5 Consejo | FOTO | 59 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
