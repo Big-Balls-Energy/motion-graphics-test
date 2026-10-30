@@ -1,0 +1,675 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 51,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: ¿INSTAGRAM CASTIGA LO HECHO CON IA?",
+   "a": 0,
+   "b": 5.2,
+   "vis": "Celular (W01_mano_celular.png) con una publicación genérica etiquetada «Hecho con IA», una flecha de alcance que duda y el chip «SU JEFE YA RESPONDIÓ»."
+  },
+  {
+   "id": "quote",
+   "name": "LA RESPUESTA: «PROBABLEMENTE NO»",
+   "a": 5.2,
+   "b": 13.6,
+   "vis": "Silueta frente a un micrófono de podcast (sin rostro), tarjeta «ADAM MOSSERI · JEFE DE INSTAGRAM», la pregunta y la cita gigante «PROBABLEMENTE NO»."
+  },
+  {
+   "id": "alcance",
+   "name": "NO TE QUITAN ALCANCE SOLO POR SER IA",
+   "a": 13.6,
+   "b": 21.5,
+   "vis": "Tarjeta con ✓ «NO PIERDE ALCANCE SOLO POR SER IA»; luego dos barras de ranking: «LO QUE LA GENTE DISFRUTA» sube y «LO GENÉRICO» baja."
+  },
+  {
+   "id": "enojo",
+   "name": "MÁS ENOJO CONTRA LA IA",
+   "a": 21.5,
+   "b": 27.3,
+   "vis": "Gráfica que sube «ENOJO CONTRA LA IA» con la cifra «2–3 AÑOS» y la nota «SU PREVISIÓN»."
+  },
+  {
+   "id": "etiqueta",
+   "name": "CUENTAS DE IA IDENTIFICADAS",
+   "a": 27.3,
+   "b": 32.1,
+   "vis": "Celular con un perfil genérico; cae un sello «CREADA CON IA» y el chip «TIENEN QUE IDENTIFICARSE»."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN: IA COMO HERRAMIENTA",
+   "a": 32.1,
+   "b": 39.9,
+   "vis": "«IA = HERRAMIENTA» ✓ contra «IA = REEMPLAZO» ✗; luego tres íconos: TU CARA, TU VOZ, TU PROCESO."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 39.9,
+   "b": 51,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «HUMANO», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.9,
+   "text": "¿Instagram castiga videos con IA?",
+   "keys": [
+    "castiga"
+   ]
+  },
+  {
+   "a": 2.9,
+   "b": 4.7,
+   "text": "Su jefe ya respondió.",
+   "keys": [
+    "respondió"
+   ]
+  },
+  {
+   "a": 5.25,
+   "b": 7.35,
+   "text": "Adam Mosseri, de Instagram,",
+   "keys": [
+    "Mosseri,"
+   ]
+  },
+  {
+   "a": 7.35,
+   "b": 9.1,
+   "text": "admitió en un podcast:",
+   "keys": [
+    "podcast:"
+   ]
+  },
+  {
+   "a": 9.1,
+   "b": 11.6,
+   "text": "¿Posiciona igual el contenido IA?",
+   "keys": [
+    "igual"
+   ]
+  },
+  {
+   "a": 11.6,
+   "b": 13.1,
+   "text": "«Probablemente no», dijo.",
+   "keys": [
+    "«Probablemente"
+   ]
+  },
+  {
+   "a": 13.65,
+   "b": 15.15,
+   "text": "Pero aclaró algo:",
+   "keys": [
+    "aclaró"
+   ]
+  },
+  {
+   "a": 15.15,
+   "b": 17.35,
+   "text": "no quitan alcance por IA.",
+   "keys": [
+    "alcance"
+   ]
+  },
+  {
+   "a": 17.35,
+   "b": 19.25,
+   "text": "premia lo que gusta…",
+   "keys": [
+    "gusta…"
+   ]
+  },
+  {
+   "a": 19.25,
+   "b": 21,
+   "text": "y lo genérico pierde.",
+   "keys": [
+    "genérico"
+   ]
+  },
+  {
+   "a": 21.55,
+   "b": 23.3,
+   "text": "Espera más enojo",
+   "keys": [
+    "enojo"
+   ]
+  },
+  {
+   "a": 23.3,
+   "b": 24.95,
+   "text": "contra la IA…",
+   "keys": [
+    "IA…"
+   ]
+  },
+  {
+   "a": 24.95,
+   "b": 26.8,
+   "text": "en 2–3 años.",
+   "keys": [
+    "años"
+   ]
+  },
+  {
+   "a": 27.35,
+   "b": 29.3,
+   "text": "Ya pide a cuentas",
+   "keys": [
+    "cuentas"
+   ]
+  },
+  {
+   "a": 29.3,
+   "b": 31.6,
+   "text": "de IA que se identifiquen.",
+   "keys": [
+    "identifiquen"
+   ]
+  },
+  {
+   "a": 32.15,
+   "b": 34,
+   "text": "La lección: usa IA",
+   "keys": [
+    "lección:"
+   ]
+  },
+  {
+   "a": 34,
+   "b": 36,
+   "text": "como herramienta, no reemplazo.",
+   "keys": [
+    "herramienta,"
+   ]
+  },
+  {
+   "a": 36,
+   "b": 37.6,
+   "text": "Muestra tu cara,",
+   "keys": [
+    "cara,"
+   ]
+  },
+  {
+   "a": 37.6,
+   "b": 39.4,
+   "text": "tu voz, tu proceso.",
+   "keys": [
+    "proceso"
+   ]
+  },
+  {
+   "a": 39.95,
+   "b": 41.5,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 45.55,
+   "b": 48,
+   "text": "IA sin perder lo humano…",
+   "keys": [
+    "humano…"
+   ]
+  },
+  {
+   "a": 48,
+   "b": 50.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 41.9,
+   "b": 44.9,
+   "text": "HUMANO",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 11.96,
+   "b": 13.4,
+   "text": "«PROBABLEMENTE NO»",
+   "min": 1.4
+  },
+  {
+   "a": 24.6,
+   "b": 27,
+   "text": "2–3 AÑOS",
+   "min": 2
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "deny",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 2,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3.05,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.7,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.2,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 5.4,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 6.2,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 7.4,
+   "type": "click",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 9,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 11.96,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 11.98,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 13.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 13.6,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 13.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 15.2,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 17.4,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 19.7,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 21.5,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 21.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 22.3,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 24.6,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 26.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 27.3,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 27.5,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 28.4,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.4,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 32.1,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 32.3,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 33.2,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 35.2,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 36.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 37.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 38.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 39.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 39.9,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.95,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 40.25,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 40.35,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.03
+  },
+  {
+   "t": 40.45,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 40.55,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.09
+  },
+  {
+   "t": 40.65,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 40.75,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 41.2,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 41.9,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 41.92,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 44.95,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 45.2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.45,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 47.5,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 48.2,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 48.22,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 50.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   5.6,
+   13.1,
+   [
+    "Fuente: podcast Colin and Samir, vía The Verge (28 oct 2026)."
+   ]
+  ],
+  [
+   13.9,
+   21,
+   [
+    "Fuente: preguntas de Mosseri en Instagram, vía Social Media Today (19 oct 2026)."
+   ]
+  ],
+  [
+   21.8,
+   26.8,
+   [
+    "Previsión de Mosseri en el mismo podcast (no es un dato medido)."
+   ]
+  ],
+  [
+   27.6,
+   31.6,
+   [
+    "Fuente: Android Headlines y WeRSM (29 oct 2026)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   1.7,
+   2
+  ],
+  [
+   11.6,
+   11.96
+  ],
+  [
+   41.55,
+   41.9
+  ]
+ ],
+ "musicBoost": [
+  [
+   4.7,
+   5.2,
+   1.2
+  ],
+  [
+   13.1,
+   13.6,
+   1.1
+  ],
+  [
+   21,
+   21.5,
+   1.1
+  ],
+  [
+   26.8,
+   27.3,
+   1.1
+  ],
+  [
+   31.6,
+   32.1,
+   1.1
+  ],
+  [
+   39.4,
+   39.9,
+   1.2
+  ],
+  [
+   41.9,
+   44.9,
+   1.15
+  ]
+ ]
+}
