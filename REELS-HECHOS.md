@@ -26,5 +26,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 18 | agente-universidad | Agente de IA para una universidad | 5 Consejo | — | — | oct 2026 |
 | 19 | ocarina-nostalgia | Nostalgia (Ocarina) | 2 Psicología | — | — | oct 2026 |
 | 20 | precio-99 | ¿Por qué todo cuesta $99? (dígito izquierdo) | 2 Psicología | PRECIO | 75 s | 30 oct 2026 |
+| 21 | stanley | Caso Stanley: el vaso que casi desaparece ($73 M → $750 M) | 3 Marca | VIRAL | 80 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** anclaje, escasez, urgencia/FOMO, pie en la puerta, efecto IKEA, posicionamiento a la altura de los ojos.

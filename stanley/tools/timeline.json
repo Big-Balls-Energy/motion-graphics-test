@@ -1,0 +1,1092 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 80,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: EL VASO QUE CASI DESAPARECE",
+   "a": 0,
+   "b": 5.5,
+   "vis": "Fondo oscuro con luz rosa. VASO_3D (vaso térmico genérico con asa, sin marca) gira al centro; se vuelve fantasma y parpadea («casi desaparece»), regresa sólido con destello y un contador sube a «$750 M AL AÑO» en amarillo."
+  },
+  {
+   "id": "giro",
+   "name": "UNA MARCA CENTENARIA SIN CLIENTE CLARO",
+   "a": 5.5,
+   "b": 12.4,
+   "vis": "S01_campamento.jpg al fondo (termo verde junto a la fogata). El VASO_3D entra a la derecha; chips «QUENCHER · 2016» y «MÁS DE 100 AÑOS»; una mira HUD barre la escena buscando «¿CLIENTE?»."
+  },
+  {
+   "id": "blog",
+   "name": "2019: EL VASO OLVIDADO Y EL BLOG DE UTAH",
+   "a": 12.4,
+   "b": 26,
+   "vis": "S03_oficina_blog.jpg al fondo. Barra de INVENTARIO que se vacía con sello «NO SE VENDE»; tarjeta de un blog de compras genérico con pin «Utah, EE. UU.»; CAJAS_3D que se apilan en un muro con contador «5,000», salen volando y queda el sello «¡AGOTADO!»."
+  },
+  {
+   "id": "estrategia",
+   "name": "LA ESTRATEGIA: ELLAS, COLORES Y ESCASEZ",
+   "a": 26,
+   "b": 38,
+   "vis": "M02_compradora_celular.jpg al fondo. «CAMPISTA» se tacha y aparece «ELLAS» con corazón; ficha de texto de Terence Reilly (sin foto); MURO_COLORES_3D de decenas de vasos que ondulan con «100+ COLORES»; chips «EDICIONES LIMITADAS» y «FILAS EN TIENDAS»."
+  },
+  {
+   "id": "fuego",
+   "name": "NOV. 2023: EL VASO QUE SOBREVIVIÓ AL FUEGO",
+   "a": 38,
+   "b": 50.8,
+   "vis": "S02_auto_quemado.jpg al fondo con brasas que suben y parpadeo naranja. El VASO_3D emerge intacto con cubos de hielo 3D y escarcha («¡CON HIELO!»); celular W01 con contador de vistas genérico hasta «+60 M»; llave y chip «AUTO NUEVO» con confeti."
+  },
+  {
+   "id": "resultado",
+   "name": "EL RESULTADO: DE $73 M A $750 M",
+   "a": 50.8,
+   "b": 58.2,
+   "vis": "Fondo oscuro. BARRAS_CRISTAL_3D de ingresos 2019–2023 (73, 94, 194, 402 y 750 millones de dólares; 2023 es proyección) que suben una por una; «×10» en amarillo."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 58.2,
+   "b": 63.5,
+   "vis": "K08_amigos_felices.jpg al fondo. «ESCUCHA A QUIEN YA TE AMA» y «RESPONDE RÁPIDO» entran con palomitas."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 63.5,
+   "b": 80,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «VIRAL», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», «MARKETING · WEB · TECNOLOGÍA», @Atlas_Path y botón SEGUIR con clic; nota «Caso de estudio. Sin afiliación con Stanley.»; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.25,
+   "text": "Este vaso casi desaparece…",
+   "keys": [
+    "desaparece"
+   ]
+  },
+  {
+   "a": 2.3,
+   "b": 5,
+   "text": "…hoy: $750 millones al año.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 5.55,
+   "b": 7.6,
+   "text": "El Quencher de Stanley:",
+   "keys": [
+    "quencher"
+   ]
+  },
+  {
+   "a": 7.6,
+   "b": 10.1,
+   "text": "una marca centenaria…",
+   "keys": [
+    "centenaria"
+   ]
+  },
+  {
+   "a": 10.1,
+   "b": 11.9,
+   "text": "sin un cliente claro.",
+   "keys": [
+    "cliente"
+   ]
+  },
+  {
+   "a": 12.45,
+   "b": 15.3,
+   "text": "En 2019 casi no resurtían",
+   "keys": [
+    "resurtían"
+   ]
+  },
+  {
+   "a": 15.3,
+   "b": 16.85,
+   "text": "no se vendía.",
+   "keys": [
+    "vendía"
+   ]
+  },
+  {
+   "a": 16.85,
+   "b": 18.95,
+   "text": "Un blog de Utah",
+   "keys": [
+    "blog"
+   ]
+  },
+  {
+   "a": 18.95,
+   "b": 20.6,
+   "text": "que lo amaba…",
+   "keys": [
+    "amaba"
+   ]
+  },
+  {
+   "a": 20.6,
+   "b": 22.2,
+   "text": "pidió 5,000 vasos",
+   "keys": [
+    "pidió"
+   ]
+  },
+  {
+   "a": 22.2,
+   "b": 24,
+   "text": "con todo su dinero.",
+   "keys": [
+    "dinero"
+   ]
+  },
+  {
+   "a": 24,
+   "b": 25.5,
+   "text": "¡Agotados en días!",
+   "keys": [
+    "agotados"
+   ]
+  },
+  {
+   "a": 26,
+   "b": 28.2,
+   "text": "No era el campista…",
+   "keys": [
+    "campista"
+   ]
+  },
+  {
+   "a": 28.2,
+   "b": 30,
+   "text": "Su cliente: eran ellas.",
+   "keys": [
+    "ellas"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 32.5,
+   "text": "Fichó a Terence Reilly",
+   "keys": [
+    "reilly"
+   ]
+  },
+  {
+   "a": 32.6,
+   "b": 34.4,
+   "text": "Más de 100 colores,",
+   "keys": [
+    "colores"
+   ]
+  },
+  {
+   "a": 34.4,
+   "b": 37.5,
+   "text": "ediciones limitadas y filas.",
+   "keys": [
+    "limitadas",
+    "filas"
+   ]
+  },
+  {
+   "a": 38.05,
+   "b": 40.3,
+   "text": "Noviembre de 2023:",
+   "keys": [
+    "noviembre"
+   ]
+  },
+  {
+   "a": 40.3,
+   "b": 41.85,
+   "text": "auto en llamas…",
+   "keys": [
+    "llamas"
+   ]
+  },
+  {
+   "a": 41.85,
+   "b": 44.5,
+   "text": "y el vaso, con hielo.",
+   "keys": [
+    "hielo"
+   ]
+  },
+  {
+   "a": 44.5,
+   "b": 46.9,
+   "text": "+60 millones de vistas.",
+   "keys": [
+    "vistas"
+   ]
+  },
+  {
+   "a": 46.9,
+   "b": 48.75,
+   "text": "¿La respuesta de Stanley?",
+   "keys": [
+    "respuesta"
+   ]
+  },
+  {
+   "a": 48.75,
+   "b": 50.3,
+   "text": "Un auto nuevo.",
+   "keys": [
+    "nuevo"
+   ]
+  },
+  {
+   "a": 50.85,
+   "b": 54.4,
+   "text": "De $73 millones en 2019…",
+   "keys": []
+  },
+  {
+   "a": 54.4,
+   "b": 57.7,
+   "text": "a +$750 millones en 2023.",
+   "keys": []
+  },
+  {
+   "a": 58.25,
+   "b": 61,
+   "text": "Escucha a quien te ama…",
+   "keys": [
+    "escucha"
+   ]
+  },
+  {
+   "a": 61,
+   "b": 63,
+   "text": "y responde rápido.",
+   "keys": [
+    "rápido"
+   ]
+  },
+  {
+   "a": 63.55,
+   "b": 65.6,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 68.8,
+   "b": 71.9,
+   "text": "Te mando 3 lecciones.",
+   "keys": [
+    "lecciones"
+   ]
+  },
+  {
+   "a": 71.9,
+   "b": 74,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 2.6,
+   "b": 5,
+   "text": "$750 M AL AÑO"
+  },
+  {
+   "a": 20.6,
+   "b": 23.1,
+   "text": "5,000 VASOS"
+  },
+  {
+   "a": 32.9,
+   "b": 35,
+   "text": "100+ COLORES"
+  },
+  {
+   "a": 44.6,
+   "b": 46.9,
+   "text": "+60 M VISTAS"
+  },
+  {
+   "a": 51.2,
+   "b": 54.4,
+   "text": "$73 M (2019)"
+  },
+  {
+   "a": 54.5,
+   "b": 57.7,
+   "text": "$750 M (2023)"
+  },
+  {
+   "a": 65.6,
+   "b": 68.8,
+   "text": "VIRAL",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 0.1,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  },
+  {
+   "t": 0.9,
+   "type": "dissolve",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 2.3,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 2.32,
+   "type": "flash",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 2.4,
+   "type": "count",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.4,
+   "type": "ding",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 5.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 6,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 7.65,
+   "type": "ping",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 10.1,
+   "type": "scan",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 10.4,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 10.8,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 11.2,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 11.95,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 12.45,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 12.6,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 0.8
+  },
+  {
+   "t": 13.2,
+   "type": "scan",
+   "v": 0.4,
+   "pitch": 0.7
+  },
+  {
+   "t": 15.55,
+   "type": "deny",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 16.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 17.2,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 18.2,
+   "type": "ping",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 20.6,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 20.72,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.02
+  },
+  {
+   "t": 20.84,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 20.96,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 21.08,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 21.2,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 21.32,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 21.44,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 21.56,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.16
+  },
+  {
+   "t": 21.68,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.18
+  },
+  {
+   "t": 21.8,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 21.92,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.22
+  },
+  {
+   "t": 22.04,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.24
+  },
+  {
+   "t": 22.16,
+   "type": "lock",
+   "v": 0.35,
+   "pitch": 1.26
+  },
+  {
+   "t": 21,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 23.65,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.3
+  },
+  {
+   "t": 24,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.1
+  },
+  {
+   "t": 24.02,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 25.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 26,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 26.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 27.2,
+   "type": "strike",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 28.9,
+   "type": "select",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 30,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 30.2,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 32.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 32.85,
+   "type": "assemble",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 34.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 35,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 36.1,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 37.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 38,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 38.1,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 38.4,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 40.4,
+   "type": "hit",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 41.85,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 42.4,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 42.5,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 42.7,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1.4000000000000001
+  },
+  {
+   "t": 42.9,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1.5
+  },
+  {
+   "t": 44.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 44.6,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 46.6,
+   "type": "ding",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 47.3,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 48.8,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.1
+  },
+  {
+   "t": 48.82,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 50.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 51.2,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 51.25,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 51.9,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 51.95,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 52.6,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 52.65,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.24
+  },
+  {
+   "t": 53.3,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 53.35,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.3599999999999999
+  },
+  {
+   "t": 54.5,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.32
+  },
+  {
+   "t": 54.55,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.48
+  },
+  {
+   "t": 54.5,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.15
+  },
+  {
+   "t": 55.6,
+   "type": "number",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 57.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 58.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 58.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 59.6,
+   "type": "ding",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 61.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 61.9,
+   "type": "ding",
+   "v": 0.4,
+   "pitch": 1.25
+  },
+  {
+   "t": 63,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 63.5,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 63.55,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 64,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 64.2,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 64.4,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 64.6,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 64.8,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 65.3,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 65.6,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 65.62,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 68.85,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 69.1,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 69.35,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 71.9,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 72.6,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 72.62,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 79.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   12.45,
+   25.5,
+   [
+    "Fuente: CNBC Make It, «How a 40-ounce cup turned Stanley into a $750 million a year business», dic. 2023"
+   ]
+  ],
+  [
+   26,
+   37.5,
+   [
+    "Fuente: CNBC Make It, dic. 2023 · Terence Reilly, presidente de Stanley desde 2020"
+   ]
+  ],
+  [
+   38.05,
+   50.3,
+   [
+    "Fuente: ABC7 y Entrepreneur, nov. 2023 · video viral de una usuaria de TikTok"
+   ]
+  ],
+  [
+   50.85,
+   57.7,
+   [
+    "Ingresos anuales de Stanley en dólares · fuente: CNBC Make It · 2023 = proyección"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   1.95,
+   2.3
+  ],
+  [
+   23.65,
+   24
+  ],
+  [
+   48.45,
+   48.8
+  ],
+  [
+   54.15,
+   54.5
+  ],
+  [
+   65.25,
+   65.6
+  ]
+ ],
+ "musicBoost": [
+  [
+   5,
+   5.5,
+   1.2
+  ],
+  [
+   11.9,
+   12.4,
+   1.15
+  ],
+  [
+   25.5,
+   26,
+   1.15
+  ],
+  [
+   37.5,
+   38,
+   1.15
+  ],
+  [
+   50.3,
+   50.8,
+   1.15
+  ],
+  [
+   57.7,
+   58.2,
+   1.15
+  ],
+  [
+   63,
+   63.5,
+   1.2
+  ],
+  [
+   65.6,
+   68.8,
+   1.15
+  ]
+ ]
+}
