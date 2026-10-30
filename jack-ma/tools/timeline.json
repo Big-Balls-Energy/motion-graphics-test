@@ -1,0 +1,876 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 63,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: LO RECHAZARON +30 VECES Y FUNDÓ UN GIGANTE",
+   "a": 0,
+   "b": 8.1,
+   "vis": "Solicitudes de empleo genéricas que caen una tras otra con sello RECHAZADO y contador +30; luego crece un rascacielos dibujado."
+  },
+  {
+   "id": "uni",
+   "name": "REPROBÓ DOS VECES EL EXAMEN",
+   "a": 8.1,
+   "b": 15.3,
+   "vis": "Silueta ilustrativa «JACK MA»; tres exámenes: 1982 ✗, 1983 ✗, 1984 ✓."
+  },
+  {
+   "id": "kfc",
+   "name": "KFC: 24 CANDIDATOS, 23 CONTRATADOS",
+   "a": 15.3,
+   "b": 24.3,
+   "vis": "Cuadrícula de 24 siluetas: 23 se ponen verdes con palomita; una («ÉL») queda en rojo. KFC solo como texto."
+  },
+  {
+   "id": "harvard",
+   "name": "HARVARD: 10 RECHAZOS",
+   "a": 24.3,
+   "b": 28.2,
+   "vis": "Diez sobres reciben un sello «NO» uno tras otro (según su propio relato). Harvard solo como texto."
+  },
+  {
+   "id": "alibaba",
+   "name": "1999: ALIBABA EN SU DEPARTAMENTO",
+   "a": 28.2,
+   "b": 37.1,
+   "vis": "«PROFESOR DE INGLÉS»; un departamento dibujado con 18 siluetas alrededor de una mesa; «1999 · ALIBABA» como texto."
+  },
+  {
+   "id": "ipo",
+   "name": "2014: US$25,000 M EN LA BOLSA",
+   "a": 37.1,
+   "b": 45.6,
+   "vis": "«2014 · BOLSA DE NUEVA YORK», contador a US$25,000 M y chip «RÉCORD EN SU MOMENTO»."
+  },
+  {
+   "id": "leccion",
+   "name": "EL RECHAZO NO TE DEFINE",
+   "a": 45.6,
+   "b": 50.9,
+   "vis": "«EL RECHAZO NO TE DEFINE» y escalones que suben: «LO QUE HACES DESPUÉS, SÍ»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 50.9,
+   "b": 63,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «PLAN», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 1.9,
+   "text": "Según él mismo,",
+   "keys": [
+    "mismo,"
+   ]
+  },
+  {
+   "a": 1.9,
+   "b": 4,
+   "text": "lo rechazaron +30 veces…",
+   "keys": [
+    "rechazaron"
+   ]
+  },
+  {
+   "a": 4,
+   "b": 5.8,
+   "text": "y luego fundó",
+   "keys": [
+    "fundó"
+   ]
+  },
+  {
+   "a": 5.8,
+   "b": 7.6,
+   "text": "un gigante de China.",
+   "keys": [
+    "gigante"
+   ]
+  },
+  {
+   "a": 8.15,
+   "b": 9.9,
+   "text": "Se llama Jack Ma.",
+   "keys": [
+    "Jack"
+   ]
+  },
+  {
+   "a": 9.9,
+   "b": 12.8,
+   "text": "Reprobó dos veces el examen",
+   "keys": [
+    "Reprobó"
+   ]
+  },
+  {
+   "a": 12.8,
+   "b": 14.8,
+   "text": "y entró al tercero.",
+   "keys": [
+    "tercero"
+   ]
+  },
+  {
+   "a": 15.35,
+   "b": 17.3,
+   "text": "Al graduarse, buscó trabajo.",
+   "keys": [
+    "trabajo"
+   ]
+  },
+  {
+   "a": 17.3,
+   "b": 18.9,
+   "text": "Hasta en KFC:",
+   "keys": [
+    "KFC:"
+   ]
+  },
+  {
+   "a": 18.9,
+   "b": 21.6,
+   "text": "de 24 candidatos, 23 contratados…",
+   "keys": [
+    "contratados…"
+   ]
+  },
+  {
+   "a": 21.6,
+   "b": 23.8,
+   "text": "él, el único rechazado.",
+   "keys": [
+    "único"
+   ]
+  },
+  {
+   "a": 24.35,
+   "b": 26,
+   "text": "Harvard lo rechazó…",
+   "keys": [
+    "Harvard"
+   ]
+  },
+  {
+   "a": 26,
+   "b": 27.7,
+   "text": "¡10 veces seguidas!",
+   "keys": [
+    "seguidas"
+   ]
+  },
+  {
+   "a": 28.25,
+   "b": 30,
+   "text": "Fue profesor de inglés.",
+   "keys": [
+    "profesor"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 33.3,
+   "text": "En 1999, en su departamento,",
+   "keys": [
+    "departamento,"
+   ]
+  },
+  {
+   "a": 33.3,
+   "b": 35.1,
+   "text": "reunió a 18 amigos",
+   "keys": [
+    "amigos"
+   ]
+  },
+  {
+   "a": 35.1,
+   "b": 36.6,
+   "text": "y fundó Alibaba.",
+   "keys": [
+    "Alibaba"
+   ]
+  },
+  {
+   "a": 37.15,
+   "b": 38.9,
+   "text": "15 años después,",
+   "keys": [
+    "después,"
+   ]
+  },
+  {
+   "a": 38.9,
+   "b": 40.7,
+   "text": "salió a la bolsa:",
+   "keys": [
+    "bolsa:"
+   ]
+  },
+  {
+   "a": 40.7,
+   "b": 45.1,
+   "text": "récord: +US$25,000 millones recaudados.",
+   "keys": [
+    "récord:"
+   ]
+  },
+  {
+   "a": 45.65,
+   "b": 48.2,
+   "text": "El rechazo no te define.",
+   "keys": [
+    "define"
+   ]
+  },
+  {
+   "a": 48.2,
+   "b": 50.4,
+   "text": "Lo que haces después, sí.",
+   "keys": [
+    "sí"
+   ]
+  },
+  {
+   "a": 50.95,
+   "b": 52.5,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 56.35,
+   "b": 58.2,
+   "text": "Te mando un plan",
+   "keys": [
+    "plan"
+   ]
+  },
+  {
+   "a": 58.2,
+   "b": 60.4,
+   "text": "30 días, paso a paso.",
+   "keys": [
+    "paso"
+   ]
+  },
+  {
+   "a": 60.4,
+   "b": 62.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 19,
+   "b": 24.3,
+   "text": "24 → 23",
+   "min": 2
+  },
+  {
+   "a": 41,
+   "b": 45.6,
+   "text": "US$25,000 M",
+   "min": 2
+  },
+  {
+   "a": 52.7,
+   "b": 55.7,
+   "text": "PLAN",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.4,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 0.66,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 0.92,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 1.18,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 1.44,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 1.7,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 1.96,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 2.22,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 2.48,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 2.74,
+   "type": "paper",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 1.4,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 4.1,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 5.6,
+   "type": "impact",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 5.62,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 7.6,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 8.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 8.3,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 10.2,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 11.4,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 0.95
+  },
+  {
+   "t": 13,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 14.8,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 15.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 15.5,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 17.4,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 19,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21.6,
+   "type": "impact",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 21.62,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 23.8,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 24.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 24.6,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 24.8,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.03
+  },
+  {
+   "t": 25,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 25.2,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.09
+  },
+  {
+   "t": 25.4,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 25.6,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.15
+  },
+  {
+   "t": 25.8,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.18
+  },
+  {
+   "t": 26,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.21
+  },
+  {
+   "t": 26.2,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.24
+  },
+  {
+   "t": 26.4,
+   "type": "strike",
+   "v": 0.32,
+   "pitch": 1.27
+  },
+  {
+   "t": 26.3,
+   "type": "impact",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 27.7,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 28.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 28.4,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 30.2,
+   "type": "door",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 33.5,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 33.7,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.05
+  },
+  {
+   "t": 33.9,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 34.1,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.15
+  },
+  {
+   "t": 34.3,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 34.5,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.25
+  },
+  {
+   "t": 35.2,
+   "type": "impact",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 35.22,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 36.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 37.3,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 38.9,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 41,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 44.2,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 44.22,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 45.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 45.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 48.4,
+   "type": "assemble",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 48.8,
+   "type": "assemble",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 49.2,
+   "type": "assemble",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 49.6,
+   "type": "assemble",
+   "v": 0.35,
+   "pitch": 1.18
+  },
+  {
+   "t": 49.9,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 50.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50.9,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 50.95,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 51.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 51.35,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 51.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 51.55,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 52,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52.7,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.72,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 55.75,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 56,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 56.25,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 58.3,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 59,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 59.02,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 62.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   8.2,
+   27.7,
+   [
+    "Según el relato del propio Jack Ma (Wikipedia)."
+   ]
+  ],
+  [
+   37.2,
+   45.1,
+   [
+    "Fuente: Wikipedia, OPI de Alibaba en la Bolsa de Nueva York (2014)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   3.8,
+   4.1
+  ],
+  [
+   52.35,
+   52.7
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.6,
+   6.6,
+   1.15
+  ],
+  [
+   7.6,
+   8.1,
+   1.2
+  ],
+  [
+   21.6,
+   22.6,
+   1.1
+  ],
+  [
+   35.2,
+   36.2,
+   1.1
+  ],
+  [
+   44.2,
+   45.1,
+   1.15
+  ],
+  [
+   50.4,
+   50.9,
+   1.2
+  ],
+  [
+   52.7,
+   55.7,
+   1.15
+  ]
+ ]
+}
