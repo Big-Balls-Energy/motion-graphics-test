@@ -49,5 +49,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 41 | coca-cola-nombres | «Share a Coke»: nombres en la botella, +7% de consumo joven | 3 Marca | NOMBRE | 60 s | 30 oct 2026 |
 | 42 | phil-knight | Phil Knight: de vender tenis en su coche a US$46,000 M | 4 Personaje | EMPIEZA | 64 s | 30 oct 2026 |
 | 43 | resena-negativa | Cómo responder una reseña de una estrella (4 pasos) | 5 Consejo | RESEÑA | 53 s | 30 oct 2026 |
+| 44 | meta-creadores | Meta: casi 10 M de anunciantes usan su IA y los anuncios con creadores ya valen +US$15,000 M | 1 Noticia | CREADOR | 53 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
