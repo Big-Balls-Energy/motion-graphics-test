@@ -1,0 +1,869 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: QUITÓ SU NOMBRE Y PUSO EL TUYO",
+   "a": 0,
+   "b": 4.7,
+   "vis": "Fondo oscuro rojo. Lata genérica roja: la etiqueta «Coca-Cola» (solo texto) gira y cambia por «SOFÍA». «QUITÓ SU NOMBRE… / Y PUSO EL TUYO»."
+  },
+  {
+   "id": "australia",
+   "name": "2011, AUSTRALIA: QUE LOS JÓVENES HABLEN DE LA MARCA",
+   "a": 4.7,
+   "b": 10.5,
+   "vis": "K08_amigos_felices.jpg. Chip «2011 · AUSTRALIA» y objetivo en cuatro líneas."
+  },
+  {
+   "id": "ogilvy",
+   "name": "OGILVY: 150 NOMBRES EN LAS BOTELLAS",
+   "a": 10.5,
+   "b": 16.7,
+   "vis": "Fondo oscuro rojo. «IDEA DE OGILVY SÍDNEY», seis latas genéricas con nombres que entran y «150 NOMBRES»."
+  },
+  {
+   "id": "comparte",
+   "name": "TU NOMBRE, TU PAREJA, TUS AMIGOS… EN REDES",
+   "a": 16.7,
+   "b": 23.2,
+   "vis": "G10_personas_celular.jpg. Tres latas: TU NOMBRE · TU PAREJA · TUS AMIGOS; corazones y «Y LO COMPARTÍAN EN REDES»."
+  },
+  {
+   "id": "consumo",
+   "name": "+7% DE CONSUMO EN ADULTOS JÓVENES",
+   "a": 23.2,
+   "b": 28.5,
+   "vis": "Fondo oscuro. Flecha que sube y «+7%»."
+  },
+  {
+   "id": "facebook",
+   "name": "+870% DE VISITAS A FACEBOOK",
+   "a": 28.5,
+   "b": 34.3,
+   "vis": "Fondo oscuro azul. «VISITAS A SU PÁGINA DE FACEBOOK» (solo texto), barra que crece ×9.7 y «+870%»."
+  },
+  {
+   "id": "eeuu",
+   "name": "EE. UU.: PRIMERA VEZ EN +10 AÑOS",
+   "a": 34.3,
+   "b": 40.9,
+   "vis": "M07_multitud_diversa.jpg. Chip «EE. UU. · 2014» y línea ilustrativa que baja 10 años y luego sube; «PRIMERA VEZ EN +10 AÑOS»."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN: PERSONALIZA",
+   "a": 40.9,
+   "b": 48.4,
+   "vis": "Fondo oscuro. «LA GENTE QUIERE VERSE EN TU MARCA» y tres píldoras: SU NOMBRE · SU CIUDAD · SU HISTORIA."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 48.4,
+   "b": 60,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «NOMBRE», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.45,
+   "text": "Coca-Cola quitó su nombre…",
+   "keys": [
+    "quitó"
+   ]
+  },
+  {
+   "a": 2.45,
+   "b": 4.2,
+   "text": "y puso el tuyo.",
+   "keys": [
+    "tuyo"
+   ]
+  },
+  {
+   "a": 4.75,
+   "b": 6.6,
+   "text": "En 2011, en Australia,",
+   "keys": [
+    "australia,"
+   ]
+  },
+  {
+   "a": 6.6,
+   "b": 8.4,
+   "text": "quería que los jóvenes",
+   "keys": [
+    "jóvenes"
+   ]
+  },
+  {
+   "a": 8.4,
+   "b": 10,
+   "text": "volvieran a hablar.",
+   "keys": [
+    "hablar"
+   ]
+  },
+  {
+   "a": 10.55,
+   "b": 12.6,
+   "text": "La agencia Ogilvy imprimió",
+   "keys": [
+    "ogilvy"
+   ]
+  },
+  {
+   "a": 12.6,
+   "b": 14.6,
+   "text": "los 150 nombres populares",
+   "keys": [
+    "nombres"
+   ]
+  },
+  {
+   "a": 14.6,
+   "b": 16.2,
+   "text": "en las botellas.",
+   "keys": [
+    "botellas"
+   ]
+  },
+  {
+   "a": 16.75,
+   "b": 18.9,
+   "text": "Buscaban su nombre…",
+   "keys": [
+    "nombre…"
+   ]
+  },
+  {
+   "a": 18.9,
+   "b": 20.7,
+   "text": "su pareja, sus amigos…",
+   "keys": [
+    "pareja,"
+   ]
+  },
+  {
+   "a": 20.7,
+   "b": 22.7,
+   "text": "lo compartían en redes.",
+   "keys": [
+    "compartían"
+   ]
+  },
+  {
+   "a": 23.25,
+   "b": 25.2,
+   "text": "Resultado: el consumo joven",
+   "keys": [
+    "consumo"
+   ]
+  },
+  {
+   "a": 25.2,
+   "b": 28,
+   "text": "subió un 7%.",
+   "keys": [
+    "subió"
+   ]
+  },
+  {
+   "a": 28.55,
+   "b": 30.9,
+   "text": "Las visitas a su Facebook",
+   "keys": [
+    "facebook"
+   ]
+  },
+  {
+   "a": 30.9,
+   "b": 33.8,
+   "text": "crecieron un 870%.",
+   "keys": [
+    "crecieron"
+   ]
+  },
+  {
+   "a": 34.35,
+   "b": 36.5,
+   "text": "Después, en Estados Unidos,",
+   "keys": [
+    "unidos,"
+   ]
+  },
+  {
+   "a": 36.5,
+   "b": 38.5,
+   "text": "sus ventas subieron",
+   "keys": [
+    "subieron"
+   ]
+  },
+  {
+   "a": 38.5,
+   "b": 40.4,
+   "text": "tras +10 años.",
+   "keys": [
+    "años"
+   ]
+  },
+  {
+   "a": 40.95,
+   "b": 43.2,
+   "text": "La lección: la gente",
+   "keys": [
+    "lección:"
+   ]
+  },
+  {
+   "a": 43.2,
+   "b": 45.4,
+   "text": "quiere verse en tu marca.",
+   "keys": [
+    "verse"
+   ]
+  },
+  {
+   "a": 45.4,
+   "b": 47.9,
+   "text": "Personaliza: nombre, ciudad, historia.",
+   "keys": [
+    "personaliza:"
+   ]
+  },
+  {
+   "a": 48.45,
+   "b": 50.1,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 53.35,
+   "b": 55.6,
+   "text": "Te mando 5 ideas",
+   "keys": [
+    "ideas"
+   ]
+  },
+  {
+   "a": 55.6,
+   "b": 57.6,
+   "text": "para personalizar tu producto.",
+   "keys": [
+    "personalizar"
+   ]
+  },
+  {
+   "a": 57.6,
+   "b": 59.4,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 12.9,
+   "b": 15,
+   "text": "150 NOMBRES"
+  },
+  {
+   "a": 25.8,
+   "b": 28,
+   "text": "+7%"
+  },
+  {
+   "a": 31.8,
+   "b": 33.8,
+   "text": "+870%"
+  },
+  {
+   "a": 38.4,
+   "b": 40.4,
+   "text": "PRIMERA VEZ EN +10 AÑOS"
+  },
+  {
+   "a": 50.3,
+   "b": 53.3,
+   "text": "NOMBRE",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1.05
+  },
+  {
+   "t": 0.35,
+   "type": "assemble",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 2.4,
+   "type": "flip",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 2.5,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 2.55,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 4.2,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 4.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 6.6,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 7,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1.06
+  },
+  {
+   "t": 7.4,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1.12
+  },
+  {
+   "t": 7.8,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1.18
+  },
+  {
+   "t": 10,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 10.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 10.8,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 11.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 11.85,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.06
+  },
+  {
+   "t": 12.1,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.12
+  },
+  {
+   "t": 12.35,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.18
+  },
+  {
+   "t": 12.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.24
+  },
+  {
+   "t": 12.85,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 12.9,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.05
+  },
+  {
+   "t": 12.95,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 16.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 16.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 17,
+   "type": "flip",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 18.9,
+   "type": "flip",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 19.6,
+   "type": "flip",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 20.8,
+   "type": "send",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 21.1,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 21.3,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.28
+  },
+  {
+   "t": 21.5,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.3599999999999999
+  },
+  {
+   "t": 21.7,
+   "type": "pop",
+   "v": 0.35,
+   "pitch": 1.44
+  },
+  {
+   "t": 22.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 23.4,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 24.6,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 25.8,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.15
+  },
+  {
+   "t": 25.85,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 28,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 28.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 28.7,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 30,
+   "type": "meter",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.8,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1.2
+  },
+  {
+   "t": 31.85,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 31.9,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1.15
+  },
+  {
+   "t": 33.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 34.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 35.2,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 37.6,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 38.4,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.1
+  },
+  {
+   "t": 38.45,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 40.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 40.9,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 41.1,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 43.3,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 45.6,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 46.2,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 46.8,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 47.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 48.4,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 48.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 48.75,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 48.85,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 48.95,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 49.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 49.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 49.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 49.7,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 50.3,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 50.32,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 53.35,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 53.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 53.85,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 55.9,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 56.6,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 56.62,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   4.75,
+   33.8,
+   [
+    "Fuente: Packaging News (Australia), «How sharing turned a brand around» (campaña de 2011)."
+   ]
+  ],
+  [
+   34.35,
+   40.4,
+   [
+    "Fuente: The Wall Street Journal, citado por Adweek (sep. 2014): ventas en EE. UU. +0.4 % en volumen."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.05,
+   2.4
+  ],
+  [
+   12.55,
+   12.9
+  ],
+  [
+   25.45,
+   25.8
+  ],
+  [
+   31.45,
+   31.8
+  ],
+  [
+   49.95,
+   50.3
+  ]
+ ],
+ "musicBoost": [
+  [
+   4.2,
+   4.7,
+   1.2
+  ],
+  [
+   10,
+   10.5,
+   1.15
+  ],
+  [
+   16.2,
+   16.7,
+   1.15
+  ],
+  [
+   22.7,
+   23.2,
+   1.15
+  ],
+  [
+   28,
+   28.5,
+   1.15
+  ],
+  [
+   33.8,
+   34.3,
+   1.15
+  ],
+  [
+   40.4,
+   40.9,
+   1.15
+  ],
+  [
+   47.9,
+   48.4,
+   1.2
+  ],
+  [
+   50.3,
+   53.3,
+   1.15
+  ]
+ ]
+}
