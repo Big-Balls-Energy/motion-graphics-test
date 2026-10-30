@@ -1,0 +1,970 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 68,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: «CERCA DE MÍ»",
+   "a": 0,
+   "b": 4.5,
+   "vis": "Fondo oscuro. MAPA_3D: plano con cuadrícula de calles y pines 3D de la competencia que caen; un pin gris con «?» es tu negocio; barra de búsqueda «cafetería cerca de mí»."
+  },
+  {
+   "id": "factores",
+   "name": "LOS 3 FACTORES DE GOOGLE",
+   "a": 4.5,
+   "b": 12.3,
+   "vis": "M02_compradora_celular.jpg. Tres tarjetas: RELEVANCIA · DISTANCIA · PROMINENCIA con íconos."
+  },
+  {
+   "id": "control",
+   "name": "LO DEMÁS SÍ LO CONTROLAS",
+   "a": 12.3,
+   "b": 17.6,
+   "vis": "Fondo oscuro. DISTANCIA se tacha; «LO DEMÁS SÍ LO CONTROLAS» y «5 PASOS»."
+  },
+  {
+   "id": "p1",
+   "name": "1 · CREA Y VERIFICA TU PERFIL",
+   "a": 17.6,
+   "b": 22.4,
+   "vis": "W08_duena_tablet.jpg. Tarjeta de perfil genérica con insignia «VERIFICADO» y «GRATIS»."
+  },
+  {
+   "id": "p2",
+   "name": "2 · LLÉNALO COMPLETO",
+   "a": 22.4,
+   "b": 28.3,
+   "vis": "Fondo oscuro. Campos de categoría, horario, teléfono y sitio web que se llenan con palomitas."
+  },
+  {
+   "id": "p3",
+   "name": "3 · FOTOS REALES",
+   "a": 28.3,
+   "b": 33.3,
+   "vis": "Fondo oscuro. Galería de tres fotos del negocio (E13, F14, Q02) que entran y se refrescan."
+  },
+  {
+   "id": "p4",
+   "name": "4 · PIDE Y RESPONDE RESEÑAS",
+   "a": 33.3,
+   "b": 39.8,
+   "vis": "Fondo oscuro. Estrellas 4.8; reseña buena y mala con respuesta del dueño."
+  },
+  {
+   "id": "p5",
+   "name": "5 · PUBLICA NOVEDADES",
+   "a": 39.8,
+   "b": 45.6,
+   "vis": "E13_negocio_pequeno.jpg. Tarjeta de publicación «¡2×1 en lattes este viernes!» con botón PUBLICAR y clic."
+  },
+  {
+   "id": "dato",
+   "name": "SEGÚN GOOGLE: PERFILES COMPLETOS",
+   "a": 45.6,
+   "b": 51.6,
+   "vis": "Fondo oscuro. Barra de perfil que se completa al 100 % y la frase de la Ayuda de Google."
+  },
+  {
+   "id": "leccion",
+   "name": "TU NUEVA PUERTA",
+   "a": 51.6,
+   "b": 56.6,
+   "vis": "MAPA_3D: tu pin ahora es cian, el más alto, con anillos."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 56.6,
+   "b": 68,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «MAPA», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.4,
+   "text": "Buscan «cerca de mí»…",
+   "keys": [
+    "mí»…"
+   ]
+  },
+  {
+   "a": 2.4,
+   "b": 4,
+   "text": "¿y no apareces?",
+   "keys": [
+    "apareces?"
+   ]
+  },
+  {
+   "a": 4.55,
+   "b": 8.4,
+   "text": "Google: los resultados locales dependen…",
+   "keys": [
+    "locales"
+   ]
+  },
+  {
+   "a": 8.4,
+   "b": 11.8,
+   "text": "de relevancia, distancia y prominencia.",
+   "keys": [
+    "relevancia,",
+    "distancia",
+    "prominencia"
+   ]
+  },
+  {
+   "a": 12.35,
+   "b": 14.9,
+   "text": "La distancia no la controlas.",
+   "keys": [
+    "controlas"
+   ]
+  },
+  {
+   "a": 14.9,
+   "b": 17.1,
+   "text": "Lo demás, sí: 5 pasos.",
+   "keys": [
+    "pasos"
+   ]
+  },
+  {
+   "a": 17.65,
+   "b": 20,
+   "text": "1: verifica tu perfil",
+   "keys": [
+    "verifica"
+   ]
+  },
+  {
+   "a": 20,
+   "b": 21.9,
+   "text": "de empresa. Es gratis.",
+   "keys": [
+    "gratis"
+   ]
+  },
+  {
+   "a": 22.45,
+   "b": 25,
+   "text": "2: llénalo completo.",
+   "keys": [
+    "completo"
+   ]
+  },
+  {
+   "a": 25,
+   "b": 27.8,
+   "text": "Categoría, horario, teléfono, web.",
+   "keys": [
+    "horario,"
+   ]
+  },
+  {
+   "a": 28.35,
+   "b": 31.2,
+   "text": "3: fotos reales del negocio…",
+   "keys": [
+    "fotos"
+   ]
+  },
+  {
+   "a": 31.2,
+   "b": 32.8,
+   "text": "y actualízalas seguido.",
+   "keys": [
+    "actualízalas"
+   ]
+  },
+  {
+   "a": 33.35,
+   "b": 36.7,
+   "text": "4: pide reseñas…",
+   "keys": [
+    "reseñas…"
+   ]
+  },
+  {
+   "a": 36.7,
+   "b": 39.3,
+   "text": "y responde todas, incluso malas.",
+   "keys": [
+    "responde"
+   ]
+  },
+  {
+   "a": 39.85,
+   "b": 43.2,
+   "text": "5: publica novedades y ofertas,",
+   "keys": [
+    "novedades"
+   ]
+  },
+  {
+   "a": 43.2,
+   "b": 45.1,
+   "text": "como en redes sociales.",
+   "keys": [
+    "redes"
+   ]
+  },
+  {
+   "a": 45.65,
+   "b": 48,
+   "text": "Según Google, los perfiles",
+   "keys": [
+    "google,"
+   ]
+  },
+  {
+   "a": 48,
+   "b": 51.1,
+   "text": "completos tienen más probabilidad.",
+   "keys": [
+    "completos"
+   ]
+  },
+  {
+   "a": 51.65,
+   "b": 53.6,
+   "text": "Tu perfil de Google",
+   "keys": [
+    "perfil"
+   ]
+  },
+  {
+   "a": 53.6,
+   "b": 55.6,
+   "text": "es tu nueva puerta.",
+   "keys": [
+    "puerta"
+   ]
+  },
+  {
+   "a": 56.65,
+   "b": 58.6,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 61.75,
+   "b": 63.6,
+   "text": "Te mando la lista",
+   "keys": [
+    "lista"
+   ]
+  },
+  {
+   "a": 63.6,
+   "b": 65.1,
+   "text": "para tu perfil.",
+   "keys": [
+    "perfil"
+   ]
+  },
+  {
+   "a": 65.1,
+   "b": 67,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 8.6,
+   "b": 11.8,
+   "text": "RELEVANCIA · DISTANCIA · PROMINENCIA"
+  },
+  {
+   "a": 58.7,
+   "b": 61.7,
+   "text": "MAPA",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 1.1,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 1.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 0.4,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 0.52,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.02
+  },
+  {
+   "t": 0.64,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 0.76,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 0.88,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 1,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 1.12,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 1.24,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 1.36,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.16
+  },
+  {
+   "t": 1.48,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.18
+  },
+  {
+   "t": 2.6,
+   "type": "deny",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 4,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 4.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 5.2,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 8.6,
+   "type": "lock",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 8.63,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 9.5,
+   "type": "lock",
+   "v": 0.55,
+   "pitch": 1.08
+  },
+  {
+   "t": 9.53,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 10.4,
+   "type": "lock",
+   "v": 0.55,
+   "pitch": 1.16
+  },
+  {
+   "t": 10.43,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 11.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 12.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 13.6,
+   "type": "strike",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 15.1,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 16.4,
+   "type": "number",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 17.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 18,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 19.6,
+   "type": "unlock",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 21.2,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 22.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 23.2,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 25.2,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 25.9,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 26.6,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 27.3,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1.24
+  },
+  {
+   "t": 27.8,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 28.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 28.6,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 29.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 29.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 30.2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 31.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 32.8,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 34.8,
+   "type": "ping",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34.92,
+   "type": "ping",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 35.04,
+   "type": "ping",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 35.16,
+   "type": "ping",
+   "v": 0.3,
+   "pitch": 1.18
+  },
+  {
+   "t": 35.28,
+   "type": "ping",
+   "v": 0.3,
+   "pitch": 1.24
+  },
+  {
+   "t": 36,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 37,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 38.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 39.3,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 39.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 40.8,
+   "type": "number",
+   "v": 0.75,
+   "pitch": 1
+  },
+  {
+   "t": 41.6,
+   "type": "key",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 41.73,
+   "type": "key",
+   "v": 0.45,
+   "pitch": 1.04
+  },
+  {
+   "t": 41.86,
+   "type": "key",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 41.99,
+   "type": "key",
+   "v": 0.45,
+   "pitch": 1.12
+  },
+  {
+   "t": 42.12,
+   "type": "key",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 43.6,
+   "type": "click",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 43.65,
+   "type": "send",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 45.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 46.3,
+   "type": "meter",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 48.2,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 48.25,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 51.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 51.6,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 52.2,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 53,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.15
+  },
+  {
+   "t": 53.05,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 56.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 56.6,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 56.65,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 57,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 57.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 57.3,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 57.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 58.1,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.7,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 58.72,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 61.75,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 62,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 62.25,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 64.2,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 64.9,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 64.92,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 67.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   4.55,
+   17.1,
+   [
+    "Fuente: Ayuda de Perfil de Empresa de Google, «Cómo mejorar tu posicionamiento local en Google»"
+   ]
+  ],
+  [
+   45.65,
+   51.1,
+   [
+    "«Las empresas con información completa y precisa tienen más probabilidades de aparecer en los resultados locales» (Google)"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.25,
+   2.6
+  ],
+  [
+   8.25,
+   8.6
+  ],
+  [
+   52.65,
+   53
+  ],
+  [
+   58.35,
+   58.7
+  ]
+ ],
+ "musicBoost": [
+  [
+   4,
+   4.5,
+   1.2
+  ],
+  [
+   11.8,
+   12.3,
+   1.15
+  ],
+  [
+   17.1,
+   17.6,
+   1.15
+  ],
+  [
+   21.9,
+   22.4,
+   1.15
+  ],
+  [
+   27.8,
+   28.3,
+   1.15
+  ],
+  [
+   32.8,
+   33.3,
+   1.15
+  ],
+  [
+   39.3,
+   39.8,
+   1.15
+  ],
+  [
+   45.1,
+   45.6,
+   1.15
+  ],
+  [
+   51.1,
+   51.6,
+   1.2
+  ],
+  [
+   56.1,
+   56.6,
+   1.2
+  ],
+  [
+   58.7,
+   61.7,
+   1.15
+  ]
+ ]
+}
