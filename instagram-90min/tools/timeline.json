@@ -1,0 +1,776 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 61,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: INSTAGRAM QUIERE VIDEOS DE 90 MIN",
+   "a": 0,
+   "b": 6.2,
+   "vis": "Fondo oscuro. Celular (W01_mano_celular.png) con un video vertical genérico de 0:15; la barra de progreso se estira hasta 1:30:00 y sale «90 MIN»."
+  },
+  {
+   "id": "anuncio",
+   "name": "«FEATURES»: HASTA 90 MINUTOS",
+   "a": 6.2,
+   "b": 12.8,
+   "vis": "Fondo oscuro. Píldora «26 OCT 2026», «FEATURES» y dos barras: REEL (corta) vs HASTA 90 MIN (larga)."
+  },
+  {
+   "id": "prueba",
+   "name": "PRUEBA: BRASIL Y EE. UU.",
+   "a": 12.8,
+   "b": 18.4,
+   "vis": "G10_personas_celular.jpg. Sello «PRUEBA» y dos fichas: BRASIL (empezó aquí) y EE. UU. (se está ampliando), unidas por un arco."
+  },
+  {
+   "id": "mosseri",
+   "name": "MOSSERI: «ESTUVE EN CONTRA»",
+   "a": 18.4,
+   "b": 26.2,
+   "vis": "Fondo oscuro. Silueta genérica con ficha «ADAM MOSSERI · DIRECTOR DE INSTAGRAM» y tarjeta de cita traducida."
+  },
+  {
+   "id": "clips",
+   "name": "CLIPS COMO REELS",
+   "a": 26.2,
+   "b": 32.1,
+   "vis": "Fondo oscuro. Barra de video largo que se corta en 3 piezas que se vuelven tarjetas verticales de Reel con «→ VIDEO COMPLETO»."
+  },
+  {
+   "id": "pago",
+   "name": "¿CÓMO VAN A PAGAR?",
+   "a": 32.1,
+   "b": 38,
+   "vis": "Fondo oscuro. Monedas con signo de interrogación y cita del vocero de Meta: «Es muy pronto…»."
+  },
+  {
+   "id": "senal",
+   "name": "INSTAGRAM VS YOUTUBE",
+   "a": 38,
+   "b": 43.7,
+   "vis": "Fondo oscuro. «INSTAGRAM VS YOUTUBE» (solo texto) y televisor genérico: «Y TU TELEVISIÓN»."
+  },
+  {
+   "id": "negocio",
+   "name": "¿Y TU NEGOCIO? GRABA UNA VEZ",
+   "a": 43.7,
+   "b": 49.8,
+   "vis": "D01_grabando_video.jpg. Barra larga «GRABA UNA VEZ» que se divide en 5 tarjetas verticales: «SACA 5 REELS»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 49.8,
+   "b": 61,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «CLIPS», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.9,
+   "text": "Instagram, la app de Reels…",
+   "keys": [
+    "reels…"
+   ]
+  },
+  {
+   "a": 2.9,
+   "b": 5.6,
+   "text": "quiere videos de 90 minutos.",
+   "keys": [
+    "minutos"
+   ]
+  },
+  {
+   "a": 6.25,
+   "b": 8.5,
+   "text": "Esta semana anunció «Features»:",
+   "keys": [
+    "«features»:"
+   ]
+  },
+  {
+   "a": 8.5,
+   "b": 10.3,
+   "text": "un nuevo formato",
+   "keys": [
+    "formato"
+   ]
+  },
+  {
+   "a": 10.3,
+   "b": 12.3,
+   "text": "de hasta 90 minutos.",
+   "keys": [
+    "minutos"
+   ]
+  },
+  {
+   "a": 12.85,
+   "b": 14.6,
+   "text": "Por ahora, una prueba:",
+   "keys": [
+    "prueba:"
+   ]
+  },
+  {
+   "a": 14.6,
+   "b": 16.1,
+   "text": "empezó en Brasil…",
+   "keys": [
+    "brasil…"
+   ]
+  },
+  {
+   "a": 16.1,
+   "b": 17.9,
+   "text": "luego, Estados Unidos.",
+   "keys": [
+    "unidos"
+   ]
+  },
+  {
+   "a": 18.45,
+   "b": 20.8,
+   "text": "Lo curioso: el director…",
+   "keys": [
+    "curioso:"
+   ]
+  },
+  {
+   "a": 20.8,
+   "b": 22.6,
+   "text": "Adam Mosseri, admitió",
+   "keys": [
+    "mosseri,"
+   ]
+  },
+  {
+   "a": 22.6,
+   "b": 25.7,
+   "text": "que no quería videos largos.",
+   "keys": [
+    "largos"
+   ]
+  },
+  {
+   "a": 26.25,
+   "b": 29.6,
+   "text": "Además: clips como Reels…",
+   "keys": [
+    "clips"
+   ]
+  },
+  {
+   "a": 29.6,
+   "b": 31.6,
+   "text": "que enlazan al completo.",
+   "keys": [
+    "completo"
+   ]
+  },
+  {
+   "a": 32.15,
+   "b": 34.4,
+   "text": "¿Y cómo pagarán a creadores?",
+   "keys": [
+    "pagarán"
+   ]
+  },
+  {
+   "a": 34.4,
+   "b": 37.5,
+   "text": "Meta: «es muy pronto».",
+   "keys": [
+    "pronto»"
+   ]
+  },
+  {
+   "a": 38.05,
+   "b": 40.4,
+   "text": "La señal: competir con YouTube…",
+   "keys": [
+    "youtube…"
+   ]
+  },
+  {
+   "a": 40.4,
+   "b": 43.2,
+   "text": "y llegar a tu televisión.",
+   "keys": [
+    "televisión"
+   ]
+  },
+  {
+   "a": 43.75,
+   "b": 46.4,
+   "text": "¿Y tu negocio? Graba largo…",
+   "keys": [
+    "largo…"
+   ]
+  },
+  {
+   "a": 46.4,
+   "b": 49.3,
+   "text": "y saca varios Reels.",
+   "keys": [
+    "reels"
+   ]
+  },
+  {
+   "a": 49.85,
+   "b": 51.45,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 54.55,
+   "b": 56.5,
+   "text": "Te mando una guía",
+   "keys": [
+    "guía"
+   ]
+  },
+  {
+   "a": 56.5,
+   "b": 58.5,
+   "text": "convertirlo en 5 Reels.",
+   "keys": [
+    "reels"
+   ]
+  },
+  {
+   "a": 58.5,
+   "b": 60.4,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 3.2,
+   "b": 5.6,
+   "text": "90 MIN"
+  },
+  {
+   "a": 10.3,
+   "b": 12.3,
+   "text": "HASTA 90 MIN"
+  },
+  {
+   "a": 51.5,
+   "b": 54.5,
+   "text": "CLIPS",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "assemble",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "blip",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 2.4,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 3.2,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.05
+  },
+  {
+   "t": 3.25,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 5.6,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 6.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 6.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7.7,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 7.75,
+   "type": "chord",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 8.8,
+   "type": "meter",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 10.3,
+   "type": "meter",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 12.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 12.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 13.2,
+   "type": "lock",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 14.4,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 15.6,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 16.2,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 17.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 18.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 18.9,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 22.6,
+   "type": "impact",
+   "v": 0.65,
+   "pitch": 0.9
+  },
+  {
+   "t": 22.65,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 25.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 26.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 26.6,
+   "type": "meter",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 27.4,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 27.7,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 28,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 28.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 28.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 28.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.8,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31.7,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 32.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 32.4,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 34.5,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 37.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 38,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 38.4,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 39.5,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 0.95
+  },
+  {
+   "t": 41.6,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 43.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 43.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 44.7,
+   "type": "meter",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 46.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 46.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 47,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 47.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.24
+  },
+  {
+   "t": 47.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.32
+  },
+  {
+   "t": 49.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 49.8,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 49.85,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 50.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 50.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 50.35,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 50.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 50.55,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 51,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 51.5,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 51.52,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 54.55,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 54.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 55.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 57.1,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 57.8,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 57.82,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 60.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   6.25,
+   43.2,
+   [
+    "Fuente: TechCrunch, «Watch out, YouTube — Instagram goes from short-form to 90-minute videos», 26 oct. 2026"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.85,
+   3.2
+  ],
+  [
+   7.35,
+   7.7
+  ],
+  [
+   22.25,
+   22.6
+  ],
+  [
+   39.15,
+   39.5
+  ],
+  [
+   51.15,
+   51.5
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.6,
+   6.2,
+   1.2
+  ],
+  [
+   12.3,
+   12.8,
+   1.15
+  ],
+  [
+   17.9,
+   18.4,
+   1.15
+  ],
+  [
+   25.7,
+   26.2,
+   1.15
+  ],
+  [
+   31.7,
+   32.1,
+   1.15
+  ],
+  [
+   37.5,
+   38,
+   1.15
+  ],
+  [
+   43.2,
+   43.7,
+   1.15
+  ],
+  [
+   49.3,
+   49.8,
+   1.2
+  ],
+  [
+   51.5,
+   54.5,
+   1.15
+  ]
+ ]
+}
