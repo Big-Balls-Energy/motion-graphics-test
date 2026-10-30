@@ -1,0 +1,787 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 55,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: AMAZON CONFIRMA QUE YA COMPRAMOS CONVERSANDO CON IA",
+   "a": 0,
+   "b": 5.8,
+   "vis": "Fondo oscuro. Celular (W01_mano_celular.png) con un asistente de compras genérico: «Busco una cafetera para dos personas» → la IA recomienda una cafetera (M05_producto_cafetera.png) → «Agregar al carrito» → «✓ Agregado». «AMAZON CONFIRMA: YA COMPRAMOS / CONVERSANDO CON IA»."
+  },
+  {
+   "id": "datos",
+   "name": "+400 MILLONES DE CLIENTES",
+   "a": 5.8,
+   "b": 13.5,
+   "vis": "Tarjeta «AMAZON · RESULTADOS DEL 3T 2026 · 29 OCT 2026», chip «ASISTENTE DE COMPRAS CON IA» y una cuadrícula de personas que se encienden mientras el contador sube a +400 MILLONES."
+  },
+  {
+   "id": "crece",
+   "name": "+570 % DE INTERACCIONES",
+   "a": 13.5,
+   "b": 19.1,
+   "vis": "Dos barras (HACE 1 AÑO · HOY): la de hoy crece y el contador llega a +570 %."
+  },
+  {
+   "id": "agente",
+   "name": "AGENTE DE IA PARA ANUNCIOS",
+   "a": 19.1,
+   "b": 24.5,
+   "vis": "Un orbe de IA genera tres anuncios genéricos (Patrocinado · Comprar). «NUEVO: AGENTE DE IA PARA CREAR Y MANEJAR ANUNCIOS»."
+  },
+  {
+   "id": "negocio",
+   "name": "¿Y TU NEGOCIO?",
+   "a": 24.5,
+   "b": 30.6,
+   "vis": "Sobre M02_compradora_celular.jpg: celular con el chat «¿Qué cafetera me recomiendas para una cocina pequeña?» → tres recomendaciones y un espacio vacío «¿Y la tuya?»."
+  },
+  {
+   "id": "ficha",
+   "name": "FICHA QUE LA IA ENTIENDE",
+   "a": 30.6,
+   "b": 37.6,
+   "vis": "Ficha de producto: la descripción vaga se tacha y se llenan MEDIDAS, USOS y PARA QUIÉN con palomitas; «FICHA CLARA ✓»."
+  },
+  {
+   "id": "faq",
+   "name": "PREGUNTAS FRECUENTES Y RESEÑAS",
+   "a": 37.6,
+   "b": 43.3,
+   "vis": "Sobre M09_persona_reseñas.jpg: dos preguntas frecuentes con respuesta y una reseña de ejemplo que cuenta cómo se usa el producto."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 43.3,
+   "b": 55,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «FICHA», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 3.25,
+   "text": "Amazon confirma: ya compramos…",
+   "keys": [
+    "confirma:"
+   ]
+  },
+  {
+   "a": 3.25,
+   "b": 5.3,
+   "text": "conversando con una IA.",
+   "keys": [
+    "IA"
+   ]
+  },
+  {
+   "a": 5.85,
+   "b": 7.65,
+   "text": "En sus resultados trimestrales…",
+   "keys": [
+    "resultados"
+   ]
+  },
+  {
+   "a": 7.65,
+   "b": 10.2,
+   "text": "su asistente de compras",
+   "keys": [
+    "asistente"
+   ]
+  },
+  {
+   "a": 10.2,
+   "b": 12.95,
+   "text": "+400 millones de clientes.",
+   "keys": [
+    "clientes"
+   ]
+  },
+  {
+   "a": 13.55,
+   "b": 15.7,
+   "text": "Y las conversaciones…",
+   "keys": [
+    "conversaciones"
+   ]
+  },
+  {
+   "a": 15.7,
+   "b": 18.6,
+   "text": "crecieron 570 por ciento.",
+   "keys": [
+    "crecieron"
+   ]
+  },
+  {
+   "a": 19.15,
+   "b": 21.5,
+   "text": "Además, lanzó un agente",
+   "keys": [
+    "agente"
+   ]
+  },
+  {
+   "a": 21.5,
+   "b": 23.95,
+   "text": "de IA para anuncios.",
+   "keys": [
+    "anuncios"
+   ]
+  },
+  {
+   "a": 24.55,
+   "b": 26.4,
+   "text": "¿Y para tu negocio?",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 26.4,
+   "b": 28.3,
+   "text": "más clientes le preguntan",
+   "keys": [
+    "preguntan"
+   ]
+  },
+  {
+   "a": 28.3,
+   "b": 30.05,
+   "text": "a una IA.",
+   "keys": [
+    "IA"
+   ]
+  },
+  {
+   "a": 30.65,
+   "b": 32.85,
+   "text": "recomienda lo que entiende.",
+   "keys": [
+    "entiende"
+   ]
+  },
+  {
+   "a": 32.85,
+   "b": 35,
+   "text": "Describe medidas y usos…",
+   "keys": [
+    "medidas"
+   ]
+  },
+  {
+   "a": 35,
+   "b": 37.05,
+   "text": "y para quién es.",
+   "keys": [
+    "quién"
+   ]
+  },
+  {
+   "a": 37.65,
+   "b": 39.6,
+   "text": "Responde las preguntas frecuentes…",
+   "keys": [
+    "preguntas"
+   ]
+  },
+  {
+   "a": 39.6,
+   "b": 41.3,
+   "text": "y pide reseñas…",
+   "keys": [
+    "reseñas…"
+   ]
+  },
+  {
+   "a": 41.3,
+   "b": 42.8,
+   "text": "cómo lo usan.",
+   "keys": [
+    "usan"
+   ]
+  },
+  {
+   "a": 43.35,
+   "b": 44.9,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 48.85,
+   "b": 50.7,
+   "text": "Te mando una plantilla",
+   "keys": [
+    "plantilla"
+   ]
+  },
+  {
+   "a": 50.7,
+   "b": 52.7,
+   "text": "que la IA entiende.",
+   "keys": [
+    "entiende"
+   ]
+  },
+  {
+   "a": 52.7,
+   "b": 54.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 10.2,
+   "b": 13.5,
+   "text": "+400 MILLONES",
+   "min": 2
+  },
+  {
+   "a": 15.8,
+   "b": 19.1,
+   "text": "+570 %",
+   "min": 2
+  },
+  {
+   "a": 45.2,
+   "b": 48.2,
+   "text": "FICHA",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.1,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 1.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 2.4,
+   "type": "flip",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 3.4,
+   "type": "click",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 3.42,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 3.7,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 5.4,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 6,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 6.1,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 7.75,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 10.2,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 11.6,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 11.62,
+   "type": "chord",
+   "v": 0.45,
+   "pitch": 1.12
+  },
+  {
+   "t": 13,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 13.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 13.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 14.2,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 15.8,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 15.8,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 17.1,
+   "type": "impact",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 17.12,
+   "type": "chord",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 18.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 19.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 19.3,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.3,
+   "type": "morph",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21.2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 22,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 22.8,
+   "type": "unlock",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 24,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 24.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 24.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 26.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 27,
+   "type": "blip",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 28.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 28.6,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 28.85,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 29.1,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 29.4,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 30.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 30.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 30.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 32.75,
+   "type": "strike",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 33.1,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 34.1,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1.08
+  },
+  {
+   "t": 35.9,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1.16
+  },
+  {
+   "t": 36.4,
+   "type": "scan",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 36.9,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 37.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 37.8,
+   "type": "flip",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 38.6,
+   "type": "flip",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 39.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 40,
+   "type": "ding",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 41.3,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 42.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 43.3,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 43.35,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 43.65,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 43.75,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 43.85,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 43.95,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 44.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 44.5,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45.2,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 45.22,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 48.25,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 48.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 48.75,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 50.8,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 51.5,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 51.52,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 54.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   6,
+   23.9,
+   [
+    "Fuente: comunicado de resultados de Amazon, 3T 2026 (29 oct 2026)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   3.05,
+   3.4
+  ],
+  [
+   44.85,
+   45.2
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.3,
+   5.8,
+   1.2
+  ],
+  [
+   11.6,
+   12.6,
+   1.15
+  ],
+  [
+   17.1,
+   18.1,
+   1.15
+  ],
+  [
+   18.6,
+   19.1,
+   1.1
+  ],
+  [
+   24,
+   24.5,
+   1.1
+  ],
+  [
+   30.1,
+   30.6,
+   1.1
+  ],
+  [
+   37.1,
+   37.6,
+   1.1
+  ],
+  [
+   42.8,
+   43.3,
+   1.2
+  ],
+  [
+   45.2,
+   48.2,
+   1.15
+  ]
+ ]
+}

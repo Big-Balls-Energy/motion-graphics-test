@@ -54,5 +54,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 46 | patagonia-chamarra | «No compres esta chamarra»: el anuncio que vendió +30% | 3 Marca | VALORES | 57 s | 30 oct 2026 |
 | 47 | howard-schultz | Howard Schultz: 217 «no» y +40,000 cafeterías | 4 Personaje | EXPERIENCIA | 62 s | 30 oct 2026 |
 | 48 | fotos-producto | Fotos de producto que venden, con tu celular | 5 Consejo | FOTO | 59 s | 30 oct 2026 |
+| 49 | amazon-ia | Amazon: +400 M usan su asistente de compras con IA (+570 %) | 1 Noticia | FICHA | 55 s | 30 oct 2026 |
 
-**Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
+**Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos (paradoja de la elección: en curso como reel 50).
