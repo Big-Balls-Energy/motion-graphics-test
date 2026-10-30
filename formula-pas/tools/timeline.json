@@ -1,0 +1,816 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 50,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: ¿TUS POSTS NO VENDEN? EMPIEZAS POR EL PRODUCTO",
+   "a": 0,
+   "b": 5.5,
+   "vis": "Publicación genérica de una pastelería con PA01_pastel_chocolate.jpg y el texto «Pasteles artesanales de chocolate.»; métricas bajas y «0 pedidos» en rojo."
+  },
+  {
+   "id": "pas",
+   "name": "LA FÓRMULA PAS",
+   "a": 5.5,
+   "b": 10.4,
+   "vis": "Tres letras gigantes que entran con cada palabra: P · PROBLEMA (rojo), A · AGITACIÓN (ámbar), S · SOLUCIÓN (verde)."
+  },
+  {
+   "id": "p",
+   "name": "P · PROBLEMA",
+   "a": 10.4,
+   "b": 17.7,
+   "vis": "Encabezado P · PROBLEMA, «Nombra lo que le duele a tu cliente» y el texto de ejemplo que se escribe solo: «¿Olvidaste el pastel del cumpleaños… otra vez?», con un pastel con velas."
+  },
+  {
+   "id": "a",
+   "name": "A · AGITACIÓN",
+   "a": 17.7,
+   "b": 25.5,
+   "vis": "Encabezado A · AGITACIÓN, «Muestra lo que pasa si no lo resuelve», reloj de 11:58 PM y el texto «Y ahora, a buscar lo que quede en el súper… a última hora.»"
+  },
+  {
+   "id": "s",
+   "name": "S · SOLUCIÓN",
+   "a": 25.5,
+   "b": 32.6,
+   "vis": "Encabezado S · SOLUCIÓN, «Tu producto con un paso claro», el texto «Pídelo hoy y te lo llevamos mañana. Escríbenos por WhatsApp.» y un botón ESCRÍBENOS con clic."
+  },
+  {
+   "id": "comp",
+   "name": "ANTES VS. CON PAS",
+   "a": 32.6,
+   "b": 38.1,
+   "vis": "Dos publicaciones lado a lado: ANTES («Pasteles artesanales de chocolate.») y CON PAS (problema, agitación y solución); «¿CUÁL TE ANTOJA MÁS?» y palomita en la de PAS."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 38.1,
+   "b": 50,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «TEXTO», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.4,
+   "text": "Si tus publicaciones no venden…",
+   "keys": [
+    "venden…"
+   ]
+  },
+  {
+   "a": 2.4,
+   "b": 5,
+   "text": "quizás empiezas por el producto.",
+   "keys": [
+    "producto"
+   ]
+  },
+  {
+   "a": 5.55,
+   "b": 7.3,
+   "text": "Prueba la fórmula PAS:",
+   "keys": [
+    "PAS:"
+   ]
+  },
+  {
+   "a": 7.3,
+   "b": 9.9,
+   "text": "problema, agitación y solución.",
+   "keys": [
+    "solución"
+   ]
+  },
+  {
+   "a": 10.45,
+   "b": 12,
+   "text": "Primero, el problema:",
+   "keys": [
+    "problema:"
+   ]
+  },
+  {
+   "a": 12,
+   "b": 13.9,
+   "text": "lo que le duele.",
+   "keys": [
+    "duele"
+   ]
+  },
+  {
+   "a": 13.9,
+   "b": 17.2,
+   "text": "«¿Olvidaste el pastel… otra vez?»",
+   "keys": [
+    "pastel…"
+   ]
+  },
+  {
+   "a": 17.75,
+   "b": 19.5,
+   "text": "Luego, agita el problema:",
+   "keys": [
+    "agita"
+   ]
+  },
+  {
+   "a": 19.5,
+   "b": 21.3,
+   "text": "¿qué pasa si no?",
+   "keys": [
+    "pasa"
+   ]
+  },
+  {
+   "a": 21.3,
+   "b": 25,
+   "text": "«Al súper… a última hora.»",
+   "keys": [
+    "última"
+   ]
+  },
+  {
+   "a": 25.55,
+   "b": 27.3,
+   "text": "Al final, la solución,",
+   "keys": [
+    "solución,"
+   ]
+  },
+  {
+   "a": 27.3,
+   "b": 29.1,
+   "text": "con un paso claro:",
+   "keys": [
+    "claro:"
+   ]
+  },
+  {
+   "a": 29.1,
+   "b": 32.1,
+   "text": "«Pídelo hoy, llega mañana.»",
+   "keys": [
+    "Pídelo"
+   ]
+  },
+  {
+   "a": 32.65,
+   "b": 35.8,
+   "text": "Compara: «Pasteles artesanales de chocolate».",
+   "keys": [
+    "Compara:"
+   ]
+  },
+  {
+   "a": 35.8,
+   "b": 37.6,
+   "text": "¿Cuál te antoja más?",
+   "keys": [
+    "antoja"
+   ]
+  },
+  {
+   "a": 38.15,
+   "b": 39.8,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 43.65,
+   "b": 45.4,
+   "text": "Te mando 10 ejemplos",
+   "keys": [
+    "ejemplos"
+   ]
+  },
+  {
+   "a": 45.4,
+   "b": 47.1,
+   "text": "para tu negocio.",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 47.1,
+   "b": 48.9,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 40,
+   "b": 43,
+   "text": "TEXTO",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 2.6,
+   "type": "deny",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 5.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 7.1,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7.85,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 8.85,
+   "type": "impact",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 9.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 10.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 10.6,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 12,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 13.95,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 14.19,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 14.43,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 14.67,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 14.91,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 15.15,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 15.39,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 15.63,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 15.87,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 16.11,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 16.35,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 16.59,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 16.9,
+   "type": "deny",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 17.2,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 17.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 17.9,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 19.1,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 21.3,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 21.54,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 21.78,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 22.02,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 22.26,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 22.5,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 22.74,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 22.98,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 23.22,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 23.46,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 23.7,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 23.94,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 24.18,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 24.42,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 22,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 23,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 24,
+   "type": "tick",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 25,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 25.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 25.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 27.3,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 28.54,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 28.78,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 29.02,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 29.26,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 29.5,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 29.74,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 29.98,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 30.22,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 30.46,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 30.7,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 30.94,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 31.18,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 31.42,
+   "type": "key",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 31.2,
+   "type": "click",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 31.22,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 32.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 32.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 32.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 33.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 36,
+   "type": "ding",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 36.8,
+   "type": "unlock",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 37.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 38.1,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 38.15,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 38.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 38.55,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 38.65,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 38.75,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 38.85,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 39.3,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 40,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 40.02,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 43.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 43.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 43.55,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 45.6,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 46.3,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 46.32,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 49.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [],
+ "musicDips": [
+  [
+   2.3,
+   2.6
+  ],
+  [
+   39.65,
+   40
+  ]
+ ],
+ "musicBoost": [
+  [
+   5,
+   5.5,
+   1.2
+  ],
+  [
+   8.85,
+   9.9,
+   1.15
+  ],
+  [
+   17.2,
+   17.7,
+   1.1
+  ],
+  [
+   25,
+   25.5,
+   1.1
+  ],
+  [
+   32.1,
+   32.6,
+   1.1
+  ],
+  [
+   37.6,
+   38.1,
+   1.2
+  ],
+  [
+   40,
+   43,
+   1.15
+  ]
+ ]
+}

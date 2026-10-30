@@ -58,5 +58,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 50 | paradoja-eleccion | La paradoja de la elección: 24 sabores, 3 % compró (Iyengar y Lepper, 2000) | 2 Psicología | OPCIONES | 58 s | 30 oct 2026 |
 | 51 | spotify-wrapped | Spotify Wrapped: +200 M en 24 h y +500 M de veces compartido | 3 Marca | RESUMEN | 55 s | 30 oct 2026 |
 | 52 | brian-acton | Brian Acton: Facebook lo rechazó y luego le pagó US$19,000 M | 4 Personaje | IDEA | 63 s | 30 oct 2026 |
+| 53 | formula-pas | La fórmula PAS: textos que venden (problema, agitación, solución) | 5 Consejo | TEXTO | 50 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
