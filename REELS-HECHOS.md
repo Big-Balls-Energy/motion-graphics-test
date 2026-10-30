@@ -1,0 +1,30 @@
+# Reels hechos (registro para no repetir temas)
+
+Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del reel nuevo debe ser la **siguiente** en la rotación respecto a la última fila:
+
+**Rotación de categorías:** 1 Noticia de IA o tecnología → 2 Psicología del marketing → 3 Caso de marca (éxito o fracaso) → 4 Personaje / empresario / biografía → 5 Consejo práctico (web, SEO/GEO, IA para negocios) → vuelve a 1.
+
+| # | Carpeta | Tema | Categoría | Palabra CTA | Dur. | Fecha |
+|---|---|---|---|---|---|---|
+| 1 | (sin carpeta) | Efecto de progreso dotado | 2 Psicología | — | 60 s | 2026 |
+| 2 | (sin carpeta) | Efecto señuelo | 2 Psicología | — | 60 s | 2026 |
+| 3 | prueba-social | Prueba social | 2 Psicología | — | 60 s | 2026 |
+| 4 | aversion-perdida | Aversión a la pérdida | 2 Psicología | — | 60 s | 2026 |
+| 5 | reciprocidad | Reciprocidad | 2 Psicología | — | 60 s | 2026 |
+| 6 | tesla-robotaxi | Tesla: dueños de autos como robotaxis | 1 Noticia | debate | 60 s | 2026 |
+| 7 | reel-viral | Estructura de un Reel viral | 5 Consejo | ANIMACIÓN | 60 s | 2026 |
+| 8 | arquetipos | 12 arquetipos de marca | 2 Psicología | tu marca | 60 s | 2026 |
+| 9 | viaje-heroe | Viaje del héroe de Campbell | 2 Psicología | HISTORIA | 60 s | 2026 |
+| 10 | liquid-death | Caso Liquid Death | 3 Marca | DISRUPTIVO | 60 s | 2026 |
+| 11 | brewdog | Caso BrewDog (auge y caída) | 3 Marca | PUNK | 60 s | 2026 |
+| 12 | dolor-pagar | Dolor de pagar | 2 Psicología | DOLOR | 60 s | 2026 |
+| 13 | gary-vee | Gary Vee: Wine Library → VaynerMedia | 4 Personaje | ATENCIÓN | 75 s | 2026 |
+| 14 | terafab | Terafab de Elon Musk | 1 Noticia | CHIP | 90 s | 2026 |
+| 15 | neuroventas | Klaric: botones reptiles | 4 Personaje | MENTE | 90 s | 2026 |
+| 16 | ia-compras | La IA decide qué compramos (McKinsey) | 1 Noticia | IA | 60 s | oct 2026 |
+| 17 | consejos-ia | 5 consejos para que una IA recomiende tu negocio | 5 Consejo | WEB | 80 s | oct 2026 |
+| 18 | agente-universidad | Agente de IA para una universidad | 5 Consejo | — | — | oct 2026 |
+| 19 | ocarina-nostalgia | Nostalgia (Ocarina) | 2 Psicología | — | — | oct 2026 |
+| 20 | precio-99 | ¿Por qué todo cuesta $99? (dígito izquierdo) | 2 Psicología | PRECIO | 75 s | 30 oct 2026 |
+
+**Ideas pendientes de psicología:** anclaje, escasez, urgencia/FOMO, pie en la puerta, efecto IKEA, posicionamiento a la altura de los ojos.
