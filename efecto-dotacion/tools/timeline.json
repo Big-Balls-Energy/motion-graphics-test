@@ -1,0 +1,738 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 57,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: ¿POR QUÉ VALE MÁS SOLO PORQUE ES TUYO?",
+   "a": 0,
+   "b": 4.6,
+   "vis": "Taza genérica con etiqueta de precio «$?» que se balancea."
+  },
+  {
+   "id": "1990",
+   "name": "1990: EL EXPERIMENTO DE LAS TAZAS",
+   "a": 4.6,
+   "b": 13.2,
+   "vis": "«1990», dos siluetas (sin rostro) con «KAHNEMAN · THALER» y chip «PREMIOS NOBEL 2002 Y 2017»; fila de estudiantes, la mitad recibe taza."
+  },
+  {
+   "id": "precio",
+   "name": "¿CUÁNTO VALE?",
+   "a": 13.2,
+   "b": 18.9,
+   "vis": "Dos grupos: DUEÑOS (con taza) y COMPRADORES (sin taza) y «¿CUÁNTO VALE?»."
+  },
+  {
+   "id": "cifras",
+   "name": "≈ US$7 CONTRA < US$3",
+   "a": 18.9,
+   "b": 24.8,
+   "vis": "Etiquetas: DUEÑOS ≈ US$7 (7.12) y COMPRADORES < US$3 (2.87), con barras."
+  },
+  {
+   "id": "efecto",
+   "name": "MÁS DEL DOBLE: EFECTO DOTACIÓN",
+   "a": 24.8,
+   "b": 31.3,
+   "vis": "Misma taza al centro, «×2» gigante y título «EFECTO DOTACIÓN»."
+  },
+  {
+   "id": "usos",
+   "name": "PRUEBAS GRATIS, PRUÉBALO EN CASA, PROBADORES",
+   "a": 31.3,
+   "b": 36.8,
+   "vis": "Tres tarjetas con íconos: PRUEBA GRATIS, «PRUÉBALO EN CASA» y PROBADOR."
+  },
+  {
+   "id": "negocio",
+   "name": "EN TU NEGOCIO",
+   "a": 36.8,
+   "b": 45.4,
+   "vis": "Chips ÚSALO · TÓCALO · PERSONALÍZALO → «ANTES DE PAGAR» → corazón «YA ES SUYO»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 45.4,
+   "b": 57,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «PRUEBA», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.1,
+   "text": "¿Por qué pedimos más",
+   "keys": [
+    "más"
+   ]
+  },
+  {
+   "a": 2.1,
+   "b": 4.1,
+   "text": "solo porque es nuestro?",
+   "keys": [
+    "nuestro?"
+   ]
+  },
+  {
+   "a": 4.65,
+   "b": 6.4,
+   "text": "En 1990, Kahneman",
+   "keys": [
+    "Kahneman"
+   ]
+  },
+  {
+   "a": 6.4,
+   "b": 8.2,
+   "text": "y Richard Thaler,",
+   "keys": [
+    "Thaler,"
+   ]
+  },
+  {
+   "a": 8.2,
+   "b": 9.8,
+   "text": "futuros premios Nobel,",
+   "keys": [
+    "Nobel,"
+   ]
+  },
+  {
+   "a": 9.8,
+   "b": 12.7,
+   "text": "regalaron tazas a la mitad.",
+   "keys": [
+    "tazas"
+   ]
+  },
+  {
+   "a": 13.25,
+   "b": 15.1,
+   "text": "Le pusieron precio:",
+   "keys": [
+    "precio:"
+   ]
+  },
+  {
+   "a": 15.1,
+   "b": 16.7,
+   "text": "quienes la tenían…",
+   "keys": [
+    "tenían…"
+   ]
+  },
+  {
+   "a": 16.7,
+   "b": 18.4,
+   "text": "y los compradores.",
+   "keys": [
+    "compradores"
+   ]
+  },
+  {
+   "a": 18.95,
+   "b": 21.7,
+   "text": "Dueños: unos 7 dólares.",
+   "keys": [
+    "dueños:"
+   ]
+  },
+  {
+   "a": 21.7,
+   "b": 24.3,
+   "text": "Compradores: menos de 3.",
+   "keys": [
+    "compradores:"
+   ]
+  },
+  {
+   "a": 24.85,
+   "b": 27.2,
+   "text": "Misma taza… ¡más del doble!",
+   "keys": [
+    "doble!"
+   ]
+  },
+  {
+   "a": 27.2,
+   "b": 28.9,
+   "text": "solo por tenerla.",
+   "keys": [
+    "tenerla"
+   ]
+  },
+  {
+   "a": 28.9,
+   "b": 30.8,
+   "text": "Es el efecto dotación.",
+   "keys": [
+    "dotación"
+   ]
+  },
+  {
+   "a": 31.35,
+   "b": 33.6,
+   "text": "Por eso funcionan: pruebas gratis,",
+   "keys": [
+    "gratis,"
+   ]
+  },
+  {
+   "a": 33.6,
+   "b": 36.3,
+   "text": "«pruébalo en casa» y probadores.",
+   "keys": [
+    "«pruébalo",
+    "probadores"
+   ]
+  },
+  {
+   "a": 36.85,
+   "b": 39,
+   "text": "Deja que lo use,",
+   "keys": [
+    "use,"
+   ]
+  },
+  {
+   "a": 39,
+   "b": 41,
+   "text": "lo toque, lo personalice…",
+   "keys": [
+    "personalice…"
+   ]
+  },
+  {
+   "a": 41,
+   "b": 43,
+   "text": "antes de pagar.",
+   "keys": [
+    "pagar"
+   ]
+  },
+  {
+   "a": 43,
+   "b": 44.9,
+   "text": "Ya suyo… soltarlo duele.",
+   "keys": [
+    "duele"
+   ]
+  },
+  {
+   "a": 45.45,
+   "b": 47,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 51.05,
+   "b": 53.8,
+   "text": "5 formas de dar prueba…",
+   "keys": [
+    "prueba…"
+   ]
+  },
+  {
+   "a": 53.8,
+   "b": 56.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 47.4,
+   "b": 50.4,
+   "text": "PRUEBA",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 4.9,
+   "b": 12.7,
+   "text": "1990"
+  },
+  {
+   "a": 19.4,
+   "b": 24.3,
+   "text": "US$7 · US$3"
+  },
+  {
+   "a": 25.3,
+   "b": 30.8,
+   "text": "×2"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 2.3,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.1,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 4.6,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 4.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 13.2,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 13.4,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 18.9,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 19.1,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 24.8,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 25,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 31.3,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 31.5,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 36.8,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 37,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 5,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 6.5,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 8.3,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 10,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 10.3,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.07
+  },
+  {
+   "t": 10.6,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 10.9,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.21
+  },
+  {
+   "t": 12.7,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 13.6,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 15.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 16.9,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 18.4,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 19.4,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 22,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 23.3,
+   "type": "deny",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 24.3,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 25.3,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 25.32,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 29,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 30.8,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 31.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 33.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 35.2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 36.3,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 37.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 39.2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 40.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 41.2,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 43.1,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 45,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 45.4,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 45.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 45.75,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 45.85,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.03
+  },
+  {
+   "t": 45.95,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 46.05,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.09
+  },
+  {
+   "t": 46.15,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 46.25,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 46.7,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 47.4,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 47.42,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 50.45,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 50.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 50.95,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 53,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 53.7,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 53.72,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 56.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   4.9,
+   30.8,
+   [
+    "Kahneman, Knetsch y Thaler (1990), Journal of Political Economy."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2,
+   2.3
+  ],
+  [
+   25,
+   25.3
+  ],
+  [
+   47.05,
+   47.4
+  ]
+ ],
+ "musicBoost": [
+  [
+   4.1,
+   4.6,
+   1.2
+  ],
+  [
+   12.7,
+   13.2,
+   1.1
+  ],
+  [
+   18.4,
+   18.9,
+   1.1
+  ],
+  [
+   24.3,
+   24.8,
+   1.1
+  ],
+  [
+   30.8,
+   31.3,
+   1.1
+  ],
+  [
+   36.3,
+   36.8,
+   1.1
+  ],
+  [
+   45,
+   45.4,
+   1.2
+  ],
+  [
+   47.4,
+   50.4,
+   1.15
+  ]
+ ]
+}

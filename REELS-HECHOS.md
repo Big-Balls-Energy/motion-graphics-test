@@ -70,5 +70,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 62 | steve-jobs | Steve Jobs: lo corrieron de Apple a los 30… y volvió | 4 Personaje | RELANZAR | 59 s | 30 oct 2026 |
 | 63 | prompts-ia | 5 prompts de IA que te ahorran horas en tu negocio | 5 Consejo | PROMPTS | 55 s | 30 oct 2026 |
 | 64 | anuncios-modo-ia | Google lleva anuncios a su Modo IA en 10 países más; México sigue en el 4.º trimestre | 1 Noticia | ANUNCIO | 57 s | 30 oct 2026 |
+| 65 | efecto-dotacion | Efecto dotación: la misma taza vale el doble si es tuya (US$7 vs. US$3) | 2 Psicología | PRUEBA | 57 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
