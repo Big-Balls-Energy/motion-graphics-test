@@ -1,0 +1,913 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 76,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: VENDIERON CEREAL",
+   "a": 0,
+   "b": 4.5,
+   "vis": "Fondo oscuro cálido. CAJA_3D de cereal genérica (sin marca ni candidatos) que gira y cae; «PARA SALVAR SU EMPRESA…»."
+  },
+  {
+   "id": "renta",
+   "name": "2007: NO PODÍAN PAGAR LA RENTA",
+   "a": 4.5,
+   "b": 10.6,
+   "vis": "A01_sala_colchones.jpg. Ficha «SAN FRANCISCO · 2007», nombres BRIAN CHESKY · JOE GEBBIA (solo texto) y sello «RENTA VENCIDA»."
+  },
+  {
+   "id": "colchones",
+   "name": "COLCHONES INFLABLES",
+   "a": 10.6,
+   "b": 17.1,
+   "vis": "A01_sala_colchones.jpg más cerca. Tres íconos de colchón que se inflan y «3 COLCHONES INFLABLES»."
+  },
+  {
+   "id": "nadie",
+   "name": "NADIE LO USABA",
+   "a": 17.1,
+   "b": 23.8,
+   "vis": "Fondo oscuro. «ASÍ NACIÓ AIRBNB»; gráfica de reservas casi en cero; sobres de inversionistas que dicen «NO, GRACIAS»."
+  },
+  {
+   "id": "cereal",
+   "name": "2008: CAJAS DE CEREAL",
+   "a": 23.8,
+   "b": 31.1,
+   "vis": "A02_armando_cajas.jpg (armando cajas en la cocina) y CAJA_3D en dos ediciones de colores, «EDICIÓN ELECCIONES 2008»."
+  },
+  {
+   "id": "venta",
+   "name": "$40 POR CAJA → $30,000",
+   "a": 31.1,
+   "b": 36.95,
+   "vis": "Fondo oscuro. Etiqueta «$40 POR CAJA» y cajas 3D que se multiplican; contador «$30,000»."
+  },
+  {
+   "id": "graham",
+   "name": "PAUL GRAHAM SE CONVENCE",
+   "a": 36.95,
+   "b": 45.4,
+   "vis": "Fondo oscuro. Tarjeta de idea (paráfrasis) de Paul Graham."
+  },
+  {
+   "id": "yc",
+   "name": "Y COMBINATOR 2009",
+   "a": 45.4,
+   "b": 51.5,
+   "vis": "Fondo oscuro. «Y COMBINATOR · 2009» y «$20,000 a cambio del 6 %»."
+  },
+  {
+   "id": "hoy",
+   "name": "HOY: ~$98,000 MILLONES",
+   "a": 51.5,
+   "b": 56.3,
+   "vis": "Fondo oscuro. Contador «~$98,000 M» (valor de mercado al 29 oct. 2026) con chispas."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 56.3,
+   "b": 61.6,
+   "vis": "W08_duena_tablet.jpg. «CUANDO NADIE CREE EN TI… HAZ ALGO IMPOSIBLE DE IGNORAR»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 61.6,
+   "b": 76,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «CEREAL», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2,
+   "text": "Para salvar su empresa…",
+   "keys": [
+    "empresa…"
+   ]
+  },
+  {
+   "a": 2,
+   "b": 4,
+   "text": "vendieron cajas de cereal.",
+   "keys": [
+    "cereal"
+   ]
+  },
+  {
+   "a": 4.55,
+   "b": 7.6,
+   "text": "En 2007, Chesky y Gebbia",
+   "keys": [
+    "chesky",
+    "gebbia"
+   ]
+  },
+  {
+   "a": 7.6,
+   "b": 10.1,
+   "text": "no podían pagar la renta.",
+   "keys": [
+    "renta"
+   ]
+  },
+  {
+   "a": 10.65,
+   "b": 13.9,
+   "text": "Inflaron colchones en su sala…",
+   "keys": [
+    "colchones"
+   ]
+  },
+  {
+   "a": 13.9,
+   "b": 16.6,
+   "text": "y los rentaron a visitantes.",
+   "keys": [
+    "rentaron"
+   ]
+  },
+  {
+   "a": 17.15,
+   "b": 19.2,
+   "text": "Así nació Airbnb.",
+   "keys": [
+    "airbnb"
+   ]
+  },
+  {
+   "a": 19.2,
+   "b": 21.1,
+   "text": "Casi nadie lo usaba…",
+   "keys": [
+    "nadie"
+   ]
+  },
+  {
+   "a": 21.1,
+   "b": 23.3,
+   "text": "y los inversionistas: «no».",
+   "keys": [
+    "«no»"
+   ]
+  },
+  {
+   "a": 23.85,
+   "b": 26,
+   "text": "Sin dinero, en 2008,",
+   "keys": [
+    "dinero,"
+   ]
+  },
+  {
+   "a": 26,
+   "b": 28,
+   "text": "diseñaron cajas de cereal…",
+   "keys": [
+    "cereal…"
+   ]
+  },
+  {
+   "a": 28,
+   "b": 30.6,
+   "text": "de los candidatos presidenciales.",
+   "keys": [
+    "candidatos"
+   ]
+  },
+  {
+   "a": 31.15,
+   "b": 34.1,
+   "text": "Las vendieron a $40…",
+   "keys": [
+    "vendieron"
+   ]
+  },
+  {
+   "a": 34.1,
+   "b": 36.45,
+   "text": "y juntaron $30,000.",
+   "keys": [
+    "juntaron"
+   ]
+  },
+  {
+   "a": 37,
+   "b": 38.9,
+   "text": "Convenció a Paul Graham:",
+   "keys": [
+    "graham:"
+   ]
+  },
+  {
+   "a": 38.9,
+   "b": 41.7,
+   "text": "si vendían cereal a $40…",
+   "keys": [
+    "cereal"
+   ]
+  },
+  {
+   "a": 41.7,
+   "b": 44.9,
+   "text": "convencerían de dormir con extraños.",
+   "keys": [
+    "extraños"
+   ]
+  },
+  {
+   "a": 45.45,
+   "b": 48.4,
+   "text": "En 2009, a Y Combinator",
+   "keys": [
+    "combinator"
+   ]
+  },
+  {
+   "a": 48.4,
+   "b": 51,
+   "text": "con $20,000 de inversión.",
+   "keys": [
+    "inversión"
+   ]
+  },
+  {
+   "a": 51.55,
+   "b": 55.8,
+   "text": "Hoy Airbnb vale ~$98,000 millones.",
+   "keys": [
+    "vale"
+   ]
+  },
+  {
+   "a": 56.35,
+   "b": 58.95,
+   "text": "¿La lección? Si nadie cree…",
+   "keys": [
+    "lección?"
+   ]
+  },
+  {
+   "a": 58.95,
+   "b": 61.1,
+   "text": "algo imposible de ignorar.",
+   "keys": [
+    "ignorar"
+   ]
+  },
+  {
+   "a": 61.65,
+   "b": 64.1,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 67.25,
+   "b": 69.5,
+   "text": "Te mando 3 ideas",
+   "keys": [
+    "ideas"
+   ]
+  },
+  {
+   "a": 69.5,
+   "b": 71.5,
+   "text": "para tus primeros clientes.",
+   "keys": [
+    "clientes"
+   ]
+  },
+  {
+   "a": 71.5,
+   "b": 73.5,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 34.3,
+   "b": 36.45,
+   "text": "$30,000"
+  },
+  {
+   "a": 52.6,
+   "b": 55.8,
+   "text": "~$98,000 M"
+  },
+  {
+   "a": 64.2,
+   "b": 67.2,
+   "text": "CEREAL",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.2,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 1.9,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1
+  },
+  {
+   "t": 1.95,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 4,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 4.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 4.9,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 6.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 8.6,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 8.65,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 10.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 10.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 11.6,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 12.2,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 12.8,
+   "type": "rise",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 14.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 16.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 17.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "impact",
+   "v": 0.65,
+   "pitch": 1.1
+  },
+  {
+   "t": 19.4,
+   "type": "dissolve",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 21.3,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21.9,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1.05
+  },
+  {
+   "t": 22.5,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 23.3,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 24.4,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.2,
+   "type": "assemble",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 28.2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 28.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.15
+  },
+  {
+   "t": 30.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 31.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 31.7,
+   "type": "ding",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 32.3,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 32.48,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.03
+  },
+  {
+   "t": 32.66,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 32.84,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.09
+  },
+  {
+   "t": 33.02,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 33.2,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 33.38,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.18
+  },
+  {
+   "t": 33.56,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.21
+  },
+  {
+   "t": 33.74,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.24
+  },
+  {
+   "t": 33.92,
+   "type": "lock",
+   "v": 0.3,
+   "pitch": 1.27
+  },
+  {
+   "t": 34.3,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.15
+  },
+  {
+   "t": 34.35,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 36.45,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 36.95,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 37.4,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 39,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 41.9,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 44.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 45.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 46.1,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 49.6,
+   "type": "unlock",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 49.65,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 51,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 51.5,
+   "type": "flash",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 52.6,
+   "type": "impact",
+   "v": 0.95,
+   "pitch": 1.15
+  },
+  {
+   "t": 52.65,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52.7,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 55.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 56.3,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 56.8,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 59.2,
+   "type": "impact",
+   "v": 0.65,
+   "pitch": 1.1
+  },
+  {
+   "t": 59.25,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 61.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 61.6,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 61.65,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 62.4,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 62.52,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 62.64,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 62.76,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 62.88,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 63,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 63.5,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 64.2,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 64.22,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 67.25,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 67.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 67.75,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 69.9,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 70.6,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 70.62,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 75.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   4.55,
+   23.3,
+   [
+    "Fuente: Wikipedia, «Airbnb»: colchones inflables en San Francisco (oct. 2007) durante una conferencia de diseño"
+   ]
+  ],
+  [
+   23.85,
+   51,
+   [
+    "Fuente: Fortune (abr. 2023) y Wikipedia: cajas de cereal de 2008 (~$30,000) · Y Combinator 2009: $20,000 por 6 %"
+   ]
+  ],
+  [
+   51.55,
+   55.8,
+   [
+    "Valor de mercado de Airbnb: $98,210 millones al 29 oct. 2026 (YCharts) · cambia con la bolsa"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   1.55,
+   1.9
+  ],
+  [
+   33.95,
+   34.3
+  ],
+  [
+   52.25,
+   52.6
+  ],
+  [
+   63.85,
+   64.2
+  ]
+ ],
+ "musicBoost": [
+  [
+   4,
+   4.5,
+   1.2
+  ],
+  [
+   10.1,
+   10.6,
+   1.15
+  ],
+  [
+   16.6,
+   17.1,
+   1.15
+  ],
+  [
+   23.3,
+   23.8,
+   1.15
+  ],
+  [
+   30.6,
+   31.1,
+   1.15
+  ],
+  [
+   36.45,
+   36.95,
+   1.15
+  ],
+  [
+   44.9,
+   45.4,
+   1.15
+  ],
+  [
+   51,
+   51.5,
+   1.2
+  ],
+  [
+   55.8,
+   56.3,
+   1.15
+  ],
+  [
+   61.1,
+   61.6,
+   1.2
+  ],
+  [
+   64.2,
+   67.2,
+   1.15
+  ]
+ ]
+}
