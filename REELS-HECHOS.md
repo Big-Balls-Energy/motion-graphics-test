@@ -30,5 +30,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 22 | jensen-huang | Jensen Huang: de lavar platos a Nvidia | 4 Personaje | LÍDER | 80 s | 30 oct 2026 |
 | 23 | web-3-segundos | Tu web pierde clientes en 3 segundos (5 arreglos rápidos) | 5 Consejo | RÁPIDA | 70 s | 30 oct 2026 |
 | 24 | reddit-ia | Reddit pierde +1 M de visitas/semana por el modo IA de Google | 1 Noticia | TRÁFICO | 72 s | 30 oct 2026 |
+| 25 | efecto-ikea | Efecto IKEA: valoramos más lo que armamos (+63 %) | 2 Psicología | CREAR | 76 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** anclaje, escasez, urgencia/FOMO, pie en la puerta, efecto IKEA, posicionamiento a la altura de los ojos.
