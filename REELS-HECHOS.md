@@ -45,5 +45,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 37 | melanie-perkins | Melanie Perkins: +100 rechazos y Canva vale US$60,000 M | 4 Personaje | PITCH | 67 s | 30 oct 2026 |
 | 38 | bio-instagram | Tu bio de Instagram en 5 pasos | 5 Consejo | BIO | 50 s | 30 oct 2026 |
 | 39 | google-busquedas | Google: búsquedas récord y preguntas 3× más largas en el modo IA | 1 Noticia | APARECER | 53 s | 30 oct 2026 |
+| 40 | pie-en-la-puerta | El pie en la puerta: del 17% al 76% (Freedman y Fraser, 1966) | 2 Psicología | PUERTA | 62 s | 30 oct 2026 |
 
-**Ideas pendientes de psicología:** urgencia/FOMO, pie en la puerta, posicionamiento a la altura de los ojos.
+**Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
