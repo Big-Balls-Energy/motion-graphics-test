@@ -1,0 +1,1006 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 75,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: ¿$99 Y NO $100?",
+   "a": 0,
+   "b": 5,
+   "vis": "Fondo negro con luz magenta. ETIQUETA_3D (etiqueta de precio de cristal magenta con cordón) gira detrás de miles de partículas que forman «$100» en blanco; una línea amarilla lo tacha, golpe de luz y las partículas se reacomodan en «$99» en amarillo."
+  },
+  {
+   "id": "giro",
+   "name": "EL TRUCO TIENE NOMBRE",
+   "a": 5,
+   "b": 12.5,
+   "vis": "F14_mostrador_negocio.jpg al fondo. CUBOS_DIGITO_3D «9» y «9» flotan; un haz de lectura recorre de izquierda a derecha, el primer cubo crece y se ilumina en magenta y el segundo se apaga. «EFECTO DEL DÍGITO IZQUIERDO» se queda solo más de 3 s."
+  },
+  {
+   "id": "exp",
+   "name": "EL EXPERIMENTO (HBR, 2003)",
+   "a": 12.5,
+   "b": 31.5,
+   "vis": "M02_compradora_celular.jpg al fondo. CATALOGO_3D: la página de un vestido genérico entra girando y se triplica; a cada copia le cuelga una etiqueta $34 · $39 · $44. «¿Cuál vendió más?» con foco que barre. La de $39 se adelanta en magenta y suben BARRAS_CRISTAL_3D (base · +33% · sin diferencia); «+33% DEMANDA» en amarillo."
+  },
+  {
+   "id": "porque",
+   "name": "POR QUÉ FUNCIONA",
+   "a": 31.5,
+   "b": 47,
+   "vis": "K02_cliente_decidiendo.jpg al fondo. Un punto de mirada recorre «$99» de izquierda a derecha y el primer 9 «pesa más». REGLA_3D del 90 al 100: el 99 cae dentro del bloque «NOVENTA Y ALGO» y el 100 queda aparte. Después, comparación: $3.00 → $2.99 (el 3 se voltea a 2: fuerte) contra $4.60 → $4.59 (no cambia)."
+  },
+  {
+   "id": "usa",
+   "name": "DÓNDE LO VES Y CÓMO USARLO",
+   "a": 47,
+   "b": 56,
+   "vis": "W02_cafeteria_interior.jpg al fondo. CARRUSEL_3D de tarjetas genéricas: menú ($39 · $29 · $89), bomba de gasolina ($23.99 por litro) y suscripción ($199/mes). Después un ticket 3D de «TU NEGOCIO» con precios en 9 y sello «COMPRA PRÁCTICA»."
+  },
+  {
+   "id": "ojo",
+   "name": "LA LETRA CHIQUITA",
+   "a": 56,
+   "b": 63,
+   "vis": "K06_unboxing.jpg al fondo, cálido. Chip «LETRA CHIQUITA» con lupa. K05_reloj_lujo.png sube como regalo; su etiqueta «$4,999» se tacha y cambia a «$5,000» con brillo: en compras emocionales el precio redondo se siente correcto."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 63,
+   "b": 75,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «PRECIO» en magenta, que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», «MARKETING · WEB · TECNOLOGÍA», @Atlas_Path y botón SEGUIR con clic; nota de fuentes; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.45,
+   "text": "¿Por qué todo cuesta $99?",
+   "keys": [
+    "cuesta"
+   ]
+  },
+  {
+   "a": 2.45,
+   "b": 4.5,
+   "text": "¿Y no $100?",
+   "keys": [
+    "no"
+   ]
+  },
+  {
+   "a": 5.05,
+   "b": 7,
+   "text": "No es casualidad.",
+   "keys": [
+    "casualidad"
+   ]
+  },
+  {
+   "a": 7,
+   "b": 8.7,
+   "text": "Tiene un nombre…",
+   "keys": [
+    "nombre"
+   ]
+  },
+  {
+   "a": 12.55,
+   "b": 14.75,
+   "text": "Kellogg y MIT probaron algo:",
+   "keys": [
+    "kellogg",
+    "mit"
+   ]
+  },
+  {
+   "a": 14.75,
+   "b": 16.95,
+   "text": "un vestido de catálogo",
+   "keys": [
+    "vestido"
+   ]
+  },
+  {
+   "a": 16.95,
+   "b": 18.95,
+   "text": "con tres precios distintos.",
+   "keys": [
+    "precios"
+   ]
+  },
+  {
+   "a": 19.45,
+   "b": 21.45,
+   "text": "¿Cuál vendió más?",
+   "keys": [
+    "vendió"
+   ]
+  },
+  {
+   "a": 21.95,
+   "b": 23.95,
+   "text": "El de $39.",
+   "keys": []
+  },
+  {
+   "a": 23.95,
+   "b": 26.15,
+   "text": "Un tercio más que $34.",
+   "keys": [
+    "tercio"
+   ]
+  },
+  {
+   "a": 26.55,
+   "b": 28.75,
+   "text": "Más caro… y vendió más.",
+   "keys": [
+    "caro",
+    "vendió"
+   ]
+  },
+  {
+   "a": 28.75,
+   "b": 31,
+   "text": "A $44: sin diferencia.",
+   "keys": [
+    "diferencia"
+   ]
+  },
+  {
+   "a": 31.55,
+   "b": 33.4,
+   "text": "¿Por qué funciona?",
+   "keys": [
+    "funciona"
+   ]
+  },
+  {
+   "a": 33.4,
+   "b": 35.6,
+   "text": "Leemos de izquierda a derecha",
+   "keys": [
+    "izquierda"
+   ]
+  },
+  {
+   "a": 35.6,
+   "b": 37.9,
+   "text": "y el primer número manda.",
+   "keys": [
+    "primer",
+    "manda"
+   ]
+  },
+  {
+   "a": 38.35,
+   "b": 40.35,
+   "text": "$99 suena a «noventa»…",
+   "keys": [
+    "«noventa»…"
+   ]
+  },
+  {
+   "a": 40.35,
+   "b": 42,
+   "text": "no a «cien».",
+   "keys": [
+    "«cien»"
+   ]
+  },
+  {
+   "a": 42.45,
+   "b": 44.45,
+   "text": "Funciona más si cambia",
+   "keys": [
+    "cambia"
+   ]
+  },
+  {
+   "a": 44.45,
+   "b": 46.5,
+   "text": "el primer dígito.",
+   "keys": [
+    "dígito"
+   ]
+  },
+  {
+   "a": 47.05,
+   "b": 49.05,
+   "text": "Lo ves en menús,",
+   "keys": [
+    "menús"
+   ]
+  },
+  {
+   "a": 49.05,
+   "b": 51.05,
+   "text": "gasolina y suscripciones.",
+   "keys": [
+    "gasolina",
+    "suscripciones"
+   ]
+  },
+  {
+   "a": 51.5,
+   "b": 53.4,
+   "text": "¿Tienes un negocio?",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 53.4,
+   "b": 55.5,
+   "text": "Úsalo en compras prácticas.",
+   "keys": [
+    "prácticas"
+   ]
+  },
+  {
+   "a": 56.05,
+   "b": 58.25,
+   "text": "Pero ojo con esto:",
+   "keys": [
+    "ojo"
+   ]
+  },
+  {
+   "a": 58.25,
+   "b": 60.35,
+   "text": "en compras emocionales,",
+   "keys": [
+    "emocionales"
+   ]
+  },
+  {
+   "a": 60.35,
+   "b": 62.5,
+   "text": "el precio redondo gana.",
+   "keys": [
+    "redondo"
+   ]
+  },
+  {
+   "a": 63.05,
+   "b": 65.1,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 68.3,
+   "b": 70.5,
+   "text": "y te mando más trucos.",
+   "keys": [
+    "trucos"
+   ]
+  },
+  {
+   "a": 70.5,
+   "b": 72.6,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 0.45,
+   "b": 2.45,
+   "text": "$100"
+  },
+  {
+   "a": 2.65,
+   "b": 4.8,
+   "text": "$99"
+  },
+  {
+   "a": 8.75,
+   "b": 12,
+   "text": "EFECTO DEL DÍGITO IZQUIERDO",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 17.4,
+   "b": 31,
+   "text": "$34 · $39 · $44"
+  },
+  {
+   "a": 23.95,
+   "b": 26.6,
+   "text": "+33% DEMANDA"
+  },
+  {
+   "a": 42.6,
+   "b": 46.5,
+   "text": "$3.00 → $2.99"
+  },
+  {
+   "a": 60.4,
+   "b": 62.5,
+   "text": "$5,000"
+  },
+  {
+   "a": 65.1,
+   "b": 68.3,
+   "text": "PRECIO",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "assemble",
+   "v": 0.8,
+   "pitch": 0.9
+  },
+  {
+   "t": 0.05,
+   "type": "drone",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 1.95,
+   "type": "strike",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 2.45,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 2.47,
+   "type": "flash",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 2.55,
+   "type": "morph",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 4.5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 5,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 5.15,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 5.35,
+   "type": "lock",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 5.6,
+   "type": "scan",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 6.95,
+   "type": "hit",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 7,
+   "type": "ping",
+   "v": 0.4,
+   "pitch": 1.3
+  },
+  {
+   "t": 7.6,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 8.75,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.1
+  },
+  {
+   "t": 8.77,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 11.95,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 12.5,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 12.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 13.1,
+   "type": "paper",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 16.95,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 17.1,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 17.4,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 17.8,
+   "type": "tick",
+   "v": 0.6,
+   "pitch": 1.24
+  },
+  {
+   "t": 17.42,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 17.62,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 17.82,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 19.45,
+   "type": "scan",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 19.7,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 20.2,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.15
+  },
+  {
+   "t": 20.7,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.3
+  },
+  {
+   "t": 21.95,
+   "type": "select",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 22.05,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 22.4,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 23.95,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.15
+  },
+  {
+   "t": 24,
+   "type": "count",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 26.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 28.75,
+   "type": "tick",
+   "v": 0.4,
+   "pitch": 0.8
+  },
+  {
+   "t": 28.9,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 0.8
+  },
+  {
+   "t": 30.95,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 31.5,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 31.6,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 33.4,
+   "type": "scan",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 35,
+   "type": "hit",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 35.6,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 38.3,
+   "type": "whoosh",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 38.9,
+   "type": "lock",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 40.3,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 42.45,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 43.2,
+   "type": "flip",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 43.35,
+   "type": "ding",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 44.6,
+   "type": "flip",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 44.8,
+   "type": "blip",
+   "v": 0.3,
+   "pitch": 0.7
+  },
+  {
+   "t": 46.45,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 47,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 47.1,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 47.45,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 48.4,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1.1
+  },
+  {
+   "t": 48.75,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 49.7,
+   "type": "whoosh",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 50.05,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 51.4,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 0.9
+  },
+  {
+   "t": 51.7,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 52.3,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 52.55,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 52.8,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 53.6,
+   "type": "lock",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 53.65,
+   "type": "ding",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 55.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 56,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 56.15,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 58.3,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 58.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 59.9,
+   "type": "strike",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 60.4,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 60.45,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 62.45,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 63,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 63.05,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 63.6,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 63.8,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 64,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 64.2,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 64.4,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 64.6,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 64.85,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 65.1,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 65.12,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 68.35,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 68.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 68.85,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 71,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 71.7,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 71.72,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 74.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   12.6,
+   31,
+   [
+    "Fuente: Anderson y Simester, «Mind Your Pricing Cues», Harvard Business Review, 2003",
+    "Experimento con un catálogo de ropa de mujer en EE. UU. · precios en dólares"
+   ]
+  ],
+  [
+   42.5,
+   46.5,
+   [
+    "Fuente: Thomas y Morwitz, «Penny Wise and Pound Foolish», Journal of Consumer Research, 2005"
+   ]
+  ],
+  [
+   58.3,
+   62.5,
+   [
+    "Fuente: Wadhwa y Zhang, «This Number Just Feels Right», Journal of Consumer Research, 2015"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.1,
+   2.45
+  ],
+  [
+   8.4,
+   8.75
+  ],
+  [
+   21.6,
+   21.95
+  ],
+  [
+   23.6,
+   23.95
+  ],
+  [
+   64.75,
+   65.1
+  ]
+ ],
+ "musicBoost": [
+  [
+   4.5,
+   5,
+   1.2
+  ],
+  [
+   12,
+   12.5,
+   1.15
+  ],
+  [
+   31,
+   31.5,
+   1.15
+  ],
+  [
+   46.5,
+   47,
+   1.15
+  ],
+  [
+   55.5,
+   56,
+   1.15
+  ],
+  [
+   62.5,
+   63,
+   1.2
+  ],
+  [
+   65.1,
+   68.3,
+   1.15
+  ]
+ ]
+}
