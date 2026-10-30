@@ -34,5 +34,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 26 | dollar-shave | Dollar Shave Club: un video de $4,500 que valió ~$1,000 M | 3 Marca | VIDEO | 72 s | 30 oct 2026 |
 | 27 | airbnb-cereal | Airbnb: vendieron cereal para salvar su empresa | 4 Personaje | CEREAL | 76 s | 30 oct 2026 |
 | 28 | google-maps | ¿Tu negocio no aparece en Google Maps? 5 pasos | 5 Consejo | MAPA | 68 s | 30 oct 2026 |
+| 29 | agentes-compra | Amazon bloquea a los agentes de IA que compran por ti | 1 Noticia | AGENTE | 72 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** anclaje, escasez, urgencia/FOMO, pie en la puerta, efecto IKEA, posicionamiento a la altura de los ojos.
