@@ -67,5 +67,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 59 | instagram-ia | Jefe de Instagram: el contenido con IA «probablemente» no posiciona igual | 1 Noticia | HUMANO | 51 s | 30 oct 2026 |
 | 60 | efecto-porque | La palabra «porque»: del 60 % al 94 % de «sí» (Langer, 1978) | 2 Psicología | PORQUE | 56 s | 30 oct 2026 |
 | 61 | kodak | Kodak inventó la cámara digital (1975) y quebró en 2012 | 3 Marca | FUTURO | 58 s | 30 oct 2026 |
+| 62 | steve-jobs | Steve Jobs: lo corrieron de Apple a los 30… y volvió | 4 Personaje | RELANZAR | 59 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
