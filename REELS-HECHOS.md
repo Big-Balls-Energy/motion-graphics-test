@@ -47,5 +47,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 39 | google-busquedas | Google: búsquedas récord y preguntas 3× más largas en el modo IA | 1 Noticia | APARECER | 53 s | 30 oct 2026 |
 | 40 | pie-en-la-puerta | El pie en la puerta: del 17% al 76% (Freedman y Fraser, 1966) | 2 Psicología | PUERTA | 62 s | 30 oct 2026 |
 | 41 | coca-cola-nombres | «Share a Coke»: nombres en la botella, +7% de consumo joven | 3 Marca | NOMBRE | 60 s | 30 oct 2026 |
+| 42 | phil-knight | Phil Knight: de vender tenis en su coche a US$46,000 M | 4 Personaje | EMPIEZA | 64 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.

@@ -1,0 +1,872 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 64,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: VENDÍA TENIS DESDE SU COCHE → US$46,000 M",
+   "a": 0,
+   "b": 7.1,
+   "vis": "P01_cajuela_tenis.jpg (cajuela abierta con cajas junto a una pista). Silueta plana de un tenis (de M03_producto_tenis.png) que cae; «VENDÍA TENIS DESDE SU COCHE…» y «HOY US$46,000 M en ventas al año»."
+  },
+  {
+   "id": "phil",
+   "name": "PHIL KNIGHT: 1964, US$500 CADA UNO",
+   "a": 7.1,
+   "b": 15.2,
+   "vis": "Fondo oscuro. Silueta genérica con ficha «PHIL KNIGHT · OREGÓN, EE. UU.», chip «1964» y dos fichas de US$500."
+  },
+  {
+   "id": "japon",
+   "name": "IMPORTABAN DE JAPÓN, VENDÍA DESDE SU COCHE",
+   "a": 15.2,
+   "b": 20.8,
+   "vis": "Fondo oscuro: ruta JAPÓN → OREGÓN con una caja que viaja; luego P01_cajuela_tenis.jpg y sello «DESDE SU COCHE»."
+  },
+  {
+   "id": "primer",
+   "name": "PRIMER AÑO: US$8,000",
+   "a": 20.8,
+   "b": 24.5,
+   "vis": "Fondo oscuro. Cajas de tenis que se apilan y «US$8,000»."
+  },
+  {
+   "id": "logo",
+   "name": "1971: UN LOGO POR US$35",
+   "a": 24.5,
+   "b": 34,
+   "vis": "P02_estudio_diseno.jpg (cuaderno con bocetos abstractos). Chip «1971», ficha «CAROLYN DAVIDSON · ESTUDIANTE DE DISEÑO» y etiqueta de precio «US$35». No se dibuja el logotipo."
+  },
+  {
+   "id": "nike",
+   "name": "NUEVO NOMBRE: NIKE, DIOSA DE LA VICTORIA",
+   "a": 34,
+   "b": 40.2,
+   "vis": "Fondo oscuro dorado. «NIKE» solo como texto, con anillos y destellos; «diosa griega de la victoria»."
+  },
+  {
+   "id": "mundo",
+   "name": "ESE LOGO DE US$35, EN TODO EL MUNDO",
+   "a": 40.2,
+   "b": 45.7,
+   "vis": "Fondo oscuro. Globo con pines que se encienden; «ESE LOGO DE US$35… EN TODO EL MUNDO»."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN: EMPIEZA CON LO QUE TIENES",
+   "a": 45.7,
+   "b": 52.6,
+   "vis": "K09_persona_aprendiendo.jpg. «NO ESPERES A TENERLO TODO» y «EMPIEZA CON LO QUE TIENES» con la silueta del tenis."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 52.6,
+   "b": 64,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «EMPIEZA», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.35,
+   "text": "Vendía tenis desde su coche…",
+   "keys": [
+    "coche…"
+   ]
+  },
+  {
+   "a": 2.35,
+   "b": 4.3,
+   "text": "hoy su marca factura",
+   "keys": [
+    "factura"
+   ]
+  },
+  {
+   "a": 4.3,
+   "b": 6.6,
+   "text": "US$46,000 millones al año.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 7.15,
+   "b": 9.4,
+   "text": "Se llama Phil Knight.",
+   "keys": [
+    "phil",
+    "knight"
+   ]
+  },
+  {
+   "a": 9.4,
+   "b": 11.6,
+   "text": "En 1964, con su entrenador,",
+   "keys": [
+    "entrenador,"
+   ]
+  },
+  {
+   "a": 11.6,
+   "b": 14.1,
+   "text": "pusieron US$500 cada uno.",
+   "keys": [
+    "cada"
+   ]
+  },
+  {
+   "a": 15.25,
+   "b": 17.4,
+   "text": "Importaban tenis de Japón,",
+   "keys": [
+    "japón,"
+   ]
+  },
+  {
+   "a": 17.4,
+   "b": 19.7,
+   "text": "los vendía desde su coche.",
+   "keys": [
+    "coche"
+   ]
+  },
+  {
+   "a": 20.85,
+   "b": 23.9,
+   "text": "El primer año: unos US$8,000.",
+   "keys": [
+    "año:"
+   ]
+  },
+  {
+   "a": 24.55,
+   "b": 27.5,
+   "text": "En 1971 necesitaban un logo.",
+   "keys": [
+    "logo"
+   ]
+  },
+  {
+   "a": 27.5,
+   "b": 30,
+   "text": "Una estudiante, Carolyn Davidson,",
+   "keys": [
+    "carolyn",
+    "davidson,"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 32.9,
+   "text": "lo hizo y cobró US$35.",
+   "keys": [
+    "cobró"
+   ]
+  },
+  {
+   "a": 34.05,
+   "b": 36.5,
+   "text": "Ese año cambió de nombre:",
+   "keys": [
+    "nombre:"
+   ]
+  },
+  {
+   "a": 36.5,
+   "b": 39.1,
+   "text": "Nike: diosa de la victoria.",
+   "keys": [
+    "nike:"
+   ]
+  },
+  {
+   "a": 40.25,
+   "b": 42.8,
+   "text": "Hoy, ese logo de US$35…",
+   "keys": [
+    "logo"
+   ]
+  },
+  {
+   "a": 42.8,
+   "b": 44.7,
+   "text": "en todo el mundo.",
+   "keys": [
+    "mundo"
+   ]
+  },
+  {
+   "a": 45.75,
+   "b": 48.2,
+   "text": "No esperes a tenerlo todo.",
+   "keys": [
+    "esperes"
+   ]
+  },
+  {
+   "a": 48.2,
+   "b": 50.1,
+   "text": "Empieza con poco…",
+   "keys": [
+    "empieza"
+   ]
+  },
+  {
+   "a": 50.1,
+   "b": 52.1,
+   "text": "aunque sea tu cajuela.",
+   "keys": [
+    "cajuela"
+   ]
+  },
+  {
+   "a": 52.65,
+   "b": 54.3,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 57.55,
+   "b": 59.6,
+   "text": "Te mando un plan",
+   "keys": [
+    "plan"
+   ]
+  },
+  {
+   "a": 59.6,
+   "b": 61.3,
+   "text": "con poco dinero.",
+   "keys": [
+    "dinero"
+   ]
+  },
+  {
+   "a": 61.3,
+   "b": 63.4,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 4.4,
+   "b": 6.6,
+   "text": "US$46,000 M"
+  },
+  {
+   "a": 12.2,
+   "b": 14.6,
+   "text": "US$500 + US$500"
+  },
+  {
+   "a": 21.5,
+   "b": 23.9,
+   "text": "US$8,000"
+  },
+  {
+   "a": 31.7,
+   "b": 33.7,
+   "text": "US$35"
+  },
+  {
+   "a": 54.5,
+   "b": 57.5,
+   "text": "EMPIEZA",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 0.75,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 2.35,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 4.4,
+   "type": "impact",
+   "v": 0.95,
+   "pitch": 1.15
+  },
+  {
+   "t": 4.45,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 4.5,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 6.6,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 7.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 7.4,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 9.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 11.8,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 12.2,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.05
+  },
+  {
+   "t": 12.25,
+   "type": "count",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 14.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 15.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 15.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 15.8,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 17.4,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 17.6,
+   "type": "strike",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 20.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 20.8,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 21,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 21.2,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1.05
+  },
+  {
+   "t": 21.4,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 21.6,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1.15
+  },
+  {
+   "t": 21.8,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 22,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1.25
+  },
+  {
+   "t": 21.5,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1.05
+  },
+  {
+   "t": 21.55,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 23.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 24.5,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 24.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 25.6,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 27.6,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 31.7,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.15
+  },
+  {
+   "t": 31.75,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 33.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 34,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34.3,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 35.4,
+   "type": "strike",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 36.6,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1.1
+  },
+  {
+   "t": 36.65,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 37.4,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 39.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 40.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 40.5,
+   "type": "assemble",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 41.2,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 41.5,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.05
+  },
+  {
+   "t": 41.8,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 42.1,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.15
+  },
+  {
+   "t": 42.4,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 42.7,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.25
+  },
+  {
+   "t": 43,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.3
+  },
+  {
+   "t": 43.3,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.35
+  },
+  {
+   "t": 43.3,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 45.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 45.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 45.9,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 48.3,
+   "type": "unlock",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 49,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 52.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 52.6,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 52.65,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 52.95,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 53.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 53.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 53.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 53.35,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 53.45,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 53.55,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.24
+  },
+  {
+   "t": 54,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 54.5,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 54.52,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 57.55,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 57.8,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 58.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 60.1,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 60.8,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 60.82,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 63.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   0.15,
+   6.6,
+   [
+    "Ventas del año fiscal 2026: US$46,400 M (Nike, 30 jun. 2026)."
+   ]
+  ],
+  [
+   7.15,
+   39.1,
+   [
+    "Fuentes: Forbes Colombia (feb. 2023) e historia de Nike. Cifras de los inicios aproximadas."
+   ]
+  ],
+  [
+   40.25,
+   44.7,
+   [
+    "Año fiscal 2026: US$46,400 M en ventas (Nike)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   4.05,
+   4.4
+  ],
+  [
+   11.85,
+   12.2
+  ],
+  [
+   21.15,
+   21.5
+  ],
+  [
+   31.35,
+   31.7
+  ],
+  [
+   36.25,
+   36.6
+  ],
+  [
+   54.15,
+   54.5
+  ]
+ ],
+ "musicBoost": [
+  [
+   6.6,
+   7.1,
+   1.2
+  ],
+  [
+   14.6,
+   15.2,
+   1.15
+  ],
+  [
+   20.2,
+   20.8,
+   1.15
+  ],
+  [
+   23.9,
+   24.5,
+   1.15
+  ],
+  [
+   33.4,
+   34,
+   1.15
+  ],
+  [
+   39.6,
+   40.2,
+   1.15
+  ],
+  [
+   45.1,
+   45.7,
+   1.15
+  ],
+  [
+   52.1,
+   52.6,
+   1.2
+  ],
+  [
+   54.5,
+   57.5,
+   1.15
+  ]
+ ]
+}
