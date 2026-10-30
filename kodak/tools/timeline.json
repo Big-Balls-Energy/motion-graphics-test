@@ -1,0 +1,840 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 58,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: INVENTÓ LA CÁMARA DIGITAL… Y LA HIZO QUEBRAR",
+   "a": 0,
+   "b": 6,
+   "vis": "Rollo de película genérico y una cámara digital; cae el sello rojo «QUIEBRA»."
+  },
+  {
+   "id": "1975",
+   "name": "1975: LA PRIMERA CÁMARA DIGITAL",
+   "a": 6,
+   "b": 12.9,
+   "vis": "«KODAK» como texto, «1975» gigante, prototipo dibujado y silueta del ingeniero con la placa «STEVE SASSON · INGENIERO»."
+  },
+  {
+   "id": "proto",
+   "name": "3.6 KG Y 23 SEGUNDOS POR FOTO",
+   "a": 12.9,
+   "b": 18.4,
+   "vis": "Prototipo con chips «≈3.6 KG», barra «GUARDANDO FOTO… 23 s» en casete y «0.01 MEGAPÍXELES»."
+  },
+  {
+   "id": "rollos",
+   "name": "VIVÍA DE VENDER ROLLOS",
+   "a": 18.4,
+   "b": 26,
+   "vis": "Pila de rollos con monedas; cita de Sasson «iba contra el modelo de negocio»; la cámara digital se tacha."
+  },
+  {
+   "id": "empleados",
+   "name": "+145,000 EMPLEADOS",
+   "a": 26,
+   "b": 30,
+   "vis": "Contador hasta 145,300 y una cuadrícula de siluetas que se llena; «EMPLEADOS EN 1988»."
+  },
+  {
+   "id": "quiebra",
+   "name": "ENERO 2012: BANCARROTA",
+   "a": 30,
+   "b": 34,
+   "vis": "Calendario «ENERO 2012» y sello rojo «BANCARROTA»; las siluetas se apagan."
+  },
+  {
+   "id": "instagram",
+   "name": "EL MISMO AÑO: INSTAGRAM",
+   "a": 34,
+   "b": 41.7,
+   "vis": "Dos columnas: «KODAK · 145,300 empleados → quiebra» contra «INSTAGRAM · 13 empleados → US$1,000 M»."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 41.7,
+   "b": 46.4,
+   "vis": "«SI TÚ NO CAMBIAS TU NEGOCIO…» y «…ALGUIEN MÁS LO HARÁ POR TI»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 46.4,
+   "b": 58,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «FUTURO», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.75,
+   "text": "Inventó la cámara digital…",
+   "keys": [
+    "digital…"
+   ]
+  },
+  {
+   "a": 2.75,
+   "b": 5.5,
+   "text": "…y la hizo quebrar.",
+   "keys": [
+    "quebrar"
+   ]
+  },
+  {
+   "a": 6.05,
+   "b": 8,
+   "text": "Es Kodak. En 1975,",
+   "keys": [
+    "Kodak."
+   ]
+  },
+  {
+   "a": 8,
+   "b": 10.1,
+   "text": "su ingeniero Steve Sasson",
+   "keys": [
+    "Sasson"
+   ]
+  },
+  {
+   "a": 10.1,
+   "b": 12.4,
+   "text": "creó la primera cámara digital.",
+   "keys": [
+    "primera"
+   ]
+  },
+  {
+   "a": 12.95,
+   "b": 14.7,
+   "text": "Pesaba unos 3.5 kilos…",
+   "keys": [
+    "kilos…"
+   ]
+  },
+  {
+   "a": 14.7,
+   "b": 16.3,
+   "text": "tardaba 23 segundos",
+   "keys": [
+    "segundos"
+   ]
+  },
+  {
+   "a": 16.3,
+   "b": 17.9,
+   "text": "por cada foto.",
+   "keys": [
+    "foto"
+   ]
+  },
+  {
+   "a": 18.45,
+   "b": 20.6,
+   "text": "Vivía de vender rollos.",
+   "keys": [
+    "rollos"
+   ]
+  },
+  {
+   "a": 20.6,
+   "b": 23.6,
+   "text": "iba contra su negocio…",
+   "keys": [
+    "negocio…"
+   ]
+  },
+  {
+   "a": 23.6,
+   "b": 25.5,
+   "text": "no fue bien recibida.",
+   "keys": [
+    "recibida"
+   ]
+  },
+  {
+   "a": 26.05,
+   "b": 27.6,
+   "text": "Llegó a tener",
+   "keys": [
+    "tener"
+   ]
+  },
+  {
+   "a": 27.6,
+   "b": 29.5,
+   "text": "¡más de 145,000 empleados!",
+   "keys": [
+    "empleados!"
+   ]
+  },
+  {
+   "a": 30.05,
+   "b": 31.75,
+   "text": "Enero de 2012…",
+   "keys": [
+    "enero"
+   ]
+  },
+  {
+   "a": 31.75,
+   "b": 33.5,
+   "text": "se declaró en bancarrota.",
+   "keys": [
+    "bancarrota"
+   ]
+  },
+  {
+   "a": 34.05,
+   "b": 36.6,
+   "text": "Ese año, Facebook compró Instagram,",
+   "keys": [
+    "Instagram,"
+   ]
+  },
+  {
+   "a": 36.6,
+   "b": 38.9,
+   "text": "una app con 13 empleados…",
+   "keys": [
+    "empleados…"
+   ]
+  },
+  {
+   "a": 38.9,
+   "b": 41.2,
+   "text": "por US$1,000 millones.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 41.75,
+   "b": 44,
+   "text": "Si no cambias tu negocio…",
+   "keys": [
+    "cambias"
+   ]
+  },
+  {
+   "a": 44,
+   "b": 45.9,
+   "text": "alguien más lo hará.",
+   "keys": [
+    "alguien"
+   ]
+  },
+  {
+   "a": 46.45,
+   "b": 48.2,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 52.05,
+   "b": 54.6,
+   "text": "5 señales para cambiar…",
+   "keys": [
+    "señales"
+   ]
+  },
+  {
+   "a": 54.6,
+   "b": 57.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 48.4,
+   "b": 51.4,
+   "text": "FUTURO",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 6.3,
+   "b": 12.4,
+   "text": "1975"
+  },
+  {
+   "a": 13.4,
+   "b": 17.9,
+   "text": "≈3.6 KG · 23 s"
+  },
+  {
+   "a": 26.8,
+   "b": 29.6,
+   "text": "145,300"
+  },
+  {
+   "a": 30.3,
+   "b": 33.6,
+   "text": "ENERO 2012"
+  },
+  {
+   "a": 35.2,
+   "b": 41.3,
+   "text": "13 · US$1,000 M"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "chime",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 2.9,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 2.92,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 5.5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 6,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 6.2,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 12.9,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 13.1,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 18.4,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 18.6,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 26,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 26.2,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 30,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 30.2,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 34,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 34.2,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 41.7,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 41.9,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 6.4,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 7.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 9,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 10.2,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 12.4,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 13.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 14.9,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 15.18,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.03
+  },
+  {
+   "t": 15.46,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 15.74,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.09
+  },
+  {
+   "t": 16.02,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 16.3,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 16.58,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.18
+  },
+  {
+   "t": 16.86,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.21
+  },
+  {
+   "t": 17.2,
+   "type": "ding",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 17.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 18.9,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 19.2,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.08
+  },
+  {
+   "t": 19.5,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.16
+  },
+  {
+   "t": 21,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 23.8,
+   "type": "deny",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 25.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 26.6,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 29.3,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 29.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 30.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 31.95,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 31.97,
+   "type": "deny",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 33.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 34.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 35.2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 36.9,
+   "type": "blip",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 39.2,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 39.22,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 41.2,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 42.6,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 44.5,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 45.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 46.4,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 46.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 46.75,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 46.85,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.03
+  },
+  {
+   "t": 46.95,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 47.05,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.09
+  },
+  {
+   "t": 47.15,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 47.25,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 47.7,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 48.4,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 48.42,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 51.45,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 51.7,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 51.95,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 54,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 54.7,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 54.72,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 57.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   6.3,
+   17.9,
+   [
+    "Fuentes: Wikipedia (Steven Sasson) y entrevista de AP con Sasson (2023)."
+   ]
+  ],
+  [
+   18.7,
+   25.5,
+   [
+    "Sasson a AP: «iba contra el modelo de negocio de Kodak»."
+   ]
+  ],
+  [
+   26.3,
+   33.5,
+   [
+    "Fuente: Rochester Business Journal (cronología de Kodak, 2012)."
+   ]
+  ],
+  [
+   34.3,
+   41.2,
+   [
+    "Fuente: Business Insider (compra de Instagram, abril de 2012)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   1.7,
+   2
+  ],
+  [
+   31.6,
+   31.95
+  ],
+  [
+   48.05,
+   48.4
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.5,
+   6,
+   1.2
+  ],
+  [
+   12.4,
+   12.9,
+   1.1
+  ],
+  [
+   17.9,
+   18.4,
+   1.1
+  ],
+  [
+   25.5,
+   26,
+   1.1
+  ],
+  [
+   29.5,
+   30,
+   1.1
+  ],
+  [
+   33.5,
+   34,
+   1.1
+  ],
+  [
+   41.2,
+   41.7,
+   1.15
+  ],
+  [
+   45.9,
+   46.4,
+   1.2
+  ],
+  [
+   48.4,
+   51.4,
+   1.15
+  ]
+ ]
+}
