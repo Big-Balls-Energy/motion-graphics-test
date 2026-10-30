@@ -1,0 +1,780 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 55,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: CASI SIN MOSTRAR EL PRODUCTO… Y SE VOLVIÓ VIRAL",
+   "a": 0,
+   "b": 6,
+   "vis": "Pantalla de video con botón de reproducir y un contador de vistas que se dispara; «CASI SIN MOSTRAR EL PRODUCTO»."
+  },
+  {
+   "id": "2013",
+   "name": "2013: UN DIBUJANTE ENTRENADO POR EL FBI",
+   "a": 6,
+   "b": 10.8,
+   "vis": "Placa «DOVE · 2013» (texto, sin logotipo), caballete con lápiz y chip «DIBUJANTE ENTRENADO POR EL FBI»."
+  },
+  {
+   "id": "retrato1",
+   "name": "RETRATO 1: CÓMO SE DESCRIBE ELLA",
+   "a": 10.8,
+   "b": 16,
+   "vis": "Cortina entre el dibujante y una silueta; el retrato 1 (rostro genérico dibujado a lápiz) se traza."
+  },
+  {
+   "id": "retrato2",
+   "name": "RETRATO 2: CÓMO LA DESCRIBE UN DESCONOCIDO",
+   "a": 16,
+   "b": 20.9,
+   "vis": "Otra silueta describe; se traza el retrato 2."
+  },
+  {
+   "id": "comparar",
+   "name": "MÁS BELLO Y MÁS PARECIDO",
+   "a": 20.9,
+   "b": 25.6,
+   "vis": "Los dos retratos lado a lado; el segundo con ✓ «MÁS BELLO · MÁS PARECIDO»."
+  },
+  {
+   "id": "vistas",
+   "name": "163 MILLONES Y GRAND PRIX EN CANNES",
+   "a": 25.6,
+   "b": 32.4,
+   "vis": "Contador «163 M» de reproducciones (junio de 2013) y trofeo «GRAND PRIX TITANIO · CANNES LIONS»."
+  },
+  {
+   "id": "4",
+   "name": "SOLO EL 4% SE DESCRIBE COMO BELLA",
+   "a": 32.4,
+   "b": 37.5,
+   "vis": "Cuadrícula de 100 puntos con 4 encendidos y «4%»."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 37.5,
+   "b": 44,
+   "vis": "«NO VENDAS EL JABÓN» con la barra de jabón tachada y «CUENTA UNA VERDAD» con corazón."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 44,
+   "b": 55,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «HISTORIA», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2,
+   "text": "Casi sin mostrar producto…",
+   "keys": [
+    "producto…"
+   ]
+  },
+  {
+   "a": 2,
+   "b": 3.75,
+   "text": "se volvió viral…",
+   "keys": [
+    "viral…"
+   ]
+  },
+  {
+   "a": 3.75,
+   "b": 5.5,
+   "text": "de los más vistos.",
+   "keys": [
+    "vistos"
+   ]
+  },
+  {
+   "a": 6.05,
+   "b": 7.9,
+   "text": "En 2013, Dove contrató",
+   "keys": [
+    "Dove"
+   ]
+  },
+  {
+   "a": 7.9,
+   "b": 10.3,
+   "text": "dibujante entrenado por el FBI.",
+   "keys": [
+    "FBI"
+   ]
+  },
+  {
+   "a": 10.85,
+   "b": 12.6,
+   "text": "Sin verlas, dibujó mujeres",
+   "keys": [
+    "verlas,"
+   ]
+  },
+  {
+   "a": 12.6,
+   "b": 15.5,
+   "text": "según cómo ellas se describían.",
+   "keys": [
+    "ellas"
+   ]
+  },
+  {
+   "a": 16.05,
+   "b": 18.1,
+   "text": "Después, otra vez…",
+   "keys": [
+    "otra"
+   ]
+  },
+  {
+   "a": 18.1,
+   "b": 20.4,
+   "text": "según un desconocido.",
+   "keys": [
+    "desconocido"
+   ]
+  },
+  {
+   "a": 20.95,
+   "b": 22.7,
+   "text": "El segundo retrato",
+   "keys": [
+    "segundo"
+   ]
+  },
+  {
+   "a": 22.7,
+   "b": 25.1,
+   "text": "era más bello… y parecido.",
+   "keys": [
+    "bello…",
+    "parecido"
+   ]
+  },
+  {
+   "a": 25.65,
+   "b": 27.9,
+   "text": "163 millones de vistas…",
+   "keys": [
+    "vistas…"
+   ]
+  },
+  {
+   "a": 27.9,
+   "b": 29.7,
+   "text": "en solo dos meses.",
+   "keys": [
+    "meses"
+   ]
+  },
+  {
+   "a": 29.7,
+   "b": 31.9,
+   "text": "y ganó en Cannes.",
+   "keys": [
+    "Cannes"
+   ]
+  },
+  {
+   "a": 32.45,
+   "b": 34.7,
+   "text": "Según Dove, solo el 4%",
+   "keys": [
+    "solo"
+   ]
+  },
+  {
+   "a": 34.7,
+   "b": 37,
+   "text": "se describía como bella.",
+   "keys": [
+    "bella"
+   ]
+  },
+  {
+   "a": 37.55,
+   "b": 39.8,
+   "text": "La lección: no vendas jabón.",
+   "keys": [
+    "jabón"
+   ]
+  },
+  {
+   "a": 39.8,
+   "b": 41.7,
+   "text": "cuenta una verdad…",
+   "keys": [
+    "verdad…"
+   ]
+  },
+  {
+   "a": 41.7,
+   "b": 43.5,
+   "text": "y tu marca queda.",
+   "keys": [
+    "marca"
+   ]
+  },
+  {
+   "a": 44.05,
+   "b": 45.75,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 49.85,
+   "b": 52.4,
+   "text": "Plantilla para tu historia…",
+   "keys": [
+    "plantilla"
+   ]
+  },
+  {
+   "a": 52.4,
+   "b": 54.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 46.2,
+   "b": 49.2,
+   "text": "HISTORIA",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 6.3,
+   "b": 10.3,
+   "text": "2013"
+  },
+  {
+   "a": 26,
+   "b": 31.9,
+   "text": "163 M"
+  },
+  {
+   "a": 33,
+   "b": 37,
+   "text": "4%"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "click",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 2.8,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.05
+  },
+  {
+   "t": 3.2,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 3.4,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 3.6,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.2
+  },
+  {
+   "t": 3.8,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.25
+  },
+  {
+   "t": 4,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.3
+  },
+  {
+   "t": 4.2,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.35
+  },
+  {
+   "t": 4.4,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.4
+  },
+  {
+   "t": 4.6,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.45
+  },
+  {
+   "t": 4.8,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 5.5,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 6,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 6.2,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 10.8,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 11,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 16,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 16.2,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.9,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 21.1,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 25.6,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 25.8,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 32.4,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 32.6,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 37.5,
+   "type": "flash",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 37.7,
+   "type": "hit",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 6.4,
+   "type": "impact",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 8.4,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 10.3,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 11,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 12.8,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 15.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 16.6,
+   "type": "blip",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 20.4,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 21.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21.7,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 24,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 25.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 26,
+   "type": "sweep",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 28,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 29.9,
+   "type": "impact",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 29.92,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1.05
+  },
+  {
+   "t": 31.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 33.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 34.8,
+   "type": "deny",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 37,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 38.6,
+   "type": "deny",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 40,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 42.1,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 43.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 44,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 44.05,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 44.35,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 44.45,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.03
+  },
+  {
+   "t": 44.55,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.06
+  },
+  {
+   "t": 44.65,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.09
+  },
+  {
+   "t": 44.75,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.12
+  },
+  {
+   "t": 44.85,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.15
+  },
+  {
+   "t": 44.95,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.18
+  },
+  {
+   "t": 45.05,
+   "type": "key",
+   "v": 0.6,
+   "pitch": 1.21
+  },
+  {
+   "t": 45.5,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 46.2,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 46.22,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 49.25,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 49.5,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 49.75,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 51.8,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 52.5,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 52.52,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 54.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   6.3,
+   37,
+   [
+    "Fuente: Wikipedia, «Dove Real Beauty Sketches» (datos de Unilever y Cannes Lions)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   29.6,
+   29.9
+  ],
+  [
+   45.85,
+   46.2
+  ]
+ ],
+ "musicBoost": [
+  [
+   5.5,
+   6,
+   1.2
+  ],
+  [
+   10.3,
+   10.8,
+   1.1
+  ],
+  [
+   15.5,
+   16,
+   1.1
+  ],
+  [
+   20.4,
+   20.9,
+   1.1
+  ],
+  [
+   25.1,
+   25.6,
+   1.1
+  ],
+  [
+   31.9,
+   32.4,
+   1.1
+  ],
+  [
+   37,
+   37.5,
+   1.1
+  ],
+  [
+   43.5,
+   44,
+   1.2
+  ],
+  [
+   46.2,
+   49.2,
+   1.15
+  ]
+ ]
+}
