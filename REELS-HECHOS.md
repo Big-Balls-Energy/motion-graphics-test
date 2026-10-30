@@ -38,5 +38,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 30 | escasez | Escasez: el experimento de las galletas (Worchel, 1975) | 2 Psicología | ESCASEZ | 74 s | 30 oct 2026 |
 | 31 | blockbuster | Blockbuster se rió de Netflix ($50 M → $250,000 M) | 3 Marca | CAMBIO | 74 s | 30 oct 2026 |
 | 32 | sara-blakely | Sara Blakely: de vender fax a una marca de $1,200 M | 4 Personaje | IDEA | 76 s | 30 oct 2026 |
+| 33 | whatsapp-business | 5 funciones de WhatsApp Business que casi nadie usa | 5 Consejo | WHATSAPP | 63 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** anclaje, urgencia/FOMO, pie en la puerta, posicionamiento a la altura de los ojos.
