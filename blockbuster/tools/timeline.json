@@ -1,0 +1,1027 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 74,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: SE RIERON DE $50 M",
+   "a": 0,
+   "b": 8.1,
+   "vis": "Fondo oscuro. CASETE_3D (videocasete genérico, sin marca) girando; «$50 M» con burbujas «JA JA»; luego el contador «$250,000 M» (valor de Netflix hoy)."
+  },
+  {
+   "id": "rey",
+   "name": "AÑO 2000: EL REY DE LA RENTA",
+   "a": 8.1,
+   "b": 15,
+   "vis": "Z01_sala_tv_90s.jpg. Chip «AÑO 2000», corona y «EL REY DE LA RENTA»; mapa de puntos que se encienden: «MILES DE TIENDAS»."
+  },
+  {
+   "id": "oferta",
+   "name": "LA OFERTA: NETFLIX POR $50 M",
+   "a": 15,
+   "b": 22.1,
+   "vis": "J04_ventana_avion.jpg. Ruta punteada con avión de LOS GATOS, CA a DALLAS, TX; tarjeta «OFERTA · Netflix completo por $50 M»."
+  },
+  {
+   "id": "junta",
+   "name": "CASI SE RÍEN DE ELLOS",
+   "a": 22.1,
+   "b": 25.9,
+   "vis": "G13_reunion_equipo.jpg. La tarjeta de oferta recibe el sello «NO, GRACIAS» y burbujas «JA JA» (según Marc Randolph)."
+  },
+  {
+   "id": "multas",
+   "name": "SIN MULTAS VS $800 M EN MULTAS",
+   "a": 25.9,
+   "b": 36.4,
+   "vis": "Fondo oscuro. Izquierda: sobre de correo + «SIN MULTAS». Derecha: ticket de multa por retraso con «$800 M» (cifra reportada)."
+  },
+  {
+   "id": "quiebra",
+   "name": "9,000 TIENDAS → QUIEBRA",
+   "a": 36.4,
+   "b": 42.9,
+   "vis": "Fondo oscuro. Rejilla de tiendas que se encienden hasta «9,000» (2004) y luego se apagan en rojo: «2010 · QUIEBRA»."
+  },
+  {
+   "id": "ultima",
+   "name": "SOLO QUEDA UNA",
+   "a": 42.9,
+   "b": 47.9,
+   "vis": "Fondo oscuro. De toda la rejilla queda una sola tienda iluminada: «1 TIENDA EN EL MUNDO» y pin «BEND, OREGÓN»."
+  },
+  {
+   "id": "netflix",
+   "name": "NETFLIX: $250,000 M",
+   "a": 47.9,
+   "b": 52.6,
+   "vis": "Fondo oscuro. Línea de crecimiento que sube y contador «$250,000 M» (valor de mercado al 29 oct. 2026)."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 52.6,
+   "b": 58.4,
+   "vis": "K02_cliente_decidiendo.jpg. Tarjeta «FALTA DE DINERO» tachada y tarjeta «NO QUISO CAMBIAR» resaltada."
+  },
+  {
+   "id": "cliente",
+   "name": "TU CLIENTE YA CAMBIÓ",
+   "a": 58.4,
+   "b": 63.4,
+   "vis": "M07_multitud_diversa.jpg. Flechas de clientes que se van de una tienda vacía hacia un celular; «TU CLIENTE YA CAMBIÓ» y «¿Y TÚ?»."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 63.4,
+   "b": 74,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «CAMBIO», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 3.5,
+   "text": "Se rieron de $50 millones…",
+   "keys": [
+    "rieron"
+   ]
+  },
+  {
+   "a": 3.5,
+   "b": 5.5,
+   "text": "y hoy esa empresa",
+   "keys": [
+    "hoy"
+   ]
+  },
+  {
+   "a": 5.5,
+   "b": 7.6,
+   "text": "vale +$250,000 millones.",
+   "keys": [
+    "vale"
+   ]
+  },
+  {
+   "a": 8.15,
+   "b": 10.2,
+   "text": "En 2000, Blockbuster",
+   "keys": [
+    "blockbuster"
+   ]
+  },
+  {
+   "a": 10.2,
+   "b": 12.1,
+   "text": "era el rey…",
+   "keys": [
+    "rey…"
+   ]
+  },
+  {
+   "a": 12.1,
+   "b": 14.5,
+   "text": "con miles de tiendas.",
+   "keys": [
+    "tiendas"
+   ]
+  },
+  {
+   "a": 15.05,
+   "b": 17.3,
+   "text": "Ese año, los de Netflix",
+   "keys": [
+    "netflix"
+   ]
+  },
+  {
+   "a": 17.3,
+   "b": 19.4,
+   "text": "volaron a Dallas",
+   "keys": [
+    "dallas"
+   ]
+  },
+  {
+   "a": 19.4,
+   "b": 21.6,
+   "text": "a ofrecerse por $50 millones.",
+   "keys": [
+    "ofrecerse"
+   ]
+  },
+  {
+   "a": 22.15,
+   "b": 25.4,
+   "text": "Casi se ríen de ellos.",
+   "keys": [
+    "ríen"
+   ]
+  },
+  {
+   "a": 25.95,
+   "b": 28.1,
+   "text": "Netflix rentaba por correo,",
+   "keys": [
+    "correo,"
+   ]
+  },
+  {
+   "a": 28.1,
+   "b": 30,
+   "text": "sin multas por retraso.",
+   "keys": [
+    "multas"
+   ]
+  },
+  {
+   "a": 30,
+   "b": 31.6,
+   "text": "Y las multas…",
+   "keys": [
+    "multas…"
+   ]
+  },
+  {
+   "a": 31.6,
+   "b": 33.3,
+   "text": "eran su negocio:",
+   "keys": [
+    "negocio:"
+   ]
+  },
+  {
+   "a": 33.3,
+   "b": 35.9,
+   "text": "unos $800 millones.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 36.45,
+   "b": 39.2,
+   "text": "En 2004: 9,000 tiendas.",
+   "keys": [
+    "tiendas"
+   ]
+  },
+  {
+   "a": 39.2,
+   "b": 42.4,
+   "text": "6 años después… quiebra.",
+   "keys": [
+    "quiebra"
+   ]
+  },
+  {
+   "a": 42.95,
+   "b": 45.6,
+   "text": "Hoy solo queda una tienda",
+   "keys": [
+    "una"
+   ]
+  },
+  {
+   "a": 45.6,
+   "b": 47.4,
+   "text": "en Bend, Oregón.",
+   "keys": [
+    "oregón"
+   ]
+  },
+  {
+   "a": 47.95,
+   "b": 49.6,
+   "text": "Y Netflix vale",
+   "keys": [
+    "netflix"
+   ]
+  },
+  {
+   "a": 49.6,
+   "b": 52.1,
+   "text": "unos $250,000 millones.",
+   "keys": [
+    "millones"
+   ]
+  },
+  {
+   "a": 52.65,
+   "b": 55.8,
+   "text": "No perdió por dinero…",
+   "keys": [
+    "dinero…"
+   ]
+  },
+  {
+   "a": 55.8,
+   "b": 57.9,
+   "text": "perdió por no cambiar.",
+   "keys": [
+    "cambiar"
+   ]
+  },
+  {
+   "a": 58.45,
+   "b": 60.9,
+   "text": "Tu cliente cambió… ¿y tú?",
+   "keys": [
+    "cambió…"
+   ]
+  },
+  {
+   "a": 60.9,
+   "b": 62.9,
+   "text": "alguien ocupará tu lugar.",
+   "keys": [
+    "lugar"
+   ]
+  },
+  {
+   "a": 63.45,
+   "b": 64.95,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 68.05,
+   "b": 69.9,
+   "text": "Te mando 5 señales",
+   "keys": [
+    "señales"
+   ]
+  },
+  {
+   "a": 69.9,
+   "b": 71.7,
+   "text": "de que debes cambiar.",
+   "keys": [
+    "cambiar"
+   ]
+  },
+  {
+   "a": 71.7,
+   "b": 73.45,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 1.2,
+   "b": 3.5,
+   "text": "$50 M"
+  },
+  {
+   "a": 5.4,
+   "b": 7.6,
+   "text": "$250,000 M"
+  },
+  {
+   "a": 19.6,
+   "b": 25.4,
+   "text": "$50 M"
+  },
+  {
+   "a": 33.4,
+   "b": 35.9,
+   "text": "$800 M"
+  },
+  {
+   "a": 37.4,
+   "b": 40,
+   "text": "9,000"
+  },
+  {
+   "a": 40.4,
+   "b": 42.4,
+   "text": "2010"
+  },
+  {
+   "a": 43.4,
+   "b": 47.4,
+   "text": "1 TIENDA"
+  },
+  {
+   "a": 49.4,
+   "b": 52.1,
+   "text": "$250,000 M"
+  },
+  {
+   "a": 65,
+   "b": 68,
+   "text": "CAMBIO",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "assemble",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 1.2,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 0.95
+  },
+  {
+   "t": 1.25,
+   "type": "number",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 2,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 2.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 2.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.26
+  },
+  {
+   "t": 3.1,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.34
+  },
+  {
+   "t": 3.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 5.4,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.45,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 6.1,
+   "type": "chime",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 7.6,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 8.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 8.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 10.3,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.05
+  },
+  {
+   "t": 10.35,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 12.2,
+   "type": "scan",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 14.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 15,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 15.6,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 16.2,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 19,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 19.6,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 19.65,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 21.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 22.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 23.4,
+   "type": "deny",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 23.45,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 0.85
+  },
+  {
+   "t": 23.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 24.1,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1800000000000002
+  },
+  {
+   "t": 24.4,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.26
+  },
+  {
+   "t": 24.7,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.34
+  },
+  {
+   "t": 25.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 25.9,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 26.3,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 28.3,
+   "type": "ding",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 30.1,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 31.7,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 33.4,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 1.05
+  },
+  {
+   "t": 33.45,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 35.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 36.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 36.8,
+   "type": "meter",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 37.4,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 37.45,
+   "type": "count",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 39.4,
+   "type": "dissolve",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 40.4,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 0.8
+  },
+  {
+   "t": 40.45,
+   "type": "deny",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 42.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 42.9,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 43.4,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 43.45,
+   "type": "chime",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 45.9,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 47.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 47.9,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 48.2,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 49.4,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.15
+  },
+  {
+   "t": 49.45,
+   "type": "count",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 52.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 52.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 53,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 53.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 55,
+   "type": "deny",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 56,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.05
+  },
+  {
+   "t": 56.05,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 57.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 58.4,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 58.7,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 60.2,
+   "type": "impact",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 61,
+   "type": "pulse",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 62.9,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 63.4,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 63.45,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 63.75,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 63.85,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 63.95,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 64.05,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 64.15,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 64.25,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.2
+  },
+  {
+   "t": 64.55,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 65,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 65.02,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 68.05,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 68.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 68.55,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 70.6,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 71.3,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 71.32,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 73.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   5.5,
+   7.6,
+   [
+    "Valor de mercado de Netflix al 29 oct. 2026 (YCharts)."
+   ]
+  ],
+  [
+   8.15,
+   25.4,
+   [
+    "Fuentes: NZ Herald y Marketplace: oferta de $50 M en 2000, según Marc Randolph y Reed Hastings."
+   ]
+  ],
+  [
+   25.95,
+   47.4,
+   [
+    "Fuente: Business Insider: 9,000 tiendas en 2004; ~$800 M en multas (cifra reportada); quiebra en 2010."
+   ]
+  ],
+  [
+   47.95,
+   52.1,
+   [
+    "Valor de mercado de Netflix al 29 oct. 2026 (YCharts)."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   0.85,
+   1.2
+  ],
+  [
+   5.05,
+   5.4
+  ],
+  [
+   23.05,
+   23.4
+  ],
+  [
+   33.05,
+   33.4
+  ],
+  [
+   40.05,
+   40.4
+  ],
+  [
+   49.05,
+   49.4
+  ],
+  [
+   64.65,
+   65
+  ]
+ ],
+ "musicBoost": [
+  [
+   7.6,
+   8.1,
+   1.2
+  ],
+  [
+   14.5,
+   15,
+   1.15
+  ],
+  [
+   21.6,
+   22.1,
+   1.15
+  ],
+  [
+   25.4,
+   25.9,
+   1.15
+  ],
+  [
+   35.9,
+   36.4,
+   1.15
+  ],
+  [
+   42.4,
+   42.9,
+   1.15
+  ],
+  [
+   47.4,
+   47.9,
+   1.15
+  ],
+  [
+   52.1,
+   52.6,
+   1.15
+  ],
+  [
+   57.9,
+   58.4,
+   1.15
+  ],
+  [
+   62.9,
+   63.4,
+   1.2
+  ],
+  [
+   65,
+   68,
+   1.15
+  ]
+ ]
+}

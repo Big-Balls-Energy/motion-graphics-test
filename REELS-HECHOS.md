@@ -36,5 +36,6 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 28 | google-maps | ¿Tu negocio no aparece en Google Maps? 5 pasos | 5 Consejo | MAPA | 68 s | 30 oct 2026 |
 | 29 | agentes-compra | Amazon bloquea a los agentes de IA que compran por ti | 1 Noticia | AGENTE | 72 s | 30 oct 2026 |
 | 30 | escasez | Escasez: el experimento de las galletas (Worchel, 1975) | 2 Psicología | ESCASEZ | 74 s | 30 oct 2026 |
+| 31 | blockbuster | Blockbuster se rió de Netflix ($50 M → $250,000 M) | 3 Marca | CAMBIO | 74 s | 30 oct 2026 |
 
 **Ideas pendientes de psicología:** anclaje, urgencia/FOMO, pie en la puerta, posicionamiento a la altura de los ojos.
