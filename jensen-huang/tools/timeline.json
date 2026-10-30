@@ -1,0 +1,1201 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 80,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: DE LIMPIAR BAÑOS A $5.8 BILLONES",
+   "a": 0,
+   "b": 7.2,
+   "vis": "J03_pasillo_internado.jpg (trapeador) y J02_fregadero.jpg (platos sucios) se cortan rápido; luego fondo negro: CHIP_3D (procesador genérico con pines dorados y retícula de luz) sube girando y el contador llega a «$5.8 BILLONES DE DÓLARES»."
+  },
+  {
+   "id": "nombre",
+   "name": "SE LLAMA JENSEN HUANG",
+   "a": 7.2,
+   "b": 11.9,
+   "vis": "J05_escenario_keynote.jpg al fondo. Silueta genérica de chamarra negra (no es su cara) y tipografía «JENSEN HUANG» con chip «FUNDADOR Y CEO DE NVIDIA»; una etiqueta roja «ERROR» con glitch."
+  },
+  {
+   "id": "internado",
+   "name": "EL ERROR: UN REFORMATORIO EN KENTUCKY",
+   "a": 11.9,
+   "b": 23.7,
+   "vis": "J04_ventana_avion.jpg con ruta animada TAIWÁN → EE. UU. y avión; después J03_pasillo_internado.jpg con pin «KENTUCKY · 1973», «ESCUELA» se voltea a «REFORMATORIO» y un contador de días con cubeta y trapeador."
+  },
+  {
+   "id": "dennys",
+   "name": "A LOS 15: DENNY’S",
+   "a": 23.7,
+   "b": 28.6,
+   "vis": "J02_fregadero.jpg al fondo. Chip «15 AÑOS» y tres tarjetas con íconos: LAVAPLATOS · GARROTERO · MESERO."
+  },
+  {
+   "id": "fundacion",
+   "name": "1993: NACE NVIDIA EN UNA MESA DE DINER",
+   "a": 28.6,
+   "b": 36.3,
+   "vis": "J01_diner.jpg al fondo. «1993» enorme en contorno; un mantel de papel con el boceto de un chip se dibuja solo; tres siluetas «3 FUNDADORES»; «$600» en amarillo ($200 cada uno)."
+  },
+  {
+   "id": "quiebra",
+   "name": "AL BORDE DE LA QUIEBRA",
+   "a": 36.3,
+   "b": 41,
+   "vis": "Fondo rojo oscuro con HUD de alerta. Calendario de nómina que cuenta de 30 a 1 día: «1 MES DE NÓMINA»."
+  },
+  {
+   "id": "ia",
+   "name": "UN CHIP LO SALVÓ… Y LA IA",
+   "a": 41,
+   "b": 51,
+   "vis": "E07_centro_datos.jpg al fondo. E10_chip_macro.png entra con destello («UN CHIP LO SALVÓ · 1997»); red neuronal de luz crece desde el CHIP_3D; contador «$5.8 BILLONES» (valor de mercado al 6 de octubre de 2026)."
+  },
+  {
+   "id": "stanford",
+   "name": "«LES DESEO DOLOR Y SUFRIMIENTO»",
+   "a": 51,
+   "b": 63.1,
+   "vis": "J06_auditorio.jpg al fondo. Tarjeta de cita gigante con comillas; después dos ecuaciones: GRANDEZA = CARÁCTER y CARÁCTER = SUFRIMIENTO."
+  },
+  {
+   "id": "leccion",
+   "name": "LA LECCIÓN",
+   "a": 63.1,
+   "b": 68,
+   "vis": "Fondo oscuro. Línea de crecimiento que cae a un valle («TUS PEORES DÍAS») y sube con brillo («TAMBIÉN TE CONSTRUYEN»)."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA CON PALABRA CLAVE",
+   "a": 68,
+   "b": 80,
+   "vis": "W01_mano_celular.png: en los comentarios se escribe «LÍDER», que sale grande y se queda 3 s sola con anillos. Sobre W09_equipo_estrategia.jpg: logo, «ATLAS PATH», @Atlas_Path y botón SEGUIR con clic; nota «Sin afiliación con Jensen Huang ni con Nvidia»; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.9,
+   "text": "Limpiaba baños, lavaba platos…",
+   "keys": [
+    "baños",
+    "platos"
+   ]
+  },
+  {
+   "a": 2.9,
+   "b": 5.1,
+   "text": "y hoy dirige una empresa",
+   "keys": [
+    "dirige"
+   ]
+  },
+  {
+   "a": 5.1,
+   "b": 6.7,
+   "text": "de $5.8 billones.",
+   "keys": [
+    "billones"
+   ]
+  },
+  {
+   "a": 7.25,
+   "b": 9.1,
+   "text": "Se llama Jensen Huang…",
+   "keys": [
+    "jensen",
+    "huang…"
+   ]
+  },
+  {
+   "a": 9.1,
+   "b": 11.4,
+   "text": "empezó con un error.",
+   "keys": [
+    "error"
+   ]
+  },
+  {
+   "a": 11.95,
+   "b": 15.5,
+   "text": "A los 9, de Taiwán…",
+   "keys": [
+    "taiwán"
+   ]
+  },
+  {
+   "a": 15.5,
+   "b": 18,
+   "text": "a una escuela en Kentucky",
+   "keys": [
+    "kentucky"
+   ]
+  },
+  {
+   "a": 18,
+   "b": 20.4,
+   "text": "que era un reformatorio.",
+   "keys": [
+    "reformatorio"
+   ]
+  },
+  {
+   "a": 20.6,
+   "b": 23.2,
+   "text": "Limpiaba baños a diario.",
+   "keys": [
+    "baños"
+   ]
+  },
+  {
+   "a": 23.75,
+   "b": 25.9,
+   "text": "A los 15: Denny’s.",
+   "keys": [
+    "denny’s"
+   ]
+  },
+  {
+   "a": 25.9,
+   "b": 28.1,
+   "text": "lavaplatos, garrotero y mesero.",
+   "keys": [
+    "lavaplatos",
+    "garrotero",
+    "mesero"
+   ]
+  },
+  {
+   "a": 28.65,
+   "b": 31.9,
+   "text": "En 1993, en un Denny’s,",
+   "keys": [
+    "denny’s"
+   ]
+  },
+  {
+   "a": 31.9,
+   "b": 34.1,
+   "text": "fundó Nvidia con 2 amigos…",
+   "keys": [
+    "nvidia"
+   ]
+  },
+  {
+   "a": 34.1,
+   "b": 35.8,
+   "text": "y solo $600.",
+   "keys": [
+    "solo"
+   ]
+  },
+  {
+   "a": 36.35,
+   "b": 38.1,
+   "text": "Estuvo por quebrar:",
+   "keys": [
+    "quebrar"
+   ]
+  },
+  {
+   "a": 38.1,
+   "b": 40.5,
+   "text": "1 mes de nómina.",
+   "keys": [
+    "nómina"
+   ]
+  },
+  {
+   "a": 41.05,
+   "b": 42.8,
+   "text": "Lo salvó un chip…",
+   "keys": [
+    "chip…"
+   ]
+  },
+  {
+   "a": 42.8,
+   "b": 45,
+   "text": "y apostó por la computación",
+   "keys": [
+    "computación"
+   ]
+  },
+  {
+   "a": 45,
+   "b": 46.9,
+   "text": "que mueve la IA.",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 47.3,
+   "b": 50.5,
+   "text": "Hoy vale ~$5.8 billones.",
+   "keys": [
+    "billones"
+   ]
+  },
+  {
+   "a": 51.05,
+   "b": 53.5,
+   "text": "Y en Stanford les dijo:",
+   "keys": [
+    "stanford"
+   ]
+  },
+  {
+   "a": 53.5,
+   "b": 56.8,
+   "text": "«Les deseo dolor y sufrimiento».",
+   "keys": [
+    "dolor",
+    "sufrimiento»"
+   ]
+  },
+  {
+   "a": 56.8,
+   "b": 58.6,
+   "text": "Porque, según él,",
+   "keys": [
+    "según"
+   ]
+  },
+  {
+   "a": 58.6,
+   "b": 60.6,
+   "text": "la grandeza es carácter…",
+   "keys": [
+    "grandeza",
+    "carácter…"
+   ]
+  },
+  {
+   "a": 60.6,
+   "b": 62.6,
+   "text": "que se forma sufriendo.",
+   "keys": [
+    "sufriendo"
+   ]
+  },
+  {
+   "a": 63.15,
+   "b": 64.65,
+   "text": "¿Tienes un negocio?",
+   "keys": [
+    "negocio"
+   ]
+  },
+  {
+   "a": 64.65,
+   "b": 67.5,
+   "text": "Tus peores días te construyen.",
+   "keys": [
+    "construyen"
+   ]
+  },
+  {
+   "a": 68.05,
+   "b": 70.1,
+   "text": "Comenta la palabra…",
+   "keys": [
+    "comenta"
+   ]
+  },
+  {
+   "a": 73.3,
+   "b": 75.7,
+   "text": "Te mando 3 hábitos suyos.",
+   "keys": [
+    "hábitos"
+   ]
+  },
+  {
+   "a": 75.7,
+   "b": 77.8,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 4.9,
+   "b": 6.95,
+   "text": "$5.8 BILLONES"
+  },
+  {
+   "a": 34.2,
+   "b": 36.2,
+   "text": "$600"
+  },
+  {
+   "a": 38.1,
+   "b": 40.6,
+   "text": "1 MES DE NÓMINA"
+  },
+  {
+   "a": 47.4,
+   "b": 50.6,
+   "text": "$5.8 BILLONES (2026)"
+  },
+  {
+   "a": 70.1,
+   "b": 73.3,
+   "text": "LÍDER",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "drone",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 0.1,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 1.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 1.55,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 3,
+   "type": "impact",
+   "v": 0.95,
+   "pitch": 1
+  },
+  {
+   "t": 3.02,
+   "type": "flash",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 3.1,
+   "type": "assemble",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 4.9,
+   "type": "count",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 6.7,
+   "type": "whoosh",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 7.2,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 7.5,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 8,
+   "type": "select",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 9.3,
+   "type": "deny",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 11.4,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 11.9,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 12.4,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 12.6,
+   "type": "scan",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 15.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 15.8,
+   "type": "ping",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 17.9,
+   "type": "flip",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 18,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 20.7,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 20.87,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.02
+  },
+  {
+   "t": 21.04,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.04
+  },
+  {
+   "t": 21.21,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 21.38,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.08
+  },
+  {
+   "t": 21.55,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 21.72,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 21.89,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 22.06,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.16
+  },
+  {
+   "t": 22.23,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.18
+  },
+  {
+   "t": 22.4,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 22.57,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.22
+  },
+  {
+   "t": 22.74,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.24
+  },
+  {
+   "t": 22.91,
+   "type": "tick",
+   "v": 0.35,
+   "pitch": 1.26
+  },
+  {
+   "t": 23.2,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 23.7,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 24,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.05,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 26.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 26.65,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 27.2,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 27.25,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 28.1,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.9
+  },
+  {
+   "t": 28.6,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 28.95,
+   "type": "number",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 30.8,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 31,
+   "type": "scan",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 32.3,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 32.55,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 32.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 34.2,
+   "type": "impact",
+   "v": 0.85,
+   "pitch": 1.15
+  },
+  {
+   "t": 34.22,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 35.8,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 36.3,
+   "type": "deny",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 36.6,
+   "type": "pulse",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 37.8,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 37.92,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.01
+  },
+  {
+   "t": 38.04,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.02
+  },
+  {
+   "t": 38.16,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.03
+  },
+  {
+   "t": 38.28,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 38.4,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.05
+  },
+  {
+   "t": 38.52,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.06
+  },
+  {
+   "t": 38.64,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.07
+  },
+  {
+   "t": 38.76,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 38.88,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.09
+  },
+  {
+   "t": 39,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 39.12,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.11
+  },
+  {
+   "t": 39.24,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 39.36,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.13
+  },
+  {
+   "t": 39.48,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 39.6,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.15
+  },
+  {
+   "t": 39.72,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.16
+  },
+  {
+   "t": 39.84,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.17
+  },
+  {
+   "t": 39.96,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.18
+  },
+  {
+   "t": 40.08,
+   "type": "flip",
+   "v": 0.3,
+   "pitch": 1.19
+  },
+  {
+   "t": 40.4,
+   "type": "hit",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 40.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 41,
+   "type": "flash",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 41.4,
+   "type": "unlock",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 41.45,
+   "type": "chime",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 42.9,
+   "type": "assemble",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 43.4,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 44,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 44.4,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1.08
+  },
+  {
+   "t": 44.8,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1.16
+  },
+  {
+   "t": 45.2,
+   "type": "pulse",
+   "v": 0.4,
+   "pitch": 1.24
+  },
+  {
+   "t": 47.3,
+   "type": "impact",
+   "v": 0.9,
+   "pitch": 1.15
+  },
+  {
+   "t": 47.35,
+   "type": "count",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 50.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 51,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 51.3,
+   "type": "sweep",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 53.6,
+   "type": "impact",
+   "v": 0.8,
+   "pitch": 0.9
+  },
+  {
+   "t": 53.62,
+   "type": "chord",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 57.3,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 58.8,
+   "type": "lock",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 60.7,
+   "type": "lock",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 62.6,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 63.1,
+   "type": "flash",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 63.5,
+   "type": "scan",
+   "v": 0.4,
+   "pitch": 0.8
+  },
+  {
+   "t": 64.7,
+   "type": "rise",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 66.4,
+   "type": "chime",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 67.5,
+   "type": "whoosh",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 68,
+   "type": "flash",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 68.05,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.7
+  },
+  {
+   "t": 68.5,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1
+  },
+  {
+   "t": 68.7,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.04
+  },
+  {
+   "t": 68.9,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.08
+  },
+  {
+   "t": 69.1,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.12
+  },
+  {
+   "t": 69.3,
+   "type": "key",
+   "v": 0.65,
+   "pitch": 1.16
+  },
+  {
+   "t": 69.8,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 70.1,
+   "type": "impact",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 70.12,
+   "type": "chord",
+   "v": 0.8,
+   "pitch": 1.12
+  },
+  {
+   "t": 73.35,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 73.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 73.85,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 75.9,
+   "type": "whoosh",
+   "v": 0.25,
+   "pitch": 1.5
+  },
+  {
+   "t": 76.6,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 76.62,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 79.45,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   4.9,
+   6.7,
+   [
+    "Valor de mercado de Nvidia: ≈ 5.8 billones de dólares (5.8 trillion), 24/7 Wall St., 6 oct. 2026"
+   ]
+  ],
+  [
+   11.95,
+   23.2,
+   [
+    "Fuente: Wikipedia, «Jensen Huang» · la escuela de Kentucky resultó ser un reformatorio"
+   ]
+  ],
+  [
+   23.75,
+   35.8,
+   [
+    "Fuente: blog oficial de Nvidia (Denny’s) · Wikipedia: capital inicial de $600"
+   ]
+  ],
+  [
+   36.35,
+   46.9,
+   [
+    "Fuente: Wikipedia · el chip RIVA 128 (1997) salvó a la empresa cuando le quedaba un mes de nómina"
+   ]
+  ],
+  [
+   47.3,
+   50.5,
+   [
+    "Valor de mercado al 6 oct. 2026 (24/7 Wall St.) · la cifra cambia con el precio de la acción"
+   ]
+  ],
+  [
+   51.05,
+   62.6,
+   [
+    "Fuente: CNBC, «Nvidia CEO Huang at Stanford: pain and suffering breeds success», mar. 2024"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   2.65,
+   3
+  ],
+  [
+   33.85,
+   34.2
+  ],
+  [
+   46.95,
+   47.3
+  ],
+  [
+   53.25,
+   53.6
+  ],
+  [
+   69.75,
+   70.1
+  ]
+ ],
+ "musicBoost": [
+  [
+   6.7,
+   7.2,
+   1.2
+  ],
+  [
+   11.4,
+   11.9,
+   1.15
+  ],
+  [
+   23.2,
+   23.7,
+   1.15
+  ],
+  [
+   28.1,
+   28.6,
+   1.15
+  ],
+  [
+   35.8,
+   36.3,
+   1.15
+  ],
+  [
+   40.5,
+   41,
+   1.2
+  ],
+  [
+   50.5,
+   51,
+   1.15
+  ],
+  [
+   62.6,
+   63.1,
+   1.15
+  ],
+  [
+   67.5,
+   68,
+   1.2
+  ],
+  [
+   70.1,
+   73.3,
+   1.15
+  ]
+ ]
+}
