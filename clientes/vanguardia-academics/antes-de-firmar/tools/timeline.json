@@ -1,0 +1,822 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 75,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: «MA, ¿ME FIRMAS EL PERMISO?»",
+   "a": 0,
+   "b": 8,
+   "vis": "Celular genérico con un chat: el hijo escribe «Ma, ¿me firmas el permiso?», manda el PDF del permiso y «Es para el viaje de la escuela». El celular sale y aparece el PERMISO en papel con cinco casillas vacías: «ANTES DE FIRMAR… 5 PREGUNTAS»."
+  },
+  {
+   "id": "q1",
+   "name": "1 · ¿QUÉ VA A APRENDER?",
+   "a": 8,
+   "b": 16,
+   "vis": "Y05 (guía explicando en Chichén Itzá) en tarjeta. Tres fichas de vidrio con un ejemplo ilustrativo: OBJETIVO, VINCULADO A, ENTREGABLE. Barra de progreso 1/5."
+  },
+  {
+   "id": "q2",
+   "name": "2 · ¿QUIÉN LO ACOMPAÑA?",
+   "a": 16,
+   "b": 23.6,
+   "vis": "E06 (equipo de guías) en tarjeta. Diagrama: un adulto conectado a un grupo de alumnos con «?»; luna y «¿QUIÉN RESPONDE DE NOCHE?»."
+  },
+  {
+   "id": "q3",
+   "name": "3 · ¿QUÉ CUBRE EL SEGURO?",
+   "a": 23.6,
+   "b": 31.3,
+   "vis": "Y10 (tirolesa) de fondo. ESCUDO de vidrio que late y tres renglones de cobertura que se palomean: GASTOS MÉDICOS, HOSPITAL, REGRESO ANTICIPADO."
+  },
+  {
+   "id": "q4",
+   "name": "4 · ¿Y SI ALGO SALE MAL?",
+   "a": 31.3,
+   "b": 39.6,
+   "vis": "S07 (Berlín) de fondo. Cadena animada INCIDENTE → COORDINADOR → FAMILIA con pulsos de luz, documento PROTOCOLO ESCRITO y teléfono que suena con «24/7»."
+  },
+  {
+   "id": "q5",
+   "name": "5 · LOS DOCUMENTOS",
+   "a": 39.6,
+   "b": 55.2,
+   "vis": "Tres documentos genéricos en abanico (sin escudos oficiales): PASAPORTE, FORMATO SAM · INM, VISA O PERMISO. Ficha de ejemplo: Canadá (visa, o eTA con visa de EE. UU. vigente, en avión)."
+  },
+  {
+   "id": "resumen",
+   "name": "POR ESCRITO, ANTES DE SALIR",
+   "a": 55.2,
+   "b": 64.3,
+   "vis": "Vuelve el PERMISO: las cinco casillas se palomean una tras otra, sello «POR ESCRITO · ANTES DE SALIR» y una firma que se escribe a mano. «CUANDO TODO ESTÁ CLARO, FIRMAR ES FÁCIL.» (3 s sola)."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE",
+   "a": 64.3,
+   "b": 75,
+   "vis": "Íconos de GUARDAR y ENVIAR: «MÁNDALO AL GRUPO DE PAPÁS». Avatar con logo, «VANGUARDIA ACADEMICS», «VIAJES EDUCATIVOS A LA MEDIDA», @vanguardia.academics y botón SEGUIR con clic. El último medio segundo regresa al chat del inicio (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.35,
+   "text": "Tu hijo trae un permiso",
+   "keys": [
+    "permiso"
+   ]
+  },
+  {
+   "a": 2.35,
+   "b": 4.4,
+   "text": "para viajar al extranjero…",
+   "keys": [
+    "extranjero"
+   ]
+  },
+  {
+   "a": 4.5,
+   "b": 7.5,
+   "text": "Antes de firmar, pregunta esto:",
+   "keys": [
+    "firmar"
+   ]
+  },
+  {
+   "a": 8.2,
+   "b": 10,
+   "text": "¿Qué va a aprender?",
+   "keys": [
+    "aprender"
+   ]
+  },
+  {
+   "a": 10,
+   "b": 12.3,
+   "text": "Objetivos claros de aprendizaje,",
+   "keys": [
+    "objetivos"
+   ]
+  },
+  {
+   "a": 12.3,
+   "b": 14.6,
+   "text": "conectados con su programa.",
+   "keys": [
+    "programa"
+   ]
+  },
+  {
+   "a": 16.2,
+   "b": 18.1,
+   "text": "¿Quién lo acompaña?",
+   "keys": [
+    "acompaña"
+   ]
+  },
+  {
+   "a": 18.1,
+   "b": 20.4,
+   "text": "¿Cuántos adultos por grupo?",
+   "keys": [
+    "adultos"
+   ]
+  },
+  {
+   "a": 20.4,
+   "b": 22.6,
+   "text": "¿Y quién responde de noche?",
+   "keys": [
+    "noche"
+   ]
+  },
+  {
+   "a": 23.8,
+   "b": 25.7,
+   "text": "¿Qué cubre el seguro?",
+   "keys": [
+    "seguro"
+   ]
+  },
+  {
+   "a": 25.7,
+   "b": 27.7,
+   "text": "Gastos médicos, hospital…",
+   "keys": [
+    "médicos",
+    "hospital"
+   ]
+  },
+  {
+   "a": 27.7,
+   "b": 30.6,
+   "text": "y el regreso anticipado.",
+   "keys": [
+    "regreso"
+   ]
+  },
+  {
+   "a": 31.5,
+   "b": 33.95,
+   "text": "¿Y si algo sale mal?",
+   "keys": [
+    "mal"
+   ]
+  },
+  {
+   "a": 33.95,
+   "b": 36.3,
+   "text": "Protocolo de emergencia por escrito",
+   "keys": [
+    "protocolo"
+   ]
+  },
+  {
+   "a": 36.3,
+   "b": 38.8,
+   "text": "y un teléfono 24/7.",
+   "keys": [
+    "teléfono"
+   ]
+  },
+  {
+   "a": 39.8,
+   "b": 42.1,
+   "text": "Y cinco: los documentos.",
+   "keys": [
+    "documentos"
+   ]
+  },
+  {
+   "a": 42.1,
+   "b": 44.1,
+   "text": "Si viaja sin ustedes,",
+   "keys": [
+    "ustedes"
+   ]
+  },
+  {
+   "a": 44.1,
+   "b": 46.4,
+   "text": "necesita el formato SAM",
+   "keys": [
+    "sam"
+   ]
+  },
+  {
+   "a": 46.4,
+   "b": 48.2,
+   "text": "del Instituto de Migración.",
+   "keys": [
+    "migración"
+   ]
+  },
+  {
+   "a": 48.2,
+   "b": 50,
+   "text": "además de su pasaporte",
+   "keys": [
+    "pasaporte"
+   ]
+  },
+  {
+   "a": 50,
+   "b": 53.2,
+   "text": "y visa, según el destino.",
+   "keys": [
+    "visa"
+   ]
+  },
+  {
+   "a": 55.4,
+   "b": 57.5,
+   "text": "Esto no se improvisa:",
+   "keys": [
+    "improvisa"
+   ]
+  },
+  {
+   "a": 57.5,
+   "b": 60.85,
+   "text": "Por escrito, antes de salir.",
+   "keys": [
+    "escrito"
+   ]
+  },
+  {
+   "a": 64.5,
+   "b": 66,
+   "text": "Guárdalo… y mándalo",
+   "keys": [
+    "guárdalo"
+   ]
+  },
+  {
+   "a": 66,
+   "b": 67.8,
+   "text": "al grupo de papás.",
+   "keys": [
+    "papás"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 5.6,
+   "b": 7.9,
+   "text": "5 PREGUNTAS"
+  },
+  {
+   "a": 8.2,
+   "b": 10.4,
+   "text": "1"
+  },
+  {
+   "a": 16.2,
+   "b": 18.4,
+   "text": "2"
+  },
+  {
+   "a": 23.8,
+   "b": 26,
+   "text": "3"
+  },
+  {
+   "a": 31.5,
+   "b": 33.7,
+   "text": "4"
+  },
+  {
+   "a": 39.8,
+   "b": 42,
+   "text": "5"
+  },
+  {
+   "a": 36.3,
+   "b": 38.9,
+   "text": "24/7"
+  },
+  {
+   "a": 44.1,
+   "b": 47.6,
+   "text": "FORMATO SAM · INM"
+  },
+  {
+   "a": 60.95,
+   "b": 64.2,
+   "text": "CUANDO TODO ESTÁ CLARO, FIRMAR ES FÁCIL.",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.35,
+   "type": "msg",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 1.6,
+   "type": "msg",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 2.9,
+   "type": "msg",
+   "v": 0.6,
+   "pitch": 1.2
+  },
+  {
+   "t": 4.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 4.8,
+   "type": "paper",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 5.6,
+   "type": "slam",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 6,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 6.15,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.08
+  },
+  {
+   "t": 6.3,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.16
+  },
+  {
+   "t": 6.45,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.24
+  },
+  {
+   "t": 6.6,
+   "type": "tick",
+   "v": 0.5,
+   "pitch": 1.32
+  },
+  {
+   "t": 7.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 8.1,
+   "type": "number",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 8.25,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 16.1,
+   "type": "number",
+   "v": 0.8,
+   "pitch": 1.05
+  },
+  {
+   "t": 16.25,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 23.7,
+   "type": "number",
+   "v": 0.8,
+   "pitch": 1.1
+  },
+  {
+   "t": 23.85,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 31.4,
+   "type": "number",
+   "v": 0.8,
+   "pitch": 1.15
+  },
+  {
+   "t": 31.55,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 39.7,
+   "type": "number",
+   "v": 0.8,
+   "pitch": 1.2
+  },
+  {
+   "t": 39.85,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 10.1,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 11,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 12.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 15.6,
+   "type": "check",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 18.2,
+   "type": "blip",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 18.4,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 18.49,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.04
+  },
+  {
+   "t": 18.58,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.08
+  },
+  {
+   "t": 18.67,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.12
+  },
+  {
+   "t": 18.76,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.16
+  },
+  {
+   "t": 18.85,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.2
+  },
+  {
+   "t": 18.94,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.24
+  },
+  {
+   "t": 19.03,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.28
+  },
+  {
+   "t": 20.5,
+   "type": "airy",
+   "v": 0.4,
+   "pitch": 0.8
+  },
+  {
+   "t": 23.2,
+   "type": "check",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 24,
+   "type": "shine",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 25.8,
+   "type": "check",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 26.7,
+   "type": "check",
+   "v": 0.55,
+   "pitch": 1.08
+  },
+  {
+   "t": 28,
+   "type": "check",
+   "v": 0.55,
+   "pitch": 1.16
+  },
+  {
+   "t": 30.9,
+   "type": "check",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 33.95,
+   "type": "pulse",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 34.6,
+   "type": "pulse",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 35.25,
+   "type": "pulse",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 36.3,
+   "type": "ring",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 39.2,
+   "type": "check",
+   "v": 0.7,
+   "pitch": 1.15
+  },
+  {
+   "t": 42.2,
+   "type": "paper",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 44.2,
+   "type": "paper",
+   "v": 0.55,
+   "pitch": 1.1
+  },
+  {
+   "t": 48.4,
+   "type": "paper",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 44.4,
+   "type": "stamp",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 50.2,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 54.6,
+   "type": "check",
+   "v": 0.7,
+   "pitch": 1.2
+  },
+  {
+   "t": 55.3,
+   "type": "paper",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 55.8,
+   "type": "check",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 56.2,
+   "type": "check",
+   "v": 0.6,
+   "pitch": 1.08
+  },
+  {
+   "t": 56.6,
+   "type": "check",
+   "v": 0.6,
+   "pitch": 1.16
+  },
+  {
+   "t": 57,
+   "type": "check",
+   "v": 0.6,
+   "pitch": 1.24
+  },
+  {
+   "t": 57.4,
+   "type": "check",
+   "v": 0.6,
+   "pitch": 1.32
+  },
+  {
+   "t": 58.6,
+   "type": "stamp",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 61.1,
+   "type": "pen",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 62.2,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 63.9,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 64.6,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 65.6,
+   "type": "send",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 67.6,
+   "type": "whoosh",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 68,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 68.3,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 70.6,
+   "type": "whoosh",
+   "v": 0.2,
+   "pitch": 1.5
+  },
+  {
+   "t": 71.4,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 71.43,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 74.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   10,
+   14.6,
+   [
+    "Ejemplo ilustrativo: cada programa define sus objetivos con la institución"
+   ]
+  ],
+  [
+   42.1,
+   48.2,
+   [
+    "Formato SAM (Salida de Menores): INM, Gobierno de México · para menores que viajan solos o con un tercero",
+    "Se tramita en línea y lo sella un agente del INM · verifica requisitos y costo vigentes en gob.mx/inm"
+   ]
+  ],
+  [
+   48.2,
+   53.2,
+   [
+    "Canadá: requisitos de IRCC para mexicanos vigentes desde el 29 de febrero de 2024",
+    "Consulta siempre los requisitos oficiales del país de destino"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   5.3,
+   5.6
+  ],
+  [
+   60.65,
+   60.95
+  ]
+ ],
+ "musicBoost": [
+  [
+   7.5,
+   8,
+   1.15
+  ],
+  [
+   15.5,
+   16,
+   1.1
+  ],
+  [
+   23.1,
+   23.6,
+   1.1
+  ],
+  [
+   30.8,
+   31.3,
+   1.1
+  ],
+  [
+   39.1,
+   39.6,
+   1.1
+  ],
+  [
+   53.2,
+   55.2,
+   1.15
+  ],
+  [
+   60.95,
+   64.2,
+   1.2
+  ]
+ ]
+}
