@@ -1,0 +1,11 @@
+# El repositorio es público: las fotos del cliente (estudiantes, menores, equipo) y los videos
+# sin aprobar nunca se suben. Viven solo en el contenedor de la sesión o en la carpeta del usuario.
+marca/fotos/
+**/assets/fotos/
+**/*.mp4
+**/*.m4a
+**/*.wav
+**/portada.png
+**/recursos/
+# Información confidencial del cliente
+**/*CONFIDENCIAL*

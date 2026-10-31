@@ -4,7 +4,7 @@ Esta guía adapta el método de producción de reels de Atlas Path (15 reels hec
 
 **Antes de empezar un reel nuevo:**
 1. Lee esta guía completa.
-2. Lee `clientes/vanguardia-academics/guia_prompts_reels_vanguardia_academics.md` (marca, audiencia, programas, pendientes del cliente).
+2. Lee `clientes/vanguardia-academics/guia_prompts_reels_vanguardia_academics.md`, **sobre todo la sección 0** (educar, seguridad y experiencia sin decir «somos los mejores», discreción total con sus clientes, acción social), y `marca/INVENTARIO-FOTOS.md` (qué foto se puede usar y cómo).
 3. Lee `CLAUDE.md` de la rama: sus reglas técnicas valen; **sus reglas de marca de Atlas Path (logo, @Atlas_Path, cierre) se reemplazan por las de la sección 2 de esta guía**.
 4. Abre como referencia técnica el reel `consejos-ia/` (la base más completa).
 
@@ -25,8 +25,12 @@ ffmpeg -version | head -1 && jq --version
 1. Todo el trabajo del cliente va en la rama **`vanguardia-reels`** y en la carpeta **`clientes/vanguardia-academics/`**. **No abras PR** salvo que el usuario lo pida.
 2. Crea una lista de tareas (TaskCreate) con las fases de la sección 4.
 3. Crea la carpeta del reel con la base técnica: `bash herramientas/nuevo_reel.sh clientes/vanguardia-academics/<reel>`.
-   - Luego **reemplaza** `assets/AtlasPath_logo.png` por los logos del cliente (sección 2) y borra el de Atlas Path de esa carpeta.
-4. Al terminar, siempre: commit + push, enviar archivos con SendUserFile y mensaje final en español con fuentes como enlaces Markdown.
+   - Luego **reemplaza** `assets/AtlasPath_logo.png` por los logos del cliente y borra el de Atlas Path:
+     ```bash
+     R=clientes/vanguardia-academics/<reel>; rm $R/assets/AtlasPath_logo.png; cp clientes/vanguardia-academics/marca/logos/*.png $R/assets/
+     ```
+4. **Fotos:** el repositorio es **público**, así que las fotos del cliente no están en git (`.gitignore`). Comprueba si existen en `clientes/vanguardia-academics/marca/fotos/`; si no, pídelas al usuario (las de Yucatán) y vuelve a bajar las del sitio (`marca/INVENTARIO-FOTOS.md`, sección 4). Copia a `<reel>/assets/fotos/` solo las que use el brief.
+5. Al terminar, siempre: commit + push, enviar archivos con SendUserFile y mensaje final en español con fuentes como enlaces Markdown.
 
 ---
 
@@ -41,7 +45,11 @@ motion-graphics-test/   (rama vanguardia-reels)
 └─ clientes/vanguardia-academics/
    ├─ GUIA-REELS-VANGUARDIA.md   esta guía
    ├─ guia_prompts_reels_vanguardia_academics.md
-   ├─ marca/                     logos del cliente, paleta, fuentes (una sola copia de referencia)
+   ├─ .gitignore                 fotos, audio y videos fuera de git (el repo es público)
+   ├─ marca/
+   │  ├─ logos/                  logos del cliente en PNG (públicos, sí van en git)
+   │  ├─ INVENTARIO-FOTOS.md     qué es cada foto, caras, logos a borrar y uso permitido
+   │  └─ fotos/                  yucatan/ (Y01–Y16), sitio/ (S01–S24, E02–E17) — NO van en git
    └─ <reel>/                    un reel por carpeta
       ├─ index.html              animación completa (canvas 2D + Three.js), determinista
       ├─ assets/                 VanguardiaAcademics_logo.png, VanguardiaAcademics_imago.png y fotos/ con los nombres exactos del brief
@@ -88,6 +96,13 @@ motion-graphics-test/   (rama vanguardia-reels)
 ---
 
 ## 2. Reglas fijas de cada reel del cliente
+
+**Posicionamiento (lo primero que se revisa):**
+- **Educativo:** cada reel enseña algo (beneficios de aprender viajando, lo que se aprende en un programa, cómo se planea un buen viaje). No es un anuncio.
+- **Seguridad y experiencia** con hechos, detalle y calma; diseño elegante y ritmo sereno.
+- **Nunca** «los mejores», «líderes», «número 1», «únicos», «garantizado», «100 % seguro», ni comparaciones. El liderazgo se demuestra, no se dice.
+- **Discreción total con los clientes:** ninguna escuela o universidad se nombra, se muestra ni se insinúa (escudos, uniformes, gafetes legibles, colores institucionales, etiquetas, hashtags). La lista de instituciones del cliente es confidencial y **no se escribe en el repo** (es público).
+- **Acción social** contada con dignidad y orgullo: la comunidad y el aprendizaje son los protagonistas.
 
 **Formato:** vertical 1080×1920, 30 fps, H.264 + AAC, duración exacta del brief (60, 75, 80 o 90 s). Dos versiones:
 - con voz: `Vanguardia_<Tema>.mp4` (o el nombre exacto del brief);
@@ -143,22 +158,24 @@ Los tres primeros y el blanco salen del CSS del sitio (`brand-100`, `brand-200`,
 - ElevenLabs, modelo `eleven_v4`, con etiquetas de tono, **una toma independiente por bloque**, aceleración máx. 10 %, mezcla final a −14 LUFS.
 - **Voz por defecto:** «Fernanda – Smooth and Articulate» (`ARmPWZKt7WpXh6QDHA6x`), cálida y clara, buena para una marca educativa.
 - **Pendiente:** que el cliente apruebe la voz. Si elige otra, búscala con `creative_list_voices`, anota aquí su nombre e id, y úsala en todos sus reels. Nunca imites la voz de una persona real.
-- Tono: cálido, cercano y confiable; entusiasta en los destinos, sereno en las guías para directores, emotivo en acción social. Etiquetas útiles: `[warmly]`, `[excited]`, `[curious]`, `[inspired]`, `[softly]`.
+- Tono: sereno, cálido y culto, de quien no necesita convencer; curioso en los destinos, pausado en las guías para directores, emotivo en acción social. Etiquetas útiles: `[warmly]`, `[curious]`, `[calm]`, `[inspired]`, `[softly]`. Evita `[excited]` salvo en un hook puntual.
 - Pronunciación: «Vanguardia Academics» en español + inglés («vanguardia acádemics»); revisa con transcripción cada nombre propio (Praga, Sicilia, Montreal, Ducati, Pagani, Imagination Campus). Escribe en el prompt los nombres en inglés como se pronuncian si salen mal.
 
 **Música:**
 - Generada por código (sin derechos), a un BPM que cierre compases exactos.
-- Estilo de la marca: **cinematográfica ligera / electrónica cálida con toques acústicos** (piano, pads, guitarra pulsada, percusión suave). Menos agresiva que la de Atlas Path; más «viaje e inspiración». 90–112 BPM.
+- Estilo de la marca: **cinematográfica ligera / acústica cálida** (piano, pads, cuerdas suaves, guitarra pulsada, percusión ligera). Serena y elegante, mucho menos agresiva que la de Atlas Path: transmite confianza, no adrenalina. 84–104 BPM.
 - Acción social: más íntima (piano y cuerdas sintetizadas), sin golpes fuertes.
 - 15.5 % con texto, 19 % sin texto. Se apaga casi del todo antes de cada cifra y regresa con el golpe.
 - Nunca tapa la voz: `voz_tomas.py` la baja 25 % mientras habla.
 
 **Marcas, lugares y personas:**
-- Sin logotipos de terceros (Disney, Ferrari, Ducati, Pagani, aerolíneas, equipos, universidades): solo como texto. Leyenda «Sin afiliación con ___» si el cliente no confirma un acuerdo.
-- Se borran logotipos de las fotos (aviones, camisetas, gorras, autos). Si una foto trae marca de agua de banco, se borra si se puede y se avisa que conviene la versión con licencia.
-- **Menores de edad:** las fotos de estudiantes las manda el cliente y solo se usan si confirma la **autorización de imagen** de padres o tutores. Sin confirmación, usa la foto desenfocada de fondo, de espaldas o con el grupo lejano, y avísalo. Nunca nombres completos ni escuelas de menores en pantalla.
-- **No se generan estudiantes ni personas con IA.** Sin rostros retocados.
-- Acción social: comunidades con dignidad y solo con fotos reales del cliente.
+- Sin logotipos de terceros (parques temáticos, marcas de autos y motos, clubes, aerolíneas, marcas de ropa, escuelas): solo como texto. Leyenda «Sin afiliación con ___» si el cliente no confirma un acuerdo. Las fotos del sitio `S13`, `S16` y `S18` no se usan (llenas de logos).
+- Se borran logotipos y textos de las fotos (playeras, lanchas, bicis, letreros) y **los gafetes** (pueden identificar al grupo o la escuela).
+- **Usa la columna «Uso recomendado» de `marca/INVENTARIO-FOTOS.md`:** `libre`, `fondo` (desenfocada y oscurecida), `autorización` (solo si el usuario confirma permiso de imagen) o `no usar`.
+- **Menores de edad:** caras reconocibles solo con autorización confirmada. **Nunca** menores en traje de baño (`Y12`, `Y13` no se usan con personas), en momentos vulnerables o en actividades que se vean riesgosas (`Y04` no va en piezas de seguridad). Nunca nombres, edades ni escuelas.
+- **No se generan estudiantes ni personas con IA.** Sin rostros retocados. Las fotos de banco nunca se presentan como viajes del cliente.
+- **Equipo (`E02`–`E17`):** solo con permiso de cada persona.
+- Acción social y cultura local (jarana, sitios mayas): con dignidad y respeto; niños de la comunidad solo de fondo o con permiso.
 
 **Datos:**
 - Verificar todo antes de animarlo; no inventar cifras ni atribuciones.
@@ -172,6 +189,7 @@ Los tres primeros y el blanco salen del CSS del sitio (`brand-100`, `brand-200`,
 - Rectángulo gris con el nombre exacto, para que el usuario la reemplace, o un sustituto gráfico si el brief lo permite. Se avisa en el mensaje final.
 
 **Entrega:**
+- Los MP4, audios, portada y fotos **no se suben a git** (`.gitignore`): el repo es público y los videos no están aprobados por el cliente. Se entregan solo por SendUserFile. En git van `index.html`, `tools/`, guion, SRT y notas.
 - SendUserFile: el MP4 con voz y la portada con `display: render`; el MP4 sin voz y el guion con `display: attach`.
 - Mensaje final en español: qué se entregó y dónde (commit y rama `vanguardia-reels`), qué se verificó, decisiones a revisar, **pendientes del cliente** (logo, voz, colores derivados, autorizaciones de imagen, datos de la empresa), fotos faltantes o con marca, dominios bloqueados y fuentes como enlaces Markdown.
 - Avisa siempre que no viste el video de corrido ni escuchaste el audio, si es el caso.
@@ -360,8 +378,12 @@ python3 herramientas/hoja.py <scratchpad>/capturas <scratchpad>/hoja.jpg 6
 - [ ] Cámara 3D demasiado cerca.
 - [ ] Partículas enormes al pasar la cámara.
 - [ ] Cifras ≥ 2 s; frase y palabra del CTA ≥ 3 s solas.
-- [ ] Logos de terceros visibles en fotos o texturas.
-- [ ] Caras de menores sin autorización confirmada.
+- [ ] Logos de terceros, gafetes, escudos o uniformes visibles en fotos o texturas.
+- [ ] Caras de menores sin autorización confirmada; nada de traje de baño.
+- [ ] Ningún superlativo ni autoelogio en textos y voz:
+      `grep -n -i -E "mejor|líder|lider|número 1|#1|únic|garantiz|100 ?% seguro" <reel>/index.html` (revisa cada coincidencia a mano).
+- [ ] Ningún nombre de institución cliente en textos, notas o nombres de archivo.
+- [ ] El reel enseña algo concreto (si se quita la marca, ¿sigue siendo útil?).
 - [ ] Marca de agua y cierre con logo y @ del cliente, sin rastro de Atlas Path.
 - [ ] Último cuadro igual al primero (loop).
 
@@ -421,7 +443,8 @@ node <reel>/tools/render.js http://localhost:8811/index.html <reel>/recursos ass
 ### 4.13 Commit, push y entrega
 
 ```bash
-git add clientes/vanguardia-academics/<reel> voz-tools/voz_tomas.py
+git add clientes/vanguardia-academics/<reel> voz-tools/voz_tomas.py   # el .gitignore deja fuera fotos, audio y MP4
+git status --short   # confirma que no entra ninguna foto ni video
 git commit -F mensaje.txt
 git push -u origin vanguardia-reels
 ```
@@ -462,6 +485,9 @@ Todos los de `GUIA-REELS.md` sección 6 siguen vigentes (voz cortada → tomas p
 4. **Logo `.webp` pixelado** al agrandarlo en el cierre: pide el PNG o SVG al cliente; mientras, no lo muestres a más de su tamaño original.
 5. **Años de experiencia distintos en el sitio (23, 25+, 27):** usa «más de 20 años» y avísalo hasta que el cliente confirme.
 6. **Nombre del programa de Disney inconsistente:** usa «Disney Imagination Campus» como lugar, sin logo, con leyenda de sin afiliación, hasta que el cliente confirme.
+7. **Repositorio público:** cualquier foto, video o dato confidencial que entre a git queda expuesto (y en el historial aunque se borre después). Antes de cada commit: `git status --short` y `git diff --cached --stat`. Si algo se subió por error, avisa al usuario de inmediato; borrarlo del historial requiere reescribirlo y es decisión suya.
+8. **Una sesión nueva no tiene las fotos:** están fuera de git. Pídelas o bájalas del sitio (sección 0, paso 4).
+9. **Un lugar cambió sus reglas:** por ejemplo, la escalinata del Nohoch Mul (Cobá) estuvo cerrada años y el INAH abrió una nueva en dic. 2025. Verifica el estado actual antes de describir una actividad.
 
 ---
 
@@ -496,7 +522,10 @@ Todo está subido a la rama `vanguardia-reels` (commit `<hash>`); no abrí PR.
 - <reglas de subtítulos, cifras ≥ 2 s, frase/palabra ≥ 3 s, voz dentro de su tiempo, BPM y loop, sin rastro de Atlas Path>
 
 **Pendientes del cliente**
-- <logo en PNG, voz aprobada, colores derivados, autorizaciones de imagen de menores, años de experiencia, nombres de programas>
+- <logo en PNG, voz aprobada, colores derivados, autorizaciones de imagen, datos de seguridad y acompañamiento, años de experiencia, nombres de programas>
+
+**Filtro de marca**
+- <sin superlativos, sin instituciones, sin gafetes ni logos, fotos usadas según el inventario>
 
 **Lo que debes revisar**
 - <fotos faltantes y cómo reemplazarlas>
