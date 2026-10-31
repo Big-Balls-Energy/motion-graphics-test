@@ -1,0 +1,1099 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 90,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: EL CUADERNO QUE SE DESHACE",
+   "a": 0,
+   "b": 6.5,
+   "vis": "Fondo azul marino. CUADERNO_3D: una hoja con apuntes de examen flota y gira despacio. «¿CUÁNTO DE LO QUE ESTUDIAS HOY… SEGUIRÁ AHÍ MAÑANA?». La hoja se desintegra de derecha a izquierda en miles de partículas que se lleva el viento."
+  },
+  {
+   "id": "ebb",
+   "name": "1885 · EBBINGHAUS",
+   "a": 6.5,
+   "b": 20.3,
+   "vis": "«1885» enorme en contorno ámbar. Ficha de papel con «LISTA 1 · SÍLABAS SIN SENTIDO» que se escribe a máquina (WID, ZOF, KEB…) y un cronómetro. Chip «HERMANN EBBINGHAUS · PSICÓLOGO ALEMÁN» (solo texto). Las sílabas se borran al azar y aparece «EL OLVIDO» con letras que se desvanecen."
+  },
+  {
+   "id": "curva",
+   "name": "LA CURVA DEL OLVIDO",
+   "a": 20.3,
+   "b": 36.5,
+   "vis": "CURVA_3D: un trazo de luz cae sobre una retícula con cortina luminosa; la cámara sigue la punta y marca 20 MIN (58%), 1 DÍA (34%) y 31 DÍAS (21%). La cámara se aleja y muestra la curva completa: «LA CURVA DEL OLVIDO» (3 s sola)."
+  },
+  {
+   "id": "giro",
+   "name": "RECUERDOS QUE LA DESAFÍAN",
+   "a": 36.5,
+   "b": 42,
+   "vis": "La curva se atenúa y tres polaroids reales (Y03, Y16, Y05) suben brillando por encima del trazo, que se quiebra donde lo cruzan."
+  },
+  {
+   "id": "emocion",
+   "name": "LLAVE 1 · EMOCIÓN",
+   "a": 42,
+   "b": 50,
+   "vis": "«1» en contorno y título EMOCIÓN. Y02_lancha_ria_cacerolita_de_mar.jpg en tarjeta que late como un corazón, con una línea de pulso que la recorre."
+  },
+  {
+   "id": "accion",
+   "name": "LLAVE 2 · ACCIÓN",
+   "a": 50,
+   "b": 58.5,
+   "vis": "«2» y ACCIÓN. TARJETAS_3D con fotos de la obra social (S21, S19) y de la tirolesa (Y14) en abanico. «LEÍDO» se deshace en gris; «HECHO» queda firme en turquesa."
+  },
+  {
+   "id": "repaso",
+   "name": "LLAVE 3 · VOLVER A RECORDAR",
+   "a": 58.5,
+   "b": 72,
+   "vis": "«3» y VOLVER A RECORDAR. BARRAS_CRISTAL_3D con reflejo: SE PUSIERON A PRUEBA sube a 61%, SOLO RELEYERON se queda en 40% (recuerdo una semana después)."
+  },
+  {
+   "id": "sintesis",
+   "name": "UN VIAJE QUE SE QUEDA",
+   "a": 72,
+   "b": 83.9,
+   "vis": "Tres orbes de luz (EMOCIÓN, ACCIÓN, REPASO) giran y se funden en uno. La curva vuelve: la de siempre cae en gris y un trazo ilustrativo se mantiene alto en turquesa. Sobre Y05 desenfocada: «NO ES UN PASEO. ES UNA CLASE QUE SE QUEDA.» (3 s sola)."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE",
+   "a": 83.9,
+   "b": 90,
+   "vis": "Miles de partículas forman el imagotipo de Vanguardia Academics; aparecen el avatar, «VANGUARDIA ACADEMICS», «VIAJES EDUCATIVOS A LA MEDIDA», @vanguardia.academics y el botón SEGUIR con clic. El último medio segundo regresa al cuaderno del inicio (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.4,
+   "text": "¿Cuánto de lo que estudias",
+   "keys": [
+    "estudias"
+   ]
+  },
+  {
+   "a": 2.4,
+   "b": 3.95,
+   "text": "seguirá ahí mañana?",
+   "keys": [
+    "mañana"
+   ]
+  },
+  {
+   "a": 6.7,
+   "b": 9,
+   "text": "En 1885, un psicólogo",
+   "keys": [
+    "psicólogo"
+   ]
+  },
+  {
+   "a": 9,
+   "b": 11.2,
+   "text": "alemán Hermann Ebbinghaus memorizó",
+   "keys": [
+    "ebbinghaus"
+   ]
+  },
+  {
+   "a": 11.2,
+   "b": 14.9,
+   "text": "listas de sílabas sin sentido…",
+   "keys": [
+    "sílabas"
+   ]
+  },
+  {
+   "a": 15.15,
+   "b": 17.95,
+   "text": "…para medir algo nunca medido:",
+   "keys": [
+    "medir"
+   ]
+  },
+  {
+   "a": 20.5,
+   "b": 22.4,
+   "text": "Veinte minutos después,",
+   "keys": [
+    "minutos"
+   ]
+  },
+  {
+   "a": 22.4,
+   "b": 24.75,
+   "text": "ya olvidó casi la mitad.",
+   "keys": [
+    "mitad"
+   ]
+  },
+  {
+   "a": 25.35,
+   "b": 27,
+   "text": "Al día siguiente,",
+   "keys": [
+    "siguiente"
+   ]
+  },
+  {
+   "a": 27,
+   "b": 28.95,
+   "text": "conservaba apenas un tercio.",
+   "keys": [
+    "tercio"
+   ]
+  },
+  {
+   "a": 29.55,
+   "b": 32.4,
+   "text": "Al mes, una quinta parte.",
+   "keys": [
+    "quinta"
+   ]
+  },
+  {
+   "a": 36.75,
+   "b": 38.3,
+   "text": "Pero hay recuerdos",
+   "keys": [
+    "recuerdos"
+   ]
+  },
+  {
+   "a": 38.3,
+   "b": 39.95,
+   "text": "que la desafían.",
+   "keys": [
+    "desafían"
+   ]
+  },
+  {
+   "a": 42.2,
+   "b": 43.95,
+   "text": "Los que llevan emoción:",
+   "keys": [
+    "emoción"
+   ]
+  },
+  {
+   "a": 43.95,
+   "b": 47.35,
+   "text": "lo que sorprende, se graba.",
+   "keys": [
+    "graba"
+   ]
+  },
+  {
+   "a": 50.2,
+   "b": 51.95,
+   "text": "Los que llevan acción:",
+   "keys": [
+    "acción"
+   ]
+  },
+  {
+   "a": 51.95,
+   "b": 54.2,
+   "text": "lo hecho con las manos",
+   "keys": [
+    "manos"
+   ]
+  },
+  {
+   "a": 54.2,
+   "b": 56.6,
+   "text": "supera a lo solo leído.",
+   "keys": [
+    "supera"
+   ]
+  },
+  {
+   "a": 58.7,
+   "b": 60.75,
+   "text": "Y los que repasamos.",
+   "keys": [
+    "repasamos"
+   ]
+  },
+  {
+   "a": 61.1,
+   "b": 62.7,
+   "text": "En un experimento,",
+   "keys": [
+    "experimento"
+   ]
+  },
+  {
+   "a": 62.7,
+   "b": 64.9,
+   "text": "quienes se pusieron a prueba",
+   "keys": [
+    "prueba"
+   ]
+  },
+  {
+   "a": 64.9,
+   "b": 66.7,
+   "text": "recordaron el 61%",
+   "keys": [
+    "recordaron"
+   ]
+  },
+  {
+   "a": 66.7,
+   "b": 68.4,
+   "text": "una semana después…",
+   "keys": [
+    "semana"
+   ]
+  },
+  {
+   "a": 68.4,
+   "b": 71.1,
+   "text": "quienes solo releyeron: 40%.",
+   "keys": [
+    "releyeron"
+   ]
+  },
+  {
+   "a": 72.2,
+   "b": 74,
+   "text": "Un viaje bien diseñado",
+   "keys": [
+    "diseñado"
+   ]
+  },
+  {
+   "a": 74,
+   "b": 76.6,
+   "text": "junta emoción y acción…",
+   "keys": [
+    "emoción",
+    "acción"
+   ]
+  },
+  {
+   "a": 76.6,
+   "b": 79.85,
+   "text": "y tiempo para recordarlo.",
+   "keys": [
+    "recordarlo"
+   ]
+  },
+  {
+   "a": 84.1,
+   "b": 86,
+   "text": "Guárdalo y compártelo",
+   "keys": [
+    "guárdalo",
+    "compártelo"
+   ]
+  },
+  {
+   "a": 86,
+   "b": 88.3,
+   "text": "con quien diseña sus viajes.",
+   "keys": [
+    "viajes"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 6.9,
+   "b": 10,
+   "text": "1885"
+  },
+  {
+   "a": 17.95,
+   "b": 20.3,
+   "text": "EL OLVIDO"
+  },
+  {
+   "a": 21,
+   "b": 24.75,
+   "text": "58%"
+  },
+  {
+   "a": 26.6,
+   "b": 28.95,
+   "text": "34%"
+  },
+  {
+   "a": 29.8,
+   "b": 32.4,
+   "text": "21%"
+  },
+  {
+   "a": 32.6,
+   "b": 35.9,
+   "text": "LA CURVA DEL OLVIDO",
+   "sola": true,
+   "min": 3
+  },
+  {
+   "a": 42.2,
+   "b": 44.4,
+   "text": "1 · EMOCIÓN"
+  },
+  {
+   "a": 50.2,
+   "b": 52.4,
+   "text": "2 · ACCIÓN"
+  },
+  {
+   "a": 58.7,
+   "b": 60.9,
+   "text": "3 · VOLVER A RECORDAR"
+  },
+  {
+   "a": 64.9,
+   "b": 71.1,
+   "text": "61%"
+  },
+  {
+   "a": 68.6,
+   "b": 71.3,
+   "text": "40%"
+  },
+  {
+   "a": 79.95,
+   "b": 83.6,
+   "text": "NO ES UN PASEO. ES UNA CLASE QUE SE QUEDA.",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "room",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 0.3,
+   "type": "paper",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 2.4,
+   "type": "pop",
+   "v": 0.3,
+   "pitch": 0.8
+  },
+  {
+   "t": 3,
+   "type": "dissolve",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 3.6,
+   "type": "airy",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 4.4,
+   "type": "dissolve",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 6.55,
+   "type": "number",
+   "v": 0.9,
+   "pitch": 0.9
+  },
+  {
+   "t": 6.7,
+   "type": "shine",
+   "v": 0.35,
+   "pitch": 0.8
+  },
+  {
+   "t": 9.2,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 9.36,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 9.52,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 9.68,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 9.84,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 10,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 10.16,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 10.32,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 10.48,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 10.64,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 10.8,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 10.96,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 11.12,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 11.28,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 11.44,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 11.6,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 11.76,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 11.92,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 12.08,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 12.24,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 12.4,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 12.56,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 12.72,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 12.88,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 13.04,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 13.2,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 13.36,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 13.52,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 13.68,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 13.84,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 14,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 14.16,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.06
+  },
+  {
+   "t": 14.32,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1.12
+  },
+  {
+   "t": 14.48,
+   "type": "key",
+   "v": 0.32,
+   "pitch": 1
+  },
+  {
+   "t": 9.3,
+   "type": "tickclock",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 15.3,
+   "type": "dissolve",
+   "v": 0.55,
+   "pitch": 1.2
+  },
+  {
+   "t": 17.9,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 18,
+   "type": "airy",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 19.9,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 20.35,
+   "type": "sweep",
+   "v": 0.45,
+   "pitch": 0.8
+  },
+  {
+   "t": 20.6,
+   "type": "fall",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 21,
+   "type": "node",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 26.6,
+   "type": "node",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 29.9,
+   "type": "node",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 32.4,
+   "type": "zoomout",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 32.65,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 0.9
+  },
+  {
+   "t": 36,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 36.6,
+   "type": "rise",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 37,
+   "type": "shutter",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 37.6,
+   "type": "shutter",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 38.2,
+   "type": "shutter",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 38.4,
+   "type": "crack",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 38.5,
+   "type": "shine",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 41.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 42.1,
+   "type": "number",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 42.4,
+   "type": "paper",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 44,
+   "type": "heartbeat",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 44.25,
+   "type": "heartbeat",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 45.2,
+   "type": "heartbeat",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 45.45,
+   "type": "heartbeat",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 46.4,
+   "type": "heartbeat",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 46.65,
+   "type": "heartbeat",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 47.6,
+   "type": "heartbeat",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 47.85,
+   "type": "heartbeat",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 49.6,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 50.1,
+   "type": "number",
+   "v": 0.9,
+   "pitch": 1.06
+  },
+  {
+   "t": 52.3,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 52.5,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 52.7,
+   "type": "paper",
+   "v": 0.45,
+   "pitch": 1.2
+  },
+  {
+   "t": 54.3,
+   "type": "dissolve",
+   "v": 0.45,
+   "pitch": 1.4
+  },
+  {
+   "t": 54.6,
+   "type": "stamp",
+   "v": 0.8,
+   "pitch": 1
+  },
+  {
+   "t": 58.1,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 58.6,
+   "type": "number",
+   "v": 0.9,
+   "pitch": 1.12
+  },
+  {
+   "t": 61.2,
+   "type": "sweep",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 64.85,
+   "type": "glass",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 64.9,
+   "type": "hit",
+   "v": 0.5,
+   "pitch": 1.2
+  },
+  {
+   "t": 68.55,
+   "type": "glass",
+   "v": 0.55,
+   "pitch": 0.8
+  },
+  {
+   "t": 71.5,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 72.1,
+   "type": "airy",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 72.4,
+   "type": "orb",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 74,
+   "type": "orb",
+   "v": 0.5,
+   "pitch": 1.12
+  },
+  {
+   "t": 75.6,
+   "type": "orb",
+   "v": 0.5,
+   "pitch": 1.25
+  },
+  {
+   "t": 76.5,
+   "type": "assemble",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 77,
+   "type": "chord",
+   "v": 0.55,
+   "pitch": 1.12
+  },
+  {
+   "t": 77.3,
+   "type": "rise",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 79.9,
+   "type": "hit",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 79.95,
+   "type": "shine",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 83.4,
+   "type": "whoosh",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 83.95,
+   "type": "assemble",
+   "v": 0.7,
+   "pitch": 1
+  },
+  {
+   "t": 85.1,
+   "type": "chime",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 85.4,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 85.7,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.2
+  },
+  {
+   "t": 87.5,
+   "type": "whoosh",
+   "v": 0.2,
+   "pitch": 1.5
+  },
+  {
+   "t": 88.35,
+   "type": "click",
+   "v": 1,
+   "pitch": 1
+  },
+  {
+   "t": 88.38,
+   "type": "pop",
+   "v": 0.5,
+   "pitch": 1.3
+  },
+  {
+   "t": 89.5,
+   "type": "whoosh",
+   "v": 0.5,
+   "pitch": 0.8
+  }
+ ],
+ "sources": [
+  [
+   6.7,
+   19.9,
+   [
+    "Hermann Ebbinghaus, «Über das Gedächtnis» (1885) · experimento con él mismo como sujeto"
+   ]
+  ],
+  [
+   20.5,
+   35.9,
+   [
+    "Ebbinghaus (1885): ahorro al reaprender listas de sílabas sin sentido · 58 % a 20 min, 34 % a 1 día, 21 % a 31 días",
+    "Curva replicada por Murre y Dros, PLOS ONE (2015)"
+   ]
+  ],
+  [
+   42.2,
+   47.35,
+   [
+    "Fuente: McGaugh, Annual Review of Neuroscience (2004): la emoción fortalece la consolidación de la memoria"
+   ]
+  ],
+  [
+   50.2,
+   56.6,
+   [
+    "Efecto de la acción: Engelkamp y Krumnacker (1980) · Cohen (1981) · lo que se hace se recuerda mejor que lo que se lee"
+   ]
+  ],
+  [
+   61.1,
+   71.1,
+   [
+    "Fuente: Roediger y Karpicke, Psychological Science (2006), exp. 2 · universitarios, texto en prosa, prueba final a la semana"
+   ]
+  ],
+  [
+   72.2,
+   79.85,
+   [
+    "Trazo ilustrativo: no representa una medición"
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   6.25,
+   6.55
+  ],
+  [
+   20.7,
+   21
+  ],
+  [
+   41.8,
+   42.1
+  ],
+  [
+   64.6,
+   64.9
+  ],
+  [
+   79.65,
+   79.95
+  ]
+ ],
+ "musicBoost": [
+  [
+   3,
+   6.5,
+   1.15
+  ],
+  [
+   32.4,
+   35.9,
+   1.2
+  ],
+  [
+   36.5,
+   37.5,
+   1.1
+  ],
+  [
+   72,
+   72.5,
+   1.1
+  ],
+  [
+   79.95,
+   83.6,
+   1.2
+  ]
+ ]
+}
