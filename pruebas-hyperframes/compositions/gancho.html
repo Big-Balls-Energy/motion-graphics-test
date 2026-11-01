@@ -1,0 +1,65 @@
+<template>
+  <style>
+    @font-face { font-family: "SGB"; src: url("assets/fonts/SpaceGrotesk-Bold.woff2"); }
+    @font-face { font-family: "JBM"; src: url("assets/fonts/JetBrainsMono-Bold.ttf"); }
+    #root { position: absolute; inset: 0; overflow: hidden; }
+    #g-bg { position: absolute; inset: 0;
+      background: radial-gradient(120% 80% at 50% 38%, #12385a 0%, #0a1a2e 45%, #05070d 100%); }
+    #g-rays { position: absolute; left: -300px; top: -400px; width: 1700px; height: 1700px;
+      background: conic-gradient(from 200deg, transparent 0 20deg, rgba(56,189,248,.08) 24deg, transparent 30deg 60deg, rgba(56,189,248,.06) 66deg, transparent 72deg 360deg); }
+    #g-mark { position: absolute; left: 40px; top: 262px; width: 100px; height: 100px; border-radius: 22px;
+      background: rgba(241,245,249,.85); display: flex; align-items: center; justify-content: center; opacity: .7; }
+    #g-mark img { width: 84px; height: 84px; object-fit: contain; }
+    #g-stage { position: absolute; left: 60px; right: 140px; top: 600px; height: 980px; }
+    .g-line { position: absolute; left: 0; width: 100%; text-align: center; font-family: "SGB", sans-serif;
+      color: #f8fafc; text-transform: uppercase; line-height: 1; letter-spacing: -.01em; }
+    #g-l1 { top: 40px; font-size: 92px; }
+    #g-l2 { top: 170px; font-size: 92px; color: #94a3b8; }
+    #g-l3 { top: 330px; font-size: 250px; color: #38bdf8; text-shadow: 0 0 40px rgba(56,189,248,.55), 0 0 90px rgba(56,189,248,.35); }
+    #g-l4 { top: 620px; font-size: 92px; }
+    .g-br { position: absolute; width: 90px; height: 90px; border: 0 solid #f8fafc; }
+    #g-frame { position: absolute; left: 30px; right: 30px; top: 300px; height: 300px; }
+    #g-b1 { left: 0; top: 0; border-top-width: 10px; border-left-width: 10px; }
+    #g-b2 { right: 0; top: 0; border-top-width: 10px; border-right-width: 10px; }
+    #g-b3 { left: 0; bottom: 0; border-bottom-width: 10px; border-left-width: 10px; }
+    #g-b4 { right: 0; bottom: 0; border-bottom-width: 10px; border-right-width: 10px; }
+    #g-scan { position: absolute; left: 40px; right: 40px; top: 0; height: 8px; background: #38bdf8;
+      box-shadow: 0 0 30px #38bdf8; opacity: 0; }
+    #g-tag { position: absolute; left: 50%; top: 790px; transform: translateX(-50%); font-family: "JBM", monospace;
+      font-size: 30px; color: #05070d; background: #f8fafc; padding: 14px 28px; border-radius: 40px; letter-spacing: .12em; white-space: nowrap; }
+  </style>
+  <div id="root" data-composition-id="gancho" data-width="1080" data-height="1920">
+    <div id="g-bg"></div>
+    <div id="g-rays"></div>
+    <div id="g-mark"><img src="assets/logo.png" alt="" /></div>
+    <div id="g-stage" data-layout-allow-overlap>
+      <div id="g-l1" class="g-line">¿Tu negocio</div>
+      <div id="g-l2" class="g-line">ya sale en</div>
+      <div id="g-frame">
+        <div id="g-b1" class="g-br"></div><div id="g-b2" class="g-br"></div>
+        <div id="g-b3" class="g-br"></div><div id="g-b4" class="g-br"></div>
+        <div id="g-scan"></div>
+      </div>
+      <div id="g-l3" class="g-line">fotos</div>
+      <div id="g-l4" class="g-line">de Google?</div>
+      <div id="g-tag">NOTICIA · 29 OCT 2026</div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#g-rays", { rotation: -8 }, { rotation: 8, duration: 3.4, ease: "none" }, 0)
+        .fromTo("#g-l1", { x: -700, opacity: 0 }, { x: 0, opacity: 1, duration: 0.32, ease: "expo.out" }, 0.0)
+        .fromTo("#g-l2", { x: 700, opacity: 0 }, { x: 0, opacity: 1, duration: 0.32, ease: "expo.out" }, 0.45)
+        .fromTo("#g-frame", { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "back.out(2)" }, 0.9)
+        .fromTo("#g-l3", { scale: 2.6, opacity: 0, filter: "blur(14px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.28, ease: "power4.out" }, 1.05)
+        .fromTo("#g-stage", { y: 0 }, { y: 14, duration: 0.05, yoyo: true, repeat: 5, ease: "none" }, 1.3)
+        .fromTo("#g-scan", { y: 0, opacity: 0 }, { y: 292, opacity: 1, duration: 0.7, ease: "power1.inOut" }, 1.35)
+        .to("#g-scan", { opacity: 0, duration: 0.15 }, 2.05)
+        .fromTo("#g-l4", { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "back.out(1.8)" }, 1.75)
+        .fromTo("#g-tag", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "back.out(2.2)" }, 2.0)
+        .fromTo("#g-l3", { color: "#38bdf8" }, { color: "#e0f7ff", duration: 0.12, yoyo: true, repeat: 1 }, 2.6);
+      window.__timelines["gancho"] = tl;
+    })();
+  </script>
+</template>

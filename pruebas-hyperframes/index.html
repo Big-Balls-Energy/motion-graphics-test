@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Prueba HyperFrames · Atlas Path</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #05070d; }
+      #flash { position: absolute; inset: 0; background: #e6fbff; opacity: 0; z-index: 20; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="15.8" data-width="1080" data-height="1920">
+      <!-- 1 · Gancho hecho 100 % en HyperFrames -->
+      <div id="gancho" data-composition-id="gancho" data-composition-src="compositions/gancho.html"
+        data-start="0" data-duration="3.4" data-track-index="1" data-track-kind="graphics"
+        data-width="1080" data-height="1920" style="z-index: 2"></div>
+
+      <!-- 2 · Fragmento del reel 69 (canvas propio de Atlas Path) dentro de HyperFrames -->
+      <div id="cam" style="position: absolute; inset: 0; z-index: 1; overflow: hidden">
+        <video id="reel" class="clip" src="assets/reel.mp4" muted playsinline data-start="3.2" data-duration="8.3" data-track-index="0" data-media-start="17.75"
+          style="position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover"></video>
+      </div>
+
+      <!-- 3 · Cierre CTA hecho en HyperFrames -->
+      <div id="cta" data-composition-id="cta" data-composition-src="compositions/cta.html"
+        data-start="11.4" data-duration="4.4" data-track-index="2" data-track-kind="graphics"
+        data-width="1080" data-height="1920" style="z-index: 3"></div>
+
+      <div id="flash"></div>
+
+      <!-- Audio: música del reel en gancho y cierre; la mezcla con voz bajo el fragmento -->
+      <audio id="musica-gancho" class="clip" src="assets/musica.wav" data-start="0" data-duration="3.5"
+        data-media-start="41.7" data-volume="1" data-fade-out="0.3"></audio>
+      <audio id="voz-reel" class="clip" src="assets/mezcla.wav" data-start="3.2" data-duration="8.3"
+        data-media-start="17.75" data-volume="1" data-fade-in="0.08" data-fade-out="0.35"></audio>
+      <audio id="musica-cta" class="clip" src="assets/musica.wav" data-start="11.3" data-duration="4.5"
+        data-media-start="44.9" data-volume="1" data-fade-in="0.2" data-fade-out="0.5"></audio>
+      <audio id="clic" class="clip" src="assets/efectos.wav" data-start="13.55" data-duration="0.5"
+        data-media-start="48.05" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#flash", { opacity: 0 }, 0).set("#cam", { scale: 1.18, filter: "blur(6px)" }, 0);
+      // corte 1: destello + golpe de zoom al entrar el reel
+      tl.to("#flash", { opacity: 0.9, duration: 0.08, ease: "none" }, 3.12)
+        .to("#flash", { opacity: 0, duration: 0.3, ease: "power2.out" }, 3.2)
+        .to("#cam", { scale: 1, filter: "blur(0px)", duration: 0.45, ease: "expo.out" }, 3.2)
+        // punch-in de HyperFrames sobre la cifra 50,000 M del reel (19.6 s del original)
+        .to("#cam", { scale: 1.07, duration: 0.12, ease: "power3.out" }, 5.05)
+        .to("#cam", { scale: 1, duration: 0.6, ease: "power2.inOut" }, 5.2)
+        // punch-in en «1 de cada 5» (24.6 s del original)
+        .to("#cam", { scale: 1.06, duration: 0.12, ease: "power3.out" }, 10.05)
+        .to("#cam", { scale: 1, duration: 0.5, ease: "power2.inOut" }, 10.2)
+        // corte 2: destello hacia el cierre
+        .to("#flash", { opacity: 0.8, duration: 0.08, ease: "none" }, 11.32)
+        .to("#flash", { opacity: 0, duration: 0.35, ease: "power2.out" }, 11.4);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
