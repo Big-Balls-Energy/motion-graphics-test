@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instagram 90 minutos</title>
+<style>
+@font-face{font-family:SGB;src:url(fonts/SpaceGrotesk-Bold.woff2)}
+@font-face{font-family:SGM;src:url(fonts/SpaceGrotesk-Medium.woff2)}
+@font-face{font-family:JBM;src:url(fonts/JetBrainsMono-Bold.ttf)}
+@font-face{font-family:JBMm;src:url(fonts/JetBrainsMono-Medium.ttf)}
+html,body{margin:0;height:100%;background:#000;overflow:hidden}
+#stage{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+canvas{height:min(100vh,calc(100vw*16/9));aspect-ratio:9/16;width:auto;background:#05070D;display:block}
+#ui{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:rgba(0,0,0,.6);color:#FFFFFF;font-family:SGB,system-ui,sans-serif;cursor:pointer;text-align:center;padding:16px}
+#ui .play{width:120px;height:120px;border-radius:50%;background:#22D3EE;color:#05070D;display:flex;align-items:center;justify-content:center;font-size:52px}
+#ui small{font-family:SGM,system-ui,sans-serif;opacity:.8;font-size:15px;line-height:1.6}
+.hide{display:none!important}
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div id="ui"><div class="play">▶</div><div>Instagram prueba videos de 90 minutos · 61 s</div>
+<small>Clic para reproducir · F = pantalla completa · Espacio = pausa · R = reiniciar</small></div>
+<audio id="aud" src="audio/mezcla-con-voz.m4a" preload="auto"></audio>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.min.js","three/addons/":"./vendor/addons/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
+
+/* =====================================================================
+   PROYECTO EDITABLE
+   · Colores: C · Textos en pantalla: T · Escenas y duraciones: SCENES
+   · Subtítulos: SUBS_RAW · Cifras y frases fijas: HOLDS · Fuentes: SOURCES
+   Versión base SIN VOZ: los tiempos siguen el ritmo de lectura (≤ 2.3 palabras/s).
+   Si se agrega voz, ajusta SCENES/SUBS_RAW y los SLOTS de voz-tools/voz_tomas.py.
+   ===================================================================== */
+const W=1080,H=1920,CX=500,DUR=61,TAU=Math.PI*2,DEG=Math.PI/180;
+// paleta tecnológica: negro azulado, cian (acento), violeta (secundario), amarillo (cifras), rojo (alertas), galleta
+const C={bg:'#05070D',navy:'#0A1222',blue:'#8B5CF6',cyan:'#22D3EE',white:'#FFFFFF',gray:'#A9B4C4',amber:'#FACC15',ink:'#05070D',green:'#22C55E',pink:'#A5F3FC',red:'#EF4444',cookie:'#D08B45',choc:'#3B2314'};
+const T={
+ m90:'90 MIN',corto:'0:15',largo:'1:30:00',
+ fecha:'26 OCT 2026',features:'«FEATURES»',reel:'REEL',hasta:'HASTA 90 MIN',nuevo:'NUEVO FORMATO',
+ prueba:'PRUEBA',paises:[['BRASIL','empezó aquí'],['EE. UU.','se está ampliando']],
+ mosseri:['ADAM MOSSERI','DIRECTOR DE INSTAGRAM'],cita:['«POR MUCHO TIEMPO','ESTUVE EN CONTRA','DE HACER VIDEOS LARGOS','EN INSTAGRAM»'],citaB:'— Adam Mosseri, oct. 2026 (traducción, TechCrunch)',
+ clips:'CLIPS COMO REELS',completo:'→ VIDEO COMPLETO',
+ pago:'¿CÓMO VAN A PAGAR?',pagoCita:['«Es muy pronto para','compartir un modelo de','monetización a largo plazo»'],pagoB:'— vocero de Meta (traducción)',
+ vs:['INSTAGRAM','VS','YOUTUBE'],tv:'Y TU TELEVISIÓN',
+ negocio:'GRABA UNA VEZ',saca:'SACA 5 REELS',
+ keyword:'CLIPS',marca:'ATLAS PATH',claim:'MARKETING · WEB · TECNOLOGÍA',usuario:'@Atlas_Path',
+ nota:['Noticia: TechCrunch, 26 oct. 2026. Función en prueba (Brasil y EE. UU.).','Sin afiliación con Instagram, Meta ni YouTube; marcas solo como texto.'],
+ portada:['INSTAGRAM','AHORA QUIERE','VIDEOS DE','90 MINUTOS']};
+const cv=document.getElementById('c'),ctx=cv.getContext('2d');
+const logo=new Image();logo.src='assets/AtlasPath_logo.png';
+// Fotos: assets/fotos/<NOMBRE EXACTO>. Si falta una, se dibuja un rectángulo gris con su nombre para reemplazarla después.
+// Todas las fotos se reutilizan de reels anteriores: 0 créditos de imágenes
+const FONDOS={G10_personas_celular:{fx:.5,warm:.3},D01_grabando_video:{fx:.5,warm:.4},W09_equipo_estrategia:{fx:.5,warm:.3}};
+const RECORTES={W01_mano_celular:1536/1024};
+const IMG={};
+for(const n of Object.keys(FONDOS)){IMG[n]=new Image();IMG[n].src=`assets/fotos/${n}.jpg`}
+for(const n of Object.keys(RECORTES)){IMG[n]=new Image();IMG[n].src=`assets/fotos/${n}.png`}
+const loaded=i=>i&&i.complete&&i.naturalWidth>0;
+const GRADE='contrast(1.15) saturate(.9)';
