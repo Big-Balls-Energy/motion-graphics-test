@@ -160,7 +160,8 @@ function coachCard(n,x,y,w,h,k=1,{label=true,z=1}={}){if(k<=0)return;ctx.save();
  photo('co_'+n,x,y,w,h,{fy:.25,r:24,z,src:IMG['co_'+n]});if(label){const g=ctx.createLinearGradient(0,y+h*.62,0,y+h);g.addColorStop(0,'rgba(3,8,23,0)');g.addColorStop(1,'rgba(3,8,23,.85)');ctx.fillStyle=g;rr(x,y,w,h,24);ctx.fill();
   text(n==='Sebastian'?'SEBASTIÁN':n.toUpperCase(),x+w/2,y+h-34,fitSize(n.toUpperCase(),'ANT',44,w-30,3),'ANT',C.white,'center',3)}
  rr(x,y,w,h,24);ctx.strokeStyle=rgba(C.cyan,.55);ctx.lineWidth=3;ctx.stroke();ctx.restore()}
-const MONT=['Mime','Julius','Montse','Zamora','Vale'];
+// montaje: los 11 coaches, uno por uno, del 57.75 al 61.4 (≈ 0.33 s cada uno)
+const MONT=T.coaches,M0=57.75,MD=(61.4-M0)/T.coaches.length;
 function sComunidad(t){const a=50.9,b=61.9,o=sceneOut(t,b);bgBlue(t);flashIn(t,a,.6);secHeader(t,a,b,T.sec[3]);
  ctx.save();ctx.globalAlpha=o;
  // espejo
@@ -175,15 +176,15 @@ function sComunidad(t){const a=50.9,b=61.9,o=sceneOut(t,b);bgBlue(t);flashIn(t,a
  // ES LA GENTE
  const kg=p(t,53.75,54.0),og=1-eo(p(t,55.1,55.4));if(kg>0&&og>0){ctx.save();ctx.globalAlpha*=og;slam(T.gente,CX,880,190,t,53.75,{glow:true,col:C.white,from:2});ctx.restore();lensFlare(CX,880,bell(t,53.75,54.4)*1.2,C.cyan)}
  // muro de coaches (11, sin repetir)
- const kw=eo(p(t,55.25,55.7)),ow=1-eo(p(t,59.6,59.9));if(kw>0&&ow>0){ctx.save();ctx.globalAlpha*=kw*ow;
+ const kw=eo(p(t,55.25,55.7)),ow=1-eo(p(t,M0-.2,M0));if(kw>0&&ow>0){ctx.save();ctx.globalAlpha*=kw*ow;
   text(T.coachLabel,CX,470,fitSize(T.coachLabel,'JBM',28,840,3),'JBM',C.pink,'center',3);
-  const cw=200,ch=245,dy=-30*eio(p(t,55.25,59.9));
-  for(let ix=0;ix<12;ix++){const c=ix%4,r=Math.floor(ix/4),x=75+c*(cw+16),y=520+r*(ch+12)+dy,k=eback(p(t,55.4+ix*.3,55.4+ix*.3+.35));
+  const cw=200,ch=245,dy=-30*eio(p(t,55.25,M0));
+  for(let ix=0;ix<12;ix++){const c=ix%4,r=Math.floor(ix/4),x=75+c*(cw+16),y=520+r*(ch+12)+dy,k=eback(p(t,55.4+ix*.17,55.4+ix*.17+.3));
    if(ix<11)coachCard(T.coaches[ix],x,y,cw,ch,k);
    else if(k>0){ctx.save();ctx.globalAlpha*=Math.min(1,k);rr(x,y,cw,ch,24);ctx.fillStyle=C.blue;ctx.fill();ctx.restore();avatar(x+cw/2,y+ch/2-20,62,k,{ring:false});ctx.save();ctx.globalAlpha*=Math.min(1,k);text('Y TÚ',x+cw/2,y+ch-40,40,'ANT',C.white,'center',3);ctx.restore()}}
   ctx.restore()}
  // montaje rápido
- if(t>=59.9){const i=Math.min(MONT.length-1,Math.floor((t-59.9)/.4)),t0=59.9+i*.4,k=eo(p(t,t0,t0+.12)),z=1.08-.08*p(t,t0,t0+.4);
+ if(t>=M0){const i=Math.min(MONT.length-1,Math.floor((t-M0)/MD)),t0=M0+i*MD,k=eo(p(t,t0,t0+.1)),z=1.08-.08*p(t,t0,t0+MD);
   ctx.save();ctx.translate(CX,900);ctx.scale(z,z);ctx.translate(-CX,-900);coachCard(MONT[i],CX-290,540,580,740,k);ctx.restore();flashIn(t,t0,.35)}
  ctx.restore()}
 

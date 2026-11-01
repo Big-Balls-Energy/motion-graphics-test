@@ -6,7 +6,7 @@ const SCENES=[
  {id:'salud',name:'01 · SALUD',a:15.1,b:26.2,vis:'Corazón con línea de pulso, pulmones que respiran; tarjetas ESTRÉS ↓ · SUEÑO ↑ · ENERGÍA ↑ con fuente OMS.'},
  {id:'cuerpo',name:'02 · CUERPO',a:26.2,b:37.6,vis:'Piernas pedaleando (toma conceptual) con PIERNAS y GLÚTEOS y contador de pedaladas; foto de su sitio «MOVEMENT» con BRAZOS · ESPALDA · ABDOMEN.'},
  {id:'rend',name:'03 · RENDIMIENTO',a:37.6,b:50.9,vis:'Barras RESISTENCIA · FUERZA · POTENCIA que se llenan sobre manos en el manubrio; tarjetas de sus clases reales (TRAIN y CYCLE).'},
- {id:'comunidad',name:'04 · COMUNIDAD: COACHES',a:50.9,b:61.9,vis:'Espejo que se rompe en «ES LA GENTE»; muro con los 11 coaches (fotos oficiales, sin repetir) y sus nombres.'},
+ {id:'comunidad',name:'04 · COMUNIDAD: COACHES',a:50.9,b:61.9,vis:'Espejo que se rompe en «ES LA GENTE»; muro con los 11 coaches (fotos oficiales, sin repetir) y montaje con los 11, uno por uno, con su nombre.'},
  {id:'juntos',name:'NADIE ENTRENA SOLO',a:61.9,b:67.5,vis:'Foto «STRENGTH» de su sitio teñida de azul, confeti azul y blanco.'},
  {id:'horarios',name:'CLASES DESDE LAS 6:00 AM',a:67.5,b:72.2,vis:'Semana LUN–DOM con la primera clase de cada día según su app.'},
  {id:'reserva',name:'RESERVA EN LA APP Y ETIQUETA A TU COMPA',a:72.2,b:80.3,vis:'Celular con app genérica: clase CYCLE · JUST RIDE → RESERVAR → ¡RESERVADO! ✓; comentario que etiqueta a un amigo.'},
@@ -77,7 +77,7 @@ sfx(28.2,'pop',.5);sfx(28.9,'pop',.5,1.08);sfx(30.5,'count',.35);sfx(32.4,'whoos
 sfx(39.85,'meter',.5);sfx(41.3,'meter',.5,1.08);sfx(42.4,'meter',.55,1.16);sfx(43.1,'impact',.6);
 [44.3,44.95,45.55,46.2,48.0].forEach((x,i)=>sfx(x,'lock',.5,1+i*.04));sfx(50.3,'whoosh',.6);
 sfx(51.6,'scan',.4);sfx(53.75,'impact',.9);sfx(53.77,'dissolve',.5);sfx(55.35,'whoosh',.5);
-for(let i=0;i<11;i++)sfx(55.6+i*.32,'tick',.35,1+i*.03);sfx(59.7,'sweep',.5);for(let i=0;i<5;i++)sfx(60.0+i*.38,'hit',.35,1+i*.05);
+for(let i=0;i<11;i++)sfx(55.6+i*.17,'tick',.35,1+i*.03);sfx(57.55,'sweep',.5);for(let i=0;i<11;i++)sfx(57.75+i*(61.4-57.75)/11,'hit',.3,1+i*.03);
 sfx(61.9,'flash',.3);sfx(62.45,'impact',.7);sfx(64.2,'chime',.5);sfx(66.3,'chord',.5,1.0);
 sfx(67.5,'whoosh',.6);for(let i=0;i<7;i++)sfx(68.0+i*.25,'blip',.45,1+i*.05);sfx(69.8,'ding',.5);
 sfx(72.2,'whoosh',.6);sfx(73.6,'click',.8);sfx(73.7,'select',.55);sfx(76.5,'whoosh',.5);for(let i=0;i<10;i++)sfx(77.2+i*.11,'key',.5,1+i*.02);sfx(78.6,'send',.6);
@@ -87,4 +87,4 @@ sfx(86.8,'whoosh',.4,1.3);sfx(87.1,'pop',.5);sfx(87.35,'pop',.5,1.1);sfx(88.2,'c
 
 window.TL={W,H,fps:30,duration:DUR,scenes:SCENES.map(s=>({id:s.id,name:s.name,a:s.a,b:s.b,vis:s.vis})),subs:SUBS.map(s=>({a:s.a,b:s.b,text:s.text,keys:s.keys})),holds:HOLDS,sfx:SFX,sources:SOURCES,
  musicDips:[[11.6,11.95],[53.45,53.75],[83.25,83.6]],
- musicBoost:[[3.6,4.1,1.2],[13.6,15.1,1.25],[25.6,26.5,1.15],[37.0,38.0,1.15],[50.3,51.35,1.15],[59.7,62.3,1.25],[86.8,89.5,1.2]]};
+ musicBoost:[[3.6,4.1,1.2],[13.6,15.1,1.25],[25.6,26.5,1.15],[37.0,38.0,1.15],[50.3,51.35,1.15],[57.6,62.3,1.25],[86.8,89.5,1.2]]};

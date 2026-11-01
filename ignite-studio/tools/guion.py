@@ -10,7 +10,7 @@ def srt(x): ms = int(round(x * 1000)); return f"{ms // 3600000:02d}:{ms // 60000
 
 # voz en off: una toma independiente por bloque (Fernanda, eleven_v4), colocada por voz-tools/voz_tomas.py ignite-studio
 VOZ = [(0.24, 3.33, '[excited] ¿Y si tu mejor versión… empieza con una sola clase?'),
-       (4.24, 9.28, 'Esto es Ignite Studio: cycling y entrenamiento funcional… aquí en Xalapa.'),
+       (4.24, 9.28, 'Esto es Ignite Studio: cycling y entrenamiento funcional… aquí en Jalapa.'),
        (10.14, 13.40, 'Aquí no vienes solo a sudar… [excited] vienes a encenderte.'),
        (15.34, 19.71, 'Uno: tu salud. Cada clase fortalece tu corazón… y tus pulmones.'),
        (20.42, 25.12, 'Bajas el estrés, duermes mejor… y sales con más energía de la que trajiste.'),
@@ -24,7 +24,7 @@ VOZ = [(0.24, 3.33, '[excited] ¿Y si tu mejor versión… empieza con una sola 
        (67.74, 71.60, 'Clases desde las seis de la mañana… entre semana y en fin de semana.'),
        (72.43, 75.92, 'Reserva tu lugar desde la app… y vive tu primera clase.'),
        (76.64, 79.63, 'Etiqueta a la persona con la que vendrías a tu primera clase.'),
-       (80.64, 84.57, 'Ignite Studio. Plaza Xanat, Xalapa. [warmly] Enciéndete.')]
+       (80.64, 84.57, 'Ignite Studio. Plaza Xanat, Jalapa. [warmly] Enciéndete.')]
 
 out = ["# Guion con tiempos — Ignite Studio (video promocional, 90 s)", "",
        "Video: `Ignite_Studio_Promo.mp4` (con voz de Fernanda) y `Ignite_Studio_Promo-sin-voz.mp4` · 1080×1920 · 30 fps · 90 s · H.264 + AAC · "

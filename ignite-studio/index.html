@@ -110,7 +110,7 @@ const SCENES=[
  {id:'salud',name:'01 · SALUD',a:15.1,b:26.2,vis:'Corazón con línea de pulso, pulmones que respiran; tarjetas ESTRÉS ↓ · SUEÑO ↑ · ENERGÍA ↑ con fuente OMS.'},
  {id:'cuerpo',name:'02 · CUERPO',a:26.2,b:37.6,vis:'Piernas pedaleando (toma conceptual) con PIERNAS y GLÚTEOS y contador de pedaladas; foto de su sitio «MOVEMENT» con BRAZOS · ESPALDA · ABDOMEN.'},
  {id:'rend',name:'03 · RENDIMIENTO',a:37.6,b:50.9,vis:'Barras RESISTENCIA · FUERZA · POTENCIA que se llenan sobre manos en el manubrio; tarjetas de sus clases reales (TRAIN y CYCLE).'},
- {id:'comunidad',name:'04 · COMUNIDAD: COACHES',a:50.9,b:61.9,vis:'Espejo que se rompe en «ES LA GENTE»; muro con los 11 coaches (fotos oficiales, sin repetir) y sus nombres.'},
+ {id:'comunidad',name:'04 · COMUNIDAD: COACHES',a:50.9,b:61.9,vis:'Espejo que se rompe en «ES LA GENTE»; muro con los 11 coaches (fotos oficiales, sin repetir) y montaje con los 11, uno por uno, con su nombre.'},
  {id:'juntos',name:'NADIE ENTRENA SOLO',a:61.9,b:67.5,vis:'Foto «STRENGTH» de su sitio teñida de azul, confeti azul y blanco.'},
  {id:'horarios',name:'CLASES DESDE LAS 6:00 AM',a:67.5,b:72.2,vis:'Semana LUN–DOM con la primera clase de cada día según su app.'},
  {id:'reserva',name:'RESERVA EN LA APP Y ETIQUETA A TU COMPA',a:72.2,b:80.3,vis:'Celular con app genérica: clase CYCLE · JUST RIDE → RESERVAR → ¡RESERVADO! ✓; comentario que etiqueta a un amigo.'},
@@ -181,7 +181,7 @@ sfx(28.2,'pop',.5);sfx(28.9,'pop',.5,1.08);sfx(30.5,'count',.35);sfx(32.4,'whoos
 sfx(39.85,'meter',.5);sfx(41.3,'meter',.5,1.08);sfx(42.4,'meter',.55,1.16);sfx(43.1,'impact',.6);
 [44.3,44.95,45.55,46.2,48.0].forEach((x,i)=>sfx(x,'lock',.5,1+i*.04));sfx(50.3,'whoosh',.6);
 sfx(51.6,'scan',.4);sfx(53.75,'impact',.9);sfx(53.77,'dissolve',.5);sfx(55.35,'whoosh',.5);
-for(let i=0;i<11;i++)sfx(55.6+i*.32,'tick',.35,1+i*.03);sfx(59.7,'sweep',.5);for(let i=0;i<5;i++)sfx(60.0+i*.38,'hit',.35,1+i*.05);
+for(let i=0;i<11;i++)sfx(55.6+i*.17,'tick',.35,1+i*.03);sfx(57.55,'sweep',.5);for(let i=0;i<11;i++)sfx(57.75+i*(61.4-57.75)/11,'hit',.3,1+i*.03);
 sfx(61.9,'flash',.3);sfx(62.45,'impact',.7);sfx(64.2,'chime',.5);sfx(66.3,'chord',.5,1.0);
 sfx(67.5,'whoosh',.6);for(let i=0;i<7;i++)sfx(68.0+i*.25,'blip',.45,1+i*.05);sfx(69.8,'ding',.5);
 sfx(72.2,'whoosh',.6);sfx(73.6,'click',.8);sfx(73.7,'select',.55);sfx(76.5,'whoosh',.5);for(let i=0;i<10;i++)sfx(77.2+i*.11,'key',.5,1+i*.02);sfx(78.6,'send',.6);
@@ -191,7 +191,7 @@ sfx(86.8,'whoosh',.4,1.3);sfx(87.1,'pop',.5);sfx(87.35,'pop',.5,1.1);sfx(88.2,'c
 
 window.TL={W,H,fps:30,duration:DUR,scenes:SCENES.map(s=>({id:s.id,name:s.name,a:s.a,b:s.b,vis:s.vis})),subs:SUBS.map(s=>({a:s.a,b:s.b,text:s.text,keys:s.keys})),holds:HOLDS,sfx:SFX,sources:SOURCES,
  musicDips:[[11.6,11.95],[53.45,53.75],[83.25,83.6]],
- musicBoost:[[3.6,4.1,1.2],[13.6,15.1,1.25],[25.6,26.5,1.15],[37.0,38.0,1.15],[50.3,51.35,1.15],[59.7,62.3,1.25],[86.8,89.5,1.2]]};
+ musicBoost:[[3.6,4.1,1.2],[13.6,15.1,1.25],[25.6,26.5,1.15],[37.0,38.0,1.15],[50.3,51.35,1.15],[57.6,62.3,1.25],[86.8,89.5,1.2]]};
 
 /* ================= PRIMITIVAS 2D ================= */
 function circle(x,y,r,fill,g=ctx){g.beginPath();g.arc(x,y,r,0,TAU);g.fillStyle=fill;g.fill()}
@@ -557,7 +557,8 @@ function coachCard(n,x,y,w,h,k=1,{label=true,z=1}={}){if(k<=0)return;ctx.save();
  photo('co_'+n,x,y,w,h,{fy:.25,r:24,z,src:IMG['co_'+n]});if(label){const g=ctx.createLinearGradient(0,y+h*.62,0,y+h);g.addColorStop(0,'rgba(3,8,23,0)');g.addColorStop(1,'rgba(3,8,23,.85)');ctx.fillStyle=g;rr(x,y,w,h,24);ctx.fill();
   text(n==='Sebastian'?'SEBASTIÁN':n.toUpperCase(),x+w/2,y+h-34,fitSize(n.toUpperCase(),'ANT',44,w-30,3),'ANT',C.white,'center',3)}
  rr(x,y,w,h,24);ctx.strokeStyle=rgba(C.cyan,.55);ctx.lineWidth=3;ctx.stroke();ctx.restore()}
-const MONT=['Mime','Julius','Montse','Zamora','Vale'];
+// montaje: los 11 coaches, uno por uno, del 57.75 al 61.4 (≈ 0.33 s cada uno)
+const MONT=T.coaches,M0=57.75,MD=(61.4-M0)/T.coaches.length;
 function sComunidad(t){const a=50.9,b=61.9,o=sceneOut(t,b);bgBlue(t);flashIn(t,a,.6);secHeader(t,a,b,T.sec[3]);
  ctx.save();ctx.globalAlpha=o;
  // espejo
@@ -572,15 +573,15 @@ function sComunidad(t){const a=50.9,b=61.9,o=sceneOut(t,b);bgBlue(t);flashIn(t,a
  // ES LA GENTE
  const kg=p(t,53.75,54.0),og=1-eo(p(t,55.1,55.4));if(kg>0&&og>0){ctx.save();ctx.globalAlpha*=og;slam(T.gente,CX,880,190,t,53.75,{glow:true,col:C.white,from:2});ctx.restore();lensFlare(CX,880,bell(t,53.75,54.4)*1.2,C.cyan)}
  // muro de coaches (11, sin repetir)
- const kw=eo(p(t,55.25,55.7)),ow=1-eo(p(t,59.6,59.9));if(kw>0&&ow>0){ctx.save();ctx.globalAlpha*=kw*ow;
+ const kw=eo(p(t,55.25,55.7)),ow=1-eo(p(t,M0-.2,M0));if(kw>0&&ow>0){ctx.save();ctx.globalAlpha*=kw*ow;
   text(T.coachLabel,CX,470,fitSize(T.coachLabel,'JBM',28,840,3),'JBM',C.pink,'center',3);
-  const cw=200,ch=245,dy=-30*eio(p(t,55.25,59.9));
-  for(let ix=0;ix<12;ix++){const c=ix%4,r=Math.floor(ix/4),x=75+c*(cw+16),y=520+r*(ch+12)+dy,k=eback(p(t,55.4+ix*.3,55.4+ix*.3+.35));
+  const cw=200,ch=245,dy=-30*eio(p(t,55.25,M0));
+  for(let ix=0;ix<12;ix++){const c=ix%4,r=Math.floor(ix/4),x=75+c*(cw+16),y=520+r*(ch+12)+dy,k=eback(p(t,55.4+ix*.17,55.4+ix*.17+.3));
    if(ix<11)coachCard(T.coaches[ix],x,y,cw,ch,k);
    else if(k>0){ctx.save();ctx.globalAlpha*=Math.min(1,k);rr(x,y,cw,ch,24);ctx.fillStyle=C.blue;ctx.fill();ctx.restore();avatar(x+cw/2,y+ch/2-20,62,k,{ring:false});ctx.save();ctx.globalAlpha*=Math.min(1,k);text('Y TÚ',x+cw/2,y+ch-40,40,'ANT',C.white,'center',3);ctx.restore()}}
   ctx.restore()}
  // montaje rápido
- if(t>=59.9){const i=Math.min(MONT.length-1,Math.floor((t-59.9)/.4)),t0=59.9+i*.4,k=eo(p(t,t0,t0+.12)),z=1.08-.08*p(t,t0,t0+.4);
+ if(t>=M0){const i=Math.min(MONT.length-1,Math.floor((t-M0)/MD)),t0=M0+i*MD,k=eo(p(t,t0,t0+.1)),z=1.08-.08*p(t,t0,t0+MD);
   ctx.save();ctx.translate(CX,900);ctx.scale(z,z);ctx.translate(-CX,-900);coachCard(MONT[i],CX-290,540,580,740,k);ctx.restore();flashIn(t,t0,.35)}
  ctx.restore()}
 

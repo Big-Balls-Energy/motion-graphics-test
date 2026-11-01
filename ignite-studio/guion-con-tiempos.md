@@ -76,7 +76,7 @@ _Visual: Barras RESISTENCIA · FUERZA · POTENCIA que se llenan sobre manos en e
 
 ## 00:50.90 – 01:01.90 · 04 · COMUNIDAD: COACHES
 
-_Visual: Espejo que se rompe en «ES LA GENTE»; muro con los 11 coaches (fotos oficiales, sin repetir) y sus nombres._
+_Visual: Espejo que se rompe en «ES LA GENTE»; muro con los 11 coaches (fotos oficiales, sin repetir) y montaje con los 11, uno por uno, con su nombre._
 
 | Entra | Sale | En pantalla | ritmo |
 |---|---|---|---|
@@ -134,7 +134,7 @@ Ninguna toma se cortó: cada bloque se grabó por separado y solo se acortaron s
 | Bloque | Entra – sale | Texto grabado |
 |---|---|---|
 | 00 | 00:00.24 – 00:03.33 | [excited] ¿Y si tu mejor versión… empieza con una sola clase? |
-| 01 | 00:04.24 – 00:09.28 | Esto es Ignite Studio: cycling y entrenamiento funcional… aquí en Xalapa. |
+| 01 | 00:04.24 – 00:09.28 | Esto es Ignite Studio: cycling y entrenamiento funcional… aquí en Jalapa. |
 | 02 | 00:10.14 – 00:13.40 | Aquí no vienes solo a sudar… [excited] vienes a encenderte. |
 | 03 | 00:15.34 – 00:19.71 | Uno: tu salud. Cada clase fortalece tu corazón… y tus pulmones. |
 | 04 | 00:20.42 – 00:25.12 | Bajas el estrés, duermes mejor… y sales con más energía de la que trajiste. |
@@ -148,7 +148,7 @@ Ninguna toma se cortó: cada bloque se grabó por separado y solo se acortaron s
 | 12 | 01:07.74 – 01:11.60 | Clases desde las seis de la mañana… entre semana y en fin de semana. |
 | 13 | 01:12.43 – 01:15.92 | Reserva tu lugar desde la app… y vive tu primera clase. |
 | 14 | 01:16.64 – 01:19.63 | Etiqueta a la persona con la que vendrías a tu primera clase. |
-| 15 | 01:20.64 – 01:24.57 | Ignite Studio. Plaza Xanat, Xalapa. [warmly] Enciéndete. |
+| 15 | 01:20.64 – 01:24.57 | Ignite Studio. Plaza Xanat, Jalapa. [warmly] Enciéndete. |
 
 ## Notas de producción
 
@@ -159,7 +159,7 @@ Ninguna toma se cortó: cada bloque se grabó por separado y solo se acortaron s
 - Tipos de clase: TRAIN (Full Lower Body, Push, Pull + Abs, Full Body Resistance, Glúteo + Femoral…) y CYCLE (Just Ride y rodadas temáticas).
 - Primera clase de cada día en la semana del 26 oct al 1 nov 2026: LUN 6:00 · MAR 7:00 · MIÉ 6:00 · JUE 7:00 · VIE 6:00 · SÁB 8:30 · DOM 9:00 (todas AM). En pantalla se aclara que son de esa semana y que los vigentes están en su app.
 - Reservas desde su app (iOS y Android). La pantalla del celular es una app **genérica** dibujada, no una captura de la suya.
-- Coaches: 11 perfiles únicos en su sitio (Emilio, Isa, Ivana, Jorge, Julius, Mime, Montse, Rebeca, Sebastián, Vale, Zamora). Ivana, Julius, Mime y Vale aparecen dos veces en su sitio; aquí cada uno sale una sola vez en el muro (y 5 repiten en el montaje rápido final del muro).
+- Coaches: 11 perfiles únicos en su sitio (Emilio, Isa, Ivana, Jorge, Julius, Mime, Montse, Rebeca, Sebastián, Vale, Zamora). Ivana, Julius, Mime y Vale aparecen dos veces en su sitio; aquí cada uno sale una sola vez en el muro y una vez en el montaje final, uno por uno, con su nombre.
 - Sin precios (decisión del usuario).
 
 **Beneficios de salud:** se dicen en términos generales (corazón, pulmones, estrés, sueño, energía), con la leyenda «Beneficios del ejercicio regular según la OMS (2020). Los resultados varían de persona a persona». Las barras de RESISTENCIA · FUERZA · POTENCIA y el contador de pedaladas son gráficos ilustrativos, sin cifras.
@@ -172,7 +172,7 @@ Ninguna toma se cortó: cada bloque se grabó por separado y solo se acortaron s
 
 **Tipografías:** Anton (titulares), Space Grotesk y JetBrains Mono (libres, OFL). No se usó la tipografía de su logotipo.
 
-**Voz:** Fernanda (`eleven_v4`), 16 bloques con 2 tomas cada uno (≈ 2,100 créditos de ElevenLabs). «Ignite» se escribió «Ignáit» para que lo pronuncie en inglés; la transcripción confirmó «Ignáit Studio», «Plaza Xanat» y «Xalapa».
+**Voz:** Fernanda (`eleven_v4`), 16 bloques con 2 tomas cada uno (≈ 2,100 créditos de ElevenLabs). «Ignite» se escribió «Ignáit» para que lo pronuncie en inglés; los bloques 01 y 15 se rehicieron con «Jalapa» (así se pronuncia la ciudad); la transcripción confirmó «Ignáit Studio», «Plaza Xanat» y «Jalapa».
 
 **Fuentes:**
 - [Ignite Studio — sitio oficial](https://www.ignite.cyclingboost.com/)

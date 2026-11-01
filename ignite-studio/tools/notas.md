@@ -7,7 +7,7 @@
 - Tipos de clase: TRAIN (Full Lower Body, Push, Pull + Abs, Full Body Resistance, Glúteo + Femoral…) y CYCLE (Just Ride y rodadas temáticas).
 - Primera clase de cada día en la semana del 26 oct al 1 nov 2026: LUN 6:00 · MAR 7:00 · MIÉ 6:00 · JUE 7:00 · VIE 6:00 · SÁB 8:30 · DOM 9:00 (todas AM). En pantalla se aclara que son de esa semana y que los vigentes están en su app.
 - Reservas desde su app (iOS y Android). La pantalla del celular es una app **genérica** dibujada, no una captura de la suya.
-- Coaches: 11 perfiles únicos en su sitio (Emilio, Isa, Ivana, Jorge, Julius, Mime, Montse, Rebeca, Sebastián, Vale, Zamora). Ivana, Julius, Mime y Vale aparecen dos veces en su sitio; aquí cada uno sale una sola vez en el muro (y 5 repiten en el montaje rápido final del muro).
+- Coaches: 11 perfiles únicos en su sitio (Emilio, Isa, Ivana, Jorge, Julius, Mime, Montse, Rebeca, Sebastián, Vale, Zamora). Ivana, Julius, Mime y Vale aparecen dos veces en su sitio; aquí cada uno sale una sola vez en el muro y una vez en el montaje final, uno por uno, con su nombre.
 - Sin precios (decisión del usuario).
 
 **Beneficios de salud:** se dicen en términos generales (corazón, pulmones, estrés, sueño, energía), con la leyenda «Beneficios del ejercicio regular según la OMS (2020). Los resultados varían de persona a persona». Las barras de RESISTENCIA · FUERZA · POTENCIA y el contador de pedaladas son gráficos ilustrativos, sin cifras.
@@ -20,7 +20,7 @@
 
 **Tipografías:** Anton (titulares), Space Grotesk y JetBrains Mono (libres, OFL). No se usó la tipografía de su logotipo.
 
-**Voz:** Fernanda (`eleven_v4`), 16 bloques con 2 tomas cada uno (≈ 2,100 créditos de ElevenLabs). «Ignite» se escribió «Ignáit» para que lo pronuncie en inglés; la transcripción confirmó «Ignáit Studio», «Plaza Xanat» y «Xalapa».
+**Voz:** Fernanda (`eleven_v4`), 16 bloques con 2 tomas cada uno (≈ 2,100 créditos de ElevenLabs). «Ignite» se escribió «Ignáit» para que lo pronuncie en inglés; los bloques 01 y 15 se rehicieron con «Jalapa» (así se pronuncia la ciudad); la transcripción confirmó «Ignáit Studio», «Plaza Xanat» y «Jalapa».
 
 **Fuentes:**
 - [Ignite Studio — sitio oficial](https://www.ignite.cyclingboost.com/)
