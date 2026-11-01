@@ -33,7 +33,7 @@ ffmpeg -i raw.mp4 -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:v copy -c:a aac -b:a 192k
 ## Lo que aprendí
 - **Velocidad:** 15.8 s en 77 s con 2 núcleos (≈ 4.9 s de cómputo por segundo de video). Nuestro `render_paralelo.sh` tarda ≈ 8 s por segundo.
 - **Combinar funciona bien:** un MP4 nuestro entra como `<video>` (hijo directo del root, con `data-media-start` para recortar) y HyperFrames le pone transiciones, zooms y escenas antes y después. También se puede al revés: renderizar un tramo en HyperFrames y unirlo con ffmpeg a un reel nuestro.
-- **Registro de ~450 bloques** (`hyperframes catalog --query "…"`): transiciones, subtítulos tipo karaoke, contadores, tarjetas sociales, efectos. Ojo: algunos dibujan logotipos reales (p. ej. `instagram-follow`), y eso choca con nuestra regla de «sin logotipos reales». Por eso el CTA se hizo a mano.
+- **Registro de ~450 bloques** (`hyperframes catalog --query "…"`): transiciones, subtítulos tipo karaoke, contadores, tarjetas sociales, efectos. Algunos dibujan logotipos reales (p. ej. `instagram-follow`). Desde el 1 nov 2026 los logos se permiten en uso editorial (ver `CLAUDE.md`), pero en el CTA propio de Atlas Path seguimos usando nuestro botón SEGUIR.
 - **Revisión integrada:** `check` detectó errores reales (un tween de `letterSpacing` que da saltos, textos que se quedan muy poco tiempo en pantalla) y `snapshot` arma hojas de contacto.
 - **Cuidados:**
   - `fromTo` dentro de un `for` necesita `immediateRender: false`, si no aparece un punto fantasma antes de tiempo (pasó sobre «SEGUIR»).

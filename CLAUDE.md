@@ -9,7 +9,7 @@ Cada carpeta (`prueba-social/`, `arquetipos/`, `viaje-heroe/`…) es un reel de 
 - Cierre/CTA: logo grande en avatar + «ATLAS PATH» + `@Atlas_Path` + botón SEGUIR con cursor y clic; el último medio segundo regresa al primer cuadro (loop).
 - Zonas seguras: nada clave en los 250 px superiores, los 400 px inferiores ni los 120 px de la derecha.
 - Subtítulos: 3–5 palabras por bloque, ≥ 1.5 s, ≤ 2.3 palabras/s, karaoke con palabra clave resaltada; 0.5 s de pausa entre escenas. Validar con `tools/guion.py`.
-- Sin logotipos, tipografías ni personajes reales: las marcas solo como texto.
+- Logos de marcas y fotos de personajes reales: **sí se pueden usar** cuando aportan al reel (uso editorial), con los archivos originales que consiga el usuario (logo oficial, foto de prensa o con licencia editorial, con crédito si la fuente lo pide). No se redibujan, deforman ni recolorean, no se generan con IA y no se da a entender patrocinio («Sin afiliación con X» en la fuente). Si no hay archivo, la marca va como texto y la persona como silueta. Las tipografías comerciales de las marcas siguen sin usarse.
 - Verificar los datos de noticias o estadísticas antes de animarlos y marcar las estimaciones como tales.
 
 ## Voz en off (ElevenLabs)

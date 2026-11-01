@@ -120,9 +120,12 @@ motion-graphics-test/
 - Nunca tapa la voz: `voz_tomas.py` la baja 25 % mientras ella habla.
 
 **Marcas y personas:**
-- Sin logotipos, tipografías ni personajes reales: las marcas solo como texto.
-- Las personas reales solo con las fotos que manda el usuario, sin retocar caras.
-- Se borran logotipos de las fotos. Si una foto trae marca de agua de banco de imágenes, se borra si se puede y se avisa que conviene la versión con licencia.
+- **Regla actualizada el 1 nov 2026 (pedido del usuario):** los logos de las marcas y las fotos de los personajes y emprendedores **sí se pueden mostrar** cuando aportan al reel (caso de marca, personaje, noticia). Es uso editorial: se habla de la marca o de la persona, no se la usa para vender.
+- **De dónde salen:** archivos originales que consigue el usuario: logo oficial (kit de prensa o sitio de la marca) y fotos de prensa o con licencia editorial. Se guardan en `<reel>/assets/marcas/` y `<reel>/assets/personas/`, y el crédito va en la fuente si la licencia lo pide (p. ej. «Foto: prensa de Apple»). Claude no los descarga de la web ni los redibuja con código.
+- **Cómo se usan:** tal cual, sin deformar, recolorear ni cambiar rasgos. Nunca se generan con IA (Higgsfield) caras de personas reales ni logotipos. Sin dar a entender patrocinio: agregar «Sin afiliación con X» en la fuente.
+- **Si no hay archivo:** la marca va como texto y la persona como silueta con su nombre (como hasta ahora). En modo automático no se detiene el reel: se entrega así y en el mensaje se dice qué logo o foto lo mejoraría para reemplazarlo después.
+- Las tipografías comerciales de las marcas siguen sin usarse (no hay licencia); se escribe el nombre con las fuentes de Atlas Path.
+- En fotos de banco, se borran los logotipos **ajenos al tema** del reel. Si una foto trae marca de agua de banco de imágenes, se borra si se puede y se avisa que conviene la versión con licencia.
 
 **Datos:**
 - Verificar todo antes de animarlo y no inventar cifras ni atribuciones.
@@ -318,7 +321,7 @@ Haz la cuenta de tiempos:
    ```
    Conserva los blancos interiores, como la pantalla de un celular.
    - Para fondos de otro color: `bg_model` + `keep_largest` desde Python (`from herramientas.fotos import …`).
-3. Logotipos, marcas y textos de marca:
+3. Logotipos, marcas y textos de marca **ajenos al tema** (los de la marca del reel se dejan):
    ```bash
    python3 herramientas/fotos.py borrar foto.jpg foto.jpg rect:562,993,624,1013 --sigma 4
    ```

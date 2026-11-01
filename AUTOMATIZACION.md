@@ -16,7 +16,7 @@ Cada corrida de la tarea programada hace **un reel completo** sin preguntar nada
 ## 2. Producir (según `GUIA-REELS.md`, sección 4)
 - `bash herramientas/nuevo_reel.sh <carpeta>` con base `precio-99` o `consejos-ia`. Duración 60 s (concepto), 75 s (caso o historia) u 80–90 s (noticia compleja).
 - Estructura viral: hook 0–4 s, giro, dato con fuente, explicación, ejemplos, aplicación, CTA con palabra clave (≥ 3 s sola), loop.
-- Fotos: **primero reutiliza** las de `*/assets/fotos/`; genera en Higgsfield solo lo que falte (`gpt_image_2_5` low 1k, recortes con fondo transparente, máx. 10, reserva de 20 créditos). Personas reales: solo siluetas o tipografía (no generar ni redibujar caras).
+- Fotos: **primero reutiliza** las de `*/assets/fotos/`; genera en Higgsfield solo lo que falte (`gpt_image_2_5` low 1k, recortes con fondo transparente, máx. 10, reserva de 20 créditos). Logos de marcas y fotos de personajes reales: **permitidos** si el archivo original ya está en el repo (`<reel>/assets/marcas/`, `<reel>/assets/personas/`) o lo manda el usuario; nunca generarlos con IA ni redibujarlos. Si no hay archivo: marca en texto y silueta con nombre, y en el mensaje de entrega decir qué logo o foto lo mejoraría.
 - Voz **obligatoria**: Fernanda (`ARmPWZKt7WpXh6QDHA6x`, `eleven_v4`), una llamada por bloque, máx. 20 bloques, **sin reintentos**. Error de créditos de ElevenLabs → para la voz, entrega sin voz, avisa y desactiva la tarea programada «Reel automático Atlas Path» (`list_triggers` → `update_trigger enabled=false`).
 - Colocar voz: `bajar_tomas.py` → agregar `SLOTS` en `voz_tomas.py` → `silencios.sh` → ajustar karaoke `[voz desde, voz hasta]` en `SUBS_RAW`.
 - Música: adapta `tools/audio.py` (BPM = compases × 240 / duración).
