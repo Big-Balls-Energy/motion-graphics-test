@@ -1,0 +1,562 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 90,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: RESPIRA",
+   "a": 0,
+   "b": 8.6,
+   "vis": "Luz de mañana y sombras de hojas sobre muro crema (IA); «Respira.» en serif; anillo que respira; aparece el logo «se», SERUNA · ACTIVE WEAR."
+  },
+  {
+   "id": "origen",
+   "name": "BIENESTAR SIN PERFECCIÓN",
+   "a": 8.6,
+   "b": 17.2,
+   "vis": "Su foto de tarjetas en círculo; Xalapa, Veracruz; «bienestar sin perfección» (Wellness without perfection)."
+  },
+  {
+   "id": "mrl",
+   "name": "MOVE · REST · LIVE",
+   "a": 17.2,
+   "b": 26.9,
+   "vis": "Tríptico con sus fotos: MOVE (pilates), REST (Set Comfy), LIVE (Daily Set); se funde en su foto de dos amigas abrazadas."
+  },
+  {
+   "id": "inspirada",
+   "name": "INSPIRED BY NATURE",
+   "a": 26.9,
+   "b": 31.6,
+   "vis": "«Inspired by nature.» y telas en sus colores dentro de un arco (IA)."
+  },
+  {
+   "id": "colores",
+   "name": "SUS 8 COLORES",
+   "a": 31.6,
+   "b": 44.9,
+   "vis": "Obsidiana, Laurel, Marea, Duna, Índigo, Cacao, Piedra y Merlot: naturaleza (IA) + su prenda real de ese color; cierra con la paleta de 8."
+  },
+  {
+   "id": "telas",
+   "name": "TELAS FLEXIBLES · DEL MAT A TU DÍA",
+   "a": 44.9,
+   "b": 54,
+   "vis": "Prenda real con líneas que fluyen; sus fotos de pilates y de día a día."
+  },
+  {
+   "id": "sets",
+   "name": "UN SET PARA CADA MOMENTO",
+   "a": 54,
+   "b": 62.9,
+   "vis": "Set Active, Flex Set y Set Comfy con su intención; después los 5 sets del catálogo."
+  },
+  {
+   "id": "volver",
+   "name": "VOLVER A TI",
+   "a": 62.9,
+   "b": 67.8,
+   "vis": "Bosque con neblina (IA); «Moverte no es exigirte… es volver a ti.»"
+  },
+  {
+   "id": "juntas",
+   "name": "CADA UNA A SU RITMO · COMPÁRTELO",
+   "a": 67.8,
+   "b": 75,
+   "vis": "Sus fotos de comunidad; invitación a compartir con tu compañera de pilates."
+  },
+  {
+   "id": "cierre",
+   "name": "CIERRE: @serunabalance",
+   "a": 75,
+   "b": 90,
+   "vis": "Logo «se», SERUNA · ACTIVE WEAR, @serunabalance 3 s sola, «Vuelve a tu cuerpo.» y botón Seguir con toque; el último medio segundo regresa al primer cuadro (loop)."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.9,
+   "b": 2.9,
+   "text": "Respira hondo… ¿hace cuánto",
+   "keys": [
+    "Respira"
+   ]
+  },
+  {
+   "a": 2.9,
+   "b": 4.7,
+   "text": "no te mueves… solo",
+   "keys": [
+    "mueves…"
+   ]
+  },
+  {
+   "a": 4.7,
+   "b": 6.4,
+   "text": "para sentirte bien?",
+   "keys": [
+    "bien?"
+   ]
+  },
+  {
+   "a": 8.95,
+   "b": 10.75,
+   "text": "Seruna nace en Xalapa",
+   "keys": [
+    "Seruna"
+   ]
+  },
+  {
+   "a": 10.75,
+   "b": 12.5,
+   "text": "con una idea sencilla:",
+   "keys": [
+    "idea"
+   ]
+  },
+  {
+   "a": 12.5,
+   "b": 14.8,
+   "text": "bienestar sin perfección.",
+   "keys": [
+    "perfección"
+   ]
+  },
+  {
+   "a": 17.55,
+   "b": 19.2,
+   "text": "Ropa para moverte…",
+   "keys": [
+    "moverte…"
+   ]
+  },
+  {
+   "a": 19.2,
+   "b": 21,
+   "text": "para descansar y vivir.",
+   "keys": [
+    "vivir"
+   ]
+  },
+  {
+   "a": 27.35,
+   "b": 29.2,
+   "text": "Inspirada en la naturaleza,",
+   "keys": [
+    "naturaleza"
+   ]
+  },
+  {
+   "a": 29.2,
+   "b": 31.1,
+   "text": "cada color, una historia.",
+   "keys": [
+    "historia"
+   ]
+  },
+  {
+   "a": 31.75,
+   "b": 35,
+   "text": "Obsidiana, laurel, marea, duna…",
+   "keys": [
+    "duna…"
+   ]
+  },
+  {
+   "a": 36.25,
+   "b": 39.4,
+   "text": "Índigo, cacao, piedra, merlot.",
+   "keys": [
+    "merlot"
+   ]
+  },
+  {
+   "a": 45.45,
+   "b": 47.3,
+   "text": "Telas que se adaptan",
+   "keys": [
+    "adaptan"
+   ]
+  },
+  {
+   "a": 47.3,
+   "b": 48.9,
+   "text": "a cada movimiento…",
+   "keys": [
+    "movimiento…"
+   ]
+  },
+  {
+   "a": 48.9,
+   "b": 50.7,
+   "text": "del mat de pilates",
+   "keys": [
+    "pilates"
+   ]
+  },
+  {
+   "a": 50.7,
+   "b": 52.9,
+   "text": "a tu día a día.",
+   "keys": [
+    "día."
+   ]
+  },
+  {
+   "a": 54.45,
+   "b": 56.3,
+   "text": "Un set para entrenar…",
+   "keys": [
+    "entrenar…"
+   ]
+  },
+  {
+   "a": 56.3,
+   "b": 57.8,
+   "text": "otro para fluir…",
+   "keys": [
+    "fluir…"
+   ]
+  },
+  {
+   "a": 57.8,
+   "b": 61.2,
+   "text": "y otro para descansar.",
+   "keys": [
+    "descansar"
+   ]
+  },
+  {
+   "a": 63.45,
+   "b": 65.6,
+   "text": "Moverte no es exigirte…",
+   "keys": [
+    "exigirte…"
+   ]
+  },
+  {
+   "a": 65.6,
+   "b": 67.3,
+   "text": "volver a ti.",
+   "keys": [
+    "ti"
+   ]
+  },
+  {
+   "a": 67.95,
+   "b": 69.7,
+   "text": "Cada una, su ritmo…",
+   "keys": [
+    "ritmo…"
+   ]
+  },
+  {
+   "a": 69.7,
+   "b": 71.95,
+   "text": "todas a nuestra manera.",
+   "keys": [
+    "manera"
+   ]
+  },
+  {
+   "a": 71.95,
+   "b": 74.5,
+   "text": "Compártelo con tu compañera…",
+   "keys": [
+    "Compártelo"
+   ]
+  },
+  {
+   "a": 75.05,
+   "b": 76.6,
+   "text": "Síguenos en Instagram:",
+   "keys": [
+    "Instagram"
+   ]
+  },
+  {
+   "a": 79.6,
+   "b": 81.9,
+   "text": "Seruna. Vuelve a tu cuerpo.",
+   "keys": [
+    "cuerpo"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 76.6,
+   "b": 79.6,
+   "text": "@serunabalance",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "chime",
+   "v": 0.35,
+   "pitch": 0.8
+  },
+  {
+   "t": 5.8,
+   "type": "chime",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 6.4,
+   "type": "whoosh",
+   "v": 0.18,
+   "pitch": 0.6
+  },
+  {
+   "t": 8.6,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 17.2,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 26.9,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 44.9,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 54,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 62.9,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 67.8,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 75,
+   "type": "whoosh",
+   "v": 0.16,
+   "pitch": 0.55
+  },
+  {
+   "t": 12.3,
+   "type": "chime",
+   "v": 0.3,
+   "pitch": 1.2
+  },
+  {
+   "t": 17.6,
+   "type": "pop",
+   "v": 0.18,
+   "pitch": 0.8
+  },
+  {
+   "t": 19.1,
+   "type": "pop",
+   "v": 0.18,
+   "pitch": 0.8600000000000001
+  },
+  {
+   "t": 20.2,
+   "type": "pop",
+   "v": 0.18,
+   "pitch": 0.92
+  },
+  {
+   "t": 27.4,
+   "type": "chime",
+   "v": 0.3,
+   "pitch": 0.9
+  },
+  {
+   "t": 31.82,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.7
+  },
+  {
+   "t": 32.89,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.74
+  },
+  {
+   "t": 33.62,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.7799999999999999
+  },
+  {
+   "t": 34.38,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.82
+  },
+  {
+   "t": 36.34,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.86
+  },
+  {
+   "t": 37.23,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.8999999999999999
+  },
+  {
+   "t": 38.01,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.94
+  },
+  {
+   "t": 38.76,
+   "type": "ding",
+   "v": 0.16,
+   "pitch": 0.98
+  },
+  {
+   "t": 39.6,
+   "type": "chime",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.5,
+   "type": "sweep",
+   "v": 0.12,
+   "pitch": 0.6
+  },
+  {
+   "t": 54.5,
+   "type": "pop",
+   "v": 0.18,
+   "pitch": 0.85
+  },
+  {
+   "t": 56.06,
+   "type": "pop",
+   "v": 0.18,
+   "pitch": 0.9099999999999999
+  },
+  {
+   "t": 57.84,
+   "type": "pop",
+   "v": 0.18,
+   "pitch": 0.97
+  },
+  {
+   "t": 59.6,
+   "type": "chime",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 65.7,
+   "type": "chime",
+   "v": 0.35,
+   "pitch": 0.8
+  },
+  {
+   "t": 72,
+   "type": "send",
+   "v": 0.25,
+   "pitch": 0.8
+  },
+  {
+   "t": 75.3,
+   "type": "chime",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 76.6,
+   "type": "ding",
+   "v": 0.25,
+   "pitch": 0.8
+  },
+  {
+   "t": 85,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 85.02,
+   "type": "pop",
+   "v": 0.25,
+   "pitch": 1.1
+  },
+  {
+   "t": 89.45,
+   "type": "whoosh",
+   "v": 0.2,
+   "pitch": 0.55
+  }
+ ],
+ "sources": [
+  [
+   0.3,
+   8.2,
+   [
+    "Imágenes de naturaleza: conceptuales."
+   ]
+  ],
+  [
+   26.9,
+   44.4,
+   [
+    "Imágenes de naturaleza: conceptuales."
+   ]
+  ],
+  [
+   62.9,
+   67.4,
+   [
+    "Imágenes de naturaleza: conceptuales."
+   ]
+  ]
+ ],
+ "musicDips": [],
+ "musicBoost": [
+  [
+   5.6,
+   8.6,
+   1.15
+  ],
+  [
+   39.4,
+   44.9,
+   1.2
+  ],
+  [
+   82,
+   89.5,
+   1.2
+  ]
+ ]
+}
