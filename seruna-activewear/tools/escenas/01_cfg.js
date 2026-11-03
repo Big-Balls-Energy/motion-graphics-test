@@ -12,14 +12,14 @@ const C={bg:'#ECE8E4',cream:'#ECE8E4',paper:'#F5F2EE',stone:'#D8D0C6',ink:'#3F45
  white:'#FFFFFF',gray:'#8C8F92',cyan:'#6E806B',blue:'#6E806B',amber:'#9C7A4E',pink:'#6E806B',green:'#6E806B',red:'#9A4B4B',navy:'#24344F'};
 // sus 8 colores (muestras tomadas de su publicación «The color of seruna»)
 const COLORES=[
- {n:'Obsidiana',hex:'#0C0C0A',foto:'N01_obsidiana',prod:'p15',t:31.82},
- {n:'Laurel',hex:'#3C6325',foto:'N02_laurel',prod:'p19',t:32.89},
- {n:'Marea',hex:'#24344F',foto:'N03_marea',prod:'p09',t:33.62},
- {n:'Duna',hex:'#724A16',foto:'N04_duna',prod:'p07',t:34.38},
+ {n:'Obsidiana',hex:'#0C0C0A',foto:'N01_obsidiana',prod:'p15',t:31.83},
+ {n:'Laurel',hex:'#3C6325',foto:'N02_laurel',prod:'p19',t:33.03},
+ {n:'Marea',hex:'#24344F',foto:'N03_marea',prod:'p09',t:33.90},
+ {n:'Duna',hex:'#724A16',foto:'N04_duna',prod:'p07',t:34.74},
  {n:'Índigo',hex:'#061A3B',foto:'N05_indigo',prod:'p21',t:36.34},
- {n:'Cacao',hex:'#381904',foto:'N06_cacao',prod:'p23',t:37.23},
- {n:'Piedra',hex:'#4A5058',foto:'N07_piedra',prod:'p11',t:38.01},
- {n:'Merlot',hex:'#492E30',foto:'N08_merlot',prod:'p13',t:38.76}];
+ {n:'Cacao',hex:'#381904',foto:'N06_cacao',prod:'p23',t:37.28},
+ {n:'Piedra',hex:'#4A5058',foto:'N07_piedra',prod:'p11',t:38.23},
+ {n:'Merlot',hex:'#492E30',foto:'N08_merlot',prod:'p13',t:38.95}];
 // sus sets (catálogo «Colección de lanzamiento», octubre 2026)
 const SETS=[{n:'Daily Set',l:'LIVE',p:'p07'},{n:'Flex Set',l:'MOVE',p:'p13'},{n:'Top Twist',l:'MOVE',p:'p17'},{n:'Set Active',l:'MOVE',p:'p19'},{n:'Set Comfy',l:'REST',p:'p23'}];
 const T={

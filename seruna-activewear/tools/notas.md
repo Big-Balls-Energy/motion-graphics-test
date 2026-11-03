@@ -18,7 +18,7 @@
 
 **Tipografías:** Cormorant Garamond y Poppins (libres, OFL). No se usó la tipografía de su logotipo.
 
-**Voz:** Fernanda (`eleven_v4`), tono suave (`[softly]` / `[warmly]`), 16 bloques con 2 tomas cada uno. Dice «Jalapa» (así se pronuncia); en pantalla se escribe «Xalapa». La invitación final dice «arroba seruna balance» y en pantalla aparece @serunabalance 3 s sola.
+**Voz:** Fernanda (`eleven_v4`), tono tranquilo y cálido (`[warmly]`), una toma por bloque. La primera versión usaba `[softly]` y sonaba casi a susurro (solo 6–58 % de voz sonora); se regrabó toda con `[warmly]` y menos puntos suspensivos, y se eligió en cada bloque la toma más sonora (47–83 %). Las tomas anteriores quedan en `audio/voz-raw/tomas-v1-susurro/`. Dice «Jalapa» (así se pronuncia); en pantalla se escribe «Xalapa». La invitación final dice «arroba seruna balance» y en pantalla aparece @serunabalance 3 s sola.
 
 **Música:** ambiental propia a 72 BPM (27 compases exactos en 90 s): pads, kalimba, campanas, bajo suave, viento y gotas; sin batería. Va 4 dB más baja que en los reels con batería para que la voz quede al frente.
 

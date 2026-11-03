@@ -9,22 +9,22 @@ def ts(x): return f"{int(x // 60):02d}:{x % 60:05.2f}"
 def srt(x): ms = int(round(x * 1000)); return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
 
 # voz en off: una toma independiente por bloque (Fernanda, eleven_v4), colocada por voz-tools/voz_tomas.py seruna-activewear
-VOZ = [(1.00, 5.36, '[softly] Respira hondo… ¿hace cuánto no te mueves… solo para sentirte bien?'),
-       (9.00, 11.79, '[softly] Seruna nace en Jalapa con una idea sencilla:'),
-       (12.30, 14.44, '[warmly] bienestar… sin perfección.'),
-       (17.60, 21.09, '[softly] Ropa para moverte… para descansar… y para vivir.'),
-       (27.40, 30.97, '[softly] Inspirada en la naturaleza, cada color cuenta una historia:'),
-       (31.80, 34.94, '[softly] obsidiana… laurel… marea… duna…'),
-       (36.30, 39.33, '[softly] índigo… cacao… piedra… y merlot.'),
-       (45.50, 48.32, '[softly] Telas flexibles que se adaptan a cada movimiento…'),
-       (48.90, 51.42, '[softly] del mat de pilates… a tu día a día.'),
-       (54.50, 57.07, '[softly] Un set para entrenar… otro para fluir…'),
-       (57.80, 61.00, '[warmly] y uno para esos días en los que solo quieres descansar.'),
-       (63.50, 66.53, '[softly] Porque moverte no es exigirte… es volver a ti.'),
-       (68.00, 70.92, '[warmly] Cada una a su ritmo… todas a nuestra manera.'),
-       (72.00, 74.32, '[softly] Compártelo con tu compañera de pilates.'),
-       (75.20, 78.25, '[softly] Y síguenos en Instagram: arroba seruna balance.'),
-       (79.50, 81.50, '[warmly] Seruna. Vuelve a tu cuerpo.')]
+VOZ = [(1.00, 5.28, '[warmly] Respira hondo. ¿Hace cuánto no te mueves, solo para sentirte bien?'),
+       (9.00, 11.86, '[warmly] Seruna nace en Jalapa con una idea sencilla:'),
+       (12.30, 14.19, '[warmly] Bienestar sin perfección.'),
+       (17.60, 21.17, '[warmly] Ropa para moverte, para descansar, y para vivir.'),
+       (27.40, 31.16, '[warmly] Inspirada en la naturaleza, cada color cuenta una historia:'),
+       (31.80, 35.32, '[warmly] Obsidiana… laurel… marea… duna…'),
+       (36.30, 39.61, '[warmly] Índigo… cacao… piedra… y merlot.'),
+       (45.50, 48.48, '[warmly] Telas flexibles que se adaptan a cada movimiento,'),
+       (48.90, 51.46, '[warmly] del mat de pilates, a tu día a día.'),
+       (54.50, 57.07, '[warmly] Un set para entrenar, otro para fluir,'),
+       (57.80, 61.06, '[warmly] y uno para esos días en los que solo quieres descansar.'),
+       (63.50, 66.72, '[warmly] Porque moverte no es exigirte, es volver a ti.'),
+       (68.00, 70.91, '[warmly] Cada una a su ritmo, todas a nuestra manera.'),
+       (72.00, 74.18, '[warmly] Compártelo con tu compañera de pilates.'),
+       (75.20, 78.42, '[warmly] Y síguenos en Instagram: arroba seruna balance.'),
+       (79.50, 81.51, '[warmly] Seruna. Vuelve a tu cuerpo.')]
 
 out = ["# Guion con tiempos — Seruna Active Wear (video promocional, 90 s)", "",
        "Video: `Seruna_Active_Wear_Promo.mp4` (con voz de Fernanda) y `Seruna_Active_Wear_Promo-sin-voz.mp4` · 1080×1920 · 30 fps · 90 s · H.264 + AAC · "

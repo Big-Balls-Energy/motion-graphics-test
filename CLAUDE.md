@@ -13,7 +13,7 @@ Cada carpeta (`prueba-social/`, `arquetipos/`, `viaje-heroe/`…) es un reel de 
 - Verificar los datos de noticias o estadísticas antes de animarlos y marcar las estimaciones como tales.
 
 ## Voz en off (ElevenLabs)
-- Voz: «Fernanda – Smooth and Articulate» (`ARmPWZKt7WpXh6QDHA6x`), modelo `eleven_v4`, con etiquetas de tono suaves.
+- Voz: «Fernanda – Smooth and Articulate» (`ARmPWZKt7WpXh6QDHA6x`), modelo `eleven_v4`, con etiquetas de tono suaves (`[warmly]` para lo tranquilo; nunca `[softly]` ni `[whispering]`, que suenan a susurro).
 - Generar **una toma independiente por bloque** (nunca una narración larga cortada después): así no hay palabras cortadas.
 - Armar con `voz-tools/voz_tomas.py <proyecto>` (agregar los tiempos del proyecto en `SLOTS`): recorta por energía, acorta solo silencios, fundidos de 10 ms, acelera como máximo 10 %.
 - Mezcla final normalizada a −14 LUFS; entregar `<proyecto>-con-voz.mp4` y `<proyecto>-sin-voz.mp4`.

@@ -258,8 +258,9 @@ Haz la cuenta de tiempos:
    - números con letra («mil doscientos por ciento», «dos mil veinticuatro»);
    - marcas como se pronuncian;
    - etiquetas de tono suaves al inicio o a mitad de frase: `[curious]`, `[excited]`, `[warmly]`, `[intrigued]`, `[serious]`, `[dramatically]`;
-   - puntos suspensivos para pausas naturales.
+   - puntos suspensivos para pausas naturales, sin abusar: muchos «…» seguidos vuelven la voz entrecortada y con aire.
    - **No uses `[long pause]` para encadenar frases.**
+   - **No uses `[softly]`, `[whispering]` ni `[gently]` con Fernanda:** suenan a susurro (Seruna, nov 2026: solo 6–58 % de voz sonora y el usuario lo rechazó). Para un tono tranquilo y relajado usa `[warmly]`: sigue siendo calmado pero con voz plena. Mide cada toma con `herramientas/sonoridad.py` y elige la más sonora; si una frase normal queda debajo del 45 %, está susurrada.
 3. Crea un flow por reel:
    ```
    mcp__ElevenLabs__creative_create_flow  {name: "Atlas Path · <reel> · voz por bloques", context: "…"}

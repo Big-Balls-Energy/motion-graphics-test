@@ -117,22 +117,22 @@ Ninguna toma se cortó: cada bloque se grabó por separado y solo se acortaron s
 
 | Bloque | Entra – sale | Texto grabado |
 |---|---|---|
-| 00 | 00:01.00 – 00:05.36 | [softly] Respira hondo… ¿hace cuánto no te mueves… solo para sentirte bien? |
-| 01 | 00:09.00 – 00:11.79 | [softly] Seruna nace en Jalapa con una idea sencilla: |
-| 02 | 00:12.30 – 00:14.44 | [warmly] bienestar… sin perfección. |
-| 03 | 00:17.60 – 00:21.09 | [softly] Ropa para moverte… para descansar… y para vivir. |
-| 04 | 00:27.40 – 00:30.97 | [softly] Inspirada en la naturaleza, cada color cuenta una historia: |
-| 05 | 00:31.80 – 00:34.94 | [softly] obsidiana… laurel… marea… duna… |
-| 06 | 00:36.30 – 00:39.33 | [softly] índigo… cacao… piedra… y merlot. |
-| 07 | 00:45.50 – 00:48.32 | [softly] Telas flexibles que se adaptan a cada movimiento… |
-| 08 | 00:48.90 – 00:51.42 | [softly] del mat de pilates… a tu día a día. |
-| 09 | 00:54.50 – 00:57.07 | [softly] Un set para entrenar… otro para fluir… |
-| 10 | 00:57.80 – 01:01.00 | [warmly] y uno para esos días en los que solo quieres descansar. |
-| 11 | 01:03.50 – 01:06.53 | [softly] Porque moverte no es exigirte… es volver a ti. |
-| 12 | 01:08.00 – 01:10.92 | [warmly] Cada una a su ritmo… todas a nuestra manera. |
-| 13 | 01:12.00 – 01:14.32 | [softly] Compártelo con tu compañera de pilates. |
-| 14 | 01:15.20 – 01:18.25 | [softly] Y síguenos en Instagram: arroba seruna balance. |
-| 15 | 01:19.50 – 01:21.50 | [warmly] Seruna. Vuelve a tu cuerpo. |
+| 00 | 00:01.00 – 00:05.28 | [warmly] Respira hondo. ¿Hace cuánto no te mueves, solo para sentirte bien? |
+| 01 | 00:09.00 – 00:11.86 | [warmly] Seruna nace en Jalapa con una idea sencilla: |
+| 02 | 00:12.30 – 00:14.19 | [warmly] Bienestar sin perfección. |
+| 03 | 00:17.60 – 00:21.17 | [warmly] Ropa para moverte, para descansar, y para vivir. |
+| 04 | 00:27.40 – 00:31.16 | [warmly] Inspirada en la naturaleza, cada color cuenta una historia: |
+| 05 | 00:31.80 – 00:35.32 | [warmly] Obsidiana… laurel… marea… duna… |
+| 06 | 00:36.30 – 00:39.61 | [warmly] Índigo… cacao… piedra… y merlot. |
+| 07 | 00:45.50 – 00:48.48 | [warmly] Telas flexibles que se adaptan a cada movimiento, |
+| 08 | 00:48.90 – 00:51.46 | [warmly] del mat de pilates, a tu día a día. |
+| 09 | 00:54.50 – 00:57.07 | [warmly] Un set para entrenar, otro para fluir, |
+| 10 | 00:57.80 – 01:01.06 | [warmly] y uno para esos días en los que solo quieres descansar. |
+| 11 | 01:03.50 – 01:06.72 | [warmly] Porque moverte no es exigirte, es volver a ti. |
+| 12 | 01:08.00 – 01:10.91 | [warmly] Cada una a su ritmo, todas a nuestra manera. |
+| 13 | 01:12.00 – 01:14.18 | [warmly] Compártelo con tu compañera de pilates. |
+| 14 | 01:15.20 – 01:18.42 | [warmly] Y síguenos en Instagram: arroba seruna balance. |
+| 15 | 01:19.50 – 01:21.51 | [warmly] Seruna. Vuelve a tu cuerpo. |
 
 ## Notas de producción
 
@@ -154,7 +154,7 @@ Ninguna toma se cortó: cada bloque se grabó por separado y solo se acortaron s
 
 **Tipografías:** Cormorant Garamond y Poppins (libres, OFL). No se usó la tipografía de su logotipo.
 
-**Voz:** Fernanda (`eleven_v4`), tono suave (`[softly]` / `[warmly]`), 16 bloques con 2 tomas cada uno. Dice «Jalapa» (así se pronuncia); en pantalla se escribe «Xalapa». La invitación final dice «arroba seruna balance» y en pantalla aparece @serunabalance 3 s sola.
+**Voz:** Fernanda (`eleven_v4`), tono tranquilo y cálido (`[warmly]`), una toma por bloque. La primera versión usaba `[softly]` y sonaba casi a susurro (solo 6–58 % de voz sonora); se regrabó toda con `[warmly]` y menos puntos suspensivos, y se eligió en cada bloque la toma más sonora (47–83 %). Las tomas anteriores quedan en `audio/voz-raw/tomas-v1-susurro/`. Dice «Jalapa» (así se pronuncia); en pantalla se escribe «Xalapa». La invitación final dice «arroba seruna balance» y en pantalla aparece @serunabalance 3 s sola.
 
 **Música:** ambiental propia a 72 BPM (27 compases exactos en 90 s): pads, kalimba, campanas, bajo suave, viento y gotas; sin batería. Va 4 dB más baja que en los reels con batería para que la voz quede al frente.
 
