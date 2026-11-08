@@ -77,5 +77,8 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 69 | busqueda-visual | Google: Gemini 1,000 M de usuarios y 50,000 M de búsquedas visuales al mes | 1 Noticia | VISUAL | 51 s | 30 oct 2026 |
 | 70 | chatgpt-busquedas | ChatGPT ≈ 1 de cada 5 búsquedas de Google (1,200 M usuarios semanales) | 1 Noticia | BUSCA | 56 s | 8 nov 2026 |
 | 71 | buen-fin-tienda | Buen Fin 2026: 79 % de las ventas en tienda física + checklist de 6 pasos | 5 Consejo | BUENFIN | 60 s | 8 nov 2026 |
+| 72 | primark-mexico | Primark llega a México con Liverpool: cómo competir sin bajar precios | 1 Noticia | COMPITE | 65 s | 9 nov 2026 |
+| 73 | iphone-duo-crisis | iPhone Duo se agrieta: el silencio cuesta más que el error (3 pasos) | 1 Noticia | CRISIS | 65 s | 9 nov 2026 |
+| 74 | oracle-startups | Oracle da hasta US$50,000 en créditos a startups mexicanas (131 de 389) | 1 Noticia | STARTUP | 60 s | 9 nov 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.

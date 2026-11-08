@@ -1,0 +1,646 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 65,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: UN TELÉFONO DE $47,999 SE AGRIETA A LOS POCOS DÍAS",
+   "a": 0,
+   "b": 11.16,
+   "vis": "Teléfono plegable 3D genérico que gira; precio $47,999; la pantalla se agrieta desde el doblez; logo de Apple en placa clara e «iPHONE DUO»."
+  },
+  {
+   "id": "falla",
+   "name": "LA FALLA: GRIETAS Y LÍNEAS VERDES EN EL DOBLEZ",
+   "a": 11.16,
+   "b": 22.93,
+   "vis": "La cámara entra al doblez; llamadas: GRIETAS, LÍNEAS VERDES, JUSTO EN EL DOBLEZ, SIN GOLPES NI CAÍDAS; sello rojo «PESADILLA DE MARCA»."
+  },
+  {
+   "id": "apple",
+   "name": "LO QUE HIZO APPLE: LO RECONOCIÓ EN DÍAS",
+   "a": 22.93,
+   "b": 34.28,
+   "vis": "Línea de tiempo lanzamiento → reportes → lo reconoce; tarjeta con la cita de Apple y «REEMPLAZO VÍA APPLECARE»."
+  },
+  {
+   "id": "leccion",
+   "name": "LECCIÓN: EL SILENCIO CUESTA MÁS QUE EL ERROR + 3 PASOS",
+   "a": 34.28,
+   "b": 50.32,
+   "vis": "Frase grande y carrusel 3D de tres tarjetas: reconoce rápido, solución concreta, di qué sigue."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA: COMENTA CRISIS",
+   "a": 50.32,
+   "b": 65,
+   "vis": "Celular con comentarios: se escribe «CRISIS», que sale grande 3 s sola. Sobre W09: logo, ATLAS PATH, @Atlas_Path y SEGUIR con clic; regresa al primer cuadro."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.3,
+   "text": "Un teléfono de $48,000",
+   "keys": [
+    "teléfono"
+   ]
+  },
+  {
+   "a": 2.3,
+   "b": 4.6,
+   "text": "y a los pocos días…",
+   "keys": [
+    "días…"
+   ]
+  },
+  {
+   "a": 4.6,
+   "b": 7.1,
+   "text": "su pantalla se agrieta.",
+   "keys": [
+    "agrieta."
+   ]
+  },
+  {
+   "a": 7.3,
+   "b": 9,
+   "text": "El iPhone Duo,",
+   "keys": [
+    "iphone"
+   ]
+  },
+  {
+   "a": 9,
+   "b": 10.66,
+   "text": "plegable de Apple.",
+   "keys": [
+    "plegable"
+   ]
+  },
+  {
+   "a": 11.5,
+   "b": 13.5,
+   "text": "Grietas y líneas verdes",
+   "keys": [
+    "grietas"
+   ]
+  },
+  {
+   "a": 13.5,
+   "b": 15.5,
+   "text": "justo en el doblez,",
+   "keys": [
+    "doblez,"
+   ]
+  },
+  {
+   "a": 15.5,
+   "b": 17.35,
+   "text": "sin golpes ni caídas.",
+   "keys": [
+    "caídas."
+   ]
+  },
+  {
+   "a": 17.6,
+   "b": 20,
+   "text": "En el lanzamiento del año,",
+   "keys": [
+    "año,"
+   ]
+  },
+  {
+   "a": 20,
+   "b": 22.43,
+   "text": "una pesadilla de marca.",
+   "keys": [
+    "pesadilla"
+   ]
+  },
+  {
+   "a": 23.25,
+   "b": 25,
+   "text": "Lo que hizo Apple:",
+   "keys": [
+    "apple:"
+   ]
+  },
+  {
+   "a": 25,
+   "b": 26.8,
+   "text": "lo reconoció en días.",
+   "keys": [
+    "reconoció"
+   ]
+  },
+  {
+   "a": 26.8,
+   "b": 30.4,
+   "text": "«Un pequeño número de unidades»",
+   "keys": [
+    "pequeño"
+   ]
+  },
+  {
+   "a": 30.4,
+   "b": 33.78,
+   "text": "reemplazo a través de soporte.",
+   "keys": [
+    "reemplazo"
+   ]
+  },
+  {
+   "a": 34.55,
+   "b": 36.3,
+   "text": "La lección para ti:",
+   "keys": [
+    "lección"
+   ]
+  },
+  {
+   "a": 36.3,
+   "b": 38,
+   "text": "cuando algo falla,",
+   "keys": [
+    "falla,"
+   ]
+  },
+  {
+   "a": 38,
+   "b": 40.15,
+   "text": "el silencio cuesta más.",
+   "keys": [
+    "silencio"
+   ]
+  },
+  {
+   "a": 40.15,
+   "b": 42.35,
+   "text": "1. Reconoce rápido.",
+   "keys": [
+    "rápido."
+   ]
+  },
+  {
+   "a": 42.35,
+   "b": 45.1,
+   "text": "2. Solución concreta.",
+   "keys": [
+    "concreta."
+   ]
+  },
+  {
+   "a": 45.2,
+   "b": 47,
+   "text": "3. Di qué sigue,",
+   "keys": [
+    "sigue,"
+   ]
+  },
+  {
+   "a": 47,
+   "b": 49.82,
+   "text": "aunque no tengas todo.",
+   "keys": [
+    "todo."
+   ]
+  },
+  {
+   "a": 50.65,
+   "b": 53.2,
+   "text": "Comenta la palabra CRISIS",
+   "keys": [
+    "crisis"
+   ]
+  },
+  {
+   "a": 53.2,
+   "b": 56.1,
+   "text": "5 mensajes ante una queja",
+   "keys": [
+    "mensajes"
+   ]
+  },
+  {
+   "a": 59.5,
+   "b": 61.5,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 1.2,
+   "b": 3.6,
+   "text": "$47,999"
+  },
+  {
+   "a": 56.2,
+   "b": 59.3,
+   "text": "CRISIS",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "boom",
+   "v": 0.55,
+   "pitch": 0.9
+  },
+  {
+   "t": 1.2,
+   "type": "chord",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 4,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 4.3,
+   "type": "tick",
+   "v": 0.3,
+   "pitch": 1.1
+  },
+  {
+   "t": 4.9,
+   "type": "deny",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 5,
+   "type": "boom",
+   "v": 0.6,
+   "pitch": 0.8
+  },
+  {
+   "t": 7.3,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 7.4,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 11.16,
+   "type": "trans",
+   "v": 0.5,
+   "pitch": 0.94
+  },
+  {
+   "t": 11.6,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 12.8,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.07
+  },
+  {
+   "t": 14,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1400000000000001
+  },
+  {
+   "t": 15.7,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.21
+  },
+  {
+   "t": 17.6,
+   "type": "trans",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 20.25,
+   "type": "boom",
+   "v": 0.8,
+   "pitch": 0.85
+  },
+  {
+   "t": 20.3,
+   "type": "deny",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 22.93,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 23.4,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 24.3,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.1
+  },
+  {
+   "t": 25.1,
+   "type": "blip",
+   "v": 0.35,
+   "pitch": 1.2
+  },
+  {
+   "t": 25.1,
+   "type": "select",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 26.85,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 30.5,
+   "type": "ding",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 30.55,
+   "type": "chord",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 34.28,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 36.4,
+   "type": "boom",
+   "v": 0.6,
+   "pitch": 0.9
+  },
+  {
+   "t": 37.7,
+   "type": "boom",
+   "v": 0.7,
+   "pitch": 0.8
+  },
+  {
+   "t": 40.22,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 40.27,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 42.46,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1.05
+  },
+  {
+   "t": 42.51,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 45.34,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.39,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 50.32,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 51.3,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 51.4,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.03
+  },
+  {
+   "t": 51.5,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.06
+  },
+  {
+   "t": 51.6,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.09
+  },
+  {
+   "t": 51.7,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.12
+  },
+  {
+   "t": 51.8,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.15
+  },
+  {
+   "t": 52,
+   "type": "send",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 56.2,
+   "type": "boom",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 56.22,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 59.25,
+   "type": "arp",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 59.5,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 59.75,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 62.3,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 62.32,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 64.4,
+   "type": "trans",
+   "v": 0.3,
+   "pitch": 1
+  }
+ ],
+ "sources": [
+  [
+   0.2,
+   10.66,
+   [
+    "Fuente: El CEO (27 oct. 2026). Precio desde 47,999 pesos (256 GB)."
+   ]
+  ],
+  [
+   11.5,
+   33.78,
+   [
+    "Fuentes: El CEO y Expansión (oct. 2026). Sin afiliación con Apple."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   1.05,
+   1.2
+  ],
+  [
+   20.1,
+   20.25
+  ],
+  [
+   56.05,
+   56.2
+  ]
+ ],
+ "musicBoost": [
+  [
+   10.66,
+   11.16,
+   1.15
+  ],
+  [
+   22.43,
+   22.93,
+   1.15
+  ],
+  [
+   33.78,
+   34.28,
+   1.15
+  ],
+  [
+   49.82,
+   50.32,
+   1.15
+  ],
+  [
+   56.2,
+   59.3,
+   1.15
+  ]
+ ],
+ "sections": [
+  [
+   0,
+   "tense"
+  ],
+  [
+   7.3,
+   "groove"
+  ],
+  [
+   11.16,
+   "tense"
+  ],
+  [
+   17.6,
+   "main"
+  ],
+  [
+   22.93,
+   "hold"
+  ],
+  [
+   26.8,
+   "main"
+  ],
+  [
+   34.28,
+   "lift"
+  ],
+  [
+   50.32,
+   "build"
+  ],
+  [
+   56.2,
+   "drop"
+  ],
+  [
+   59.3,
+   "outro"
+  ]
+ ]
+}

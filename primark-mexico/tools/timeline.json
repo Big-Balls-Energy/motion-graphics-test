@@ -1,0 +1,677 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 65,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: PRIMARK LLEGA A MÉXICO, BÁSICOS DESDE ≈ $99",
+   "a": 0,
+   "b": 7.96,
+   "vis": "Fondo HF03 (tienda de moda). Miles de partículas forman «$99» en 3D; luego se reordenan en «MX». «DE LA MANO DE LIVERPOOL» con franja tricolor."
+  },
+  {
+   "id": "datos",
+   "name": "DATOS: +500 TIENDAS, 19 MERCADOS, FRANQUICIA Y PRECIOS",
+   "a": 7.96,
+   "b": 25.7,
+   "vis": "Partículas «500+» y «19» con 19 puntos en órbita; contrato que se firma con sello «EN CIERRE» y radar de ubicaciones; etiquetas de precio 3D colgando: blusa ≈ $99, abrigo ≈ $1,500."
+  },
+  {
+   "id": "pregunta",
+   "name": "¿CÓMO COMPITES CONTRA ESO?",
+   "a": 25.7,
+   "b": 34.97,
+   "vis": "HF04 (boutique local). «¿TIENDA DE ROPA EN XALAPA?», «¿CÓMO COMPITES CONTRA ESO?», sello SPOILER y «BAJAR TUS PRECIOS» tachado."
+  },
+  {
+   "id": "tips",
+   "name": "3 FORMAS DE COMPETIR SIN BAJAR PRECIOS",
+   "a": 34.97,
+   "b": 50.59,
+   "vis": "Carrusel 3D de tres tarjetas de vidrio que giran: 1 Atiende como persona (logo WhatsApp), 2 Vende lo local, 3 Haz comunidad (logo Instagram)."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA: COMENTA COMPITE",
+   "a": 50.59,
+   "b": 65,
+   "vis": "Celular con comentarios: se escribe «COMPITE», que sale grande 3 s sola. Sobre W09: logo, ATLAS PATH, @Atlas_Path y SEGUIR con clic; regresa al primer cuadro."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.4,
+   "text": "Primark: básicos desde $99",
+   "keys": [
+    "primark:"
+   ]
+  },
+  {
+   "a": 2.4,
+   "b": 5.45,
+   "text": "y llega a México.",
+   "keys": [
+    "méxico."
+   ]
+  },
+  {
+   "a": 5.6,
+   "b": 7.46,
+   "text": "Junto a Liverpool.",
+   "keys": [
+    "liverpool."
+   ]
+  },
+  {
+   "a": 8.3,
+   "b": 10.1,
+   "text": "Más de 500 tiendas",
+   "keys": [
+    "tiendas"
+   ]
+  },
+  {
+   "a": 10.1,
+   "b": 11.9,
+   "text": "en 19 mercados.",
+   "keys": [
+    "mercados."
+   ]
+  },
+  {
+   "a": 12.15,
+   "b": 14.6,
+   "text": "Liverpool cierra la franquicia",
+   "keys": [
+    "franquicia"
+   ]
+  },
+  {
+   "a": 14.6,
+   "b": 17.3,
+   "text": "y busca dónde abrir.",
+   "keys": [
+    "abrir."
+   ]
+  },
+  {
+   "a": 17.5,
+   "b": 19.6,
+   "text": "En su web británica:",
+   "keys": [
+    "web"
+   ]
+  },
+  {
+   "a": 19.6,
+   "b": 22.7,
+   "text": "blusa básica ≈ $99,",
+   "keys": [
+    "blusa"
+   ]
+  },
+  {
+   "a": 22.7,
+   "b": 25.2,
+   "text": "abrigo ≈ $1,500.",
+   "keys": [
+    "abrigo"
+   ]
+  },
+  {
+   "a": 26.05,
+   "b": 29.6,
+   "text": "¿Tienda de ropa en Xalapa?",
+   "keys": [
+    "xalapa?"
+   ]
+  },
+  {
+   "a": 29.6,
+   "b": 31.6,
+   "text": "¿Cómo compites contra eso?",
+   "keys": [
+    "compites"
+   ]
+  },
+  {
+   "a": 31.65,
+   "b": 34.45,
+   "text": "Spoiler: no bajando precios.",
+   "keys": [
+    "precios."
+   ]
+  },
+  {
+   "a": 35.3,
+   "b": 38.1,
+   "text": "1. Atiende como persona:",
+   "keys": [
+    "persona:"
+   ]
+  },
+  {
+   "a": 38.1,
+   "b": 41.1,
+   "text": "por nombre, WhatsApp, tallas.",
+   "keys": [
+    "whatsapp,"
+   ]
+  },
+  {
+   "a": 41.35,
+   "b": 43.2,
+   "text": "2. Vende lo local,",
+   "keys": [
+    "local,"
+   ]
+  },
+  {
+   "a": 43.2,
+   "b": 45.55,
+   "text": "lo que ellos no tienen.",
+   "keys": [
+    "no"
+   ]
+  },
+  {
+   "a": 45.8,
+   "b": 47.6,
+   "text": "3. Haz comunidad:",
+   "keys": [
+    "comunidad:"
+   ]
+  },
+  {
+   "a": 47.6,
+   "b": 50.09,
+   "text": "que te compren por ti.",
+   "keys": [
+    "ti."
+   ]
+  },
+  {
+   "a": 50.95,
+   "b": 53.3,
+   "text": "Comenta la palabra COMPITE",
+   "keys": [
+    "compite"
+   ]
+  },
+  {
+   "a": 53.3,
+   "b": 55.9,
+   "text": "7 ideas sin bajar precios",
+   "keys": [
+    "ideas"
+   ]
+  },
+  {
+   "a": 59.3,
+   "b": 61.2,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 9,
+   "b": 11.8,
+   "text": "+500 TIENDAS"
+  },
+  {
+   "a": 19.8,
+   "b": 22.6,
+   "text": "≈ $99"
+  },
+  {
+   "a": 56,
+   "b": 59.1,
+   "text": "COMPITE",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "boom",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 0.1,
+   "type": "chord",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.6,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 5.75,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 7.96,
+   "type": "trans",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 8.3,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 9,
+   "type": "boom",
+   "v": 0.75,
+   "pitch": 1.05
+  },
+  {
+   "t": 10.05,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 10.2,
+   "type": "blip",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 10.4,
+   "type": "blip",
+   "v": 0.25,
+   "pitch": 1.08
+  },
+  {
+   "t": 10.6,
+   "type": "blip",
+   "v": 0.25,
+   "pitch": 1.16
+  },
+  {
+   "t": 10.8,
+   "type": "blip",
+   "v": 0.25,
+   "pitch": 1.24
+  },
+  {
+   "t": 12,
+   "type": "trans",
+   "v": 0.5,
+   "pitch": 0.94
+  },
+  {
+   "t": 12.45,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 13.6,
+   "type": "tick",
+   "v": 0.25,
+   "pitch": 1
+  },
+  {
+   "t": 13.75,
+   "type": "tick",
+   "v": 0.25,
+   "pitch": 1.03
+  },
+  {
+   "t": 13.9,
+   "type": "tick",
+   "v": 0.25,
+   "pitch": 1.06
+  },
+  {
+   "t": 14.05,
+   "type": "tick",
+   "v": 0.25,
+   "pitch": 1.09
+  },
+  {
+   "t": 14.2,
+   "type": "tick",
+   "v": 0.25,
+   "pitch": 1.12
+  },
+  {
+   "t": 14.35,
+   "type": "tick",
+   "v": 0.25,
+   "pitch": 1.15
+  },
+  {
+   "t": 14.6,
+   "type": "boom",
+   "v": 0.55,
+   "pitch": 0.9
+  },
+  {
+   "t": 14.95,
+   "type": "ping",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 17.45,
+   "type": "trans",
+   "v": 0.5,
+   "pitch": 1.06
+  },
+  {
+   "t": 17.8,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 19.8,
+   "type": "boom",
+   "v": 0.7,
+   "pitch": 1.1
+  },
+  {
+   "t": 19.82,
+   "type": "ding",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 22.75,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 22.8,
+   "type": "ding",
+   "v": 0.3,
+   "pitch": 0.9
+  },
+  {
+   "t": 25.7,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 0.94
+  },
+  {
+   "t": 27.6,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 29.7,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 31.75,
+   "type": "boom",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 32.6,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 33.2,
+   "type": "deny",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34.97,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 35.35,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 35.4,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 41.4,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1.05
+  },
+  {
+   "t": 41.45,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 45.85,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 45.9,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 50.59,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 51.6,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 51.69,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.03
+  },
+  {
+   "t": 51.78,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.06
+  },
+  {
+   "t": 51.87,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.09
+  },
+  {
+   "t": 51.96,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.12
+  },
+  {
+   "t": 52.05,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.15
+  },
+  {
+   "t": 52.14,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.18
+  },
+  {
+   "t": 52.4,
+   "type": "send",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 56,
+   "type": "boom",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 56.02,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 59.15,
+   "type": "arp",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 59.4,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 59.65,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 62,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 62.02,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 64.4,
+   "type": "trans",
+   "v": 0.3,
+   "pitch": 1
+  }
+ ],
+ "sources": [
+  [
+   8.3,
+   25.2,
+   [
+    "Fuente: El CEO (7 nov. 2026); precios de la web de Primark en Reino Unido, conversión aproximada."
+   ]
+  ],
+  [
+   35.3,
+   50.1,
+   [
+    "Ideas de Atlas Path. Sin afiliación con Primark, Liverpool ni Meta."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   8.85,
+   9
+  ],
+  [
+   19.65,
+   19.8
+  ],
+  [
+   55.85,
+   56
+  ]
+ ],
+ "musicBoost": [
+  [
+   7.46,
+   7.96,
+   1.15
+  ],
+  [
+   25.2,
+   25.7,
+   1.15
+  ],
+  [
+   34.47,
+   34.97,
+   1.15
+  ],
+  [
+   50.09,
+   50.59,
+   1.15
+  ],
+  [
+   56,
+   59.1,
+   1.15
+  ]
+ ],
+ "sections": [
+  [
+   0,
+   "groove"
+  ],
+  [
+   7.96,
+   "main"
+  ],
+  [
+   25.7,
+   "tense"
+  ],
+  [
+   34.97,
+   "lift"
+  ],
+  [
+   50.59,
+   "build"
+  ],
+  [
+   56,
+   "drop"
+  ],
+  [
+   59.1,
+   "outro"
+  ]
+ ]
+}

@@ -1,0 +1,602 @@
+{
+ "W": 1080,
+ "H": 1920,
+ "fps": 30,
+ "duration": 60,
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "HOOK: ORACLE DA HASTA US$50,000 EN CRÉDITOS A STARTUPS MEXICANAS",
+   "a": 0,
+   "b": 8.35,
+   "vis": "Fondo HF05 (equipo de startup de noche). Partículas forman «$50K»; logo de Oracle en placa clara; «SIN FECHA LÍMITE» con símbolo de infinito."
+  },
+  {
+   "id": "programa",
+   "name": "EL PROGRAMA: STARTUP GROWTH ENGINE",
+   "a": 8.35,
+   "b": 22.74,
+   "vis": "Nombre del programa, «YA EN MÉXICO»; partículas «$5K» → «$50K» sobre una barra de rango; tres beneficios en órbita: mentorías, consultoría, clientes."
+  },
+  {
+   "id": "numeros",
+   "name": "389 SOLICITUDES, 131 APROBADAS: ≈ 1 DE 3",
+   "a": 22.74,
+   "b": 32.47,
+   "vis": "Rejilla 3D de 389 cubos; 131 se encienden en cian; contadores y «≈ 1 DE 3»."
+  },
+  {
+   "id": "requisitos",
+   "name": "REQUISITOS: 3 COSAS",
+   "a": 32.47,
+   "b": 46.69,
+   "vis": "«NO ES PARA CUALQUIERA», candado; carrusel 3D: producto validado, software/datos/IA, potencial de crecer."
+  },
+  {
+   "id": "cta",
+   "name": "CIERRE Y CTA: COMENTA STARTUP",
+   "a": 46.69,
+   "b": 60,
+   "vis": "Celular con comentarios: se escribe «STARTUP», que sale grande 3 s sola. Sobre W09: logo, ATLAS PATH, @Atlas_Path y SEGUIR con clic; regresa al primer cuadro."
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.15,
+   "b": 2.6,
+   "text": "Oracle da hasta US$50,000",
+   "keys": [
+    "oracle"
+   ]
+  },
+  {
+   "a": 2.6,
+   "b": 5.1,
+   "text": "a startups mexicanas.",
+   "keys": [
+    "startups"
+   ]
+  },
+  {
+   "a": 5.35,
+   "b": 7.85,
+   "text": "Y sin fecha límite.",
+   "keys": [
+    "límite."
+   ]
+  },
+  {
+   "a": 8.7,
+   "b": 11.5,
+   "text": "Startup Growth Engine",
+   "keys": [
+    "engine"
+   ]
+  },
+  {
+   "a": 11.5,
+   "b": 13.3,
+   "text": "ya llegó a México.",
+   "keys": [
+    "méxico."
+   ]
+  },
+  {
+   "a": 13.35,
+   "b": 15.6,
+   "text": "Créditos de nube:",
+   "keys": [
+    "nube:"
+   ]
+  },
+  {
+   "a": 15.6,
+   "b": 17.8,
+   "text": "de US$5,000 a US$50,000.",
+   "keys": []
+  },
+  {
+   "a": 17.95,
+   "b": 20.1,
+   "text": "Más mentorías y consultoría",
+   "keys": [
+    "mentorías"
+   ]
+  },
+  {
+   "a": 20.1,
+   "b": 22.24,
+   "text": "y contacto con clientes.",
+   "keys": [
+    "clientes."
+   ]
+  },
+  {
+   "a": 23.1,
+   "b": 25.3,
+   "text": "De junio a octubre:",
+   "keys": [
+    "octubre:"
+   ]
+  },
+  {
+   "a": 25.3,
+   "b": 27.45,
+   "text": "389 solicitudes recibidas,",
+   "keys": [
+    "solicitudes"
+   ]
+  },
+  {
+   "a": 27.45,
+   "b": 29.9,
+   "text": "y 131 aprobadas.",
+   "keys": [
+    "aprobadas."
+   ]
+  },
+  {
+   "a": 30,
+   "b": 31.97,
+   "text": "Casi 1 de 3.",
+   "keys": []
+  },
+  {
+   "a": 32.75,
+   "b": 34.55,
+   "text": "No es para cualquiera.",
+   "keys": [
+    "cualquiera."
+   ]
+  },
+  {
+   "a": 34.55,
+   "b": 36.2,
+   "text": "Piden tres cosas:",
+   "keys": [
+    "tres"
+   ]
+  },
+  {
+   "a": 36.2,
+   "b": 39.7,
+   "text": "1. Producto validado, con clientes",
+   "keys": [
+    "validado,"
+   ]
+  },
+  {
+   "a": 39.7,
+   "b": 43.6,
+   "text": "2. Software, datos o IA",
+   "keys": [
+    "ia"
+   ]
+  },
+  {
+   "a": 43.6,
+   "b": 46.19,
+   "text": "3. Potencial real de crecer",
+   "keys": [
+    "crecer"
+   ]
+  },
+  {
+   "a": 47,
+   "b": 48.8,
+   "text": "Comenta la palabra STARTUP",
+   "keys": [
+    "startup"
+   ]
+  },
+  {
+   "a": 48.8,
+   "b": 50.85,
+   "text": "requisitos y cómo aplicar",
+   "keys": [
+    "requisitos"
+   ]
+  },
+  {
+   "a": 54.2,
+   "b": 56,
+   "text": "Síguenos en Atlas Path.",
+   "keys": [
+    "síguenos"
+   ]
+  }
+ ],
+ "holds": [
+  {
+   "a": 1,
+   "b": 3.4,
+   "text": "US$50,000"
+  },
+  {
+   "a": 27.5,
+   "b": 29.9,
+   "text": "131 DE 389"
+  },
+  {
+   "a": 30.1,
+   "b": 32.2,
+   "text": "≈ 1 DE 3"
+  },
+  {
+   "a": 51,
+   "b": 54.05,
+   "text": "STARTUP",
+   "sola": true,
+   "min": 3
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "boom",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 1,
+   "type": "chord",
+   "v": 0.45,
+   "pitch": 1.1
+  },
+  {
+   "t": 5.4,
+   "type": "select",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 5.6,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 8.35,
+   "type": "trans",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 8.75,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 11.75,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 13.4,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1.06
+  },
+  {
+   "t": 13.6,
+   "type": "meter",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 15.6,
+   "type": "boom",
+   "v": 0.6,
+   "pitch": 1.1
+  },
+  {
+   "t": 18.1,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 19.2,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.08
+  },
+  {
+   "t": 20.2,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.16
+  },
+  {
+   "t": 22.74,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 0.94
+  },
+  {
+   "t": 23.2,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 25.3,
+   "type": "count",
+   "v": 0.45,
+   "pitch": 1
+  },
+  {
+   "t": 27.5,
+   "type": "boom",
+   "v": 0.7,
+   "pitch": 1.05
+  },
+  {
+   "t": 27.55,
+   "type": "select",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 30.1,
+   "type": "boom",
+   "v": 0.75,
+   "pitch": 1.1
+  },
+  {
+   "t": 30.12,
+   "type": "chord",
+   "v": 0.5,
+   "pitch": 1.1
+  },
+  {
+   "t": 32.47,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 0.94
+  },
+  {
+   "t": 32.9,
+   "type": "deny",
+   "v": 0.3,
+   "pitch": 1
+  },
+  {
+   "t": 34.7,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 36.26,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 36.31,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1
+  },
+  {
+   "t": 39.78,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1.05
+  },
+  {
+   "t": 39.83,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1.06
+  },
+  {
+   "t": 43.8,
+   "type": "boom",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 43.85,
+   "type": "select",
+   "v": 0.35,
+   "pitch": 1.12
+  },
+  {
+   "t": 46.69,
+   "type": "trans",
+   "v": 0.55,
+   "pitch": 1
+  },
+  {
+   "t": 47.6,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 47.67,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.03
+  },
+  {
+   "t": 47.74,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.06
+  },
+  {
+   "t": 47.81,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.09
+  },
+  {
+   "t": 47.88,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.12
+  },
+  {
+   "t": 47.95,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.15
+  },
+  {
+   "t": 48.02,
+   "type": "key",
+   "v": 0.4,
+   "pitch": 1.18
+  },
+  {
+   "t": 48.2,
+   "type": "send",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 51,
+   "type": "boom",
+   "v": 0.9,
+   "pitch": 1
+  },
+  {
+   "t": 51.02,
+   "type": "chord",
+   "v": 0.7,
+   "pitch": 1.12
+  },
+  {
+   "t": 54.1,
+   "type": "arp",
+   "v": 0.5,
+   "pitch": 1
+  },
+  {
+   "t": 54.35,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1
+  },
+  {
+   "t": 54.6,
+   "type": "pop",
+   "v": 0.4,
+   "pitch": 1.1
+  },
+  {
+   "t": 57.3,
+   "type": "click",
+   "v": 0.6,
+   "pitch": 1
+  },
+  {
+   "t": 57.32,
+   "type": "pop",
+   "v": 0.45,
+   "pitch": 1.3
+  },
+  {
+   "t": 59.4,
+   "type": "trans",
+   "v": 0.3,
+   "pitch": 1
+  }
+ ],
+ "sources": [
+  [
+   8.7,
+   31.97,
+   [
+    "Fuente: El CEO (26 oct. 2026), con datos de Oracle. Créditos de nube, no efectivo."
+   ]
+  ],
+  [
+   36.2,
+   46.19,
+   [
+    "Requisitos según El CEO y oracle.com/latam. Sin afiliación con Oracle."
+   ]
+  ]
+ ],
+ "musicDips": [
+  [
+   0.85,
+   1
+  ],
+  [
+   27.35,
+   27.5
+  ],
+  [
+   50.85,
+   51
+  ]
+ ],
+ "musicBoost": [
+  [
+   7.85,
+   8.35,
+   1.15
+  ],
+  [
+   22.24,
+   22.74,
+   1.15
+  ],
+  [
+   31.97,
+   32.47,
+   1.15
+  ],
+  [
+   46.19,
+   46.69,
+   1.15
+  ],
+  [
+   51,
+   54.05,
+   1.15
+  ]
+ ],
+ "sections": [
+  [
+   0,
+   "groove"
+  ],
+  [
+   8.35,
+   "main"
+  ],
+  [
+   22.74,
+   "lift"
+  ],
+  [
+   32.47,
+   "tense"
+  ],
+  [
+   36.2,
+   "main"
+  ],
+  [
+   46.69,
+   "build"
+  ],
+  [
+   51,
+   "drop"
+  ],
+  [
+   54.05,
+   "outro"
+  ]
+ ]
+}
