@@ -75,5 +75,7 @@ Cada reel nuevo agrega una fila al final **antes del commit**. La categoría del
 | 67 | coronel-sanders | Coronel Sanders: a los 65 perdió su restaurante y levantó KFC | 4 Personaje | EMPEZAR | 61 s | 30 oct 2026 |
 | 68 | mas-resenas | ¿200 reseñas contra 12? 5 pasos para conseguir más en Google | 5 Consejo | RESEÑAS | 55 s | 30 oct 2026 |
 | 69 | busqueda-visual | Google: Gemini 1,000 M de usuarios y 50,000 M de búsquedas visuales al mes | 1 Noticia | VISUAL | 51 s | 30 oct 2026 |
+| 70 | chatgpt-busquedas | ChatGPT ≈ 1 de cada 5 búsquedas de Google (1,200 M usuarios semanales) | 1 Noticia | BUSCA | 56 s | 8 nov 2026 |
+| 71 | buen-fin-tienda | Buen Fin 2026: 79 % de las ventas en tienda física + checklist de 6 pasos | 5 Consejo | BUENFIN | 60 s | 8 nov 2026 |
 
 **Ideas pendientes de psicología:** urgencia/FOMO, posicionamiento a la altura de los ojos.
